@@ -35,7 +35,8 @@ export const PronunciationWord: React.FC<{word:Word; frame:number; syllableStart
 // Measured advances at 64 px let new editable words reuse the approved motion.
 export const PronunciationLine: React.FC<{
  word:string;parts:readonly string[];advances:readonly number[];frame:number;syllableStarts:number[];wholeStart:number;
-}> = ({word,parts,advances,frame,syllableStarts,wholeStart}) => {
+ colors?:readonly string[];
+}> = ({word,parts,advances,frame,syllableStarts,wholeStart,colors}) => {
   const widths = advances.map(width=>width*fontSize/64);
   const transition = Math.max(syllableStarts[parts.length-1]+18,wholeStart-14);
   const recolor = ease(frame,transition,12);
@@ -49,7 +50,7 @@ export const PronunciationLine: React.FC<{
     const width = widths[index];
     left += width+gap;
     const progress = ease(frame,syllableStarts[index],12);
-    const color = parts.length===2&&index===1?syllableColors[2]:syllableColors[index%syllableColors.length];
+    const color = colors?.[index]??(parts.length===2&&index===1?syllableColors[2]:syllableColors[index%syllableColors.length]);
     const clip = `pronunciation-${word}-${index}`;
     return <g key={part} data-syllable={part}>
      <defs><clipPath id={clip}><rect x={x-3} y="405" width={(width+gap+6)*progress} height="250"/></clipPath></defs>

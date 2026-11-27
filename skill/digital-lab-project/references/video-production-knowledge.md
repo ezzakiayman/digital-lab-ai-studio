@@ -219,3 +219,8 @@ Conserver la provenance de chaque changement : finie venait de la fiche, limité
 ### Signes d’entiers et valeurs absolues · N1 SEM2 VDP4 V2 · 26 novembre 2026
 
 Une demande de + devant cinq dans un exemple d’opposés concerne les nombres signés et leur conclusion ; elle n’autorise pas à ajouter ce signe à toute occurrence de 5, notamment aux deux valeurs absolues. Identifier les occurrences par leur rôle source, conserver les couleurs sémantiques et vérifier les étapes encodées. Si les anciens timecodes dépassent la durée actuelle, documenter leur décalage et utiliser le contenu fourni pour retrouver sans ambiguïté le passage ; ne pas inventer de nouveaux passages. Pour cette correction, deux champs visuels seuls changent et l’AAC complet reste identique. Le même lien public et sa puce sont préservés.
+
+
+### Vérifier la version du storyboard avant de réutiliser une vidéo
+
+Un fichier portant le même nom peut avoir changé de déroulé. Pour la VDP4 de 2AC en semaine 1, le tableau affichait « Terminé » et le lien vidéo fonctionnait encore. Le PowerPoint fourni avait pourtant 33 diapositives, contre 17 lors de la première livraison. Comparer le contenu et l’ordre de la source reçue avant de reprendre une timeline ou un cache audio. Pour le vocabulaire, examiner aussi les illustrations fixes du masque ou de la mise en page. Ici le microphone figure dans la mise en page, tandis que la lecture syllabique est recréée avec la voix de la leçon.

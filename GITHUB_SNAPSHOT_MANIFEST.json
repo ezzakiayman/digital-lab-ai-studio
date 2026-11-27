@@ -1,6 +1,6 @@
 {
   "format": "digital-lab-github-source-v1",
-  "createdUtc": "2026-11-27T14:52:06.249817+00:00",
+  "createdUtc": "2026-11-27T15:52:19.990774+00:00",
   "includesProductionMedia": false,
   "includesCredentials": false,
   "includesPrivateDictionaries": false,
@@ -41,8 +41,8 @@
     },
     {
       "path": "PROJECT_HANDOFF.md",
-      "bytes": 152841,
-      "sha256": "bbcffedf7d902a23e7c038e9ed8946fea6c4ea2785fc2cf72cdd454b9bc938dc"
+      "bytes": 154661,
+      "sha256": "90d942e70be8d0f2557d8e6b77596ad1a7102fd53f29e4e9e32ef05f3f0c113b"
     },
     {
       "path": "README.md",
@@ -530,6 +530,11 @@
       "sha256": "34f85247402d4484514bf4db54147959a0435cc971952e4430673f391e6f0704"
     },
     {
+      "path": "scripts/prepare-n2-sem1-vdp4-v2.py",
+      "bytes": 6710,
+      "sha256": "9213ff5f2b21a26d5217f0ecdaa45cbd3c1f43df15ab31efdc3d0c0279cfcc14"
+    },
+    {
       "path": "scripts/prepare-n2-sem1.py",
       "bytes": 15339,
       "sha256": "6142bf616dbfb6f4cadfb72f571b2d70607db1feab6c6979dff3e5664a3561ec"
@@ -656,8 +661,8 @@
     },
     {
       "path": "scripts/render-storyboard-batch.ts",
-      "bytes": 16132,
-      "sha256": "7e904f656ee3aa182a7f4e4a454d3a7344f4d5747295b4401ce3bba95d556c10"
+      "bytes": 16413,
+      "sha256": "089229235f82540ff5d0d4b80d26336ccd1c0614ed44c37a587e770468114a92"
     },
     {
       "path": "scripts/render.ts",
@@ -831,13 +836,18 @@
     },
     {
       "path": "scripts/verify-storyboard-batch.py",
-      "bytes": 4190,
-      "sha256": "3acbda5fc33de69c8b7a82ab077f1df8582d3cfc5570107579af91cf50ebe929"
+      "bytes": 4261,
+      "sha256": "c56d769bec4ddd9549a8bf9b8d525b327d9c0c4df8e742471806fbfc9809926d"
     },
     {
       "path": "scripts/verify-transfer.py",
       "bytes": 815,
       "sha256": "d63e103f992da31a85de243366f33a5ea7bcc9c403c63fbd51c06dc9f81f44ba"
+    },
+    {
+      "path": "scripts/voice-n2-sem1-vdp4-v2.py",
+      "bytes": 9824,
+      "sha256": "957e3ab522ac3a0105ac19fdc85e34277bb5d2456ebae310e86c1fb3c870e15c"
     },
     {
       "path": "scripts/watch_storyboards.py",
@@ -861,8 +871,8 @@
     },
     {
       "path": "skill/digital-lab-project/SKILL.md",
-      "bytes": 25513,
-      "sha256": "f07aa5eb45a0b9fb625bb0376f80c184b47cdad6944d8aed0317b1c3826f0496"
+      "bytes": 25554,
+      "sha256": "756fd171007db3fc66a6bf67b2f587f0d8f8ec9e36c49225d5c9ae366c565429"
     },
     {
       "path": "skill/digital-lab-project/references/agent-transfer.md",
@@ -911,8 +921,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/n2-sem1-vdp3-vdp4.md",
-      "bytes": 4053,
-      "sha256": "c8d6fbb650c4917cdcee044107f281150ebac35a9ee8e0770a98023af1f27299"
+      "bytes": 6844,
+      "sha256": "fde98d988d49cda4ec02c8472dbf02f71e6979ba64bf3293ddaed82948fdf53a"
     },
     {
       "path": "skill/digital-lab-project/references/n2-sem2-vdp1-2026-11-10.md",
@@ -986,8 +996,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/project-state.md",
-      "bytes": 124433,
-      "sha256": "ccf39f05fcba61808dddf9a75af89784b44d19b3ab96b35e1c0e85a4b105b612"
+      "bytes": 125102,
+      "sha256": "fc80bbab530e931dcd775166cd9bc866c36c8ac14b9060d26b78d6a4b7930ff6"
     },
     {
       "path": "skill/digital-lab-project/references/pronunciation-reference.md",
@@ -1006,8 +1016,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/video-production-knowledge.md",
-      "bytes": 44590,
-      "sha256": "870f22f62af78fff6f0c4eaef260c6b09af9345f51e9da62ee6f59a1bac75e09"
+      "bytes": 45251,
+      "sha256": "074ef9f50109538644611a5b88329bb0ec9d187e47e7209ed9fa112f1220c51b"
     },
     {
       "path": "skill/presentation-video/SKILL.md",
@@ -1036,8 +1046,8 @@
     },
     {
       "path": "src/app/page.tsx",
-      "bytes": 14229,
-      "sha256": "3f0816328b35018a1f44ff0b35b410640befb52b5b125d51d865420abe99076c"
+      "bytes": 14485,
+      "sha256": "1f90b68faa5e62620197aa351feec81b69fdaa0dbfdd6dcaf114155ef03bcf76"
     },
     {
       "path": "src/app/style.css",
@@ -1063,6 +1073,11 @@
       "path": "src/lib/fractions.test.ts",
       "bytes": 1458,
       "sha256": "1fd7bb8f76fe309dadf6505f09987259d78cd5d1c9af23e0add4bf4fc9007167"
+    },
+    {
+      "path": "src/lib/monomial-study.test.ts",
+      "bytes": 1226,
+      "sha256": "e2f7ee4ea16a64b669f1c9e939eff8a2c4bb56bee101151775cba145ba29377d"
     },
     {
       "path": "src/lib/objective.test.ts",
@@ -1126,8 +1141,8 @@
     },
     {
       "path": "src/lib/timeline.ts",
-      "bytes": 19054,
-      "sha256": "119f05f1dda2fd644a892e25f012cb436c788938856a4e285c0c5df55d6df45b"
+      "bytes": 20177,
+      "sha256": "1efd65709bee7ac81d40a306ba273f472e04d82fc51c7ba39d8efd0d9a3cd0af"
     },
     {
       "path": "src/video/Factorization.tsx",
@@ -1141,8 +1156,8 @@
     },
     {
       "path": "src/video/Lesson.tsx",
-      "bytes": 3152,
-      "sha256": "9fc2fd80c624e10376a48564647dd820e1cc97f2d0f5e0133da1fc4e90c54b97"
+      "bytes": 3260,
+      "sha256": "3f55757c12d49ab803a5cbce420041e8a90ea514bb3060472aa781e10efa6142"
     },
     {
       "path": "src/video/LessonSection.tsx",
@@ -1153,6 +1168,16 @@
       "path": "src/video/LikeTerms.tsx",
       "bytes": 6433,
       "sha256": "5ea02c921d0f6c84c99af90c51119ec5f636437dbed844dda323b59179a75add"
+    },
+    {
+      "path": "src/video/MonomialDiagrams.tsx",
+      "bytes": 10315,
+      "sha256": "af34e029b1eb85ef9fce0ebcc919ce28c6f75c191d2390866b4777a1af210254"
+    },
+    {
+      "path": "src/video/MonomialStudy.tsx",
+      "bytes": 5300,
+      "sha256": "218284892dc288d477d217449cf6eeb54e9b9d2391e1bdb65e848bebc69f80e4"
     },
     {
       "path": "src/video/NegativeComparison.tsx",
@@ -1201,8 +1226,8 @@
     },
     {
       "path": "src/video/PronunciationWord.tsx",
-      "bytes": 3136,
-      "sha256": "7e0de3b032fbd375d21b3ef2609e22962bf31288cdb8514eb1c8c8196a33b591"
+      "bytes": 3190,
+      "sha256": "44faae1b71a4a45c333f546bf29eff8299e94c03ca9bd48aa7c6cb0d816aca56"
     },
     {
       "path": "src/video/QuestionMark.tsx",
@@ -1503,6 +1528,11 @@
       "path": "src/video/n2-sem1-vdp4-lesson.json",
       "bytes": 17745,
       "sha256": "6d4e172ffa519264ef721912b3f68912c22af20440f914bc49e1a4e322a85e0e"
+    },
+    {
+      "path": "src/video/n2-sem1-vdp4-v2-lesson.json",
+      "bytes": 30654,
+      "sha256": "50509d1a3c95ac7cd1ed2bce91cbfd305342db15fe9743dda8e93a2b1e2b8c1f"
     },
     {
       "path": "src/video/n3-lesson.json",
@@ -1900,5 +1930,5 @@
       "sha256": "68acb09f4f6bcb828ebf61555d9ab9d3d31e61f9dad7a59b8a1f67f06ebd78f6"
     }
   ],
-  "totalBytes": 5163001
+  "totalBytes": 5234905
 }

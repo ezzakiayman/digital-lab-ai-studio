@@ -37,3 +37,30 @@ Vérifié sur « P1 / Semaine 1 » en K20 et K27. Les deux cellules affichent le
 ## Date et heure de première livraison
 
 Sur « P1 / Semaine 1 », l’API a confirmé le 17/11/2026 à 12:46 en N20–O20 pour la VDP3 de 2AC, et le 17/11/2026 à 12:47 en N27–O27 pour la VDP4 de 2AC, en heure de Casablanca. Les puces K20 et K27 pointent vers les mêmes MP4 publics.
+
+
+## 2AC · Semaine 1 · VDP4 · Storyboard révisé de 33 diapositives · 27 novembre 2026
+
+Le fichier lié en F27 contient maintenant 33 diapositives. Le premier MP4 avait été produit à partir de 17 diapositives. La V2 reconstruit les dix séquences à partir du PowerPoint révisé. Le script français provient des 33 bandes vertes. La définition du degré conserve la condition « non nul ». L’objectif utilise la flèche rouge sous « Identifier », puis le soulignement vert seul. L’utilisateur a explicitement demandé de garder les deux occurrences de « Degré » sur la dernière diapositive.
+
+Les lectures Mo–nôme et De–gré ont été recréées avec la voix française principale Gemini Kore, en fr-FR. La deuxième syllabe est verte et le mot réuni est bleu. Le microphone provient de l’illustration fixe de la mise en page. Les 39 passages de narration ou de prononciation ont été contrôlés dans l’AAC final. Les dix pistes correspondent à leurs WAV sans décalage mesuré. La comparaison indépendante des 33 états s’appuie sur 157 images du MP4. Les pauses naturelles des prises ont été conservées.
+
+V2 livrée à 16 h 50, heure de Casablanca, sur le fichier public déjà lié en K27, « P1 / Semaine 1 ». La puce, les dates de première livraison, le dossier « Livrable video / 2AC / Semaine 1 », l’empreinte et la lecture anonyme du MP4 ont été vérifiés par API. Export de 4 250 images, 141,675 s, H.264/AAC 1920 × 1080 à 30 images/s. Décodage complet, crête −4,2 dB, MD5 318312d9645cef3f3d6a992a930b5fa7. Les 21 tests du studio et la vérification TypeScript passent.
+
+### Reproduire la V2
+
+La source attendue a pour SHA-256 4a70f4f3267284922bb9257f7060f622f8d63f6c16a8aff0523b88cbef3fba56. Pour une nouvelle installation, fournir ce PPTX et ses propres accès de synthèse. Les médias restent dans l’espace de production local.
+
+```powershell
+python scripts/voice-n2-sem1-vdp4-v2.py prepare --source $storyboard
+$env:GEMINI_TTS_MODEL='gemini-3.8-flash-lite-tts'
+node scripts/gemini-tts.mjs outputs/n2-sem1-vdp4-v2/voice-plan.json
+python scripts/align-n3.py outputs/n2-sem1-vdp4-v2/voice-plan.json
+python scripts/voice-n2-sem1-vdp4-v2.py timing
+python scripts/prepare-n2-sem1-vdp4-v2.py $storyboard
+npm run render:storyboards -- --stills --key-frames n2-sem1-vdp4-v2
+npm run render:storyboards -- n2-sem1-vdp4-v2
+python scripts/verify-storyboard-batch.py n2-sem1-vdp4-v2
+```
+
+La timeline du studio est src/video/n2-sem1-vdp4-v2-lesson.json. Une régénération vocale sur un autre compte exige un nouvel alignement et une nouvelle écoute. L’ancien script de la leçon à 17 diapositives sert à reproduire la première livraison. L’accord sur le mot « Degré » concerne seulement la diapositive 33 de cette source.

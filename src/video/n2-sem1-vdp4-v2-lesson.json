@@ -1,0 +1,1364 @@
+{
+  "version": 1,
+  "level": "2AC",
+  "videoType": "VDP",
+  "lesson": "Identifier les éléments d’un monôme",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables d’identifier les éléments d’un monôme. Identifier, c’est reconnaître un élément et le nommer. Les éléments d’un monôme sont de nouvelles notions que nous allons découvrir au cours de cette séance.",
+      "audio": "n2-sem1-vdp4-v2/objectif.wav",
+      "durationInFrames": 513,
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables d’identifier les éléments d’un monôme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Identifier, c’est reconnaître un élément et le nommer.",
+          "from": 199
+        },
+        {
+          "stage": 2,
+          "text": "Les éléments d’un monôme sont de nouvelles notions que nous allons découvrir au cours de cette séance.",
+          "from": 328
+        }
+      ],
+      "objective": {
+        "title": "Identifier les éléments d’un monôme",
+        "measure": 1114,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 271,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "c’est reconnaître",
+                "x": 960,
+                "y": 672,
+                "size": 59,
+                "at": 0,
+                "weight": 700
+              },
+              {
+                "kind": "text",
+                "value": "un élément et le nommer.",
+                "x": 960,
+                "y": 752,
+                "size": 59,
+                "at": 0,
+                "weight": 700
+              }
+            ]
+          },
+          {
+            "offset": 289,
+            "width": 825,
+            "at": 2,
+            "art": []
+          }
+        ]
+      },
+      "art": [],
+      "speechMode": "verbatim"
+    },
+    {
+      "id": "definition-monome",
+      "sourceSlides": [
+        4,
+        5
+      ],
+      "narration": "Définition 1 : monôme Un monôme est une expression algébrique à un seul terme.",
+      "audio": "n2-sem1-vdp4-v2/definition-monome.wav",
+      "durationInFrames": 271,
+      "type": "monomial-study",
+      "kind": "definition",
+      "title": "Définition 1 : monôme",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Définition 1 : monôme",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Un monôme est une expression algébrique à un seul terme.",
+          "from": 107
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Définition",
+          "startFrame": 9
+        },
+        {
+          "word": "1",
+          "startFrame": 27
+        },
+        {
+          "word": "monôme",
+          "startFrame": 55
+        },
+        {
+          "word": "Un",
+          "startFrame": 107
+        },
+        {
+          "word": "monôme",
+          "startFrame": 111
+        },
+        {
+          "word": "est",
+          "startFrame": 143
+        },
+        {
+          "word": "une",
+          "startFrame": 148
+        },
+        {
+          "word": "expression",
+          "startFrame": 153
+        },
+        {
+          "word": "algébrique",
+          "startFrame": 178
+        },
+        {
+          "word": "a",
+          "startFrame": 213
+        },
+        {
+          "word": "un",
+          "startFrame": 220
+        },
+        {
+          "word": "seul",
+          "startFrame": 225
+        },
+        {
+          "word": "terme",
+          "startFrame": 233
+        }
+      ],
+      "lines": [
+        "Un monôme est une expression algébrique",
+        "à un seul terme."
+      ]
+    },
+    {
+      "id": "exemple-monome",
+      "sourceSlides": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "narration": "Je prends l’exemple suivant : quatre fois x au carré fois y au cube. C’est une expression algébrique qui contient un seul terme. Cette expression ne contient qu’un seul terme : c’est donc un monôme.",
+      "audio": "n2-sem1-vdp4-v2/exemple-monome.wav",
+      "durationInFrames": 483,
+      "type": "monomial-study",
+      "kind": "diagram",
+      "title": "Un seul terme",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends l’exemple suivant : quatre fois x au carré fois y au cube.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est une expression algébrique",
+          "from": 209
+        },
+        {
+          "stage": 2,
+          "text": "qui contient un seul terme.",
+          "from": 261
+        },
+        {
+          "stage": 3,
+          "text": "Cette expression ne contient qu’un seul terme : c’est donc un monôme.",
+          "from": 336
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Je",
+          "startFrame": 2
+        },
+        {
+          "word": "prends",
+          "startFrame": 7
+        },
+        {
+          "word": "lexemple",
+          "startFrame": 13
+        },
+        {
+          "word": "suivant",
+          "startFrame": 31
+        },
+        {
+          "word": "quatre",
+          "startFrame": 67
+        },
+        {
+          "word": "fois",
+          "startFrame": 84
+        },
+        {
+          "word": "x",
+          "startFrame": 103
+        },
+        {
+          "word": "au",
+          "startFrame": 110
+        },
+        {
+          "word": "carré",
+          "startFrame": 113
+        },
+        {
+          "word": "fois",
+          "startFrame": 142
+        },
+        {
+          "word": "y",
+          "startFrame": 155
+        },
+        {
+          "word": "au",
+          "startFrame": 163
+        },
+        {
+          "word": "cube",
+          "startFrame": 172
+        },
+        {
+          "word": "Cest",
+          "startFrame": 209
+        },
+        {
+          "word": "une",
+          "startFrame": 215
+        },
+        {
+          "word": "expression",
+          "startFrame": 219
+        },
+        {
+          "word": "algébrique",
+          "startFrame": 235
+        },
+        {
+          "word": "qui",
+          "startFrame": 261
+        },
+        {
+          "word": "contient",
+          "startFrame": 267
+        },
+        {
+          "word": "un",
+          "startFrame": 291
+        },
+        {
+          "word": "seul",
+          "startFrame": 295
+        },
+        {
+          "word": "terme",
+          "startFrame": 303
+        },
+        {
+          "word": "Cette",
+          "startFrame": 336
+        },
+        {
+          "word": "expression",
+          "startFrame": 342
+        },
+        {
+          "word": "ne",
+          "startFrame": 358
+        },
+        {
+          "word": "contient",
+          "startFrame": 362
+        },
+        {
+          "word": "quun",
+          "startFrame": 375
+        },
+        {
+          "word": "seul",
+          "startFrame": 381
+        },
+        {
+          "word": "terme",
+          "startFrame": 389
+        },
+        {
+          "word": "cest",
+          "startFrame": 411
+        },
+        {
+          "word": "donc",
+          "startFrame": 417
+        },
+        {
+          "word": "un",
+          "startFrame": 436
+        },
+        {
+          "word": "monôme",
+          "startFrame": 440
+        }
+      ]
+    },
+    {
+      "id": "contre-exemple",
+      "sourceSlides": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "narration": "Je prends un autre exemple : deux fois x plus y. C’est une expression algébrique qui contient deux termes : deux x et y. Cette expression contient deux termes : ce n’est donc pas un monôme.",
+      "audio": "n2-sem1-vdp4-v2/contre-exemple.wav",
+      "durationInFrames": 470,
+      "type": "monomial-study",
+      "kind": "diagram",
+      "title": "Deux termes",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends un autre exemple : deux fois x plus y.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est une expression algébrique",
+          "from": 147
+        },
+        {
+          "stage": 2,
+          "text": "qui contient deux termes : deux x et y.",
+          "from": 196
+        },
+        {
+          "stage": 3,
+          "text": "Cette expression contient deux termes : ce n’est donc pas un monôme.",
+          "from": 341
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Je",
+          "startFrame": 1
+        },
+        {
+          "word": "prends",
+          "startFrame": 5
+        },
+        {
+          "word": "un",
+          "startFrame": 12
+        },
+        {
+          "word": "autre",
+          "startFrame": 16
+        },
+        {
+          "word": "exemple",
+          "startFrame": 23
+        },
+        {
+          "word": "deux",
+          "startFrame": 58
+        },
+        {
+          "word": "fois",
+          "startFrame": 67
+        },
+        {
+          "word": "x",
+          "startFrame": 83
+        },
+        {
+          "word": "plus",
+          "startFrame": 93
+        },
+        {
+          "word": "y",
+          "startFrame": 105
+        },
+        {
+          "word": "Cest",
+          "startFrame": 147
+        },
+        {
+          "word": "une",
+          "startFrame": 153
+        },
+        {
+          "word": "expression",
+          "startFrame": 157
+        },
+        {
+          "word": "algébrique",
+          "startFrame": 173
+        },
+        {
+          "word": "qui",
+          "startFrame": 196
+        },
+        {
+          "word": "contient",
+          "startFrame": 201
+        },
+        {
+          "word": "deux",
+          "startFrame": 223
+        },
+        {
+          "word": "termes",
+          "startFrame": 231
+        },
+        {
+          "word": "deux",
+          "startFrame": 265
+        },
+        {
+          "word": "x",
+          "startFrame": 278
+        },
+        {
+          "word": "et",
+          "startFrame": 294
+        },
+        {
+          "word": "y",
+          "startFrame": 302
+        },
+        {
+          "word": "Cette",
+          "startFrame": 341
+        },
+        {
+          "word": "expression",
+          "startFrame": 347
+        },
+        {
+          "word": "contient",
+          "startFrame": 360
+        },
+        {
+          "word": "deux",
+          "startFrame": 376
+        },
+        {
+          "word": "termes",
+          "startFrame": 383
+        },
+        {
+          "word": "ce",
+          "startFrame": 407
+        },
+        {
+          "word": "nest",
+          "startFrame": 410
+        },
+        {
+          "word": "donc",
+          "startFrame": 415
+        },
+        {
+          "word": "pas",
+          "startFrame": 422
+        },
+        {
+          "word": "un",
+          "startFrame": 430
+        },
+        {
+          "word": "monôme",
+          "startFrame": 432
+        }
+      ]
+    },
+    {
+      "id": "coefficient-variables",
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "narration": "Je reprends le monôme : quatre fois x au carré fois y au cube. Le nombre quatre est appelé le coefficient du monôme. Les lettres x et y sont appelées les variables du monôme.",
+      "audio": "n2-sem1-vdp4-v2/coefficient-variables.wav",
+      "durationInFrames": 538,
+      "type": "monomial-study",
+      "kind": "diagram",
+      "title": "Coefficient et variables",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je reprends le monôme : quatre fois x au carré fois y au cube.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Le nombre quatre",
+          "from": 213
+        },
+        {
+          "stage": 2,
+          "text": "est appelé le coefficient du monôme.",
+          "from": 258
+        },
+        {
+          "stage": 3,
+          "text": "Les lettres x et y",
+          "from": 365
+        },
+        {
+          "stage": 4,
+          "text": "sont appelées les variables du monôme.",
+          "from": 437
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Je",
+          "startFrame": 2
+        },
+        {
+          "word": "reprends",
+          "startFrame": 7
+        },
+        {
+          "word": "le",
+          "startFrame": 18
+        },
+        {
+          "word": "monôme",
+          "startFrame": 20
+        },
+        {
+          "word": "quatre",
+          "startFrame": 59
+        },
+        {
+          "word": "fois",
+          "startFrame": 74
+        },
+        {
+          "word": "x",
+          "startFrame": 94
+        },
+        {
+          "word": "au",
+          "startFrame": 99
+        },
+        {
+          "word": "carré",
+          "startFrame": 102
+        },
+        {
+          "word": "fois",
+          "startFrame": 129
+        },
+        {
+          "word": "y",
+          "startFrame": 150
+        },
+        {
+          "word": "au",
+          "startFrame": 156
+        },
+        {
+          "word": "cube",
+          "startFrame": 165
+        },
+        {
+          "word": "Le",
+          "startFrame": 213
+        },
+        {
+          "word": "nombre",
+          "startFrame": 217
+        },
+        {
+          "word": "quatre",
+          "startFrame": 231
+        },
+        {
+          "word": "est",
+          "startFrame": 258
+        },
+        {
+          "word": "appelé",
+          "startFrame": 264
+        },
+        {
+          "word": "le",
+          "startFrame": 273
+        },
+        {
+          "word": "coefficient",
+          "startFrame": 279
+        },
+        {
+          "word": "du",
+          "startFrame": 305
+        },
+        {
+          "word": "monôme",
+          "startFrame": 309
+        },
+        {
+          "word": "Les",
+          "startFrame": 365
+        },
+        {
+          "word": "lettres",
+          "startFrame": 369
+        },
+        {
+          "word": "x",
+          "startFrame": 386
+        },
+        {
+          "word": "et",
+          "startFrame": 401
+        },
+        {
+          "word": "y",
+          "startFrame": 404
+        },
+        {
+          "word": "sont",
+          "startFrame": 437
+        },
+        {
+          "word": "appelées",
+          "startFrame": 444
+        },
+        {
+          "word": "les",
+          "startFrame": 464
+        },
+        {
+          "word": "variables",
+          "startFrame": 470
+        },
+        {
+          "word": "du",
+          "startFrame": 497
+        },
+        {
+          "word": "monôme",
+          "startFrame": 500
+        }
+      ]
+    },
+    {
+      "id": "definition-degre",
+      "sourceSlides": [
+        19,
+        20
+      ],
+      "narration": "Définition 2 : degré d’un monôme Le degré d’un monôme non nul est la somme des exposants de ses variables.",
+      "audio": "n2-sem1-vdp4-v2/definition-degre.wav",
+      "durationInFrames": 282,
+      "type": "monomial-study",
+      "kind": "definition",
+      "title": "Définition 2 : degré d’un monôme",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Définition 2 : degré d’un monôme",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Le degré d’un monôme non nul est la somme des exposants de ses variables.",
+          "from": 119
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Définition",
+          "startFrame": 2
+        },
+        {
+          "word": "2",
+          "startFrame": 22
+        },
+        {
+          "word": "degré",
+          "startFrame": 26
+        },
+        {
+          "word": "dun",
+          "startFrame": 66
+        },
+        {
+          "word": "monôme",
+          "startFrame": 71
+        },
+        {
+          "word": "Le",
+          "startFrame": 119
+        },
+        {
+          "word": "degré",
+          "startFrame": 124
+        },
+        {
+          "word": "dun",
+          "startFrame": 136
+        },
+        {
+          "word": "monôme",
+          "startFrame": 142
+        },
+        {
+          "word": "non",
+          "startFrame": 157
+        },
+        {
+          "word": "nul",
+          "startFrame": 164
+        },
+        {
+          "word": "est",
+          "startFrame": 185
+        },
+        {
+          "word": "la",
+          "startFrame": 189
+        },
+        {
+          "word": "somme",
+          "startFrame": 197
+        },
+        {
+          "word": "des",
+          "startFrame": 206
+        },
+        {
+          "word": "exposants",
+          "startFrame": 212
+        },
+        {
+          "word": "de",
+          "startFrame": 229
+        },
+        {
+          "word": "ses",
+          "startFrame": 233
+        },
+        {
+          "word": "variables",
+          "startFrame": 238
+        }
+      ],
+      "lines": [
+        "Le degré d’un monôme non nul est la somme",
+        "des exposants de ses variables."
+      ]
+    },
+    {
+      "id": "calcul-degre",
+      "sourceSlides": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "narration": "Je reprends le monôme : quatre fois x au carré fois y au cube. Les variables sont x et y. L’exposant de x est deux. L’exposant de y est trois. J’additionne les exposants : deux plus trois égale cinq. Le degré du monôme est cinq.",
+      "audio": "n2-sem1-vdp4-v2/calcul-degre.wav",
+      "durationInFrames": 663,
+      "type": "monomial-study",
+      "kind": "diagram",
+      "title": "Degré du monôme",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je reprends le monôme : quatre fois x au carré fois y au cube.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les variables sont x et y.",
+          "from": 181
+        },
+        {
+          "stage": 2,
+          "text": "L’exposant de x est deux.",
+          "from": 288
+        },
+        {
+          "stage": 3,
+          "text": "L’exposant de y est trois.",
+          "from": 361
+        },
+        {
+          "stage": 4,
+          "text": "J’additionne les exposants : deux plus trois égale cinq.",
+          "from": 445
+        },
+        {
+          "stage": 5,
+          "text": "Le degré du monôme est cinq.",
+          "from": 580
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Je",
+          "startFrame": 4
+        },
+        {
+          "word": "reprends",
+          "startFrame": 8
+        },
+        {
+          "word": "le",
+          "startFrame": 18
+        },
+        {
+          "word": "monôme",
+          "startFrame": 21
+        },
+        {
+          "word": "quatre",
+          "startFrame": 55
+        },
+        {
+          "word": "fois",
+          "startFrame": 68
+        },
+        {
+          "word": "x",
+          "startFrame": 84
+        },
+        {
+          "word": "au",
+          "startFrame": 91
+        },
+        {
+          "word": "carré",
+          "startFrame": 94
+        },
+        {
+          "word": "fois",
+          "startFrame": 114
+        },
+        {
+          "word": "y",
+          "startFrame": 124
+        },
+        {
+          "word": "au",
+          "startFrame": 139
+        },
+        {
+          "word": "cube",
+          "startFrame": 143
+        },
+        {
+          "word": "Les",
+          "startFrame": 181
+        },
+        {
+          "word": "variables",
+          "startFrame": 184
+        },
+        {
+          "word": "sont",
+          "startFrame": 209
+        },
+        {
+          "word": "x",
+          "startFrame": 226
+        },
+        {
+          "word": "et",
+          "startFrame": 241
+        },
+        {
+          "word": "y",
+          "startFrame": 247
+        },
+        {
+          "word": "Lexposant",
+          "startFrame": 288
+        },
+        {
+          "word": "de",
+          "startFrame": 306
+        },
+        {
+          "word": "x",
+          "startFrame": 315
+        },
+        {
+          "word": "est",
+          "startFrame": 324
+        },
+        {
+          "word": "deux",
+          "startFrame": 328
+        },
+        {
+          "word": "Lexposant",
+          "startFrame": 361
+        },
+        {
+          "word": "de",
+          "startFrame": 378
+        },
+        {
+          "word": "y",
+          "startFrame": 384
+        },
+        {
+          "word": "est",
+          "startFrame": 405
+        },
+        {
+          "word": "trois",
+          "startFrame": 408
+        },
+        {
+          "word": "Jadditionne",
+          "startFrame": 445
+        },
+        {
+          "word": "les",
+          "startFrame": 462
+        },
+        {
+          "word": "exposants",
+          "startFrame": 466
+        },
+        {
+          "word": "deux",
+          "startFrame": 502
+        },
+        {
+          "word": "plus",
+          "startFrame": 508
+        },
+        {
+          "word": "trois",
+          "startFrame": 517
+        },
+        {
+          "word": "égale",
+          "startFrame": 537
+        },
+        {
+          "word": "cinq",
+          "startFrame": 547
+        },
+        {
+          "word": "Le",
+          "startFrame": 580
+        },
+        {
+          "word": "degré",
+          "startFrame": 585
+        },
+        {
+          "word": "du",
+          "startFrame": 597
+        },
+        {
+          "word": "monôme",
+          "startFrame": 601
+        },
+        {
+          "word": "est",
+          "startFrame": 620
+        },
+        {
+          "word": "cinq",
+          "startFrame": 624
+        }
+      ]
+    },
+    {
+      "id": "mot-monome",
+      "sourceSlides": [
+        27
+      ],
+      "narration": "Écoutez le mot « monôme ». Mo. Nôme. Monôme.",
+      "audio": "n2-sem1-vdp4-v2/mot-monome.wav",
+      "durationInFrames": 231,
+      "type": "monomial-study",
+      "kind": "reading",
+      "title": "Monôme",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez le mot « monôme ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Mo.",
+          "from": 101
+        },
+        {
+          "stage": 2,
+          "text": "Nôme.",
+          "from": 144
+        },
+        {
+          "stage": 3,
+          "text": "Monôme.",
+          "from": 187
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Écoutez",
+          "startFrame": 1
+        },
+        {
+          "word": "le",
+          "startFrame": 14
+        },
+        {
+          "word": "mot",
+          "startFrame": 19
+        },
+        {
+          "word": "monôme",
+          "startFrame": 52
+        },
+        {
+          "word": "Mo",
+          "startFrame": 101
+        },
+        {
+          "word": "Nôme",
+          "startFrame": 144
+        },
+        {
+          "word": "Monôme",
+          "startFrame": 187
+        }
+      ],
+      "reading": {
+        "word": "Monôme",
+        "parts": [
+          "Mo",
+          "nôme"
+        ],
+        "advances": [
+          92.0,
+          171.0
+        ]
+      }
+    },
+    {
+      "id": "mot-degre",
+      "sourceSlides": [
+        28
+      ],
+      "narration": "Écoutez le mot « degré ». De. Gré. Degré.",
+      "audio": "n2-sem1-vdp4-v2/mot-degre.wav",
+      "durationInFrames": 226,
+      "type": "monomial-study",
+      "kind": "reading",
+      "title": "Degré",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez le mot « degré ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "De.",
+          "from": 83
+        },
+        {
+          "stage": 2,
+          "text": "Gré.",
+          "from": 132
+        },
+        {
+          "stage": 3,
+          "text": "Degré.",
+          "from": 184
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Écoutez",
+          "startFrame": 1
+        },
+        {
+          "word": "le",
+          "startFrame": 13
+        },
+        {
+          "word": "mot",
+          "startFrame": 17
+        },
+        {
+          "word": "degré",
+          "startFrame": 30
+        },
+        {
+          "word": "De",
+          "startFrame": 83
+        },
+        {
+          "word": "Gré",
+          "startFrame": 132
+        },
+        {
+          "word": "Degré",
+          "startFrame": 184
+        }
+      ],
+      "reading": {
+        "word": "Degré",
+        "parts": [
+          "De",
+          "gré"
+        ],
+        "advances": [
+          82.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "vocabulaire",
+      "sourceSlides": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "narration": "Ce qu’il faut retenir : Monôme : quatre fois x au carré fois y au cube. Le coefficient est quatre. Les variables sont x et y. Le degré est cinq, car deux plus trois égale cinq.",
+      "audio": "n2-sem1-vdp4-v2/vocabulaire.wav",
+      "durationInFrames": 573,
+      "type": "monomial-study",
+      "kind": "recap",
+      "title": "Ce qu’il faut retenir",
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Ce qu’il faut retenir :",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Monôme : quatre fois x au carré fois y au cube.",
+          "from": 68
+        },
+        {
+          "stage": 2,
+          "text": "Le coefficient est quatre.",
+          "from": 244
+        },
+        {
+          "stage": 3,
+          "text": "Les variables sont x et y.",
+          "from": 322
+        },
+        {
+          "stage": 4,
+          "text": "Le degré est cinq, car deux plus trois égale cinq.",
+          "from": 426
+        }
+      ],
+      "wordCues": [
+        {
+          "word": "Ce",
+          "startFrame": 3
+        },
+        {
+          "word": "quil",
+          "startFrame": 7
+        },
+        {
+          "word": "faut",
+          "startFrame": 14
+        },
+        {
+          "word": "retenir",
+          "startFrame": 21
+        },
+        {
+          "word": "Monôme",
+          "startFrame": 68
+        },
+        {
+          "word": "quatre",
+          "startFrame": 101
+        },
+        {
+          "word": "fois",
+          "startFrame": 118
+        },
+        {
+          "word": "x",
+          "startFrame": 141
+        },
+        {
+          "word": "au",
+          "startFrame": 145
+        },
+        {
+          "word": "carré",
+          "startFrame": 148
+        },
+        {
+          "word": "fois",
+          "startFrame": 168
+        },
+        {
+          "word": "y",
+          "startFrame": 188
+        },
+        {
+          "word": "au",
+          "startFrame": 195
+        },
+        {
+          "word": "cube",
+          "startFrame": 204
+        },
+        {
+          "word": "Le",
+          "startFrame": 244
+        },
+        {
+          "word": "coefficient",
+          "startFrame": 249
+        },
+        {
+          "word": "est",
+          "startFrame": 279
+        },
+        {
+          "word": "quatre",
+          "startFrame": 284
+        },
+        {
+          "word": "Les",
+          "startFrame": 322
+        },
+        {
+          "word": "variables",
+          "startFrame": 326
+        },
+        {
+          "word": "sont",
+          "startFrame": 350
+        },
+        {
+          "word": "x",
+          "startFrame": 367
+        },
+        {
+          "word": "et",
+          "startFrame": 380
+        },
+        {
+          "word": "y",
+          "startFrame": 384
+        },
+        {
+          "word": "Le",
+          "startFrame": 426
+        },
+        {
+          "word": "degré",
+          "startFrame": 431
+        },
+        {
+          "word": "est",
+          "startFrame": 446
+        },
+        {
+          "word": "cinq",
+          "startFrame": 452
+        },
+        {
+          "word": "car",
+          "startFrame": 478
+        },
+        {
+          "word": "deux",
+          "startFrame": 489
+        },
+        {
+          "word": "plus",
+          "startFrame": 497
+        },
+        {
+          "word": "trois",
+          "startFrame": 506
+        },
+        {
+          "word": "égale",
+          "startFrame": 526
+        },
+        {
+          "word": "cinq",
+          "startFrame": 536
+        }
+      ],
+      "showSourceDuplicate": true
+    }
+  ]
+}

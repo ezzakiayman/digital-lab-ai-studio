@@ -10,6 +10,7 @@ week_three_v2 = [stem+'-v2' for stem in week_three]
 week_three_v3 = [stem+'-v3' for stem in week_three]
 week_three_v4 = [stem+'-v4' for stem in week_three]
 lessons={
+ 'n2-sem1-vdp4-v2':('n2-sem1-vdp4-v2','P1_MATHS_N2_SEM1_VDP4_V2',33),
  'n1-sem2-vdp4-v2':('n1-sem2-vdp4-v2','P1_MATHS_N1_SEM2_VDP4_V2',19),
  'n3-sem3-vdp4-v7':('n3-sem3-v7/vdp4','P1_MATHS_N3_SEM3_VDP4_V7',47),
  'n3-sem3-vdp4-v6':('n3-sem3-v6/vdp4','P1_MATHS_N3_SEM3_VDP4_V6',47),

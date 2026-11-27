@@ -10,6 +10,7 @@ import {Polynomials} from './Polynomials';
 import {Factorization} from './Factorization';
 import {LikeTerms} from './LikeTerms';
 import {PolynomialSubtraction} from './PolynomialSubtraction';
+import {MonomialStudy} from './MonomialStudy';
 import {VdpSequence} from './VdpSequence';
 import {SignedAddition} from './SignedAddition';
 import {charter} from '../lib/charter';
@@ -32,4 +33,4 @@ const Property:React.FC<{scene:Extract<Timeline['scenes'][number],{type:'propert
   {scene.audio&&<Audio src={staticFile(scene.audio)}/>}
  </AbsoluteFill>;
 };
-export const Lesson:React.FC<{timeline:Timeline}>=({timeline})=>{let start=0;return <AbsoluteFill>{timeline.audio&&<Audio src={staticFile(timeline.audio)}/>} {timeline.scenes.map(scene=>{const from=start;start+=scene.durationInFrames;return <Sequence key={scene.id} from={from} durationInFrames={scene.durationInFrames}>{scene.type==='property'?<Property scene={scene}/>:scene.type==='negative-comparison'?<NegativeComparison scene={scene}/>:scene.type==='ppcm'?<Ppcm scene={scene}/>:scene.type==='primes'?<Primes scene={scene}/>:scene.type==='fractions'?<Fractions scene={scene}/>:scene.type==='polynomials'?<Polynomials scene={scene}/>:scene.type==='factorization'?<Factorization scene={scene}/>:scene.type==='like-terms'?<LikeTerms scene={scene}/>:scene.type==='polynomial-subtraction'?<PolynomialSubtraction scene={scene}/>:scene.type==='signed-addition'?<SignedAddition scene={scene}/>:scene.type==='vdp-sequence'?<VdpSequence scene={scene}/>:<LessonSection scene={scene}/>}</Sequence>;})}</AbsoluteFill>;};
+export const Lesson:React.FC<{timeline:Timeline}>=({timeline})=>{let start=0;return <AbsoluteFill>{timeline.audio&&<Audio src={staticFile(timeline.audio)}/>} {timeline.scenes.map(scene=>{const from=start;start+=scene.durationInFrames;return <Sequence key={scene.id} from={from} durationInFrames={scene.durationInFrames}>{scene.type==='property'?<Property scene={scene}/>:scene.type==='negative-comparison'?<NegativeComparison scene={scene}/>:scene.type==='ppcm'?<Ppcm scene={scene}/>:scene.type==='primes'?<Primes scene={scene}/>:scene.type==='fractions'?<Fractions scene={scene}/>:scene.type==='polynomials'?<Polynomials scene={scene}/>:scene.type==='factorization'?<Factorization scene={scene}/>:scene.type==='like-terms'?<LikeTerms scene={scene}/>:scene.type==='polynomial-subtraction'?<PolynomialSubtraction scene={scene}/>:scene.type==='signed-addition'?<SignedAddition scene={scene}/>:scene.type==='monomial-study'?<MonomialStudy scene={scene}/>:scene.type==='vdp-sequence'?<VdpSequence scene={scene}/>:<LessonSection scene={scene}/>}</Sequence>;})}</AbsoluteFill>;};

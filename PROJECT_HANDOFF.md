@@ -738,3 +738,14 @@ Limite connue : npm audit signale une vulnérabilité modérée ; Next.js affich
 À la demande explicite de l’utilisateur, le dépôt Digital Lab devient public : https://github.com/ezzakiayman/digital-lab-ai-studio. Il contient déjà les deux compétences dans skill/ et peut être partagé sans invitation. Le dépôt général codex-skills reste privé pour préserver les autres projets. Cette décision remplace uniquement les indications antérieures de visibilité privée du dépôt Digital Lab.
 
 Les deux commits de l’historique alors publié ont été contrôlés : 586 blobs distincts, aucun motif de clé détecté, aucun document ou média de production interdit, aucun locateur de dictionnaire privé dans les plans. Après changement de visibilité via GitHub, lecture anonyme de l’API et de la page du dépôt réussie en HTTP 200. Les autorisations, médias locaux, données privées et l’automatisation du compte d’origine restent exclus. Aucun rendu ou lien Drive n’est modifié.
+
+
+## 2AC · Semaine 1 · VDP4 · Storyboard révisé de 33 diapositives · 27 novembre 2026
+
+Le fichier lié en F27 contient maintenant 33 diapositives. Le premier MP4 avait été produit à partir de 17 diapositives. La V2 reconstruit les dix séquences à partir du PowerPoint révisé. Le script français provient des 33 bandes vertes. La définition du degré conserve la condition « non nul ». L’objectif utilise la flèche rouge sous « Identifier », puis le soulignement vert seul. L’utilisateur a explicitement demandé de garder les deux occurrences de « Degré » sur la dernière diapositive.
+
+Les lectures Mo–nôme et De–gré ont été recréées avec la voix française principale Gemini Kore, en fr-FR. La deuxième syllabe est verte et le mot réuni est bleu. Le microphone provient de l’illustration fixe de la mise en page. Les 39 passages de narration ou de prononciation ont été contrôlés dans l’AAC final. Les dix pistes correspondent à leurs WAV sans décalage mesuré. La comparaison indépendante des 33 états s’appuie sur 157 images du MP4. Les pauses naturelles des prises ont été conservées.
+
+V2 livrée à 16 h 50, heure de Casablanca, sur le fichier public déjà lié en K27, « P1 / Semaine 1 ». La puce, les dates de première livraison, le dossier « Livrable video / 2AC / Semaine 1 », l’empreinte et la lecture anonyme du MP4 ont été vérifiés par API. Export de 4 250 images, 141,675 s, H.264/AAC 1920 × 1080 à 30 images/s. Décodage complet, crête −4,2 dB, MD5 318312d9645cef3f3d6a992a930b5fa7. Les 21 tests du studio et la vérification TypeScript passent.
+
+La section V2 de la référence n2-sem1-vdp3-vdp4.md donne les commandes de reproduction. Le reçu de livraison et les contrôles détaillés se trouvent dans outputs/n2-sem1-vdp4-v2/.

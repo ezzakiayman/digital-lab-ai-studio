@@ -80,6 +80,22 @@ const signedAdditionSchema=algebraScene.extend({
   if(s.cues[cue]===undefined)c.addIssue({code:'custom',path:['cues',cue],message:'Required narration cue'});
  }
 });
+const monomialStudySchema=algebraScene.extend({
+ type:z.literal('monomial-study'),
+ kind:z.enum(['definition','diagram','recap','reading']),
+ wordCues:z.array(z.object({word:z.string().min(1),startFrame:z.number().int().nonnegative()})),
+ lines:z.array(z.string()).optional(),
+ reading:z.object({word:z.string().min(1),parts:z.tuple([z.string(),z.string()]),advances:z.tuple([z.number().positive(),z.number().positive()])}).optional(),
+ showSourceDuplicate:z.boolean().optional(),
+}).superRefine((s,c)=>{
+ checkAlgebraBeats(s,c,s.kind==='reading'?4:s.sourceSlides.length);
+ if((s.kind==='reading')!==Boolean(s.reading)||s.reading&&s.reading.parts.join('')!==s.reading.word)
+  c.addIssue({code:'custom',message:'The two written units must spell the vocabulary word'});
+ if(s.kind==='definition'&&!s.lines?.length)
+  c.addIssue({code:'custom',message:'Missing learner definition'});
+ if(s.wordCues.some((w,i)=>w.startFrame>=s.durationInFrames||i>0&&w.startFrame<s.wordCues[i-1].startFrame))
+  c.addIssue({code:'custom',message:'Word cues must be ordered and inside the audio scene'});
+});
 const vdpVisualSchema=z.object({
  kind:z.enum(['math','text','card','arrow','ring','question','alert','axis','axis-root','sets','status','number-node','algebra','clip']),
  value:z.string(),x:z.number().min(0).max(1920),y:z.number().min(0).max(1080),size:z.number().positive().max(600),
@@ -146,7 +162,7 @@ const vdpSequenceSchema=algebraScene.extend({
   ||[...a.tokenColors??[],...a.tokenMarks??[]].some(token=>a.kind!=='algebra'||token.at>last||token.index>=a.value.length||a.value[token.index]===' ')))
   c.addIssue({code:'custom',message:'VDP cues must keep visuals within their scene'});
 });
-export const timelineSchema=z.object({version:z.literal(1),lesson:z.string(),level:z.enum(['1AC','2AC','3AC']),videoType:z.enum(['VM','VDP']),fps:z.literal(30),audio:z.string().nullable().optional(),scenes:z.array(z.union([sceneSchema,exampleSchema,sectionSchema,ppcmSchema,primesSchema,fractionsSchema,polynomialsSchema,factorizationSchema,likeTermsSchema,polynomialSubtractionSchema,signedAdditionSchema,vdpSequenceSchema])).min(1).max(100)}).superRefine((t,c)=>{if(new Set(t.scenes.map(s=>s.id)).size!==t.scenes.length)c.addIssue({code:'custom',message:'Scene IDs must be unique'});});
+export const timelineSchema=z.object({version:z.literal(1),lesson:z.string(),level:z.enum(['1AC','2AC','3AC']),videoType:z.enum(['VM','VDP']),fps:z.literal(30),audio:z.string().nullable().optional(),scenes:z.array(z.union([sceneSchema,exampleSchema,sectionSchema,ppcmSchema,primesSchema,fractionsSchema,polynomialsSchema,factorizationSchema,likeTermsSchema,polynomialSubtractionSchema,signedAdditionSchema,monomialStudySchema,vdpSequenceSchema])).min(1).max(100)}).superRefine((t,c)=>{if(new Set(t.scenes.map(s=>s.id)).size!==t.scenes.length)c.addIssue({code:'custom',message:'Scene IDs must be unique'});});
 export type Timeline=z.infer<typeof timelineSchema>;
 export const duration=(t:Timeline)=>t.scenes.reduce((a,s)=>a+s.durationInFrames,0);
 export function compareNegative(a:number,b:number){if(!Number.isFinite(a)||!Number.isFinite(b)||a>=0||b>=0)throw Error('Two finite strictly negative numbers required');return a<b?'<':a>b?'>':'=';}

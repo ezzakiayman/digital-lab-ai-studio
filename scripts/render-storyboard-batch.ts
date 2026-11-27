@@ -13,6 +13,7 @@ const weekThreeV2 = weekThree.map(stem=>stem+'-v2');
 const weekThreeV3 = weekThree.map(stem=>stem+'-v3');
 const weekThreeV4 = weekThree.map(stem=>stem+'-v4');
 const lessons = {
+ 'n2-sem1-vdp4-v2': {folder:'n2-sem1-vdp4-v2',file:'P1_MATHS_N2_SEM1_VDP4_V2'},
  'n1-sem2-vdp4-v2': {folder:'n1-sem2-vdp4-v2',file:'P1_MATHS_N1_SEM2_VDP4_V2'},
  'n3-sem3-vdp4-v7': {folder:'n3-sem3-v7/vdp4',file:'P1_MATHS_N3_SEM3_VDP4_V7'},
  'n3-sem3-vdp4-v6': {folder:'n3-sem3-v6/vdp4',file:'P1_MATHS_N3_SEM3_VDP4_V6'},
@@ -107,6 +108,12 @@ for(const stem of (selected.length?selected:Object.keys(lessons).filter(stem=>!s
   add(s.id,s.durationInFrames-15);
   if('kind' in s&&'beats' in s){
    const at=(i:number)=>s.beats[i].from;
+   if(s.type==='monomial-study'){
+    for(const [i,beat] of s.beats.entries()){
+     const end=s.beats[i+1]?.from??s.durationInFrames;
+     add(s.id+'-stage-'+i,Math.max(beat.from,end-12));
+    }
+   }
    if(s.kind==='intro'){
     add('objective-centred',0);
     add('objective-moving',Math.max(15,at(1)-36)+16);

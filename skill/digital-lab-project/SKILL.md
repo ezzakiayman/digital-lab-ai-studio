@@ -55,7 +55,7 @@ For 3AC week 3 VDP4, the current V7 displays limitée, as explicitly selected af
 
 For 3AC week 3, consult the [week 3 reference](references/n3-sem3-vdp.md) for Soukaina's validated profile and the V4 teacher revisions. Apply the narration for the selected revision, including the two updated French objectives in V4 and the approved standard Arabic recordings in V3. Keep the same Drive file and link for each subsequent revision.
 
-For 2AC week 1 VDP3 and VDP4, read [the week 1 reference](references/n2-sem1-vdp3-vdp4.md). It covers the equation and monomial visuals, French Kore and the isolated Arabic clip, and the first-delivery tracker header.
+For 2AC week 1 VDP3 and VDP4, read [the week 1 reference](references/n2-sem1-vdp3-vdp4.md). For VDP4, use the 33-slide V2, its native French Kore readings, and the same public K27 file. The earlier 17-slide V1 had an Arabic clip specific to that older source.
 
 For 1AC week 3 VDP1, read [the numeric expressions reference](references/n1-sem3-vdp1.md). The current V5 retains the restored source wording and native Ex–pre–ssion → Expression animation, regenerating the entire pronunciation passage with Kore, explicit fr-FR and unspoken French diction metadata after the user reported an English accent in V4. Use scripts/french-n1-sem3-vdp1-pronunciation.py for V5; the V3 source-fidelity and V4 native-animation scripts document its history. Never reuse PPT pronunciation media.
 
