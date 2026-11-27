@@ -5,6 +5,10 @@ description: Continue, inspect, build or test Digital Lab AI Studio, the Morocca
 
 # Digital Lab AI Studio
 
+## Reprise sur un autre poste
+
+Pour une reprise depuis GitHub, ouvrir la racine du [projet Digital Lab AI Studio](https://github.com/ezzakiayman/digital-lab-ai-studio) dans Codex. Charger le dossier complet de la compétence à partir de `SKILL.md` et les références concernées. Le dossier `references/` seul fournit la documentation. Lire [la procédure de reprise](references/github-reuse.md#reproduire-un-rendu-sur-un-autre-poste) avant de choisir le rendu ou de produire une nouvelle version.
+
 ### Accent français obligatoire pour le français
 
 Pour Digital Lab, les mots et phrases français doivent toujours être prononcés avec un accent français naturel, y compris les syllabes et le mot entier du vocabulaire. Ne pas accepter une lecture anglaise d’un mot français. Conserver la voix principale validée de la vidéo ; son identifiant seul ne garantit pas la langue ou l’accent.

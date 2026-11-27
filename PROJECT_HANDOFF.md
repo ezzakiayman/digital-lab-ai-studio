@@ -758,3 +758,11 @@ La remise complémentaire de la V2 est un ZIP autonome contenant le projet binai
 La capture de la géométrie a permis de corriger un écart de ligne de base dans l’explication de l’objectif. Le binaire final a été rouvert avec un lecteur de projet après extraction dans un autre dossier. Les 33 repères, les 10 WAV, les polices et tailles des textes, les tracés, les animations et les masques ont été contrôlés. Les 14 références de médias se résolvent après déplacement. La reconstitution des calques a été comparée à 159 images du MP4 validé. After Effects n’est pas installé sur le poste de production. La lecture et le rendu dans l’application Adobe restent à vérifier sur le poste de montage.
 
 Archive locale outputs/n2-sem1-vdp4-v2/after-effects/P1_MATHS_N2_SEM1_VDP4_V2_After_Effects.zip, 18 fichiers, 10 218 394 octets. SHA-256 du ZIP bbfd803e9a8a3785d60ca965d9cf76e63067fe857391ca5fb79043548dc180fa. Le guide docs/after-effects.md décrit la reconstruction et les limites du convertisseur. Cette demande porte sur la remise locale du projet source de cette V2. La puce K27 continue de servir la vidéo livrée.
+
+## Reprise sur un autre poste · 27 novembre 2026
+
+Une différence de résultat est signalée, sans projet, révision ni comparaison d’exports du poste destinataire. Le clone public contrôlé contient les deux compétences, le verrou et le script de démonstration silencieuse. Les fichiers SKILL.md et github-reuse.md avaient les mêmes empreintes dans ce clone, la compétence installée, la copie projet et le miroir local de codex-skills. La consigne de reprise précise désormais l’ouverture de la racine projet, le choix de la révision et la vérification des entrées, des polices et des versions. La cause de l’écart particulier reste à confirmer avec les deux exports et le commit utilisé sur chaque poste.
+
+## Passation du workflow à un collaborateur · 27 novembre 2026
+
+Le kit privé de passation prend pour témoin 1AC semaine 3 VDP1 V5. Il réunit les sources du studio, les deux compétences, la timeline, les sept WAV et le MP4 déjà livré. Le guide français donne le premier rendu et le prompt pour une nouvelle leçon. La procédure compare le format, la piste décodée et quatre images du MP4. Le ZIP est destiné à un transfert privé par le propriétaire. Le poste du destinataire reste à vérifier.
