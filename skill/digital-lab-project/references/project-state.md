@@ -596,3 +596,7 @@ V2 livrée à 16 h 50, heure de Casablanca, sur le fichier public déjà lié en
 ## Source After Effects éditable · VDP4 de 2AC, semaine 1 · 27 novembre 2026
 
 Le ZIP local contient la composition principale et les dix séquences natives de la V2. Les médias et le MP4 de référence sont inclus dans la remise au monteur. La référence n2-sem1-vdp3-vdp4.md et docs/after-effects.md précisent les vérifications et la lecture Adobe restant à faire.
+
+## Projet After Effects dans le workflow · 27 novembre 2026
+
+L’utilisateur ajoute la génération du projet source After Effects à chaque production VM ou VDP et à chaque révision livrée. Le ZIP privé reprend la même version que le MP4. La [procédure](video-production-knowledge.md#projet-source-after-effects) est intégrée au contrat de production et au guide du studio. L’export vérifié reste celui de la VDP4 V2 de 2AC, semaine 1. La capture et la collecte doivent être adaptées aux autres leçons. La lecture dans Adobe reste à vérifier.

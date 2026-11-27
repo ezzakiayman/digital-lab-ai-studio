@@ -21,6 +21,8 @@ This root is the Digital Lab project, regardless of its folder name or computer.
 - Follow the simplifier.mp4 reference for vocabulary pronunciation. Reveal correctly spelled syllables as they are spoken with short pauses, then fade the separators and smoothly join the full word as it is pronounced naturally. For premier, show pre and mier joining into premier. Phonetic guides such as « Prononciation : preu-mié » belong in voice preparation only and are excluded from on-screen text. Read docs/pronunciation-reference.md and inspect reference/pronunciation-simplifier/simplifier.mp4. Google Kore remains the voice choice.
 - Review the mathematics independently before rendering. Keep source-slide provenance and editable scene JSON. Review stills before full export; inspect actual encoded frames and decode the final 1080p30 H.264/AAC MP4. Forced alignment is not independent speech recognition or pronunciation certification.
 
+- For every new VM or VDP and each delivered revision, generate a matching editable After Effects .aep after verifying the MP4. Deliver the checked source as a private ZIP with linked media. Follow [the After Effects procedure](docs/after-effects.md).
+
 ## Continuation and maintenance
 
 Read the [video production knowledge base](skill/digital-lab-project/references/video-production-knowledge.md) before each production or revision. After checking every revision, record the lesson-specific result and add or update the reusable rule when the user's correction changes the production workflow.

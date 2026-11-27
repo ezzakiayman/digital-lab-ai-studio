@@ -766,3 +766,9 @@ Une différence de résultat est signalée, sans projet, révision ni comparaiso
 ## Passation du workflow à un collaborateur · 27 novembre 2026
 
 Le kit privé de passation prend pour témoin 1AC semaine 3 VDP1 V5. Il réunit les sources du studio, les deux compétences, la timeline, les sept WAV et le MP4 déjà livré. Le guide français donne le premier rendu et le prompt pour une nouvelle leçon. La procédure compare le format, la piste décodée et quatre images du MP4. Le ZIP est destiné à un transfert privé par le propriétaire. Le poste du destinataire reste à vérifier.
+
+## Génération After Effects intégrée au workflow · 27 novembre 2026
+
+Chaque nouvelle vidéo VM ou VDP et chaque révision livrée comprend désormais une étape de génération du projet source modifiable après vérification du MP4. La remise privée inclut le .aep de la même version, ses médias, ses repères et un guide d’ouverture. L’archive est contrôlée après extraction. La règle est enregistrée dans AGENTS.md, le guide de production et la compétence Digital Lab.
+
+La VDP4 V2 de 2AC, semaine 1, reste le cas testé. Un ZIP de contrôle a été recréé à partir du dossier de remise. Le contrôle après extraction retrouve les 10 séquences, les 33 repères et les 10 WAV identiques. Vérifier les composants de chaque nouvelle leçon et adapter les scripts de capture et de collecte. La lecture dans Adobe reste à contrôler sur un poste de montage.

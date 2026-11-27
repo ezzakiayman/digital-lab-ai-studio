@@ -31,7 +31,7 @@ Contrôle de fidélité obligatoire avant un prochain rendu : comparer séparém
 Pour lire Google Sheets, récupérer un storyboard, accéder à Drive, déposer un MP4 ou écrire son lien, utiliser un connecteur autorisé ou les API Google. L’utilisateur exclut le pilotage de son PC et de son navigateur pour ce circuit.
 
 1. Dans le tableau de suivi « MATH College Digital Lab Intern », ouvrir l’onglet de la semaine et repérer la ligne « Définition » par niveau, leçon et nom du fichier VDP. Ouvrir le PowerPoint lié dans la colonne « Storyboard ». Le tableau sert de point d’entrée au script. Vérifier le niveau et la semaine avec le nom du fichier, surtout si la colonne « Semaine » est incohérente.
-2. Produire et vérifier le MP4 final d’après le storyboard. Nommer le MP4 d’après le storyboard afin de retrouver le même identifiant dans le tableau et dans Drive.
+2. Produire et vérifier le MP4 final d’après le storyboard. Nommer le MP4 d’après le storyboard afin de retrouver le même identifiant dans le tableau et dans Drive. Générer le [projet source After Effects](#projet-source-after-effects) de cette version.
 3. À la première livraison, créer le fichier MP4 dans « Livrable video », au niveau puis à la semaine correspondants. À chaque correction, envoyer le nouveau MP4 comme révision du fichier Drive de la VDP pour conserver son identifiant et son lien. Vérifier après envoi que le lien ouvre le MP4 corrigé. Les repères du tableau et du dossier se trouvent dans les fichiers privés de la compétence installée.
 4. Activer la lecture Drive pour toute personne disposant du lien sur le MP4. Insérer une puce de fichier Drive affichant le nom du MP4 sur la même ligne VDP, dans la colonne de première livraison. Pour une révision, conserver la puce liée au même fichier. Relire la puce et vérifier le partage. La façon de suivre les révisions dans Google Sheets reste à préciser avec l’utilisateur, qui vient de fixer la règle du fichier Drive unique.
 5. Après avoir vérifié la puce et son accès public, renseigner le premier couple « Date » et « heure » de la ligne avec la date de création du MP4 dans Drive, convertie dans le fuseau du tableau. Ajouter uniquement les valeurs manquantes. Dans les onglets P1 inspectés, le premier couple se trouve en N et O.
@@ -83,6 +83,16 @@ Conserver le mot et le contenu source intacts. Révéler les parties correctemen
 - Pour une correction d’un mot arabe dans une courte prise séparée, conserver le PCM français validé et remplacer seulement la prise concernée. Contrôler le mot sans fournir le texte attendu à la reconnaissance, puis refaire ce contrôle sur l’audio encodé et vérifier le décalage des scènes suivantes. La V2 1AC semaine 3 VDP1 corrige ainsi حصة sans refaire la voix française ni le clip « Expression ». Son + de vocabulaire confirme la règle des opérateurs neutres, distincts des signes des nombres.
 
 - La correction « Quotient » confirme que l’absence de clip intégré ne suffit pas à remplacer le modèle de prononciation par un mot entier statique. Montrer les parties correctement orthographiées, puis leur réunion ; conserver les guides phonétiques dans la préparation vocale. Revoir séparément la diction et l’animation. [Correction V2 de la semaine 4](n3-sem4-vdp1-vdp2.md#v2--correction-de--quotient--demandée-par-lutilisateur).
+
+## Projet source After Effects
+
+La génération du projet source fait partie de chaque nouvelle production VM ou VDP et de chaque révision livrée. Après contrôle du MP4, construire le .aep avec la timeline, la narration et les médias de la même version. En lot, répéter l’étape pour chaque vidéo.
+
+- Préparer une composition principale avec des sous-compositions nommées et des repères de diapositives. Garder les textes, formules, formes, flèches et animations modifiables, ainsi que la voix séparée par séquence.
+- Livrer en privé un ZIP versionné contenant le .aep, ses WAV et illustrations liés par chemins relatifs, un guide d’ouverture et le MP4 de comparaison désactivé dans le montage. Pour les VDP suivies dans Sheets, la puce continue de pointer vers le MP4.
+- Extraire le ZIP dans un autre dossier. Vérifier le fichier natif, les médias, la durée et les repères. Comparer les états des animations à des images du MP4. Consigner séparément la lecture dans Adobe si elle a pu être testée.
+
+Le guide du studio docs/after-effects.md donne les commandes. L’export initial est vérifié pour [la VDP4 V2 de 2AC, semaine 1](n2-sem1-vdp3-vdp4.md). Pour une autre leçon, adapter la capture et la collecte à ses composants, puis vérifier le montage obtenu avant de le remettre.
 
 ## Vérification et livraison
 
