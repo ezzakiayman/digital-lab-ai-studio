@@ -26,7 +26,7 @@ def build(destination):
     assert not destination.is_symlink()
     if destination.exists():assert marker.is_file(),'Refuse to overwrite an unrelated directory'
     selected={}
-    for name in ['.gitignore','AGENTS.md','START_HERE.md','NEXT_AGENT_PROMPT.md','PROJECT_HANDOFF.md','README.md','package.json','package-lock.json','next-env.d.ts','tsconfig.json','requirements-video.txt']:
+    for name in ['.gitignore','.gitattributes','AGENTS.md','START_HERE.md','NEXT_AGENT_PROMPT.md','PROJECT_HANDOFF.md','README.md','package.json','package-lock.json','next-env.d.ts','tsconfig.json','requirements-video.txt']:
         selected[name]=ROOT/name
     for folder in ['src','scripts','docs','skill','.github','prototype']:
         for f in (ROOT/folder).rglob('*'):

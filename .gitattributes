@@ -1,0 +1,2 @@
+# Preserve the authored bytes recorded by GITHUB_SNAPSHOT_MANIFEST.json.
+* -text

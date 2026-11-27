@@ -1,3 +1,7 @@
+# Réutilisation depuis GitHub · 27 novembre 2026
+
+Pour la distribution GitHub actuelle, lire [github-reuse.md](github-reuse.md) et workspace docs/github-reuse.md. Elle fournit les sources et une démonstration silencieuse, sans médias de production ni clés. Les anciens ZIP et installateurs décrits ci-dessous sont des distributions locales distinctes ; ils ne sont pas joints au dépôt.
+
 # Windows setup for colleagues — 2026-11-11
 
 Use Digital-Lab-Studio-Setup-x64.exe for the per-user Windows installation. It carries the reusable project, portable Node.js and Python. Setup downloads FFmpeg, npm dependencies and the rendering browser. Open the project in the receiving Codex account via the **Digital Lab Project for Codex** shortcut. For a new PowerShell session in that project, dot-source `. .\scripts\use-windows-runtime.ps1`. The **Install Narration Tools** shortcut prepares a local virtual environment. New narration uses the recipient's own Gemini credential.

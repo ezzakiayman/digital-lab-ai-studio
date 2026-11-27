@@ -1,6 +1,6 @@
 {
   "format": "digital-lab-github-source-v1",
-  "createdUtc": "2026-11-27T14:36:23.041743+00:00",
+  "createdUtc": "2026-11-27T14:43:19.316347+00:00",
   "includesProductionMedia": false,
   "includesCredentials": false,
   "includesPrivateDictionaries": false,
@@ -14,6 +14,11 @@
     "src/video/n3-sem4-vdp2-v2-voice-plan.json"
   ],
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 81,
+      "sha256": "81498f29ad495f8a451895417779d7c73b63e747ff41ebc8b9c59e66c103726c"
+    },
     {
       "path": ".github/workflows/checks.yml",
       "bytes": 577,
@@ -36,8 +41,8 @@
     },
     {
       "path": "PROJECT_HANDOFF.md",
-      "bytes": 148671,
-      "sha256": "5a47bf0e98622fabae49e54998726e56db004ed6b0057b5af253863e7faeba8d"
+      "bytes": 151854,
+      "sha256": "365ac62df7b21fa70191953bd2e59968576b2fab8661ef8b43fb396e008c8839"
     },
     {
       "path": "README.md",
@@ -261,8 +266,8 @@
     },
     {
       "path": "scripts/build-github-snapshot.py",
-      "bytes": 3804,
-      "sha256": "7ebebecbe754afb39e226af3344a1c42074a96280bef53c758b7a44919a4dbb2"
+      "bytes": 3821,
+      "sha256": "4c92657359eebc9259831a6e8350ed39734a8c89d6152e3fcd972d7e586592da"
     },
     {
       "path": "scripts/build-inspector-illustrated-report.py",
@@ -861,8 +866,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/agent-transfer.md",
-      "bytes": 7435,
-      "sha256": "316641914c155b605f3adf8d0a9c1a5ccf40fe1ab0a4046badea02895f08602f"
+      "bytes": 7863,
+      "sha256": "4d71736f4e005125f8fa3b1a1ddbb3a90cb71c508c5962af4c8939fd1b1606b0"
     },
     {
       "path": "skill/digital-lab-project/references/four-storyboards-2026-11-10.md",
@@ -871,8 +876,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/github-reuse.md",
-      "bytes": 2689,
-      "sha256": "9cfc2495f83cb5640d5420c1e1301ca77ff2ab6a1a52605fa55c56b1d510046e"
+      "bytes": 4229,
+      "sha256": "46d0740eee2066e8973f163ccc3d093eec32349db5cfcd4d2762a50f65350fa5"
     },
     {
       "path": "skill/digital-lab-project/references/inspector-notes-2026-11-24.md",
@@ -981,8 +986,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/project-state.md",
-      "bytes": 120263,
-      "sha256": "9c63ccb26b537def3221dbca652f712d2192d5404b10a9e2e72cf0abd7f1dd1f"
+      "bytes": 123446,
+      "sha256": "be48ae04c19346d9bd4b6df9a6699c016a3e849ea758a45e77f39372161c9710"
     },
     {
       "path": "skill/digital-lab-project/references/pronunciation-reference.md",
@@ -1895,5 +1900,5 @@
       "sha256": "68acb09f4f6bcb828ebf61555d9ab9d3d31e61f9dad7a59b8a1f67f06ebd78f6"
     }
   ],
-  "totalBytes": 5151221
+  "totalBytes": 5159653
 }
