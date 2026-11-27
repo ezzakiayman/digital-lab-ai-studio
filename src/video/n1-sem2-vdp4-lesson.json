@@ -1,0 +1,539 @@
+{
+  "version": 1,
+  "lesson": "Effectuer la soustraction de nombres entiers",
+  "level": "1AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "vdp4-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables d’effectuer une soustraction de nombres entiers. C’est calculer la différence entre deux nombres qui peuvent être positifs ou négatifs.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2-paced/vdp4-objectif.wav",
+      "sourceSlides": [
+        1,
+        2
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables d’effectuer une soustraction de nombres entiers.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est calculer la différence entre deux nombres qui peuvent être positifs ou négatifs.",
+          "from": 179
+        }
+      ],
+      "objective": {
+        "title": "Effectuer la soustraction de nombres entiers",
+        "measure": 1364,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 1364,
+            "at": 1,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\ldots\\;-\\;\\ldots\\;=\\;?",
+                "x": 960,
+                "y": 703,
+                "size": 80,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 365
+    },
+    {
+      "id": "vdp4-definition",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "narration": "Je rappelle d’abord la définition de deux nombres opposés. Deux nombres non nuls sont opposés s’ils ont la même valeur absolue et des signes contraires.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2-paced/vdp4-definition.wav",
+      "sourceSlides": [
+        3,
+        4
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Deux nombres opposés non nuls ont",
+          "x": 960,
+          "y": 417,
+          "size": 52,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "la même valeur absolue",
+          "x": 960,
+          "y": 588,
+          "size": 62,
+          "at": 1,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "des signes contraires",
+          "x": 960,
+          "y": 753,
+          "size": 62,
+          "at": 2,
+          "color": "#D60019"
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je rappelle d’abord la définition de deux nombres opposés.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Deux nombres non nuls sont opposés s’ils ont la même valeur absolue",
+          "from": 127
+        },
+        {
+          "stage": 2,
+          "text": "et des signes contraires.",
+          "from": 262
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 336
+    },
+    {
+      "id": "vdp4-opposes",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Je prends les nombres moins cinq et plus cinq. Moins cinq est un nombre négatif. Plus cinq est un nombre positif. Ils ont donc des signes contraires. Ils ont aussi la même valeur absolue : cinq. L’opposé de moins cinq est plus cinq.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2-paced/vdp4-opposes.wav",
+      "sourceSlides": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "-5",
+          "x": 680,
+          "y": 462,
+          "size": 100,
+          "at": 0,
+          "color": "#D60019",
+          "to": 5
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 960,
+          "y": 462,
+          "size": 55,
+          "at": 0,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "5",
+          "x": 1240,
+          "y": 462,
+          "size": 100,
+          "at": 0,
+          "color": "#087746",
+          "to": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 680,
+          "y": 566,
+          "size": 82,
+          "at": 1,
+          "color": "#007DBA",
+          "to": 3
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 1240,
+          "y": 566,
+          "size": 82,
+          "at": 2,
+          "color": "#007DBA",
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "Négatif",
+          "x": 680,
+          "y": 668,
+          "size": 52,
+          "at": 1,
+          "color": "#D60019",
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "Positif",
+          "x": 1240,
+          "y": 668,
+          "size": 52,
+          "at": 2,
+          "color": "#087746",
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "De signes contraires",
+          "x": 960,
+          "y": 673,
+          "size": 58,
+          "at": 3,
+          "color": "#007DBA",
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 680,
+          "y": 581,
+          "size": 82,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 1240,
+          "y": 581,
+          "size": 82,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "5",
+          "x": 680,
+          "y": 714,
+          "size": 78,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "5",
+          "x": 1240,
+          "y": 714,
+          "size": 78,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\text{L’opposé de }\\textcolor{#D60019}{-5}\\text{ est }\\textcolor{#087746}{5}",
+          "x": 960,
+          "y": 621,
+          "size": 83,
+          "at": 5
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends les nombres moins cinq et plus cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Moins cinq est un nombre négatif.",
+          "from": 109
+        },
+        {
+          "stage": 2,
+          "text": "Plus cinq est un nombre positif.",
+          "from": 178
+        },
+        {
+          "stage": 3,
+          "text": "Ils ont donc des signes contraires.",
+          "from": 249
+        },
+        {
+          "stage": 4,
+          "text": "Ils ont aussi la même valeur absolue : cinq.",
+          "from": 316
+        },
+        {
+          "stage": 5,
+          "text": "L’opposé de moins cinq est plus cinq.",
+          "from": 415
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 526
+    },
+    {
+      "id": "vdp4-regle",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Règle",
+      "narration": "Je passe maintenant à la règle : soustraire un nombre. Soustraire un nombre, c’est ajouter son opposé.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2-paced/vdp4-regle.wav",
+      "sourceSlides": [
+        11,
+        12
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Soustraire un nombre",
+          "x": 960,
+          "y": 416,
+          "size": 54,
+          "at": 0,
+          "color": "#007DBA",
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "Soustraire un nombre, c’est ajouter son opposé.",
+          "x": 960,
+          "y": 630,
+          "size": 51,
+          "at": 1,
+          "weight": 700
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la règle : soustraire un nombre.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Soustraire un nombre, c’est ajouter son opposé.",
+          "from": 123
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 239
+    },
+    {
+      "id": "vdp4-soustraire-dix",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Je prends comme exemple : plus sept moins plus dix. Je regarde le signe de l’opération entre les deux nombres : c’est le signe moins. Il s’agit donc d’une soustraction. Je garde le premier nombre, plus sept, et je remplace la soustraction par une addition. Je remplace ensuite plus dix par son opposé, moins dix. J’obtiens : plus sept plus moins dix.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2-paced/vdp4-soustraire-dix.wav",
+      "sourceSlides": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{-}(+10)",
+          "x": 960,
+          "y": 521,
+          "size": 96,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{\\textcolor{#087746}{-}}(+10)",
+          "x": 960,
+          "y": 521,
+          "size": 96,
+          "at": 1,
+          "to": 3
+        },
+        {
+          "kind": "ring",
+          "value": "",
+          "x": 960,
+          "y": 521,
+          "size": 65,
+          "at": 1,
+          "to": 2,
+          "color": "#087746"
+        },
+        {
+          "kind": "text",
+          "value": "Soustraction",
+          "x": 960,
+          "y": 709,
+          "size": 57,
+          "at": 2,
+          "color": "#D60019",
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{\\textcolor{#087746}{-}}(+10)=(+7)\\mathbin{\\textcolor{#087746}{+}}\\;\\ldots",
+          "x": 960,
+          "y": 555,
+          "size": 84,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 967,
+          "y": 681,
+          "size": 280,
+          "at": 3,
+          "color": "#007DBA",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{\\textcolor{#087746}{-}}(+10)=(+7)\\mathbin{\\textcolor{#087746}{+}}\\textcolor{#D60019}{(-10)}",
+          "x": 960,
+          "y": 555,
+          "size": 84,
+          "at": 4,
+          "pulse": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 1150,
+          "y": 681,
+          "size": 345,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends comme exemple : plus sept moins plus dix.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je regarde le signe de l’opération entre les deux nombres : c’est le signe moins.",
+          "from": 162
+        },
+        {
+          "stage": 2,
+          "text": "Il s’agit donc d’une soustraction.",
+          "from": 300
+        },
+        {
+          "stage": 3,
+          "text": "Je garde le premier nombre, plus sept, et je remplace la soustraction par une addition.",
+          "from": 373
+        },
+        {
+          "stage": 4,
+          "text": "Je remplace ensuite plus dix par son opposé, moins dix.",
+          "from": 542
+        },
+        {
+          "stage": 5,
+          "text": "J’obtiens : plus sept plus moins dix.",
+          "from": 683
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 823
+    },
+    {
+      "id": "vdp4-prononciation-19",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "narration": "Écoutez la prononciation du mot « Soustraction ». Sous. Trac. Sion. Soustraction.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2-paced/vdp4-prononciation-19.wav",
+      "sourceSlides": [
+        19
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la prononciation du mot « Soustraction ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Sous.",
+          "from": 112
+        },
+        {
+          "stage": 2,
+          "text": "Trac.",
+          "from": 138
+        },
+        {
+          "stage": 3,
+          "text": "Sion.",
+          "from": 166
+        },
+        {
+          "stage": 4,
+          "text": "Soustraction.",
+          "from": 199
+        }
+      ],
+      "pronunciation": {
+        "word": "Soustraction",
+        "syllables": [
+          "sous",
+          "trac",
+          "tion"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 263
+    }
+  ]
+}

@@ -1,0 +1,2905 @@
+{
+  "scenes": [
+    {
+      "episode": 1,
+      "id": "vdp1-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître la racine carrée d’un nombre positif. Reconnaître. Ataâraf. La racine carrée est le sujet de notre séance. D’un nombre positif, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+      "audio": "n3-sem3-paced/vdp1-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître la racine carrée d’un nombre positif.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Reconnaître. Ataâraf.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "La racine carrée est le sujet de notre séance.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "D’un nombre positif, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Reconnaître la racine carrée d’un nombre positif",
+        "measure": 1479,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 371,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "أتعرف",
+                "x": 960,
+                "y": 716,
+                "size": 84,
+                "at": 0,
+                "rtl": true
+              }
+            ]
+          },
+          {
+            "offset": 461,
+            "width": 402,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\left(\\textcolor{#D60019}{?}\\right)^2=7",
+                "x": 960,
+                "y": 735,
+                "size": 83,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 1034,
+            "width": 445,
+            "at": 3,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad 12",
+                "x": 960,
+                "y": 680,
+                "size": 60,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad \\frac{5}{7}",
+                "x": 960,
+                "y": 810,
+                "size": 58,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#D60019}{\\times}\\quad -0{,}25",
+                "x": 960,
+                "y": 929,
+                "size": 60,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-question",
+      "type": "vdp-sequence",
+      "kind": "open",
+      "title": "Question",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Alors, qu’est-ce qu’une racine carrée d’un nombre positif ?",
+      "audio": "n3-sem3-paced/vdp1-question.wav",
+      "sourceSlides": [
+        5
+      ],
+      "art": [
+        {
+          "kind": "question",
+          "value": "",
+          "x": 960,
+          "y": 544,
+          "size": 295,
+          "at": 0
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Alors, qu’est-ce qu’une racine carrée d’un nombre positif ?",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-definition",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "La racine carrée d’un nombre positif a est le nombre positif ou nul dont le carré est égal à a. Elle se note racine carrée de a et se lit « racine carrée de a ». Si je mets la racine carrée de a au carré, j’obtiens a. Dans l’autre sens, si je prends la racine carrée de a, j’obtiens racine carrée de a. Voici quelques exemples.",
+      "audio": "n3-sem3-paced/vdp1-definition.wav",
+      "sourceSlides": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "La racine carrée d’un nombre positif a est le nombre",
+          "x": 960,
+          "y": 388,
+          "size": 52,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "positif ou nul dont le carré est égal à a.",
+          "x": 960,
+          "y": 465,
+          "size": 52,
+          "at": 0
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}\\quad\\text{se lit racine carrée de }a",
+          "x": 960,
+          "y": 579,
+          "size": 59,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}",
+          "x": 565,
+          "y": 775,
+          "size": 89,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "a",
+          "x": 1355,
+          "y": 775,
+          "size": 89,
+          "at": 2
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 752,
+          "size": 488,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "text",
+          "value": "Mise au carré",
+          "x": 960,
+          "y": 688,
+          "size": 39,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 960,
+          "y": 824,
+          "size": 488,
+          "at": 3,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "Racine carrée",
+          "x": 960,
+          "y": 883,
+          "size": 39,
+          "at": 3,
+          "color": "#007DBA"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "La racine carrée d’un nombre positif a est le nombre positif ou nul dont le carré est égal à a.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Elle se note racine carrée de a et se lit « racine carrée de a ».",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Si je mets la racine carrée de a au carré, j’obtiens a.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Dans l’autre sens, si je prends la racine carrée de a, j’obtiens racine carrée de a.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Voici quelques exemples.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-carres-parfaits",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Le carré de quatre est égal à seize. Alors la racine carrée de seize est égale à quatre. Le carré de trois est égal à neuf. Alors la racine carrée de neuf est égale à trois. Pour trouver la racine carrée de a, je cherche le nombre positif ou nul qui, mis au carré, donne a.",
+      "audio": "n3-sem3-paced/vdp1-carres-parfaits.wav",
+      "sourceSlides": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "4^{\\textcolor{#D60019}{2}}=\\textcolor{#D60019}{16}",
+          "x": 590,
+          "y": 475,
+          "size": 92,
+          "at": 0,
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 475,
+          "size": 178,
+          "at": 1,
+          "color": "#087746",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{\\sqrt{16}}=\\textcolor{#007DBA}{4}",
+          "x": 1330,
+          "y": 475,
+          "size": 92,
+          "at": 1,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "3^{\\textcolor{#D60019}{2}}=\\textcolor{#D60019}{9}",
+          "x": 590,
+          "y": 742,
+          "size": 92,
+          "at": 2,
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 742,
+          "size": 178,
+          "at": 3,
+          "color": "#087746",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{\\sqrt{9}}=\\textcolor{#007DBA}{3}",
+          "x": 1330,
+          "y": 742,
+          "size": 92,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}=\\textcolor{#D60019}{?}\\qquad\\Longrightarrow\\qquad \\bigl(\\textcolor{#D60019}{?}\\bigr)^2=a",
+          "x": 960,
+          "y": 615,
+          "size": 96,
+          "at": 4
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Le carré de quatre est égal à seize.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Alors la racine carrée de seize est égale à quatre.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Le carré de trois est égal à neuf.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Alors la racine carrée de neuf est égale à trois.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Pour trouver la racine carrée de a, je cherche le nombre positif ou nul qui, mis au carré, donne a.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-propriete-1",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 1",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la première propriété. Pour tout nombre positif ou nul a, la racine carrée de a, le tout au carré, et son opposé au carré sont tous deux égaux à a. Par exemple, la racine carrée de onze au carré et son opposé au carré valent tous deux onze.",
+      "audio": "n3-sem3-paced/vdp1-propriete-1.wav",
+      "sourceSlides": [
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\text{Pour }a\\geq 0\\text{ :}\\quad(\\sqrt{a})^2=(-\\sqrt{a})^2=a",
+          "x": 960,
+          "y": 445,
+          "size": 69,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 611,
+          "size": 65,
+          "at": 2,
+          "color": "#E78318"
+        },
+        {
+          "kind": "math",
+          "value": "(\\sqrt{11})^2=(-\\sqrt{11})^2=11",
+          "x": 960,
+          "y": 798,
+          "size": 92,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la première propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour tout nombre positif ou nul a, la racine carrée de a, le tout au carré, et son opposé au carré sont tous deux égaux à a.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Par exemple, la racine carrée de onze au carré et son opposé au carré valent tous deux onze.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-propriete-2",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 2",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Voici la deuxième propriété. Pour tout nombre positif ou nul a, la racine carrée de a au carré est égale à la racine carrée du carré de son opposé. Elles valent a. Pour calculer la racine carrée de vingt-cinq, je remarque que vingt-cinq est un carré parfait. C’est le carré de cinq. C’est également le carré de moins cinq. On obtient donc cinq.",
+      "audio": "n3-sem3-paced/vdp1-propriete-2.wav",
+      "sourceSlides": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\text{Pour }a\\geq 0\\text{ :}\\quad\\sqrt{a^2}=\\sqrt{(-a)^2}=a",
+          "x": 960,
+          "y": 445,
+          "size": 69,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 600,
+          "size": 65,
+          "at": 2,
+          "color": "#E78318"
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\textcolor{#D60019}{25}}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 2,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{25}=\\sqrt{5^2}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{25}=\\sqrt{5^2}=\\sqrt{(-5)^2}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 4,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{25}=\\sqrt{5^2}=\\sqrt{(-5)^2}=\\textcolor{#007DBA}{5}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 5
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la deuxième propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour tout nombre positif ou nul a, la racine carrée de a au carré est égale à la racine carrée du carré de son opposé. Elles valent a.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Pour calculer la racine carrée de vingt-cinq, je remarque que vingt-cinq est un carré parfait.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "C’est le carré de cinq.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "C’est également le carré de moins cinq.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "On obtient donc cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-verification",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vérification",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Attention à cette erreur : dire que la racine carrée du carré de moins cinq vaut moins cinq. C’est faux. Une racine carrée est toujours positive ou nulle. La racine carrée du carré de moins cinq est égale à cinq.",
+      "audio": "n3-sem3-paced/vdp1-verification.wav",
+      "sourceSlides": [
+        25,
+        26,
+        27
+      ],
+      "art": [
+        {
+          "kind": "alert",
+          "value": "",
+          "x": 960,
+          "y": 444,
+          "size": 103,
+          "at": 0
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{(-5)^2}=\\textcolor{#D60019}{-5}\\quad\\textcolor{#D60019}{\\times}",
+          "x": 960,
+          "y": 679,
+          "size": 102,
+          "at": 0,
+          "to": 2,
+          "pulse": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{(-5)^2}=\\textcolor{#087746}{5}\\quad\\textcolor{#087746}{\\checkmark}",
+          "x": 960,
+          "y": 679,
+          "size": 102,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Attention à cette erreur : dire que la racine carrée du carré de moins cinq vaut moins cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est faux. Une racine carrée est toujours positive ou nulle.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "La racine carrée du carré de moins cinq est égale à cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-prononciation-28",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « racine ». ra. cine. Racine.",
+      "audio": "n3-sem3-paced/vdp1-prononciation-28.wav",
+      "sourceSlides": [
+        28
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « racine ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "ra.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "cine.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Racine.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "racine",
+        "syllables": [
+          "ra",
+          "cine"
+        ]
+      }
+    },
+    {
+      "episode": 1,
+      "id": "vdp1-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Les expressions de cette séance sont « racine carrée » et « nombre positif ». Le carré de la racine carrée de a est égal à a. Dans l’autre sens, on prend la racine carrée de a.",
+      "audio": "n3-sem3-paced/vdp1-vocabulaire.wav",
+      "sourceSlides": [
+        29,
+        30
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Nombre positif",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Racine carrée",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}",
+          "x": 565,
+          "y": 728,
+          "size": 89,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "a",
+          "x": 1355,
+          "y": 728,
+          "size": 89,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 705,
+          "size": 488,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "text",
+          "value": "Mise au carré",
+          "x": 960,
+          "y": 641,
+          "size": 39,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 960,
+          "y": 777,
+          "size": 488,
+          "at": 1,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "Racine carrée",
+          "x": 960,
+          "y": 836,
+          "size": 39,
+          "at": 1,
+          "color": "#007DBA"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Les expressions de cette séance sont « racine carrée » et « nombre positif ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Le carré de la racine carrée de a est égal à a. Dans l’autre sens, on prend la racine carrée de a.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "vdp2-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de comparer les racines carrées des nombres positifs. Comparer. Qaren. En utilisant les symboles supérieur à et inférieur à. Les racines carrées, comme la racine carrée de sept et la racine carrée de dix. Des nombres positifs, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+      "audio": "n3-sem3-paced/vdp2-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de comparer les racines carrées des nombres positifs.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Comparer. Qaren.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "En utilisant les symboles supérieur à et inférieur à.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Les racines carrées, comme la racine carrée de sept et la racine carrée de dix.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Des nombres positifs, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Comparer les racines carrées des nombres positifs",
+        "measure": 1567,
+        "size": 65,
+        "links": [
+          {
+            "offset": 0,
+            "width": 303,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "قارن",
+                "x": 960,
+                "y": 715,
+                "size": 84,
+                "at": 0,
+                "rtl": true,
+                "to": 2
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#D60019}{>}\\quad\\text{ou}\\quad\\textcolor{#D60019}{<}",
+                "x": 960,
+                "y": 714,
+                "size": 78,
+                "at": 2,
+                "pulse": 2
+              }
+            ]
+          },
+          {
+            "offset": 429,
+            "width": 474,
+            "at": 3,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\sqrt{7}\\ ;\\ \\sqrt{10}\\ ;\\ \\ldots",
+                "x": 960,
+                "y": 730,
+                "size": 77,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 1050,
+            "width": 517,
+            "at": 4,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad 12",
+                "x": 960,
+                "y": 680,
+                "size": 60,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad \\frac{5}{7}",
+                "x": 960,
+                "y": 810,
+                "size": 58,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#D60019}{\\times}\\quad -0{,}25",
+                "x": 960,
+                "y": 929,
+                "size": 60,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 2,
+      "id": "vdp2-prononciation-6",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « comparer ». con. pa. ré. Comparer.",
+      "audio": "n3-sem3-paced/vdp2-prononciation-6.wav",
+      "sourceSlides": [
+        6
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « comparer ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "con.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "pa.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "ré.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Comparer.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "comparer",
+        "syllables": [
+          "com",
+          "pa",
+          "rer"
+        ]
+      }
+    },
+    {
+      "episode": 2,
+      "id": "vdp2-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la propriété. Pour deux nombres positifs ou nuls a et b, si a est strictement inférieur à b, alors la racine carrée de a est strictement inférieure à la racine carrée de b.",
+      "audio": "n3-sem3-paced/vdp2-propriete.wav",
+      "sourceSlides": [
+        7,
+        8
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Pour deux nombres positifs ou nuls a et b",
+          "x": 960,
+          "y": 453,
+          "size": 57,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\text{Si }a<b,\\quad\\text{alors}\\quad\\textcolor{#007DBA}{\\sqrt{a}<\\sqrt{b}}",
+          "x": 960,
+          "y": 677,
+          "size": 88,
+          "at": 1
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour deux nombres positifs ou nuls a et b, si a est strictement inférieur à b, alors la racine carrée de a est strictement inférieure à la racine carrée de b.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 2,
+      "id": "vdp2-exemple",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Cinq est strictement inférieur à onze. Alors la racine carrée de cinq est strictement inférieure à la racine carrée de onze.",
+      "audio": "n3-sem3-paced/vdp2-exemple.wav",
+      "sourceSlides": [
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "5<11",
+          "x": 960,
+          "y": 439,
+          "size": 107,
+          "at": 0,
+          "pulse": 0
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 603,
+          "size": 65,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#D60019}{\\sqrt{\\textcolor{#1D1D1D}{5}}}<\\textcolor{#D60019}{\\sqrt{\\textcolor{#1D1D1D}{11}}}",
+          "x": 960,
+          "y": 790,
+          "size": 112,
+          "at": 1
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Cinq est strictement inférieur à onze.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Alors la racine carrée de cinq est strictement inférieure à la racine carrée de onze.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "vdp2-attention",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vérification",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Attention : cette propriété ne s’applique pas aux nombres strictement négatifs. Par exemple, moins huit est inférieur à moins un. On ne peut pas comparer les racines carrées de moins huit et de moins un. Pourquoi ? Parce qu’en nombres réels, le nombre sous le radical doit être positif ou nul.",
+      "audio": "n3-sem3-paced/vdp2-attention.wav",
+      "sourceSlides": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "art": [
+        {
+          "kind": "alert",
+          "value": "",
+          "x": 960,
+          "y": 449,
+          "size": 112,
+          "at": 0,
+          "pulse": 0,
+          "to": 1
+        },
+        {
+          "kind": "alert",
+          "value": "",
+          "x": 573,
+          "y": 454,
+          "size": 92,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "-8<-1",
+          "x": 960,
+          "y": 454,
+          "size": 104,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 607,
+          "size": 65,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\textcolor{#D60019}{-8}}<\\sqrt{\\textcolor{#D60019}{-1}}\\quad\\textcolor{#D60019}{\\times}",
+          "x": 960,
+          "y": 783,
+          "size": 105,
+          "at": 2,
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Attention : cette propriété ne s’applique pas aux nombres strictement négatifs.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Par exemple, moins huit est inférieur à moins un.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "On ne peut pas comparer les racines carrées de moins huit et de moins un.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Pourquoi ? Parce qu’en nombres réels, le nombre sous le radical doit être positif ou nul.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "vdp2-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Voici les expressions de cette séance. Comparer, avec les symboles supérieur à et inférieur à. Dans cette séance, je compare des racines carrées. Je peux m’aider de la propriété ou passer par le carré.",
+      "audio": "n3-sem3-paced/vdp2-vocabulaire.wav",
+      "sourceSlides": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Comparer",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Racine carrée",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 2
+        },
+        {
+          "kind": "card",
+          "value": "Carré",
+          "x": 960,
+          "y": 664,
+          "size": 52,
+          "at": 0,
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici les expressions de cette séance.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Comparer, avec les symboles supérieur à et inférieur à.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Dans cette séance, je compare des racines carrées.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je peux m’aider de la propriété ou passer par le carré.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de distinguer l’écriture décimale illimitée périodique et non périodique. Distinguer, c’est faire la différence. Voici une écriture décimale : trente et un virgule cinquante-six. Dans cet exemple d’écriture illimitée périodique, les chiffres deux et six se répètent indéfiniment. Dans cet exemple d’écriture illimitée non périodique, aucune suite de chiffres ne se répète indéfiniment à partir d’un certain rang.",
+      "audio": "n3-sem3-paced/vdp3-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de distinguer l’écriture décimale illimitée périodique et non périodique.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Distinguer, c’est faire la différence.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Voici une écriture décimale : trente et un virgule cinquante-six.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Dans cet exemple d’écriture illimitée périodique, les chiffres deux et six se répètent indéfiniment.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Dans cet exemple d’écriture illimitée non périodique, aucune suite de chiffres ne se répète indéfiniment à partir d’un certain rang.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Distinguer l’écriture décimale illimitée périodique et non périodique",
+        "measure": 2061,
+        "size": 49,
+        "links": [
+          {
+            "offset": 0,
+            "width": 317,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Faire la différence",
+                "x": 960,
+                "y": 730,
+                "size": 44,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 371,
+            "width": 530,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "31{,}56",
+                "x": 960,
+                "y": 731,
+                "size": 86,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 919,
+            "width": 586,
+            "at": 3,
+            "art": [
+              {
+                "kind": "math",
+                "value": "5{,}\\textcolor{#66539F}{26}26\\textcolor{#66539F}{26}\\ldots",
+                "x": 960,
+                "y": 731,
+                "size": 70,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 1598,
+            "width": 463,
+            "at": 4,
+            "art": [
+              {
+                "kind": "math",
+                "value": "1{,}73205080756\\ldots",
+                "x": 960,
+                "y": 731,
+                "size": 50,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-prononciation-6",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « illimité ». il. li. mi. té. Illimité.",
+      "audio": "n3-sem3-paced/vdp3-prononciation-6.wav",
+      "sourceSlides": [
+        6
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « illimité ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "il.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "li.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "mi.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "té.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Illimité.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "illimité",
+        "syllables": [
+          "il",
+          "li",
+          "mi",
+          "té"
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-prononciation-7",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons maintenant le mot « périodique ». pé. rio. dique. Périodique.",
+      "audio": "n3-sem3-paced/vdp3-prononciation-7.wav",
+      "sourceSlides": [
+        7
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons maintenant le mot « périodique ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "pé.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "rio.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "dique.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Périodique.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "périodique",
+        "syllables": [
+          "pé",
+          "rio",
+          "dique"
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-definition",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la définition d’une fraction décimale. Une fraction décimale est une fraction dont le dénominateur est une puissance de dix.",
+      "audio": "n3-sem3-paced/vdp3-definition.wav",
+      "sourceSlides": [
+        8,
+        9
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 960,
+          "y": 472,
+          "size": 68,
+          "at": 0,
+          "color": "#007DBA",
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "est une fraction dont le dénominateur",
+          "x": 960,
+          "y": 621,
+          "size": 59,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "est une puissance de 10.",
+          "x": 960,
+          "y": 720,
+          "size": 59,
+          "at": 1,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la définition d’une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Une fraction décimale est une fraction dont le dénominateur est une puissance de dix.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-fraction-225",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Deux cent vingt-cinq sur dix au carré est une fraction décimale. Pourquoi ? Son dénominateur est une puissance de dix. Transformons cette fraction en écriture décimale. Je pars du numérateur, deux cent vingt-cinq. L’exposant deux indique que je déplace la virgule de deux rangs vers la gauche. J’obtiens deux virgule vingt-cinq.",
+      "audio": "n3-sem3-paced/vdp3-fraction-225.wav",
+      "sourceSlides": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{225}{10^{\\textcolor{#D60019}{2}}}",
+          "x": 620,
+          "y": 560,
+          "size": 110,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 1240,
+          "y": 556,
+          "size": 56,
+          "at": 0,
+          "to": 2
+        },
+        {
+          "kind": "ring",
+          "value": "",
+          "x": 620,
+          "y": 626,
+          "size": 112,
+          "at": 1,
+          "to": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "225",
+          "x": 1240,
+          "y": 560,
+          "size": 100,
+          "at": 3,
+          "to": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 1240,
+          "y": 434,
+          "size": 210,
+          "at": 4,
+          "color": "#D60019",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#D60019}{2}",
+          "x": 1240,
+          "y": 698,
+          "size": 58,
+          "at": 4,
+          "to": 5
+        },
+        {
+          "kind": "ring",
+          "value": "",
+          "x": 620,
+          "y": 626,
+          "size": 112,
+          "at": 4,
+          "to": 5,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "=\\quad 2{,}\\textcolor{#D60019}{25}",
+          "x": 1140,
+          "y": 560,
+          "size": 110,
+          "at": 5
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Deux cent vingt-cinq sur dix au carré est une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pourquoi ? Son dénominateur est une puissance de dix.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Transformons cette fraction en écriture décimale.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je pars du numérateur, deux cent vingt-cinq.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "L’exposant deux indique que je déplace la virgule de deux rangs vers la gauche.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "J’obtiens deux virgule vingt-cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-fraction-1",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "De la même façon, un sur dix à la puissance trois est une fraction décimale. Son écriture décimale est zéro virgule zéro zéro un.",
+      "audio": "n3-sem3-paced/vdp3-fraction-1.wav",
+      "sourceSlides": [
+        16,
+        17
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{1}{10^{\\textcolor{#D60019}{3}}}",
+          "x": 620,
+          "y": 600,
+          "size": 115,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 1240,
+          "y": 594,
+          "size": 56,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "=\\quad 0{,}\\textcolor{#D60019}{001}",
+          "x": 1140,
+          "y": 600,
+          "size": 112,
+          "at": 1
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "De la même façon, un sur dix à la puissance trois est une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Son écriture décimale est zéro virgule zéro zéro un.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-fraction-moins-5",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Moins cinq sur dix à la puissance zéro est aussi une fraction décimale. Dix à la puissance zéro vaut un. La fraction est donc égale à moins cinq.",
+      "audio": "n3-sem3-paced/vdp3-fraction-moins-5.wav",
+      "sourceSlides": [
+        18,
+        19
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{-5}{10^{\\textcolor{#D60019}{0}}}",
+          "x": 620,
+          "y": 600,
+          "size": 115,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 1240,
+          "y": 594,
+          "size": 56,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "=\\quad\\textcolor{#D60019}{-5}",
+          "x": 1120,
+          "y": 600,
+          "size": 112,
+          "at": 1
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Moins cinq sur dix à la puissance zéro est aussi une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Dix à la puissance zéro vaut un. La fraction est donc égale à moins cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la propriété. Tout nombre qui possède une écriture décimale finie s’écrit sous la forme d’une fraction décimale.",
+      "audio": "n3-sem3-paced/vdp3-propriete.wav",
+      "sourceSlides": [
+        20,
+        21
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Tout nombre qui possède une écriture décimale finie",
+          "x": 960,
+          "y": 504,
+          "size": 57,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "s’écrit sous la forme d’une fraction décimale.",
+          "x": 960,
+          "y": 609,
+          "size": 58,
+          "at": 1,
+          "color": "#007DBA",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Tout nombre qui possède une écriture décimale finie s’écrit sous la forme d’une fraction décimale.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-decimale-en-fraction",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Observons deux virgule neuf, huit, cinq. Son écriture décimale est finie. Pourquoi ? Il a trois chiffres après la virgule. Je vais l’écrire sous la forme d’une fraction. J’obtiens deux mille neuf cent quatre-vingt-cinq sur mille. Pourquoi mille ? Parce qu’il y a trois chiffres après la virgule. Mille est dix à la puissance trois. J’obtiens donc deux mille neuf cent quatre-vingt-cinq sur dix à la puissance trois.",
+      "audio": "n3-sem3-paced/vdp3-decimale-en-fraction.wav",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "2{,}985",
+          "x": 960,
+          "y": 625,
+          "size": 108,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "2{,}\\underbrace{\\textcolor{#D60019}{985}}",
+          "x": 960,
+          "y": 625,
+          "size": 98,
+          "at": 1,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "2{,}\\underbrace{\\textcolor{#D60019}{985}}",
+          "x": 520,
+          "y": 625,
+          "size": 92,
+          "at": 2,
+          "moveFrom": 960
+        },
+        {
+          "kind": "math",
+          "value": "=\\ \\frac{2985}{1000}",
+          "x": 953,
+          "y": 625,
+          "size": 91,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "=\\ \\frac{2985}{\\textcolor{#D60019}{1000}}",
+          "x": 953,
+          "y": 625,
+          "size": 91,
+          "at": 4
+        },
+        {
+          "kind": "math",
+          "value": "=\\ \\frac{2985}{10^{\\textcolor{#D60019}{3}}}",
+          "x": 1362,
+          "y": 625,
+          "size": 91,
+          "at": 5
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Observons deux virgule neuf, huit, cinq. Son écriture décimale est finie. Pourquoi ?",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Il a trois chiffres après la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Je vais l’écrire sous la forme d’une fraction.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "J’obtiens deux mille neuf cent quatre-vingt-cinq sur mille.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Pourquoi mille ? Parce qu’il y a trois chiffres après la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Mille est dix à la puissance trois. J’obtiens donc deux mille neuf cent quatre-vingt-cinq sur dix à la puissance trois.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Reprenons les mots de cette séance. Décimale, avec par exemple une partie entière et une partie après la virgule. Illimitée signifie qu’il y a une infinité de chiffres après la virgule. Périodique signifie qu’un même groupe de chiffres se répète indéfiniment à partir d’un certain rang.",
+      "audio": "n3-sem3-paced/vdp3-vocabulaire.wav",
+      "sourceSlides": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Décimale",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Illimitée",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 2
+        },
+        {
+          "kind": "card",
+          "value": "Périodique",
+          "x": 960,
+          "y": 664,
+          "size": 52,
+          "at": 0,
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Reprenons les mots de cette séance.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Décimale, avec par exemple une partie entière et une partie après la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Illimitée signifie qu’il y a une infinité de chiffres après la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Périodique signifie qu’un même groupe de chiffres se répète indéfiniment à partir d’un certain rang.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de distinguer nombres rationnels, nombres irrationnels et nombres réels. Distinguer, c’est faire la différence. Voici quelques nombres : sept, zéro virgule vingt-cinq, moins trois quarts, la racine carrée de deux et pi. Voyons ce que signifient ces expressions.",
+      "audio": "n3-sem3-paced/vdp4-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de distinguer nombres rationnels, nombres irrationnels et nombres réels.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Distinguer, c’est faire la différence.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Voici quelques nombres : sept, zéro virgule vingt-cinq, moins trois quarts, la racine carrée de deux et pi.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Voyons ce que signifient ces expressions.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Distinguer nombres rationnels, nombres irrationnels et nombres réels",
+        "measure": 2139,
+        "size": 47,
+        "links": [
+          {
+            "offset": 0,
+            "width": 317,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Faire la différence",
+                "x": 960,
+                "y": 728,
+                "size": 45,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 335,
+            "width": 1804,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "7\\ ;\\ 0{,}25\\ ;\\ -\\frac{3}{4}",
+                "x": 960,
+                "y": 714,
+                "size": 70,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\sqrt{2}\\ ;\\ \\pi",
+                "x": 960,
+                "y": 850,
+                "size": 72,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-prononciation-5",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « irrationnel ». ir. ra. sion. nèle. Irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-prononciation-5.wav",
+      "sourceSlides": [
+        5
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « irrationnel ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "ir.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "ra.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "sion.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "nèle.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Irrationnel.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "irrationnel",
+        "syllables": [
+          "ir",
+          "ra",
+          "tion",
+          "nel"
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-prononciation-6",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons maintenant le mot « réel ». ré. elle. Réel.",
+      "audio": "n3-sem3-paced/vdp4-prononciation-6.wav",
+      "sourceSlides": [
+        6
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons maintenant le mot « réel ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "ré.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "elle.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Réel.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "réel",
+        "syllables": [
+          "ré",
+          "el"
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-rationnels",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 1",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je commence par la première définition. Les nombres qui ont une écriture décimale finie ou illimitée et périodique peuvent s’écrire sous forme d’une fraction a sur b. A et b sont des entiers, et b est différent de zéro. On les appelle des nombres rationnels.",
+      "audio": "n3-sem3-paced/vdp4-rationnels.wav",
+      "sourceSlides": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Écriture décimale finie ou illimitée et périodique",
+          "x": 960,
+          "y": 403,
+          "size": 54,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{a}{b}",
+          "x": 960,
+          "y": 570,
+          "size": 104,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "a,b\\in\\mathbb{Z}\\qquad b\\ne 0",
+          "x": 960,
+          "y": 743,
+          "size": 73,
+          "at": 2
+        },
+        {
+          "kind": "text",
+          "value": "Nombres rationnels",
+          "x": 960,
+          "y": 887,
+          "size": 59,
+          "at": 3,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la première définition.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres qui ont une écriture décimale finie ou illimitée et périodique peuvent s’écrire sous forme d’une fraction a sur b.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "A et b sont des entiers, et b est différent de zéro.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "On les appelle des nombres rationnels.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-rationnel-decimal",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Le nombre deux virgule vingt-cinq a une écriture décimale finie. Il peut donc s’écrire sous forme de fraction. Deux virgule vingt-cinq est égal à deux cent vingt-cinq sur cent. C’est un nombre rationnel.",
+      "audio": "n3-sem3-paced/vdp4-rationnel-decimal.wav",
+      "sourceSlides": [
+        11,
+        12,
+        13
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "2{,}25",
+          "x": 700,
+          "y": 495,
+          "size": 112,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une écriture décimale finie",
+          "x": 960,
+          "y": 666,
+          "size": 53,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "=\\quad\\frac{225}{100}",
+          "x": 1090,
+          "y": 495,
+          "size": 105,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "2,25 est un nombre rationnel.",
+          "x": 960,
+          "y": 783,
+          "size": 61,
+          "at": 2,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Le nombre deux virgule vingt-cinq a une écriture décimale finie. Il peut donc s’écrire sous forme de fraction.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Deux virgule vingt-cinq est égal à deux cent vingt-cinq sur cent.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "C’est un nombre rationnel.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-rationnel-periodique",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Observons ce nombre. Les six chiffres sept, un, quatre, deux, huit, cinq se répètent. C’est une écriture décimale illimitée périodique. Je peux donc écrire ce nombre sous forme d’une fraction. Ce nombre est égal à quarante-cinq sur soixante-trois. C’est un nombre rationnel.",
+      "audio": "n3-sem3-paced/vdp4-rationnel-periodique.wav",
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "0{,}\\overbrace{\\textcolor{#66539F}{714285}}\\overbrace{\\textcolor{#66539F}{714285}}7\\ldots",
+          "x": 960,
+          "y": 501,
+          "size": 71,
+          "at": 0,
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "Écriture décimale illimitée périodique",
+          "x": 960,
+          "y": 701,
+          "size": 53,
+          "at": 1,
+          "color": "#66539F",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "0{,}7142857142857\\ldots=\\frac{45}{63}",
+          "x": 960,
+          "y": 501,
+          "size": 83,
+          "at": 3
+        },
+        {
+          "kind": "text",
+          "value": "C’est un nombre rationnel.",
+          "x": 960,
+          "y": 789,
+          "size": 59,
+          "at": 4,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Observons ce nombre. Les six chiffres sept, un, quatre, deux, huit, cinq se répètent.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est une écriture décimale illimitée périodique.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Je peux donc écrire ce nombre sous forme d’une fraction.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Ce nombre est égal à quarante-cinq sur soixante-trois.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "C’est un nombre rationnel.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-irrationnels",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 2",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la deuxième définition. Les nombres dont l’écriture décimale est illimitée et non périodique ne s’écrivent pas sous la forme d’une fraction d’entiers. Ils s’appellent des nombres irrationnels.",
+      "audio": "n3-sem3-paced/vdp4-irrationnels.wav",
+      "sourceSlides": [
+        19,
+        20,
+        21
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Les nombres dont l’écriture décimale est illimitée",
+          "x": 960,
+          "y": 459,
+          "size": 55,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "et non périodique ne s’écrivent pas en fraction d’entiers.",
+          "x": 960,
+          "y": 553,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Nombres irrationnels",
+          "x": 960,
+          "y": 790,
+          "size": 62,
+          "at": 2,
+          "weight": 700,
+          "color": "#D60019"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la deuxième définition.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres dont l’écriture décimale est illimitée et non périodique ne s’écrivent pas sous la forme d’une fraction d’entiers.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Ils s’appellent des nombres irrationnels.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-irrationnel-racine",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je prends la racine carrée de sept. Voici le début de son écriture décimale. Qu’est-ce que je remarque ? Son écriture décimale est illimitée et non périodique. Je ne peux donc pas l’écrire sous forme d’une fraction d’entiers. La racine carrée de sept est un nombre irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-irrationnel-racine.wav",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\sqrt{7}=2{,}\\underbrace{645751311064\\ldots}_{\\text{Partie décimale}}",
+          "x": 960,
+          "y": 470,
+          "size": 78,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{7}=2{,}645751311064\\ldots",
+          "x": 960,
+          "y": 470,
+          "size": 87,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Écriture décimale illimitée et non périodique",
+          "x": 960,
+          "y": 642,
+          "size": 54,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 740,
+          "size": 65,
+          "at": 3,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{7}\\quad\\text{est un nombre }\\textcolor{#D60019}{\\text{irrationnel}}",
+          "x": 960,
+          "y": 875,
+          "size": 60,
+          "at": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends la racine carrée de sept. Voici le début de son écriture décimale. Qu’est-ce que je remarque ?",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Son écriture décimale est illimitée et non périodique.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Je ne peux donc pas l’écrire sous forme d’une fraction d’entiers.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "La racine carrée de sept est un nombre irrationnel.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-irrationnel-pi",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "De la même façon, voici le début de l’écriture décimale de pi. Sa partie décimale ne s’arrête jamais. L’écriture décimale de pi est illimitée et non périodique. Pi est un nombre irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-irrationnel-pi.wav",
+      "sourceSlides": [
+        26,
+        27,
+        28
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\pi=3{,}\\underbrace{141592653589\\ldots}_{\\text{Partie décimale}}",
+          "x": 960,
+          "y": 470,
+          "size": 78,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\pi=3{,}141592653589\\ldots",
+          "x": 960,
+          "y": 470,
+          "size": 86,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Écriture décimale illimitée et non périodique",
+          "x": 960,
+          "y": 642,
+          "size": 54,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 740,
+          "size": 65,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\pi\\quad\\text{est un nombre }\\textcolor{#D60019}{\\text{irrationnel}}",
+          "x": 960,
+          "y": 875,
+          "size": 60,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "De la même façon, voici le début de l’écriture décimale de pi. Sa partie décimale ne s’arrête jamais.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "L’écriture décimale de pi est illimitée et non périodique.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Pi est un nombre irrationnel.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-entiers",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 1",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la première propriété. Tout entier est un nombre rationnel. Deux cent trente-quatre s’écrit sous forme de fraction : deux cent trente-quatre sur un. Deux cent trente-quatre est donc rationnel. De même, moins quatre-vingt-sept s’écrit moins quatre-vingt-sept sur un. Moins quatre-vingt-sept est donc rationnel.",
+      "audio": "n3-sem3-paced/vdp4-entiers.wav",
+      "sourceSlides": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Tout entier est un nombre rationnel.",
+          "x": 960,
+          "y": 417,
+          "size": 60,
+          "at": 1,
+          "color": "#007DBA",
+          "weight": 700
+        },
+        {
+          "kind": "math",
+          "value": "234=\\frac{234}{1}",
+          "x": 570,
+          "y": 680,
+          "size": 91,
+          "at": 2
+        },
+        {
+          "kind": "text",
+          "value": "234 est rationnel",
+          "x": 570,
+          "y": 847,
+          "size": 49,
+          "at": 3,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "-87=\\frac{-87}{1}",
+          "x": 1350,
+          "y": 680,
+          "size": 91,
+          "at": 4
+        },
+        {
+          "kind": "text",
+          "value": "−87 est rationnel",
+          "x": 1350,
+          "y": 847,
+          "size": 49,
+          "at": 5,
+          "color": "#D60019"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la première propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Tout entier est un nombre rationnel.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Deux cent trente-quatre s’écrit sous forme de fraction : deux cent trente-quatre sur un.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Deux cent trente-quatre est donc rationnel.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "De même, moins quatre-vingt-sept s’écrit moins quatre-vingt-sept sur un.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Moins quatre-vingt-sept est donc rationnel.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-reels",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 2",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Voici la deuxième propriété. Les nombres rationnels et les nombres irrationnels forment l’ensemble des nombres réels. Un nombre réel est soit rationnel, soit irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-reels.wav",
+      "sourceSlides": [
+        35,
+        36,
+        37
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Les rationnels et les irrationnels forment les nombres réels.",
+          "x": 960,
+          "y": 431,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "sets",
+          "value": "",
+          "x": 960,
+          "y": 700,
+          "size": 92,
+          "at": 2,
+          "pulse": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la deuxième propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres rationnels et les nombres irrationnels forment l’ensemble des nombres réels.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Un nombre réel est soit rationnel, soit irrationnel.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-droite-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 3",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la troisième propriété. À chaque nombre réel correspond un unique point de la droite graduée. Ce nombre est l’abscisse du point. Réciproquement, à chaque point de la droite graduée correspond une unique abscisse réelle.",
+      "audio": "n3-sem3-paced/vdp4-droite-propriete.wav",
+      "sourceSlides": [
+        38,
+        39,
+        40
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "À chaque nombre réel correspond un unique point",
+          "x": 960,
+          "y": 439,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "de la droite graduée. Ce nombre est l’abscisse du point.",
+          "x": 960,
+          "y": 536,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Réciproquement, chaque point de la droite graduée",
+          "x": 960,
+          "y": 737,
+          "size": 53,
+          "at": 2
+        },
+        {
+          "kind": "text",
+          "value": "a une unique abscisse réelle.",
+          "x": 960,
+          "y": 834,
+          "size": 56,
+          "at": 2,
+          "color": "#007DBA",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la troisième propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "À chaque nombre réel correspond un unique point de la droite graduée. Ce nombre est l’abscisse du point.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Réciproquement, à chaque point de la droite graduée correspond une unique abscisse réelle.",
+          "from": 0
+        }
+      ],
+      "transition": true
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-droite-exemple",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je prends une droite graduée. Je veux y placer la racine carrée de deux. Ce nombre est l’abscisse d’un point M situé entre A d’abscisse un et B d’abscisse deux.",
+      "audio": "n3-sem3-paced/vdp4-droite-exemple.wav",
+      "sourceSlides": [
+        41,
+        42,
+        43
+      ],
+      "art": [
+        {
+          "kind": "axis",
+          "value": "",
+          "x": 960,
+          "y": 674,
+          "size": 92,
+          "at": 0
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{2}=1{,}4142135623\\ldots",
+          "x": 960,
+          "y": 442,
+          "size": 85,
+          "at": 1
+        },
+        {
+          "kind": "axis-root",
+          "value": "",
+          "x": 960,
+          "y": 674,
+          "size": 92,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "1<\\sqrt{2}<2",
+          "x": 960,
+          "y": 887,
+          "size": 71,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends une droite graduée.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je veux y placer la racine carrée de deux.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Ce nombre est l’abscisse d’un point M situé entre A d’abscisse un et B d’abscisse deux.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Reprenons le vocabulaire. Un nombre rationnel peut s’écrire sous forme d’une fraction d’entiers. Un nombre irrationnel a une écriture décimale illimitée et non périodique. Les nombres réels comprennent deux familles : les rationnels et les irrationnels.",
+      "audio": "n3-sem3-paced/vdp4-vocabulaire.wav",
+      "sourceSlides": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Rationnel",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Irrationnel",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 2
+        },
+        {
+          "kind": "card",
+          "value": "Réel",
+          "x": 960,
+          "y": 664,
+          "size": 52,
+          "at": 0,
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Reprenons le vocabulaire.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Un nombre rationnel peut s’écrire sous forme d’une fraction d’entiers.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Un nombre irrationnel a une écriture décimale illimitée et non périodique.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Les nombres réels comprennent deux familles : les rationnels et les irrationnels.",
+          "from": 0
+        }
+      ]
+    }
+  ]
+}

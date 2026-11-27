@@ -1,0 +1,1292 @@
+{
+  "scenes": [
+    {
+      "episode": 3,
+      "id": "vdp3-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "narration": "Bonjour ! Aujourd’hui, vous allez apprendre à utiliser la commutativité et l’associativité de l’addition pour faciliter les calculs. Ici, utiliser signifie appliquer une propriété pour faciliter un calcul. La commutativité et l’associativité sont deux propriétés de l’addition que nous allons découvrir au cours de cette séance.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous allez apprendre à utiliser la commutativité et l’associativité de l’addition pour faciliter les calculs.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ici, utiliser signifie appliquer une propriété pour faciliter un calcul.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "La commutativité et l’associativité sont deux propriétés de l’addition que nous allons découvrir au cours de cette séance.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Utiliser la commutativité et l’associativité de l’addition",
+        "measure": 1655,
+        "size": 61,
+        "links": [
+          {
+            "offset": 0,
+            "width": 218,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Appliquer une propriété",
+                "x": 960,
+                "y": 671,
+                "size": 38,
+                "at": 0
+              },
+              {
+                "kind": "text",
+                "value": "pour faciliter un calcul",
+                "x": 960,
+                "y": 723,
+                "size": 38,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 236,
+            "width": 1023,
+            "at": 2,
+            "art": []
+          }
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-commutativite",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 1",
+      "narration": "Je commence par la première propriété : la commutativité. Si je change l’ordre des termes dans une addition, la somme ne change pas. Je dis que l’addition est commutative.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-commutativite.wav",
+      "sourceSlides": [
+        4,
+        5
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "La commutativité",
+          "x": 960,
+          "y": 387,
+          "size": 53,
+          "at": 0,
+          "weight": 700,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "Si je change l’ordre des termes dans une addition,",
+          "x": 960,
+          "y": 550,
+          "size": 50,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "la somme ne change pas.",
+          "x": 960,
+          "y": 626,
+          "size": 55,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "Je dis que l’addition est commutative.",
+          "x": 960,
+          "y": 807,
+          "size": 49,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la première propriété : la commutativité.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Si je change l’ordre des termes dans une addition, la somme ne change pas.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Je dis que l’addition est commutative.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-ordre-des-termes",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Je prends l’exemple suivant : moins deux auquel j’ajoute plus cinq. Je change l’ordre des deux termes. J’obtiens : plus cinq auquel j’ajoute moins deux. Est-ce que le résultat change ? Je calcule les deux sommes pour vérifier. Moins deux plus cinq est égal à trois. Plus cinq auquel j’ajoute moins deux est également égal à trois. Les deux sommes sont donc égales. Même si je change l’ordre des termes, la somme ne change pas. C’est la commutativité de l’addition.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-ordre-des-termes.wav",
+      "sourceSlides": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{(-2)}+\\textcolor{#66539F}{(+5)}",
+          "x": 550,
+          "y": 510,
+          "size": 85,
+          "at": 0,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#66539F}{(+5)}+\\textcolor{#007DBA}{(-2)}",
+          "x": 1370,
+          "y": 510,
+          "size": 85,
+          "at": 1,
+          "to": 3
+        },
+        {
+          "kind": "question",
+          "value": "",
+          "x": 960,
+          "y": 752,
+          "size": 190,
+          "at": 2,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{(-2)}+\\textcolor{#66539F}{(+5)}\\;=\\;?",
+          "x": 550,
+          "y": 510,
+          "size": 76,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#66539F}{(+5)}+\\textcolor{#007DBA}{(-2)}\\;=\\;?",
+          "x": 1370,
+          "y": 510,
+          "size": 76,
+          "at": 3,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\underbrace{\\textcolor{#007DBA}{(-2)}+\\textcolor{#66539F}{(+5)}}_{\\textcolor{#D60019}{3}}",
+          "x": 550,
+          "y": 568,
+          "size": 77,
+          "at": 4,
+          "to": 6,
+          "pulse": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\underbrace{\\textcolor{#66539F}{(+5)}+\\textcolor{#007DBA}{(-2)}}_{\\textcolor{#D60019}{3}}",
+          "x": 1370,
+          "y": 568,
+          "size": 77,
+          "at": 5,
+          "to": 6,
+          "pulse": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{(-2)}+\\textcolor{#66539F}{(+5)}=\\textcolor{#66539F}{(+5)}+\\textcolor{#007DBA}{(-2)}",
+          "x": 960,
+          "y": 572,
+          "size": 85,
+          "at": 6
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 412,
+          "size": 440,
+          "at": 7,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 960,
+          "y": 729,
+          "size": 440,
+          "at": 7,
+          "color": "#66539F"
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends l’exemple suivant : moins deux auquel j’ajoute plus cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je change l’ordre des deux termes. J’obtiens : plus cinq auquel j’ajoute moins deux.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Est-ce que le résultat change ?",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je calcule les deux sommes pour vérifier.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Moins deux plus cinq est égal à trois.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Plus cinq auquel j’ajoute moins deux est également égal à trois.",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "Les deux sommes sont donc égales.",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "Même si je change l’ordre des termes, la somme ne change pas. C’est la commutativité de l’addition.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-associativite",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 2",
+      "narration": "Je passe maintenant à la deuxième propriété : l’associativité. La somme de plusieurs nombres ne change pas si je change le groupement de ces nombres. Je dis que l’addition est associative.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-associativite.wav",
+      "sourceSlides": [
+        14,
+        15
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "L’associativité",
+          "x": 960,
+          "y": 387,
+          "size": 53,
+          "at": 0,
+          "weight": 700,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "La somme de plusieurs nombres ne change pas",
+          "x": 960,
+          "y": 550,
+          "size": 51,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "si je change le groupement de ces nombres.",
+          "x": 960,
+          "y": 626,
+          "size": 51,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "Je dis que l’addition est associative.",
+          "x": 960,
+          "y": 807,
+          "size": 49,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la deuxième propriété : l’associativité.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "La somme de plusieurs nombres ne change pas si je change le groupement de ces nombres.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Je dis que l’addition est associative.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-groupement-des-termes",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Je prends moins quatre, plus trois, puis j’ajoute moins deux. Je change le regroupement des termes en gardant leur ordre. Est-ce que le résultat change ? Je calcule les deux sommes pour vérifier. Dans la première expression, moins quatre plus trois est égal à moins un. J’additionne ensuite moins un et moins deux. J’obtiens moins trois. Dans la deuxième expression, plus trois et moins deux donnent plus un. J’additionne ensuite moins quatre et plus un. J’obtiens moins trois. Les deux expressions sont donc égales. Même si je change le regroupement des termes, la somme ne change pas. C’est l’associativité de l’addition.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-groupement-des-termes.wav",
+      "sourceSlides": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "[(-4)+(+3)]+(-2)",
+          "x": 960,
+          "y": 449,
+          "size": 70,
+          "at": 0,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "(-4)+[(+3)+(-2)]",
+          "x": 960,
+          "y": 661,
+          "size": 70,
+          "at": 1,
+          "to": 3
+        },
+        {
+          "kind": "question",
+          "value": "",
+          "x": 960,
+          "y": 832,
+          "size": 130,
+          "at": 2,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "[(-4)+(+3)]+(-2)\\;=\\;?",
+          "x": 960,
+          "y": 449,
+          "size": 68,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "(-4)+[(+3)+(-2)]\\;=\\;?",
+          "x": 960,
+          "y": 724,
+          "size": 68,
+          "at": 3,
+          "to": 6
+        },
+        {
+          "kind": "math",
+          "value": "\\underbrace{[(-4)+(+3)]}_{\\textcolor{#D60019}{-1}}+(-2)",
+          "x": 960,
+          "y": 475,
+          "size": 64,
+          "at": 4,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "[(-4)+(+3)]+(-2)=\\textcolor{#D60019}{(-1)}+(-2)=\\textcolor{#D60019}{-3}",
+          "x": 960,
+          "y": 449,
+          "size": 65,
+          "at": 5,
+          "to": 8
+        },
+        {
+          "kind": "math",
+          "value": "(-4)+\\underbrace{[(+3)+(-2)]}_{\\textcolor{#D60019}{+1}}",
+          "x": 960,
+          "y": 739,
+          "size": 64,
+          "at": 6,
+          "to": 7
+        },
+        {
+          "kind": "math",
+          "value": "(-4)+[(+3)+(-2)]=(-4)+\\textcolor{#D60019}{(+1)}=\\textcolor{#D60019}{-3}",
+          "x": 960,
+          "y": 724,
+          "size": 65,
+          "at": 7,
+          "to": 8
+        },
+        {
+          "kind": "math",
+          "value": "[(-4)+(+3)]+(-2)=(-4)+[(+3)+(-2)]",
+          "x": 960,
+          "y": 554,
+          "size": 77,
+          "at": 8,
+          "to": 9
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#087746}{[(-4)+(+3)]}+(-2)=(-4)+\\textcolor{#087746}{[(+3)+(-2)]}",
+          "x": 960,
+          "y": 554,
+          "size": 77,
+          "at": 9
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends moins quatre, plus trois, puis j’ajoute moins deux.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je change le regroupement des termes en gardant leur ordre.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Est-ce que le résultat change ?",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je calcule les deux sommes pour vérifier.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Dans la première expression, moins quatre plus trois est égal à moins un.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "J’additionne ensuite moins un et moins deux. J’obtiens moins trois.",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "Dans la deuxième expression, plus trois et moins deux donnent plus un.",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "J’additionne ensuite moins quatre et plus un. J’obtiens moins trois.",
+          "from": 0
+        },
+        {
+          "stage": 8,
+          "text": "Les deux expressions sont donc égales.",
+          "from": 0
+        },
+        {
+          "stage": 9,
+          "text": "Même si je change le regroupement des termes, la somme ne change pas. C’est l’associativité de l’addition.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-prononciation-26",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "narration": "Écoutez la prononciation du mot « Commutativité ». Comme. Mu. Ta. Ti. Vi. Té. Commutativité.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-prononciation-26.wav",
+      "sourceSlides": [
+        26
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la prononciation du mot « Commutativité ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Comme.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Mu.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Ta.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Ti.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Vi.",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "Té.",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "Commutativité.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Commutativité",
+        "syllables": [
+          "com",
+          "mu",
+          "ta",
+          "ti",
+          "vi",
+          "té"
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-prononciation-27",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "narration": "Écoutez la prononciation du mot « Associativité ». A. So. Sia. Ti. Vi. Té. Associativité.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-prononciation-27.wav",
+      "sourceSlides": [
+        27
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la prononciation du mot « Associativité ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "A.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "So.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Sia.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Ti.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Vi.",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "Té.",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "Associativité.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Associativité",
+        "syllables": [
+          "as",
+          "so",
+          "cia",
+          "ti",
+          "vi",
+          "té"
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "vdp3-synthese",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Synthèse",
+      "narration": "Nous avons découvert deux mots importants : commutativité et associativité. Rappelons leur signification. La commutativité permet de changer l’ordre des termes d’une addition sans changer la somme. L’associativité permet de changer le regroupement des termes d’une addition sans changer la somme.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp3-synthese.wav",
+      "sourceSlides": [
+        28,
+        29,
+        30
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Commutativité",
+          "x": 514,
+          "y": 448,
+          "size": 47,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Associativité",
+          "x": 1406,
+          "y": 448,
+          "size": 47,
+          "at": 0,
+          "pulse": 2
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 514,
+          "y": 569,
+          "size": 82,
+          "at": 1,
+          "color": "#087746"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 1406,
+          "y": 569,
+          "size": 82,
+          "at": 2,
+          "color": "#087746"
+        },
+        {
+          "kind": "math",
+          "value": "3+4=4+3",
+          "x": 514,
+          "y": 684,
+          "size": 64,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "[(-2)+(+5)]+(+3)",
+          "x": 1406,
+          "y": 668,
+          "size": 50,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "=(-2)+[(+5)+(+3)]",
+          "x": 1406,
+          "y": 754,
+          "size": 50,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Nous avons découvert deux mots importants : commutativité et associativité. Rappelons leur signification.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "La commutativité permet de changer l’ordre des termes d’une addition sans changer la somme.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "L’associativité permet de changer le regroupement des termes d’une addition sans changer la somme.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables d’effectuer une soustraction de nombres entiers. C’est calculer la différence entre deux nombres qui peuvent être positifs ou négatifs.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp4-objectif.wav",
+      "sourceSlides": [
+        1,
+        2
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables d’effectuer une soustraction de nombres entiers.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est calculer la différence entre deux nombres qui peuvent être positifs ou négatifs.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Effectuer la soustraction de nombres entiers",
+        "measure": 1364,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 1364,
+            "at": 1,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\ldots\\;-\\;\\ldots\\;=\\;?",
+                "x": 960,
+                "y": 703,
+                "size": 80,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-definition",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "narration": "Je rappelle d’abord la définition de deux nombres opposés. Deux nombres non nuls sont opposés s’ils ont la même valeur absolue et des signes contraires.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp4-definition.wav",
+      "sourceSlides": [
+        3,
+        4
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Deux nombres opposés non nuls ont",
+          "x": 960,
+          "y": 417,
+          "size": 52,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "la même valeur absolue",
+          "x": 960,
+          "y": 588,
+          "size": 62,
+          "at": 1,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "des signes contraires",
+          "x": 960,
+          "y": 753,
+          "size": 62,
+          "at": 2,
+          "color": "#D60019"
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je rappelle d’abord la définition de deux nombres opposés.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Deux nombres non nuls sont opposés s’ils ont la même valeur absolue",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "et des signes contraires.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-opposes",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Je prends les nombres moins cinq et plus cinq. Moins cinq est un nombre négatif. Plus cinq est un nombre positif. Ils ont donc des signes contraires. Ils ont aussi la même valeur absolue : cinq. L’opposé de moins cinq est plus cinq.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp4-opposes.wav",
+      "sourceSlides": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "-5",
+          "x": 680,
+          "y": 462,
+          "size": 100,
+          "at": 0,
+          "color": "#D60019",
+          "to": 5
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 960,
+          "y": 462,
+          "size": 55,
+          "at": 0,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "5",
+          "x": 1240,
+          "y": 462,
+          "size": 100,
+          "at": 0,
+          "color": "#087746",
+          "to": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 680,
+          "y": 566,
+          "size": 82,
+          "at": 1,
+          "color": "#007DBA",
+          "to": 3
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 1240,
+          "y": 566,
+          "size": 82,
+          "at": 2,
+          "color": "#007DBA",
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "Négatif",
+          "x": 680,
+          "y": 668,
+          "size": 52,
+          "at": 1,
+          "color": "#D60019",
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "Positif",
+          "x": 1240,
+          "y": 668,
+          "size": 52,
+          "at": 2,
+          "color": "#087746",
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "De signes contraires",
+          "x": 960,
+          "y": 673,
+          "size": 58,
+          "at": 3,
+          "color": "#007DBA",
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 680,
+          "y": 581,
+          "size": 82,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 1240,
+          "y": 581,
+          "size": 82,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "5",
+          "x": 680,
+          "y": 714,
+          "size": 78,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "5",
+          "x": 1240,
+          "y": 714,
+          "size": 78,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\text{L’opposé de }\\textcolor{#D60019}{-5}\\text{ est }\\textcolor{#087746}{5}",
+          "x": 960,
+          "y": 621,
+          "size": 83,
+          "at": 5
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends les nombres moins cinq et plus cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Moins cinq est un nombre négatif.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Plus cinq est un nombre positif.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Ils ont donc des signes contraires.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Ils ont aussi la même valeur absolue : cinq.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "L’opposé de moins cinq est plus cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-regle",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Règle",
+      "narration": "Je passe maintenant à la règle : soustraire un nombre. Soustraire un nombre, c’est ajouter son opposé.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp4-regle.wav",
+      "sourceSlides": [
+        11,
+        12
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Soustraire un nombre",
+          "x": 960,
+          "y": 416,
+          "size": 54,
+          "at": 0,
+          "color": "#007DBA",
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "Soustraire un nombre, c’est ajouter son opposé.",
+          "x": 960,
+          "y": 630,
+          "size": 51,
+          "at": 1,
+          "weight": 700
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la règle : soustraire un nombre.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Soustraire un nombre, c’est ajouter son opposé.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-soustraire-dix",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Je prends comme exemple : plus sept moins plus dix. Je regarde le signe de l’opération entre les deux nombres : c’est le signe moins. Il s’agit donc d’une soustraction. Je garde le premier nombre, plus sept, et je remplace la soustraction par une addition. Je remplace ensuite plus dix par son opposé, moins dix. J’obtiens : plus sept plus moins dix.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp4-soustraire-dix.wav",
+      "sourceSlides": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{-}(+10)",
+          "x": 960,
+          "y": 521,
+          "size": 96,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{\\textcolor{#087746}{-}}(+10)",
+          "x": 960,
+          "y": 521,
+          "size": 96,
+          "at": 1,
+          "to": 3
+        },
+        {
+          "kind": "ring",
+          "value": "",
+          "x": 960,
+          "y": 521,
+          "size": 65,
+          "at": 1,
+          "to": 2,
+          "color": "#087746"
+        },
+        {
+          "kind": "text",
+          "value": "Soustraction",
+          "x": 960,
+          "y": 709,
+          "size": 57,
+          "at": 2,
+          "color": "#D60019",
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{\\textcolor{#087746}{-}}(+10)=(+7)\\mathbin{\\textcolor{#087746}{+}}\\;\\ldots",
+          "x": 960,
+          "y": 555,
+          "size": 84,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 967,
+          "y": 681,
+          "size": 280,
+          "at": 3,
+          "color": "#007DBA",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "(+7)\\mathbin{\\textcolor{#087746}{-}}(+10)=(+7)\\mathbin{\\textcolor{#087746}{+}}\\textcolor{#D60019}{(-10)}",
+          "x": 960,
+          "y": 555,
+          "size": 84,
+          "at": 4,
+          "pulse": 5
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 1150,
+          "y": 681,
+          "size": 345,
+          "at": 4,
+          "color": "#007DBA",
+          "to": 5
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends comme exemple : plus sept moins plus dix.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je regarde le signe de l’opération entre les deux nombres : c’est le signe moins.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Il s’agit donc d’une soustraction.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je garde le premier nombre, plus sept, et je remplace la soustraction par une addition.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Je remplace ensuite plus dix par son opposé, moins dix.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "J’obtiens : plus sept plus moins dix.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "vdp4-prononciation-19",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "narration": "Écoutez la prononciation du mot « Soustraction ». Sous. Trac. Sion. Soustraction.",
+      "speechMode": "verbatim",
+      "audio": "n1-sem2/vdp4-prononciation-19.wav",
+      "sourceSlides": [
+        19
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la prononciation du mot « Soustraction ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Sous.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Trac.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Sion.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Soustraction.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Soustraction",
+        "syllables": [
+          "sous",
+          "trac",
+          "tion"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scenes": [
+    {
+      "id": "vdp4-droite-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 3",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la dernière propriété. Chaque nombre réel peut être représenté par un unique point sur une droite numérique appelé l’abscisse de ce point. Réciproquement, tout nombre réel est associé à un unique point d’une droite numérique.",
+      "audio": "n3-sem3-elevenlabs-v6-vdp4/vdp4-droite-propriete.wav",
+      "sourceSlides": [
+        38,
+        39,
+        40
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la dernière propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Chaque nombre réel peut être représenté par un unique point sur une droite numérique appelé l’abscisse de ce point.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Réciproquement, tout nombre réel est associé à un unique point d’une droite numérique.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 536,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

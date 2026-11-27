@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "lesson": "Simplifier une fraction et réduire au même dénominateur",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "fractions",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "audio": "fractions/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de simplifier une fraction et de réduire deux fractions au même dénominateur."
+        },
+        {
+          "stage": 1,
+          "text": "Simplifier une fraction, c’est اختزال une fraction."
+        },
+        {
+          "stage": 2,
+          "text": "Et réduire deux fractions au même dénominateur, c’est توحيد المقام."
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de simplifier une fraction et de réduire deux fractions au même dénominateur. Simplifier une fraction, c’est اختزال une fraction. Et réduire deux fractions au même dénominateur, c’est توحيد المقام.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "fraction-irreductible",
+      "type": "fractions",
+      "kind": "irreducible",
+      "title": "Exemple",
+      "sourceSlides": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "audio": "fractions/fraction-irreductible.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Est-ce que je peux réduire la fraction vingt-trois sur quarante et un ?"
+        },
+        {
+          "stage": 1,
+          "text": "Non. Pourquoi ? Car vingt-trois et quarante et un ont un seul diviseur commun : un."
+        },
+        {
+          "stage": 2,
+          "text": "Alors, le plus grand commun diviseur de vingt-trois et de quarante et un est un."
+        },
+        {
+          "stage": 3,
+          "text": "Donc, vingt-trois et quarante et un sont premiers entre eux."
+        },
+        {
+          "stage": 4,
+          "text": "Je dis que la fraction vingt-trois sur quarante et un est irréductible."
+        }
+      ],
+      "narration": "Est-ce que je peux réduire la fraction vingt-trois sur quarante et un ? Non. Pourquoi ? Car vingt-trois et quarante et un ont un seul diviseur commun : un. Alors, le plus grand commun diviseur de vingt-trois et de quarante et un est un. Donc, vingt-trois et quarante et un sont premiers entre eux. Je dis que la fraction vingt-trois sur quarante et un est irréductible.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "fraction-reductible",
+      "type": "fractions",
+      "kind": "reducible",
+      "title": "Exemple",
+      "sourceSlides": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "audio": "fractions/fraction-reductible.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Est-ce que je peux maintenant réduire la fraction quarante-deux sur trente-six ?"
+        },
+        {
+          "stage": 1,
+          "text": "Oui. Par combien ?"
+        },
+        {
+          "stage": 2,
+          "text": "Par deux : je divise le numérateur et le dénominateur par deux."
+        },
+        {
+          "stage": 3,
+          "text": "Par trois : je divise les deux par trois."
+        },
+        {
+          "stage": 4,
+          "text": "Et par six : je divise les deux par six."
+        },
+        {
+          "stage": 5,
+          "text": "Le plus grand commun diviseur de quarante-deux et de trente-six est six."
+        },
+        {
+          "stage": 6,
+          "text": "Je dis que la fraction quarante-deux sur trente-six est réductible par six."
+        }
+      ],
+      "narration": "Est-ce que je peux maintenant réduire la fraction quarante-deux sur trente-six ? Oui. Par combien ? Par deux : je divise le numérateur et le dénominateur par deux. Par trois : je divise les deux par trois. Et par six : je divise les deux par six. Le plus grand commun diviseur de quarante-deux et de trente-six est six. Je dis que la fraction quarante-deux sur trente-six est réductible par six.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "definition",
+      "type": "fractions",
+      "kind": "definition",
+      "title": "Définition",
+      "sourceSlides": [
+        15,
+        16
+      ],
+      "audio": "fractions/definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je retiens cette définition."
+        },
+        {
+          "stage": 1,
+          "text": "Une fraction a sur b, avec a et b entiers positifs et b non nul, est irréductible si et seulement si a et b sont premiers entre eux."
+        }
+      ],
+      "narration": "Je retiens cette définition. Une fraction a sur b, avec a et b entiers positifs et b non nul, est irréductible si et seulement si a et b sont premiers entre eux.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "propriete",
+      "type": "fractions",
+      "kind": "property",
+      "title": "Propriété",
+      "sourceSlides": [
+        17,
+        18
+      ],
+      "audio": "fractions/propriete.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la propriété du dénominateur commun de deux fractions."
+        },
+        {
+          "stage": 1,
+          "text": "Le plus petit dénominateur commun de deux fractions est le plus petit commun multiple de leurs deux dénominateurs."
+        }
+      ],
+      "narration": "Je passe à la propriété du dénominateur commun de deux fractions. Le plus petit dénominateur commun de deux fractions est le plus petit commun multiple de leurs deux dénominateurs.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "multiples-communs",
+      "type": "fractions",
+      "kind": "common",
+      "title": "Exemple",
+      "sourceSlides": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "audio": "fractions/multiples-communs.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends, par exemple, les deux fractions : cinq sur neuf et sept sur quinze."
+        },
+        {
+          "stage": 1,
+          "text": "Je veux mettre ces deux fractions au même dénominateur."
+        },
+        {
+          "stage": 2,
+          "text": "Pour cela, je cherche le plus petit commun multiple de neuf et de quinze."
+        },
+        {
+          "stage": 3,
+          "text": "Les premiers multiples communs strictement positifs de neuf et de quinze sont : quarante-cinq, quatre-vingt-dix, cent trente-cinq et cent quatre-vingts."
+        },
+        {
+          "stage": 4,
+          "text": "Parmi ces multiples communs, le plus petit est quarante-cinq."
+        },
+        {
+          "stage": 5,
+          "text": "Donc, le plus petit commun multiple de neuf et de quinze est quarante-cinq."
+        }
+      ],
+      "narration": "Je prends, par exemple, les deux fractions : cinq sur neuf et sept sur quinze. Je veux mettre ces deux fractions au même dénominateur. Pour cela, je cherche le plus petit commun multiple de neuf et de quinze. Les premiers multiples communs strictement positifs de neuf et de quinze sont : quarante-cinq, quatre-vingt-dix, cent trente-cinq et cent quatre-vingts. Parmi ces multiples communs, le plus petit est quarante-cinq. Donc, le plus petit commun multiple de neuf et de quinze est quarante-cinq.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "denominateur-commun",
+      "type": "fractions",
+      "kind": "denominator",
+      "title": "Dénominateur commun",
+      "sourceSlides": [
+        25
+      ],
+      "audio": "fractions/denominateur-commun.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Comme le plus petit commun multiple de quinze et de neuf est quarante-cinq,"
+        },
+        {
+          "stage": 1,
+          "text": "je choisis quarante-cinq comme plus petit dénominateur commun des deux fractions."
+        }
+      ],
+      "narration": "Comme le plus petit commun multiple de quinze et de neuf est quarante-cinq, je choisis quarante-cinq comme plus petit dénominateur commun des deux fractions.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "prononciation",
+      "type": "fractions",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        26
+      ],
+      "audio": "fractions-v2/prononciation.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot irréductible."
+        },
+        {
+          "stage": 1,
+          "text": "I."
+        },
+        {
+          "stage": 2,
+          "text": "Ré."
+        },
+        {
+          "stage": 3,
+          "text": "Duc."
+        },
+        {
+          "stage": 4,
+          "text": "Tible."
+        },
+        {
+          "stage": 5,
+          "text": "Irréductible."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot irréductible. I. Ré. Duc. Tible. Irréductible.",
+      "revision": "2026-11-10",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "vocabulaire",
+      "type": "fractions",
+      "kind": "vocabulary",
+      "title": "Synthèse",
+      "sourceSlides": [
+        27,
+        28
+      ],
+      "audio": "fractions/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots."
+        },
+        {
+          "stage": 1,
+          "text": "Dénominateur : dans la fraction un sur deux, le dénominateur est deux."
+        },
+        {
+          "stage": 2,
+          "text": "Et irréductible : le numérateur et le dénominateur sont premiers entre eux, comme dans la fraction trois sur quatre."
+        }
+      ],
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Dénominateur : dans la fraction un sur deux, le dénominateur est deux. Et irréductible : le numérateur et le dénominateur sont premiers entre eux, comme dans la fraction trois sur quatre.",
+      "revision": "2026-11-10"
+    }
+  ]
+}

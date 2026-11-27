@@ -1,0 +1,362 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "texts": [
+        "Comparer et ranger des nombres"
+      ]
+    },
+    {
+      "slide": 2,
+      "texts": [
+        "Comparer et ranger des nombres",
+        "قارن"
+      ]
+    },
+    {
+      "slide": 3,
+      "texts": [
+        "Comparer et ranger des nombres",
+        "رتب"
+      ]
+    },
+    {
+      "slide": 4,
+      "texts": [
+        "Comparer et ranger des nombres",
+        "+4  ;  -5   ;  2,3 …"
+      ]
+    },
+    {
+      "slide": 5,
+      "texts": [
+        "Avant de commencer notre séance j’écoute la lecture du mot comparer"
+      ]
+    },
+    {
+      "slide": 6,
+      "texts": [
+        "Propriété 1",
+        "Je commence par la 1ère propriété"
+      ]
+    },
+    {
+      "slide": 7,
+      "texts": [
+        "Propriété 1",
+        "La comparaison de deux nombres négatifs",
+        "(comparer deux nombres négatifs):"
+      ]
+    },
+    {
+      "slide": 8,
+      "texts": [
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "Je commence par la 1ère propriété",
+        "(comparer deux nombres négatifs):"
+      ]
+    },
+    {
+      "slide": 9,
+      "texts": [
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "J’pplique cette propriété sur cet exemple. \nJe compare moins trois et moins deux.\nCe sont deux nombres négatifs..",
+        "Exemple 1 :"
+      ]
+    },
+    {
+      "slide": 10,
+      "texts": [
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "Je vais donc comparer leurs valeurs absolues.\nLa valeur absolue de −3 est 3 , et celle de −2 est 2",
+        "Exemple 1 :"
+      ]
+    },
+    {
+      "slide": 11,
+      "texts": [
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "Exemple 1 :",
+        "Je compare 3 et 2"
+      ]
+    },
+    {
+      "slide": 12,
+      "texts": [
+        "On a :",
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "Trois est plus grand que deux.",
+        "Exemple :"
+      ]
+    },
+    {
+      "slide": 13,
+      "texts": [
+        "On a :",
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "Moins trois a donc la plus grande valeur absolue.",
+        "Exemple 1 :"
+      ]
+    },
+    {
+      "slide": 14,
+      "texts": [
+        "On a :",
+        "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+        "Propriété 1",
+        "Or, parmi deux nombres négatifs, celui qui a la plus grande valeur absolue est le plus petit.\nDonc, moins trois est inférieur à moins deux.",
+        "Exemple 1 :"
+      ]
+    },
+    {
+      "slide": 15,
+      "texts": [
+        "propriété 2",
+        "Je passe maintenant à la 2ème propriété"
+      ]
+    },
+    {
+      "slide": 16,
+      "texts": [
+        "Un nombre négatif est plus petit qu’un nombre positif.",
+        "Propriété 2",
+        "maintenant comment comparer un nombre négatif et un nombre positif. Un nombre négatif est plus petit qu’un nombre positif. ."
+      ]
+    },
+    {
+      "slide": 17,
+      "texts": [
+        "Propriété 2",
+        "Je prend un exemple : je compare moins cinq et un.\nJ’observe d’abord le signe de chaque nombre.",
+        "Exemple :",
+        "Un nombre négatif est plus petit qu’un nombre positif."
+      ]
+    },
+    {
+      "slide": 18,
+      "texts": [
+        "Propriété 2",
+        "Moins cinq est un nombre négatif.\nUn est un nombre positif : je peux aussi l’écrire plus un.\nCes deux nombres ont donc des signes contraires",
+        "Un nombre négatif est plus petit qu’un nombre positif.",
+        "Exemple :",
+        "négatif",
+        "positif"
+      ]
+    },
+    {
+      "slide": 19,
+      "texts": [
+        "Propriété 2",
+        "Un nombre négatif est plus petit qu’un nombre positif.",
+        "Exemple :"
+      ]
+    },
+    {
+      "slide": 20,
+      "texts": [
+        "Remarque",
+        "Je passe maintenant à cette remarque:"
+      ]
+    },
+    {
+      "slide": 21,
+      "texts": [
+        "Pour comparer deux nombres, on peut les placer sur la droite numérique.",
+        "Remarque",
+        "Je passe maintenant à cette remarque:\npour comparer deux nombres, je peux les placer sur une droite numérique.",
+        "O",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "2"
+      ]
+    },
+    {
+      "slide": 22,
+      "texts": [
+        "Pour comparer deux nombres, on peut les placer sur la droite numérique. Le plus petit est celui qui est le plus à gauche.",
+        "Remarque",
+        "Le plus petit est celui qui est le plus à gauche.\nEt le plus grand est celui qui est le plus à droite",
+        "Plus grand",
+        "O",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "Plus petit",
+        "2"
+      ]
+    },
+    {
+      "slide": 23,
+      "texts": [
+        "J’applique cette remarque sur cet exemple: je veux comparer -3 et -2",
+        "Pour comparer deux nombres, on peut les placer sur la droite numérique. Le plus petit est celui qui est le plus à gauche.",
+        "Remarque",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "2"
+      ]
+    },
+    {
+      "slide": 24,
+      "texts": [
+        "Je place d’abord ces 2 nombres sur la droite numérique",
+        "Pour comparer deux nombres, on peut les placer sur la droite numérique. Le plus petit est celui qui est le plus à gauche.",
+        "Remarque",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "2"
+      ]
+    },
+    {
+      "slide": 25,
+      "texts": [
+        "J’observe que moins trois est situé à gauche de moins deux.",
+        "Pour comparer deux nombres, on peut les placer sur la droite numérique. Le plus petit est celui qui est le plus à gauche.",
+        "Remarque",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "2",
+        "Plus petit"
+      ]
+    },
+    {
+      "slide": 26,
+      "texts": [
+        "Donc, moins trois est inférieur à moins deux.",
+        "Pour comparer deux nombres, on peut les placer sur la droite numérique. Le plus petit est celui qui est le plus à gauche.",
+        "Remarque",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "2",
+        "Plus petit"
+      ]
+    },
+    {
+      "slide": 27,
+      "texts": [
+        "Je retiens : sur une droite numérique, le plus petit nombre est celui qui se trouve le plus à gauche\nEt le nombre le plus grand se trouve à droite",
+        "Plus grand",
+        "O",
+        "0",
+        "I",
+        "1",
+        "3",
+        "4",
+        "5",
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5",
+        "Plus petit",
+        "2"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "type": "intro",
+      "duration": 6,
+      "title": "Comparer et ranger des nombres"
+    },
+    {
+      "type": "property",
+      "duration": 10,
+      "title": "Propriété 1",
+      "text": "Si deux nombres sont négatifs, le plus petit est celui qui a la plus grande valeur absolue."
+    },
+    {
+      "type": "example",
+      "duration": 11,
+      "title": "Exemple 1",
+      "text": "Comparer −3 et −2",
+      "steps": [
+        "|−3| = 3   et   |−2| = 2",
+        "3 > 2",
+        "Donc −3 < −2"
+      ]
+    },
+    {
+      "type": "property",
+      "duration": 9,
+      "title": "Propriété 2",
+      "text": "Un nombre négatif est plus petit qu’un nombre positif."
+    },
+    {
+      "type": "example",
+      "duration": 9,
+      "title": "Exemple 2",
+      "text": "Comparer −5 et 1",
+      "steps": [
+        "−5 est négatif, 1 est positif",
+        "Donc −5 < 1"
+      ]
+    },
+    {
+      "type": "line",
+      "duration": 13,
+      "title": "Remarque",
+      "text": "Sur une droite numérique, le plus petit est situé à gauche."
+    }
+  ],
+  "voiceover_needed": true
+}

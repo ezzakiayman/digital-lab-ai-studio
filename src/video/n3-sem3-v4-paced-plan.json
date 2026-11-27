@@ -1,0 +1,168 @@
+{
+  "scenes": [
+    {
+      "id": "vdp1-objectif",
+      "kind": "intro",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître la racine carrée d’un nombre positif. Reconnaître, c’est savoir. La racine carrée est le sujet de notre séance. D’un nombre positif, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+      "beats": [
+        {
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître la racine carrée d’un nombre positif."
+        },
+        {
+          "text": "Reconnaître, c’est savoir."
+        },
+        {
+          "text": "La racine carrée est le sujet de notre séance."
+        },
+        {
+          "text": "D’un nombre positif, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp1-objectif.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp2-objectif",
+      "kind": "intro",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de comparer les racines carrées des nombres positifs. Comparer, c’est utiliser l’un des symboles, supérieur à ou inférieur à. Les racines carrées, comme la racine carrée de sept et la racine carrée de dix. Des nombres positifs, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+      "beats": [
+        {
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de comparer les racines carrées des nombres positifs."
+        },
+        {
+          "text": "Comparer, c’est utiliser l’un des symboles, supérieur à ou inférieur à."
+        },
+        {
+          "text": "Les racines carrées, comme la racine carrée de sept et la racine carrée de dix."
+        },
+        {
+          "text": "Des nombres positifs, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp2-objectif.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp2-attention",
+      "kind": "teaching",
+      "narration": "Attention : cette propriété ne s’applique pas aux nombres strictement négatifs. Par exemple, moins huit est inférieur à moins un. On ne peut pas comparer les racines carrées de moins huit et de moins un. Pourquoi ? Parce que le nombre sous la racine carrée doit être positif ou nul.",
+      "beats": [
+        {
+          "text": "Attention : cette propriété ne s’applique pas aux nombres strictement négatifs."
+        },
+        {
+          "text": "Par exemple, moins huit est inférieur à moins un."
+        },
+        {
+          "text": "On ne peut pas comparer les racines carrées de moins huit et de moins un."
+        },
+        {
+          "text": "Pourquoi ? Parce que le nombre sous la racine carrée doit être positif ou nul."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp2-attention.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp2-vocabulaire",
+      "kind": "teaching",
+      "narration": "Voici les expressions de cette séance. Comparer, avec les symboles supérieur à et inférieur à. Je compare des racines carrées. Je peux m’aider de la propriété ou passer par le carré.",
+      "beats": [
+        {
+          "text": "Voici les expressions de cette séance."
+        },
+        {
+          "text": "Comparer, avec les symboles supérieur à et inférieur à."
+        },
+        {
+          "text": "Je compare des racines carrées."
+        },
+        {
+          "text": "Je peux m’aider de la propriété ou passer par le carré."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp2-vocabulaire.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-fraction-1",
+      "kind": "teaching",
+      "narration": "De la même façon, un sur dix à la puissance trois est une fraction décimale. Son écriture décimale est zéro virgule zéro zéro un. Et dans le premier exemple, deux cent vingt-cinq sur dix au carré donne deux virgule vingt-cinq.",
+      "beats": [
+        {
+          "text": "De la même façon, un sur dix à la puissance trois est une fraction décimale."
+        },
+        {
+          "text": "Son écriture décimale est zéro virgule zéro zéro un."
+        },
+        {
+          "text": "Et dans le premier exemple, deux cent vingt-cinq sur dix au carré donne deux virgule vingt-cinq."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp3-fraction-1.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-decimale-en-fraction",
+      "kind": "teaching",
+      "narration": "Observons deux virgule neuf cent quatre-vingt-cinq. Son écriture décimale est finie. Pourquoi ? Il a trois chiffres après la virgule. Je vais l’écrire sous la forme d’une fraction. J’obtiens deux mille neuf cent quatre-vingt-cinq sur mille. Pourquoi mille ? Parce qu’il y a trois chiffres après la virgule. Mille est dix à la puissance trois. J’obtiens donc deux mille neuf cent quatre-vingt-cinq sur dix à la puissance trois.",
+      "beats": [
+        {
+          "text": "Observons deux virgule neuf cent quatre-vingt-cinq. Son écriture décimale est finie. Pourquoi ?"
+        },
+        {
+          "text": "Il a trois chiffres après la virgule."
+        },
+        {
+          "text": "Je vais l’écrire sous la forme d’une fraction."
+        },
+        {
+          "text": "J’obtiens deux mille neuf cent quatre-vingt-cinq sur mille."
+        },
+        {
+          "text": "Pourquoi mille ? Parce qu’il y a trois chiffres après la virgule."
+        },
+        {
+          "text": "Mille est dix à la puissance trois. J’obtiens donc deux mille neuf cent quatre-vingt-cinq sur dix à la puissance trois."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp3-decimale-en-fraction.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp4-objectif",
+      "kind": "intro",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de distinguer nombres rationnels, nombres irrationnels et nombres réels. Distinguer, c’est faire la différence. Voici quelques nombres : sept, zéro virgule vingt-cinq, moins trois sur quatre, la racine carrée de deux et pi. Voyons ce que signifient ces expressions.",
+      "beats": [
+        {
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de distinguer nombres rationnels, nombres irrationnels et nombres réels."
+        },
+        {
+          "text": "Distinguer, c’est faire la différence."
+        },
+        {
+          "text": "Voici quelques nombres : sept, zéro virgule vingt-cinq, moins trois sur quatre, la racine carrée de deux et pi."
+        },
+        {
+          "text": "Voyons ce que signifient ces expressions."
+        }
+      ],
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp4-objectif.wav",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

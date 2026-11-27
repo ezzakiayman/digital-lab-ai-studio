@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "lesson": "Déterminer le PPCM",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "ppcm",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "audio": "n3/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de déterminer le plus petit multiple commun de deux entiers positifs non nuls."
+        },
+        {
+          "stage": 1,
+          "text": "Déterminer, c’est trouver."
+        },
+        {
+          "stage": 2,
+          "text": "Le plus petit multiple commun se dit en arabe : المضاعف المشترك الأصغر."
+        },
+        {
+          "stage": 3,
+          "text": "Deux entiers positifs non nuls, comme cinquante-huit et douze."
+        },
+        {
+          "stage": 4,
+          "text": "Mais pas zéro, ni moins trois."
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de déterminer le plus petit multiple commun de deux entiers positifs non nuls. Déterminer, c’est trouver. Le plus petit multiple commun se dit en arabe : المضاعف المشترك الأصغر. Deux entiers positifs non nuls, comme cinquante-huit et douze. Mais pas zéro, ni moins trois."
+    },
+    {
+      "id": "definition",
+      "type": "ppcm",
+      "kind": "definition",
+      "title": "Définition",
+      "sourceSlides": [
+        6,
+        7,
+        8
+      ],
+      "audio": "n3/definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la définition. X et y sont deux entiers positifs non nuls."
+        },
+        {
+          "stage": 1,
+          "text": "Le plus petit multiple commun non nul de x et de y est noté : P P C M de x et de y."
+        }
+      ],
+      "narration": "Je commence par la définition. X et y sont deux entiers positifs non nuls. Le plus petit multiple commun non nul de x et de y est noté : P P C M de x et de y."
+    },
+    {
+      "id": "sigle",
+      "type": "ppcm",
+      "kind": "acronym",
+      "title": "Définition",
+      "sourceSlides": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "audio": "n3/sigle.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Le premier P signifie : plus."
+        },
+        {
+          "stage": 1,
+          "text": "Le deuxième P signifie : petit."
+        },
+        {
+          "stage": 2,
+          "text": "C signifie : commun."
+        },
+        {
+          "stage": 3,
+          "text": "Et M signifie : multiple."
+        }
+      ],
+      "narration": "Le premier P signifie : plus. Le deuxième P signifie : petit. C signifie : commun. Et M signifie : multiple."
+    },
+    {
+      "id": "multiples",
+      "type": "ppcm",
+      "kind": "multiples",
+      "title": "Exemple",
+      "sourceSlides": [
+        13,
+        14,
+        15
+      ],
+      "audio": "n3/multiples.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends les deux entiers positifs six et quatre."
+        },
+        {
+          "stage": 1,
+          "text": "Les premiers multiples communs non nuls de six et de quatre sont douze, vingt-quatre et trente-six."
+        },
+        {
+          "stage": 2,
+          "text": "Parmi ces multiples communs, le plus petit est douze."
+        }
+      ],
+      "narration": "Je prends les deux entiers positifs six et quatre. Les premiers multiples communs non nuls de six et de quatre sont douze, vingt-quatre et trente-six. Parmi ces multiples communs, le plus petit est douze."
+    },
+    {
+      "id": "resultat-douze",
+      "type": "ppcm",
+      "kind": "lcm-result",
+      "title": "Exemple",
+      "sourceSlides": [
+        16
+      ],
+      "audio": "n3/resultat-douze.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Donc, le P P C M de six et de quatre est égal à douze."
+        }
+      ],
+      "narration": "Donc, le P P C M de six et de quatre est égal à douze."
+    },
+    {
+      "id": "propriete-un",
+      "type": "ppcm",
+      "kind": "property1",
+      "title": "Propriété 1",
+      "sourceSlides": [
+        17,
+        18,
+        19
+      ],
+      "audio": "n3/propriete-un.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la première propriété du P P C M."
+        },
+        {
+          "stage": 1,
+          "text": "X et y sont deux entiers positifs non nuls."
+        },
+        {
+          "stage": 2,
+          "text": "Si x est un multiple de y, alors le P P C M de x et de y est égal à x."
+        }
+      ],
+      "narration": "Je passe maintenant à la première propriété du P P C M. X et y sont deux entiers positifs non nuls. Si x est un multiple de y, alors le P P C M de x et de y est égal à x."
+    },
+    {
+      "id": "exemple-soixante-douze",
+      "type": "ppcm",
+      "kind": "divisible-example",
+      "title": "Exemple",
+      "sourceSlides": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "audio": "n3/exemple-soixante-douze.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "J’applique cette propriété aux nombres soixante-douze et huit."
+        },
+        {
+          "stage": 1,
+          "text": "Je remarque que soixante-douze est égal à huit fois neuf."
+        },
+        {
+          "stage": 2,
+          "text": "Donc, soixante-douze est un multiple de huit."
+        },
+        {
+          "stage": 3,
+          "text": "D’après la première propriété, le P P C M de soixante-douze et de huit est égal à soixante-douze."
+        }
+      ],
+      "narration": "J’applique cette propriété aux nombres soixante-douze et huit. Je remarque que soixante-douze est égal à huit fois neuf. Donc, soixante-douze est un multiple de huit. D’après la première propriété, le P P C M de soixante-douze et de huit est égal à soixante-douze."
+    },
+    {
+      "id": "propriete-deux",
+      "type": "ppcm",
+      "kind": "property2",
+      "title": "Propriété 2",
+      "sourceSlides": [
+        24,
+        25,
+        26
+      ],
+      "audio": "n3/propriete-deux.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Maintenant, la deuxième propriété du P P C M. X et y sont deux entiers positifs non nuls."
+        },
+        {
+          "stage": 1,
+          "text": "Le P P C M de x et de y, multiplié par le P G C D de x et de y, est égal au produit de x par y."
+        }
+      ],
+      "narration": "Maintenant, la deuxième propriété du P P C M. X et y sont deux entiers positifs non nuls. Le P P C M de x et de y, multiplié par le P G C D de x et de y, est égal au produit de x par y."
+    },
+    {
+      "id": "exemple-produit",
+      "type": "ppcm",
+      "kind": "product-example",
+      "title": "Exemple",
+      "sourceSlides": [
+        27,
+        28,
+        29
+      ],
+      "audio": "n3/exemple-produit.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "J’applique cette propriété aux nombres six et quatre."
+        },
+        {
+          "stage": 1,
+          "text": "Je sais que le P P C M de six et de quatre est égal à douze."
+        },
+        {
+          "stage": 2,
+          "text": "Et le P G C D de six et de quatre est égal à deux."
+        }
+      ],
+      "narration": "J’applique cette propriété aux nombres six et quatre. Je sais que le P P C M de six et de quatre est égal à douze. Et le P G C D de six et de quatre est égal à deux."
+    },
+    {
+      "id": "verification",
+      "type": "ppcm",
+      "kind": "verification",
+      "title": "Vérification",
+      "sourceSlides": [
+        30,
+        31,
+        32
+      ],
+      "audio": "n3/verification.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je multiplie le P P C M par le P G C D : douze fois deux, j’obtiens vingt-quatre."
+        },
+        {
+          "stage": 1,
+          "text": "Et six fois quatre est aussi égal à vingt-quatre."
+        },
+        {
+          "stage": 2,
+          "text": "Les deux produits sont égaux. La propriété est donc vérifiée pour six et quatre."
+        }
+      ],
+      "narration": "Je multiplie le P P C M par le P G C D : douze fois deux, j’obtiens vingt-quatre. Et six fois quatre est aussi égal à vingt-quatre. Les deux produits sont égaux. La propriété est donc vérifiée pour six et quatre."
+    },
+    {
+      "id": "lecture-multiple",
+      "type": "ppcm",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        33
+      ],
+      "audio": "n3/lecture-multiple.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot multiple."
+        },
+        {
+          "stage": 1,
+          "text": "Multiple. Multiple."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot multiple. Multiple. Multiple."
+    },
+    {
+      "id": "synthese-definition",
+      "type": "ppcm",
+      "kind": "summary",
+      "title": "Synthèse",
+      "sourceSlides": [
+        34,
+        35,
+        36
+      ],
+      "audio": "n3/synthese-definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Retenez maintenant l’essentiel."
+        },
+        {
+          "stage": 1,
+          "text": "Au cours de cette séance, j’ai appris à déterminer le P P C M de deux entiers positifs non nuls."
+        },
+        {
+          "stage": 2,
+          "text": "Par exemple : le P P C M de six et de quatre est égal à douze."
+        }
+      ],
+      "narration": "Retenez maintenant l’essentiel. Au cours de cette séance, j’ai appris à déterminer le P P C M de deux entiers positifs non nuls. Par exemple : le P P C M de six et de quatre est égal à douze."
+    },
+    {
+      "id": "synthese-un",
+      "type": "ppcm",
+      "kind": "summary1",
+      "title": "Synthèse",
+      "sourceSlides": [
+        37
+      ],
+      "audio": "n3/synthese-un.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "J’ai appris à appliquer la première propriété : si x est un multiple de y, alors le P P C M de x et de y est égal à x."
+        }
+      ],
+      "narration": "J’ai appris à appliquer la première propriété : si x est un multiple de y, alors le P P C M de x et de y est égal à x."
+    },
+    {
+      "id": "synthese-deux",
+      "type": "ppcm",
+      "kind": "summary2",
+      "title": "Synthèse",
+      "sourceSlides": [
+        38
+      ],
+      "audio": "n3/synthese-deux.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "J’ai aussi appris à appliquer la deuxième propriété : le P P C M de x et de y, multiplié par leur P G C D, est égal à x fois y."
+        }
+      ],
+      "narration": "J’ai aussi appris à appliquer la deuxième propriété : le P P C M de x et de y, multiplié par leur P G C D, est égal à x fois y."
+    },
+    {
+      "id": "vocabulaire",
+      "type": "ppcm",
+      "kind": "vocabulary",
+      "title": "À retenir",
+      "sourceSlides": [
+        39
+      ],
+      "audio": "n3/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Enfin, je retiens le vocabulaire : multiple, commun, et P P C M."
+        }
+      ],
+      "narration": "Enfin, je retiens le vocabulaire : multiple, commun, et P P C M."
+    }
+  ]
+}

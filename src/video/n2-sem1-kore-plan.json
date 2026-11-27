@@ -1,0 +1,70 @@
+{
+  "scenes": [
+    {
+      "id": "n2-sem1-vdp3-objectif",
+      "narration": "Bonjour. Aujourd’hui, vous serez capables de résoudre l’équation : x au carré est égal à a, avec a supérieur à zéro. Résoudre une équation, c’est trouver les valeurs de x qui rendent l’égalité vraie. Voici quelques exemples d’équations : x au carré est égal à vingt-cinq, puis x au carré est égal à dix-neuf.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp3-objectif.wav"
+    },
+    {
+      "id": "n2-sem1-vdp3-resoudre",
+      "narration": "A est un nombre positif. Résoudre l’équation x au carré est égal à a, c’est trouver les nombres qui, élevés au carré, donnent a. Je prends un premier exemple : x au carré est égal à trente-six. Je cherche les nombres qui ont trente-six pour carré. À votre avis, quels nombres ont pour carré trente-six ? Il y a six et moins six. Ce sont donc deux solutions. Je vérifie : six au carré est égal à trente-six, et le carré de moins six est aussi égal à trente-six. Voilà pourquoi les deux nombres conviennent. Je passe au deuxième exemple : x au carré est égal à deux. Cette fois, je cherche les nombres dont le carré est égal à deux. Les deux solutions sont racine carrée de deux et moins racine carrée de deux. Ces deux nombres sont opposés. Je peux les vérifier : le carré de racine carrée de deux est égal à deux. Le carré de moins racine carrée de deux est également égal à deux. Les deux valeurs conviennent donc.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp3-resoudre.wav"
+    },
+    {
+      "id": "n2-sem1-vdp3-vocabulaire",
+      "narration": "Pour terminer, je retiens le mot résoudre. Résoudre une équation, c’est chercher les valeurs qui rendent l’égalité vraie. Et le deuxième mot, c’est équation. Une équation est une égalité contenant une inconnue. Ce sont les deux mots essentiels de cette séance.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp3-vocabulaire.wav"
+    },
+    {
+      "id": "n2-sem1-vdp3-prononciation-13",
+      "narration": "Écoutez le mot résoudre. Écoutez les syllabes. Ré. Zoudre. Résoudre. Maintenant, répétez : Résoudre.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp3-prononciation-13.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-objectif-avant",
+      "narration": "Bonjour. Aujourd’hui, je vais vous expliquer comment identifier les éléments d’un monôme. Identifier, c’est reconnaître ou repérer quelque chose. En arabe,",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp4-objectif-avant.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-objectif-apres",
+      "narration": "c’est l’idée de reconnaître. Et le mot monôme désigne ici une expression comme quatre fois x au carré fois y. Je vais apprendre à en distinguer les éléments.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp4-objectif-apres.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-prononciation-4",
+      "narration": "Écoutez les syllabes du mot monôme. Mo. Nôme. Monôme. Maintenant, répétez : monôme.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/retakes/monome.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-definition-monome",
+      "narration": "Première définition : un monôme est une expression algébrique à un seul terme. Cela veut dire qu’il s’agit d’un seul terme, et non d’une somme de plusieurs termes. Prenons quatre fois x au carré fois y au cube. Il n’y a qu’un seul terme. C’est donc bien un monôme. En revanche, deux fois x plus y contient deux termes, séparés par une addition. Ce n’est pas un monôme. Dans le monôme quatre fois x au carré fois y au cube, quatre est le coefficient. C’est le nombre qui multiplie les lettres. Et x et y sont les variables : ce sont les lettres auxquelles je peux donner différentes valeurs.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp4-definition-monome.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-degre",
+      "narration": "Deuxième définition : le degré du monôme est la somme des exposants de ses variables. Je dois donc m’intéresser aux exposants des lettres. Le degré du monôme quatre fois x au carré fois y au cube est… Je repère l’exposant deux de x et l’exposant trois de y. J’additionne ces exposants : deux plus trois est égal à cinq. Le degré de ce monôme est donc cinq.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp4-degre.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-prononciation-13",
+      "narration": "Écoutez les syllabes du mot degré. De. Gré. Degré. Maintenant, répétez : degré.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/retakes/degre.wav"
+    },
+    {
+      "id": "n2-sem1-vdp4-vocabulaire",
+      "narration": "Pour terminer, je retiens du vocabulaire important. D’abord, monôme : une expression algébrique à un seul terme. Ensuite, variable : une lettre qui peut prendre différentes valeurs. Puis, coefficient : le nombre qui multiplie les variables dans le monôme. Enfin, degré : la somme des exposants des variables. Ces quatre mots m’aident à identifier les éléments d’un monôme.",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp4-vocabulaire.wav"
+    }
+  ]
+}

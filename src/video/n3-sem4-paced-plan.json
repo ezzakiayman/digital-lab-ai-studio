@@ -1,0 +1,1053 @@
+{
+  "scenes": [
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-objectif.wav",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et appliquer la relation : racine carrée de a multipliée par racine carrée de b est égale à la racine carrée du produit de a et b. Reconnaître, c’est savoir. Et appliquer la relation, c’est utiliser la règle pour effectuer un calcul.",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et appliquer la relation : racine carrée de a multipliée par racine carrée de b est égale à la racine carrée du produit de a et b.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Reconnaître, c’est savoir.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Et appliquer la relation, c’est utiliser la règle pour effectuer un calcul.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Reconnaître et appliquer la relation",
+        "measure": 1681,
+        "size": 60,
+        "links": [
+          {
+            "offset": 0,
+            "width": 371,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Savoir",
+                "x": 960,
+                "y": 717,
+                "size": 64,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 464,
+            "width": 611,
+            "at": 2,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Utiliser la règle",
+                "x": 960,
+                "y": 717,
+                "size": 59,
+                "at": 0
+              }
+            ]
+          }
+        ],
+        "formula": {
+          "value": "\\sqrt{a}\\times\\sqrt{b}=\\sqrt{a\\times b}",
+          "offset": 1111,
+          "width": 570,
+          "size": 59
+        }
+      }
+    },
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-propriete.wav",
+      "narration": "Je commence par la propriété du produit de deux racines carrées. A et b sont deux nombres positifs ou nuls. Le produit de la racine carrée de a et de la racine carrée de b est égal à la racine carrée du produit de a et b.",
+      "sourceSlides": [
+        4,
+        5,
+        6
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "a\\text{ et }b\\text{ sont deux nombres positifs ou nuls.}",
+          "x": 960,
+          "y": 425,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "a\\geq0\\qquad b\\geq0",
+          "x": 960,
+          "y": 520,
+          "size": 57,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}\\times\\sqrt{b}\\phantom{=\\sqrt{a\\times b}}",
+          "x": 960,
+          "y": 770,
+          "size": 100,
+          "at": 2,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}\\times\\sqrt{b}=\\sqrt{a\\times b}",
+          "x": 960,
+          "y": 770,
+          "size": 100,
+          "at": 3
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la propriété du produit de deux racines carrées.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "A et b sont deux nombres positifs ou nuls.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Le produit de la racine carrée de a et de la racine carrée de b",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "est égal à la racine carrée du produit de a et b.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-exemple-1",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple 1",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-exemple-1.wav",
+      "narration": "Par exemple, la racine carrée de deux multipliée par la racine carrée de huit est égale à la racine carrée de deux fois huit.",
+      "sourceSlides": [
+        7
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\sqrt{2}\\times\\sqrt{8}\\phantom{=\\sqrt{2\\times 8}}",
+          "x": 960,
+          "y": 612,
+          "size": 112,
+          "at": 1,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{2}\\times\\sqrt{8}=\\sqrt{2\\times 8}",
+          "x": 960,
+          "y": 612,
+          "size": 112,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple,",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "la racine carrée de deux multipliée par la racine carrée de huit",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "est égale à la racine carrée de deux fois huit.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-exemple-2",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple 2",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-exemple-2.wav",
+      "narration": "Je peux aussi utiliser la propriété dans l’autre sens : la racine carrée de seize fois vingt-cinq est égale au produit de la racine carrée de seize et la racine carrée de vingt-cinq.",
+      "sourceSlides": [
+        8
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\sqrt{16\\times25}\\phantom{=\\sqrt{16}\\times\\sqrt{25}}",
+          "x": 960,
+          "y": 612,
+          "size": 99,
+          "at": 1,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{16\\times25}=\\sqrt{16}\\times\\sqrt{25}",
+          "x": 960,
+          "y": 612,
+          "size": 99,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je peux aussi utiliser la propriété dans l’autre sens :",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "la racine carrée de seize fois vingt-cinq",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "est égale au produit de la racine carrée de seize et la racine carrée de vingt-cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-remarque",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Remarque",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-remarque.wav",
+      "narration": "Voici une remarque pour mieux comprendre cette propriété. L’égalité : racine carrée de a multipliée par racine carrée de b est égale à la racine carrée de a fois b, signifie que : Le produit de deux racines carrées est égal à la racine carrée du produit.",
+      "sourceSlides": [
+        9,
+        10,
+        11
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "L’égalité",
+          "x": 960,
+          "y": 372,
+          "size": 56,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}\\times\\sqrt{b}=\\sqrt{a\\times b}",
+          "x": 960,
+          "y": 540,
+          "size": 95,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "signifie que",
+          "x": 960,
+          "y": 709,
+          "size": 48,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Le produit de deux racines carrées",
+          "x": 960,
+          "y": 805,
+          "size": 58,
+          "at": 2,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "est égal à la racine carrée du produit.",
+          "x": 960,
+          "y": 898,
+          "size": 58,
+          "at": 3,
+          "weight": 700
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici une remarque pour mieux comprendre cette propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "L’égalité : racine carrée de a multipliée par racine carrée de b est égale à la racine carrée de a fois b, signifie que :",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Le produit de deux racines carrées",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "est égal à la racine carrée du produit.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-prononciation",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-prononciation.wav",
+      "narration": "Écoutez la lecture du mot radical. Ra. Di. Cal. Radical.",
+      "sourceSlides": [
+        12
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la lecture du mot radical.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ra.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Di.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Cal.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Radical.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Radical",
+        "syllables": [
+          "ra",
+          "di",
+          "cal"
+        ]
+      }
+    },
+    {
+      "episode": 1,
+      "id": "n3-sem4-vdp1-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp1-vocabulaire.wav",
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Produit, comme trois fois cinq, qui donne quinze. Puis racine carrée : par exemple, la racine carrée de neuf vaut trois. Enfin, le radical : c’est le symbole de la racine carrée, comme dans racine carrée de seize.",
+      "sourceSlides": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Produit",
+          "x": 582,
+          "y": 398,
+          "size": 53,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Racine carrée",
+          "x": 1338,
+          "y": 398,
+          "size": 53,
+          "at": 0,
+          "pulse": 4
+        },
+        {
+          "kind": "card",
+          "value": "Radical",
+          "x": 960,
+          "y": 746,
+          "size": 53,
+          "at": 0,
+          "pulse": 7
+        },
+        {
+          "kind": "math",
+          "value": "3\\times5",
+          "x": 550,
+          "y": 570,
+          "size": 75,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "=15",
+          "x": 760,
+          "y": 570,
+          "size": 75,
+          "at": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{9}",
+          "x": 1260,
+          "y": 546,
+          "size": 78,
+          "at": 5
+        },
+        {
+          "kind": "math",
+          "value": "=3",
+          "x": 1462,
+          "y": 546,
+          "size": 78,
+          "at": 6
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\textcolor{#1D1D1D}{16}}",
+          "x": 960,
+          "y": 897,
+          "size": 97,
+          "at": 9,
+          "color": "#D60019"
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Produit,",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "comme trois fois cinq,",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "qui donne quinze.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Puis racine carrée :",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "par exemple, la racine carrée de neuf",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "vaut trois.",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "Enfin, le radical :",
+          "from": 0
+        },
+        {
+          "stage": 8,
+          "text": "c’est le symbole de la racine carrée,",
+          "from": 0
+        },
+        {
+          "stage": 9,
+          "text": "comme dans racine carrée de seize.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-objectif.wav",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et appliquer la relation : racine carrée de a sur racine carrée de b est égale à la racine carrée du quotient a sur b. Reconnaître cette relation, c’est savoir la repérer. L’appliquer, c’est utiliser la règle dans un calcul.",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et appliquer la relation : racine carrée de a sur racine carrée de b est égale à la racine carrée du quotient a sur b.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Reconnaître cette relation, c’est savoir la repérer.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "L’appliquer, c’est utiliser la règle dans un calcul.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Reconnaître et appliquer la relation",
+        "measure": 1536,
+        "size": 64,
+        "links": [
+          {
+            "offset": 0,
+            "width": 371,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Savoir",
+                "x": 960,
+                "y": 717,
+                "size": 64,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 464,
+            "width": 611,
+            "at": 2,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Utiliser la règle",
+                "x": 960,
+                "y": 717,
+                "size": 59,
+                "at": 0
+              }
+            ]
+          }
+        ],
+        "formula": {
+          "value": "\\frac{\\sqrt{a}}{\\sqrt{b}}=\\sqrt{\\frac{a}{b}}",
+          "offset": 1111,
+          "width": 425,
+          "size": 59
+        }
+      }
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-propriete.wav",
+      "narration": "Voici la propriété du quotient de deux racines carrées. Je prends a positif ou nul et b strictement positif. C’est important : le dénominateur ne peut pas être zéro. Alors, racine carrée de a sur racine carrée de b est égale à la racine carrée du quotient a sur b.",
+      "sourceSlides": [
+        4,
+        5,
+        6
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "a\\text{ est positif ou nul.}",
+          "x": 960,
+          "y": 402,
+          "size": 55,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "b\\text{ est strictement positif.}",
+          "x": 960,
+          "y": 480,
+          "size": 55,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "a\\geq0\\qquad b>0",
+          "x": 960,
+          "y": 568,
+          "size": 58,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{\\sqrt{a}}{\\sqrt{b}}\\phantom{=\\sqrt{\\frac{a}{b}}}",
+          "x": 960,
+          "y": 770,
+          "size": 100,
+          "at": 4,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{\\sqrt{a}}{\\sqrt{b}}=\\sqrt{\\frac{a}{b}}",
+          "x": 960,
+          "y": 770,
+          "size": 100,
+          "at": 5
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la propriété du quotient de deux racines carrées.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je prends a positif ou nul",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "et b strictement positif.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "C’est important : le dénominateur ne peut pas être zéro.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Alors, racine carrée de a sur racine carrée de b",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "est égale à la racine carrée du quotient a sur b.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-exemple-1",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple 1",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-exemple-1.wav",
+      "narration": "Par exemple, racine carrée de huit sur racine carrée de deux est égale à la racine carrée du quotient huit sur deux.",
+      "sourceSlides": [
+        7
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{\\sqrt{8}}{\\sqrt{2}}\\phantom{=\\sqrt{\\frac{8}{2}}}",
+          "x": 960,
+          "y": 612,
+          "size": 125,
+          "at": 1,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{\\sqrt{8}}{\\sqrt{2}}=\\sqrt{\\frac{8}{2}}",
+          "x": 960,
+          "y": 612,
+          "size": 125,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple,",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "racine carrée de huit sur racine carrée de deux",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "est égale à la racine carrée du quotient huit sur deux.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-exemple-2",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple 2",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-exemple-2.wav",
+      "narration": "Je peux aussi utiliser la propriété dans l’autre sens : la racine carrée du quotient vingt-cinq sur seize est égale à racine carrée de vingt-cinq sur racine carrée de seize.",
+      "sourceSlides": [
+        8
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\frac{25}{16}}\\phantom{=\\frac{\\sqrt{25}}{\\sqrt{16}}}",
+          "x": 960,
+          "y": 612,
+          "size": 125,
+          "at": 1,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\frac{25}{16}}=\\frac{\\sqrt{25}}{\\sqrt{16}}",
+          "x": 960,
+          "y": 612,
+          "size": 125,
+          "at": 2
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je peux aussi utiliser la propriété dans l’autre sens :",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "la racine carrée du quotient vingt-cinq sur seize",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "est égale à racine carrée de vingt-cinq sur racine carrée de seize.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-remarque",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Remarque",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-remarque.wav",
+      "narration": "Je peux retenir la même propriété sous la forme d’une remarque. Cette égalité signifie que : Le quotient de deux racines carrées est égal à la racine carrée du quotient.",
+      "sourceSlides": [
+        9,
+        10,
+        11
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "L’égalité",
+          "x": 960,
+          "y": 372,
+          "size": 56,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{\\sqrt{a}}{\\sqrt{b}}=\\sqrt{\\frac{a}{b}}",
+          "x": 960,
+          "y": 540,
+          "size": 95,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "signifie que",
+          "x": 960,
+          "y": 709,
+          "size": 48,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Le quotient de deux racines carrées",
+          "x": 960,
+          "y": 805,
+          "size": 58,
+          "at": 2,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "est égal à la racine carrée du quotient.",
+          "x": 960,
+          "y": 898,
+          "size": 58,
+          "at": 3,
+          "weight": 700
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je peux retenir la même propriété sous la forme d’une remarque.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Cette égalité signifie que :",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Le quotient de deux racines carrées",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "est égal à la racine carrée du quotient.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-prononciation",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-prononciation.wav",
+      "narration": "Écoutez la lecture du mot quotient. Quotient.",
+      "sourceSlides": [
+        12
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Quotient",
+          "x": 960,
+          "y": 560,
+          "size": 116,
+          "at": 0,
+          "color": "#007DBA",
+          "weight": 700,
+          "pulse": 1
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la lecture du mot quotient.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Quotient.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-paced/n3-sem4-vdp2-vocabulaire.wav",
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Je retiens le mot quotient : par exemple, douze sur trois égale quatre. Puis racine carrée : par exemple, la racine carrée de neuf vaut trois. Enfin, le radical : c’est le symbole de la racine carrée, comme dans racine carrée de seize.",
+      "sourceSlides": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Quotient",
+          "x": 582,
+          "y": 398,
+          "size": 53,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Racine carrée",
+          "x": 1338,
+          "y": 398,
+          "size": 53,
+          "at": 0,
+          "pulse": 4
+        },
+        {
+          "kind": "card",
+          "value": "Radical",
+          "x": 960,
+          "y": 746,
+          "size": 53,
+          "at": 0,
+          "pulse": 7
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{12}{3}",
+          "x": 550,
+          "y": 570,
+          "size": 75,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "=4",
+          "x": 760,
+          "y": 570,
+          "size": 75,
+          "at": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{9}",
+          "x": 1260,
+          "y": 546,
+          "size": 78,
+          "at": 5
+        },
+        {
+          "kind": "math",
+          "value": "=3",
+          "x": 1462,
+          "y": 546,
+          "size": 78,
+          "at": 6
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\textcolor{#1D1D1D}{16}}",
+          "x": 960,
+          "y": 897,
+          "size": 97,
+          "at": 9,
+          "color": "#D60019"
+        }
+      ],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je retiens le mot quotient :",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "par exemple, douze sur trois",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "égale quatre.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Puis racine carrée :",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "par exemple, la racine carrée de neuf",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "vaut trois.",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "Enfin, le radical :",
+          "from": 0
+        },
+        {
+          "stage": 8,
+          "text": "c’est le symbole de la racine carrée,",
+          "from": 0
+        },
+        {
+          "stage": 9,
+          "text": "comme dans racine carrée de seize.",
+          "from": 0
+        }
+      ]
+    }
+  ]
+}

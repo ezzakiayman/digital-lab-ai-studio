@@ -1,0 +1,453 @@
+{
+  "version": 1,
+  "lesson": "Comparer les racines carrées des nombres positifs",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "vdp2-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de comparer les racines carrées des nombres positifs. Comparer, c’est utiliser l’un des symboles, supérieur à ou inférieur à. Les racines carrées, comme la racine carrée de sept et la racine carrée de dix. Des nombres positifs, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp2-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de comparer les racines carrées des nombres positifs.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Comparer, c’est utiliser l’un des symboles, supérieur à ou inférieur à.",
+          "from": 183
+        },
+        {
+          "stage": 2,
+          "text": "Les racines carrées, comme la racine carrée de sept et la racine carrée de dix.",
+          "from": 355
+        },
+        {
+          "stage": 3,
+          "text": "Des nombres positifs, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+          "from": 504
+        }
+      ],
+      "objective": {
+        "title": "Comparer les racines carrées des nombres positifs",
+        "measure": 1567,
+        "size": 65,
+        "links": [
+          {
+            "offset": 0,
+            "width": 303,
+            "at": 1,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\textcolor{#D60019}{>}\\quad\\text{ou}\\quad\\textcolor{#D60019}{<}",
+                "x": 960,
+                "y": 714,
+                "size": 78,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 429,
+            "width": 474,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\sqrt{7}\\ ;\\ \\sqrt{10}\\ ;\\ \\ldots",
+                "x": 960,
+                "y": 730,
+                "size": 77,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 1050,
+            "width": 517,
+            "at": 3,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad 12",
+                "x": 960,
+                "y": 680,
+                "size": 60,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad \\frac{5}{7}",
+                "x": 960,
+                "y": 810,
+                "size": 58,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#D60019}{\\times}\\quad -0{,}25",
+                "x": 960,
+                "y": 929,
+                "size": 60,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 716
+    },
+    {
+      "id": "vdp2-prononciation-6",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « comparer ». con. pa. ré. Comparer.",
+      "audio": "n3-sem3-elevenlabs-bilingual-paced/vdp2-prononciation-6.wav",
+      "sourceSlides": [
+        6
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « comparer ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "con.",
+          "from": 89
+        },
+        {
+          "stage": 2,
+          "text": "pa.",
+          "from": 113
+        },
+        {
+          "stage": 3,
+          "text": "ré.",
+          "from": 136
+        },
+        {
+          "stage": 4,
+          "text": "Comparer.",
+          "from": 159
+        }
+      ],
+      "pronunciation": {
+        "word": "comparer",
+        "syllables": [
+          "com",
+          "pa",
+          "rer"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 219
+    },
+    {
+      "id": "vdp2-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la propriété. Pour deux nombres positifs ou nuls a et b, si a est strictement inférieur à b, alors la racine carrée de a est strictement inférieure à la racine carrée de b.",
+      "audio": "n3-sem3-elevenlabs-bilingual-paced/vdp2-propriete.wav",
+      "sourceSlides": [
+        7,
+        8
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Pour deux nombres positifs ou nuls a et b",
+          "x": 960,
+          "y": 416,
+          "size": 59,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\text{Si }\\textcolor{#007DAF}{a<b}",
+          "x": 960,
+          "y": 590,
+          "size": 95,
+          "at": 1,
+          "frame": 163
+        },
+        {
+          "kind": "math",
+          "value": "\\text{Alors }\\textcolor{#007DAF}{\\sqrt{a}<\\sqrt{b}}",
+          "x": 960,
+          "y": 793,
+          "size": 95,
+          "at": 1,
+          "frame": 248
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour deux nombres positifs ou nuls a et b, si a est strictement inférieur à b, alors la racine carrée de a est strictement inférieure à la racine carrée de b.",
+          "from": 58
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 431
+    },
+    {
+      "id": "vdp2-exemple",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Cinq est strictement inférieur à onze. Alors la racine carrée de cinq est strictement inférieure à la racine carrée de onze.",
+      "audio": "n3-sem3-elevenlabs-bilingual-paced/vdp2-exemple.wav",
+      "sourceSlides": [
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "5<11",
+          "x": 960,
+          "y": 439,
+          "size": 107,
+          "at": 0,
+          "pulse": 0
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 603,
+          "size": 65,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#D60019}{\\sqrt{\\textcolor{#1D1D1D}{5}}}<\\textcolor{#D60019}{\\sqrt{\\textcolor{#1D1D1D}{11}}}",
+          "x": 960,
+          "y": 790,
+          "size": 112,
+          "at": 1
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Cinq est strictement inférieur à onze.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Alors la racine carrée de cinq est strictement inférieure à la racine carrée de onze.",
+          "from": 98
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 289
+    },
+    {
+      "id": "vdp2-attention",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vérification",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Attention : cette propriété ne s’applique pas aux nombres strictement négatifs. Par exemple, moins huit est inférieur à moins un. On ne peut pas comparer les racines carrées de moins huit et de moins un. Pourquoi ? Parce que le nombre sous la racine carrée doit être positif ou nul.",
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp2-attention.wav",
+      "sourceSlides": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "art": [
+        {
+          "kind": "alert",
+          "value": "",
+          "x": 960,
+          "y": 449,
+          "size": 112,
+          "at": 0,
+          "pulse": 0,
+          "to": 1
+        },
+        {
+          "kind": "alert",
+          "value": "",
+          "x": 573,
+          "y": 454,
+          "size": 92,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "-8<-1",
+          "x": 960,
+          "y": 454,
+          "size": 104,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 607,
+          "size": 65,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\textcolor{#D60019}{-8}}<\\sqrt{\\textcolor{#D60019}{-1}}",
+          "x": 875,
+          "y": 783,
+          "size": 105,
+          "at": 2
+        },
+        {
+          "kind": "status",
+          "value": "Faux",
+          "x": 1395,
+          "y": 783,
+          "size": 44,
+          "at": 2,
+          "color": "#D60019",
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Attention : cette propriété ne s’applique pas aux nombres strictement négatifs.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Par exemple, moins huit est inférieur à moins un.",
+          "from": 153
+        },
+        {
+          "stage": 2,
+          "text": "On ne peut pas comparer les racines carrées de moins huit et de moins un.",
+          "from": 281
+        },
+        {
+          "stage": 3,
+          "text": "Pourquoi ? Parce que le nombre sous la racine carrée doit être positif ou nul.",
+          "from": 401
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 583
+    },
+    {
+      "id": "vdp2-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Voici les expressions de cette séance. Comparer, avec les symboles supérieur à et inférieur à. Je compare des racines carrées. Je peux m’aider de la propriété ou passer par le carré.",
+      "audio": "n3-sem3-elevenlabs-v4-paced/vdp2-vocabulaire.wav",
+      "sourceSlides": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Comparer",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulseFrame": 79
+        },
+        {
+          "kind": "card",
+          "value": "Racine carrée",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulseFrame": 254
+        },
+        {
+          "kind": "card",
+          "value": "Carré",
+          "x": 960,
+          "y": 664,
+          "size": 52,
+          "at": 0,
+          "pulseFrame": 379
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici les expressions de cette séance.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Comparer, avec les symboles supérieur à et inférieur à.",
+          "from": 79
+        },
+        {
+          "stage": 2,
+          "text": "Je compare des racines carrées.",
+          "from": 231
+        },
+        {
+          "stage": 3,
+          "text": "Je peux m’aider de la propriété ou passer par le carré.",
+          "from": 296
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 421
+    }
+  ]
+}

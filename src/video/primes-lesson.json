@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "lesson": "Reconnaître les nombres premiers",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "primes",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio": "primes-paced/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et vérifier si un nombre est premier.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Reconnaître, c’est identifier.",
+          "from": 223
+        },
+        {
+          "stage": 2,
+          "text": "Et vérifier se dit en arabe : تحقق.",
+          "from": 300
+        },
+        {
+          "stage": 3,
+          "text": "Un nombre premier, comme deux, trois, cinq, sept ou onze. C’est le sujet de notre séance.",
+          "from": 410
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et vérifier si un nombre est premier. Reconnaître, c’est identifier. Et vérifier se dit en arabe : تحقق. Un nombre premier, comme deux, trois, cinq, sept ou onze. C’est le sujet de notre séance.",
+      "durationInFrames": 633,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "explanation0": 256,
+        "explanation1": 357,
+        "prime0": 453,
+        "prime1": 469,
+        "prime2": 490,
+        "prime3": 509,
+        "prime4": 529
+      }
+    },
+    {
+      "id": "definition",
+      "type": "primes",
+      "kind": "definition",
+      "title": "Définition",
+      "sourceSlides": [
+        5,
+        6,
+        7
+      ],
+      "audio": "primes-paced/definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la définition.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Un entier positif, noté pé, est un nombre premier si et seulement s’il possède exactement deux diviseurs positifs distincts : un et pé.",
+          "from": 98
+        },
+        {
+          "stage": 2,
+          "text": "Autrement dit, il est divisible uniquement par un et par lui-même.",
+          "from": 527
+        }
+      ],
+      "narration": "Je commence par la définition. Un entier positif, noté pé, est un nombre premier si et seulement s’il possède exactement deux diviseurs positifs distincts : un et pé. Autrement dit, il est divisible uniquement par un et par lui-même.",
+      "durationInFrames": 703,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "condition": 251,
+        "two": 324,
+        "focus": 590
+      }
+    },
+    {
+      "id": "exemple-41",
+      "type": "primes",
+      "kind": "divisors",
+      "title": "Exemple",
+      "sourceSlides": [
+        8,
+        9,
+        10
+      ],
+      "audio": "primes-paced/exemple-41.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends l’entier positif quarante et un.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Quarante et un a uniquement deux diviseurs positifs : un et quarante et un.",
+          "from": 144
+        },
+        {
+          "stage": 2,
+          "text": "Donc, quarante et un est un nombre premier.",
+          "from": 319
+        }
+      ],
+      "narration": "Par exemple, je prends l’entier positif quarante et un. Quarante et un a uniquement deux diviseurs positifs : un et quarante et un. Donc, quarante et un est un nombre premier.",
+      "value": 41,
+      "durationInFrames": 419,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "divisor0": 254,
+        "divisor1": 272,
+        "conclusion": 319
+      }
+    },
+    {
+      "id": "exemple-10",
+      "type": "primes",
+      "kind": "divisors",
+      "title": "Exemple",
+      "sourceSlides": [
+        11,
+        12,
+        13
+      ],
+      "audio": "primes-paced/exemple-10.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant l’entier positif dix.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Dix a quatre diviseurs positifs : un, deux, cinq et dix.",
+          "from": 140
+        },
+        {
+          "stage": 2,
+          "text": "Donc, dix n’est pas un nombre premier : il possède quatre diviseurs positifs, au lieu de deux.",
+          "from": 354
+        }
+      ],
+      "narration": "Je prends maintenant l’entier positif dix. Dix a quatre diviseurs positifs : un, deux, cinq et dix. Donc, dix n’est pas un nombre premier : il possède quatre diviseurs positifs, au lieu de deux.",
+      "value": 10,
+      "durationInFrames": 578,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "divisor0": 234,
+        "divisor1": 260,
+        "divisor2": 285,
+        "divisor3": 312,
+        "conclusion": 354
+      }
+    },
+    {
+      "id": "remarque-1",
+      "type": "primes",
+      "kind": "one",
+      "title": "Remarque",
+      "sourceSlides": [
+        14,
+        15
+      ],
+      "audio": "primes-paced/remarque-1.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à cette remarque.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Attention à ce cas : le nombre un n’est pas premier, car il admet un seul diviseur positif, qui est un.",
+          "from": 118
+        },
+        {
+          "stage": 2,
+          "text": "Pour être premier, il faut exactement deux diviseurs positifs distincts.",
+          "from": 372
+        }
+      ],
+      "narration": "Je passe maintenant à cette remarque. Attention à ce cas : le nombre un n’est pas premier, car il admet un seul diviseur positif, qui est un. Pour être premier, il faut exactement deux diviseurs positifs distincts.",
+      "durationInFrames": 539,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {}
+    },
+    {
+      "id": "question",
+      "type": "primes",
+      "kind": "question",
+      "title": "À retenir",
+      "sourceSlides": [
+        16,
+        17
+      ],
+      "audio": "primes-paced/question.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "À retenir : les nombres premiers inférieurs à cent.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Quels sont donc les nombres premiers inférieurs à cent ?",
+          "from": 151
+        }
+      ],
+      "narration": "À retenir : les nombres premiers inférieurs à cent. Quels sont donc les nombres premiers inférieurs à cent ?",
+      "holdSeconds": 1.5,
+      "durationInFrames": 278,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {}
+    },
+    {
+      "id": "premiers-2-47",
+      "type": "primes",
+      "kind": "prime-ranges",
+      "title": "À retenir",
+      "sourceSlides": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "audio": "primes-paced/premiers-2-47.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence d’abord par les nombres premiers inférieurs à dix : deux, trois, cinq, sept.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Entre dix et vingt : onze, treize, dix-sept, dix-neuf.",
+          "from": 285
+        },
+        {
+          "stage": 2,
+          "text": "Entre vingt et trente : vingt-trois, vingt-neuf.",
+          "from": 514
+        },
+        {
+          "stage": 3,
+          "text": "Entre trente et quarante : trente et un, trente-sept.",
+          "from": 678
+        },
+        {
+          "stage": 4,
+          "text": "Entre quarante et cinquante : quarante et un, quarante-trois, quarante-sept.",
+          "from": 850
+        }
+      ],
+      "narration": "Je commence d’abord par les nombres premiers inférieurs à dix : deux, trois, cinq, sept. Entre dix et vingt : onze, treize, dix-sept, dix-neuf. Entre vingt et trente : vingt-trois, vingt-neuf. Entre trente et quarante : trente et un, trente-sept. Entre quarante et cinquante : quarante et un, quarante-trois, quarante-sept.",
+      "rangeStart": 0,
+      "durationInFrames": 1064,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "row0number0": 136,
+        "row0number1": 163,
+        "row0number2": 201,
+        "row0number3": 233,
+        "row1number0": 353,
+        "row1number1": 386,
+        "row1number2": 423,
+        "row1number3": 460,
+        "row2number0": 585,
+        "row2number1": 623,
+        "row3number0": 755,
+        "row3number1": 790,
+        "row4number0": 929,
+        "row4number1": 967,
+        "row4number2": 1006
+      }
+    },
+    {
+      "id": "premiers-53-97",
+      "type": "primes",
+      "kind": "prime-ranges",
+      "title": "À retenir",
+      "sourceSlides": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "audio": "primes-paced/premiers-53-97.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Entre cinquante et soixante : cinquante-trois, cinquante-neuf.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Entre soixante et soixante-dix : soixante et un, soixante-sept.",
+          "from": 204
+        },
+        {
+          "stage": 2,
+          "text": "Entre soixante-dix et quatre-vingts : soixante et onze, soixante-treize, soixante-dix-neuf.",
+          "from": 407
+        },
+        {
+          "stage": 3,
+          "text": "Entre quatre-vingts et quatre-vingt-dix : quatre-vingt-trois, quatre-vingt-neuf.",
+          "from": 667
+        },
+        {
+          "stage": 4,
+          "text": "Entre quatre-vingt-dix et cent : quatre-vingt-dix-sept.",
+          "from": 865
+        }
+      ],
+      "narration": "Entre cinquante et soixante : cinquante-trois, cinquante-neuf. Entre soixante et soixante-dix : soixante et un, soixante-sept. Entre soixante-dix et quatre-vingts : soixante et onze, soixante-treize, soixante-dix-neuf. Entre quatre-vingts et quatre-vingt-dix : quatre-vingt-trois, quatre-vingt-neuf. Entre quatre-vingt-dix et cent : quatre-vingt-dix-sept.",
+      "rangeStart": 5,
+      "durationInFrames": 1008,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "row0number0": 98,
+        "row0number1": 146,
+        "row1number0": 296,
+        "row1number1": 342,
+        "row2number0": 498,
+        "row2number1": 547,
+        "row2number2": 598,
+        "row3number0": 755,
+        "row3number1": 803,
+        "row4number0": 942
+      }
+    },
+    {
+      "id": "tous-les-premiers",
+      "type": "primes",
+      "kind": "all-primes",
+      "title": "À retenir",
+      "sourceSlides": [
+        28
+      ],
+      "audio": "primes-paced/tous-les-premiers.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici tous les nombres premiers inférieurs à cent.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Il y en a vingt-cinq. Ce sont les nombres à apprendre par cœur.",
+          "from": 137
+        },
+        {
+          "stage": 2,
+          "text": "Prenez un instant pour les relire.",
+          "from": 285
+        }
+      ],
+      "narration": "Voici tous les nombres premiers inférieurs à cent. Il y en a vingt-cinq. Ce sont les nombres à apprendre par cœur. Prenez un instant pour les relire.",
+      "holdSeconds": 4,
+      "durationInFrames": 461,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {}
+    },
+    {
+      "id": "prononciation",
+      "type": "primes",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        29
+      ],
+      "audio": "primes-paced/prononciation.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot premier.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Premier.",
+          "from": 127
+        },
+        {
+          "stage": 2,
+          "text": "Premier.",
+          "from": 182
+        }
+      ],
+      "narration": "Écoutons la lecture du mot premier. Premier. Premier.",
+      "durationInFrames": 238,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {}
+    },
+    {
+      "id": "vocabulaire",
+      "type": "primes",
+      "kind": "vocabulary",
+      "title": "Synthèse",
+      "sourceSlides": [
+        30,
+        31,
+        32
+      ],
+      "audio": "primes-paced/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Diviseur : par exemple, onze a deux diviseurs positifs, un et onze.",
+          "from": 192
+        },
+        {
+          "stage": 2,
+          "text": "Divisible : onze est divisible uniquement par un et par onze.",
+          "from": 434
+        },
+        {
+          "stage": 3,
+          "text": "Premier : onze est un nombre premier, car il a exactement deux diviseurs positifs distincts.",
+          "from": 634
+        }
+      ],
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Diviseur : par exemple, onze a deux diviseurs positifs, un et onze. Divisible : onze est divisible uniquement par un et par onze. Premier : onze est un nombre premier, car il a exactement deux diviseurs positifs distincts.",
+      "durationInFrames": 870,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "diviseurs": 192,
+        "divisible": 502,
+        "premier": 634
+      }
+    }
+  ]
+}

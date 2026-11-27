@@ -1,0 +1,13 @@
+{
+  "scenes": [
+    {
+      "id": "n2-sem1-vdp4-objectif-ar",
+      "narration": "يَتَعَرَّف",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1/n2-sem1-vdp4-objectif-ar.wav",
+      "languageCode": "ar",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

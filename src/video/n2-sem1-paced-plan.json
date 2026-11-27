@@ -1,0 +1,1099 @@
+{
+  "scenes": [
+    {
+      "episode": 3,
+      "id": "n2-sem1-vdp3-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp3-objectif.wav",
+      "narration": "Bonjour. Aujourd’hui, vous serez capables de résoudre l’équation : x au carré est égal à a, avec a supérieur à zéro. Résoudre une équation, c’est trouver les valeurs de x qui rendent l’égalité vraie. Voici quelques exemples d’équations : x au carré est égal à vingt-cinq, puis x au carré est égal à dix-neuf.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour. Aujourd’hui, vous serez capables de résoudre l’équation : x au carré est égal à a, avec a supérieur à zéro.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Résoudre une équation, c’est trouver les valeurs de x qui rendent l’égalité vraie.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Voici quelques exemples d’équations :",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "x au carré est égal à vingt-cinq,",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "puis x au carré est égal à dix-neuf.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Résoudre l’équation",
+        "mathSuffix": "x² = a, a > 0",
+        "mathOffset": 653,
+        "measure": 1010,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 617,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Trouver les valeurs",
+                "x": 960,
+                "y": 694,
+                "size": 55,
+                "at": 0
+              },
+              {
+                "kind": "text",
+                "value": "de",
+                "x": 928,
+                "y": 787,
+                "size": 53,
+                "at": 0
+              },
+              {
+                "kind": "algebra",
+                "value": "x",
+                "x": 991,
+                "y": 787,
+                "size": 64,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 653,
+            "width": 357,
+            "at": 2,
+            "art": [
+              {
+                "kind": "algebra",
+                "value": "x² = 25",
+                "x": 960,
+                "y": 687,
+                "size": 74,
+                "at": 3
+              },
+              {
+                "kind": "algebra",
+                "value": "x² = 19",
+                "x": 960,
+                "y": 814,
+                "size": 74,
+                "at": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "id": "n2-sem1-vdp3-resoudre",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp3-resoudre.wav",
+      "narration": "A est un nombre positif. Résoudre l’équation x au carré est égal à a, c’est trouver les nombres qui, élevés au carré, donnent a. Je prends un premier exemple : x au carré est égal à trente-six. Je cherche les nombres qui ont trente-six pour carré. À votre avis, quels nombres ont pour carré trente-six ? Il y a six et moins six. Ce sont donc deux solutions. Je vérifie : six au carré est égal à trente-six, et le carré de moins six est aussi égal à trente-six. Voilà pourquoi les deux nombres conviennent. Je passe au deuxième exemple : x au carré est égal à deux. Cette fois, je cherche les nombres dont le carré est égal à deux. Les deux solutions sont racine carrée de deux et moins racine carrée de deux. Ces deux nombres sont opposés. Je peux les vérifier : le carré de racine carrée de deux est égal à deux. Le carré de moins racine carrée de deux est également égal à deux. Les deux valeurs conviennent donc.",
+      "art": [
+        {
+          "kind": "math",
+          "value": "a\\text{ est un nombre positif.}",
+          "x": 960,
+          "y": 350,
+          "size": 53,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Résoudre l’équation",
+          "x": 760,
+          "y": 424,
+          "size": 53,
+          "at": 1,
+          "color": "#8A4B0B",
+          "weight": 700
+        },
+        {
+          "kind": "algebra",
+          "value": "x² = a",
+          "x": 1190,
+          "y": 424,
+          "size": 62,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\text{c’est trouver les nombres qui, élevés au carré, }\\textcolor{#66539F}{\\text{donnent }a}\\text{.}",
+          "x": 960,
+          "y": 498,
+          "size": 46,
+          "at": 2,
+          "color": "#006189"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 335,
+          "y": 554,
+          "size": 58,
+          "at": 3,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "text",
+          "value": "Exemple :",
+          "x": 335,
+          "y": 615,
+          "size": 44,
+          "at": 3,
+          "weight": 700
+        },
+        {
+          "kind": "algebra",
+          "value": "x² = 36",
+          "x": 480,
+          "y": 714,
+          "size": 68,
+          "at": 4,
+          "tokenColors": [
+            {
+              "index": 5,
+              "at": 4,
+              "color": "#D60019"
+            },
+            {
+              "index": 6,
+              "at": 4,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "value": "",
+          "x": 900,
+          "y": 714,
+          "size": 117,
+          "at": 5,
+          "to": 6
+        },
+        {
+          "kind": "math",
+          "value": "6",
+          "x": 795,
+          "y": 714,
+          "size": 73,
+          "at": 6
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 909,
+          "y": 714,
+          "size": 51,
+          "at": 7
+        },
+        {
+          "kind": "math",
+          "value": "-6",
+          "x": 1024,
+          "y": 714,
+          "size": 73,
+          "at": 7
+        },
+        {
+          "kind": "math",
+          "value": "6^2=\\textcolor{#D60019}{36}",
+          "x": 1400,
+          "y": 675,
+          "size": 60,
+          "at": 8
+        },
+        {
+          "kind": "math",
+          "value": "(-6)^2=\\textcolor{#D60019}{36}",
+          "x": 1400,
+          "y": 750,
+          "size": 60,
+          "at": 9
+        },
+        {
+          "kind": "algebra",
+          "value": "x² = 2",
+          "x": 480,
+          "y": 897,
+          "size": 68,
+          "at": 10,
+          "tokenColors": [
+            {
+              "index": 5,
+              "at": 10,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{2}",
+          "x": 795,
+          "y": 897,
+          "size": 68,
+          "at": 11
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 909,
+          "y": 897,
+          "size": 51,
+          "at": 12
+        },
+        {
+          "kind": "math",
+          "value": "-\\sqrt{2}",
+          "x": 1024,
+          "y": 897,
+          "size": 68,
+          "at": 12
+        },
+        {
+          "kind": "math",
+          "value": "(\\sqrt 2)^2=\\textcolor{#D60019}{2}",
+          "x": 1400,
+          "y": 861,
+          "size": 58,
+          "at": 13
+        },
+        {
+          "kind": "math",
+          "value": "(-\\sqrt 2)^2=\\textcolor{#D60019}{2}",
+          "x": 1400,
+          "y": 939,
+          "size": 58,
+          "at": 14
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "A est un nombre positif.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Résoudre l’équation x au carré est égal à a,",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "c’est trouver les nombres qui, élevés au carré, donnent a.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je prends un premier exemple :",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "x au carré est égal à trente-six. Je cherche les nombres qui ont trente-six pour carré.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "À votre avis, quels nombres ont pour carré trente-six ?",
+          "from": 0,
+          "pauseAfter": 2.0
+        },
+        {
+          "stage": 6,
+          "text": "Il y a six",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "et moins six. Ce sont donc deux solutions.",
+          "from": 0
+        },
+        {
+          "stage": 8,
+          "text": "Je vérifie : six au carré est égal à trente-six,",
+          "from": 0
+        },
+        {
+          "stage": 9,
+          "text": "et le carré de moins six est aussi égal à trente-six. Voilà pourquoi les deux nombres conviennent.",
+          "from": 0
+        },
+        {
+          "stage": 10,
+          "text": "Je passe au deuxième exemple : x au carré est égal à deux. Cette fois, je cherche les nombres dont le carré est égal à deux.",
+          "from": 0
+        },
+        {
+          "stage": 11,
+          "text": "Les deux solutions sont racine carrée de deux",
+          "from": 0
+        },
+        {
+          "stage": 12,
+          "text": "et moins racine carrée de deux. Ces deux nombres sont opposés.",
+          "from": 0
+        },
+        {
+          "stage": 13,
+          "text": "Je peux les vérifier : le carré de racine carrée de deux est égal à deux.",
+          "from": 0
+        },
+        {
+          "stage": 14,
+          "text": "Le carré de moins racine carrée de deux est également égal à deux. Les deux valeurs conviennent donc.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "n2-sem1-vdp3-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp3-vocabulaire.wav",
+      "narration": "Pour terminer, je retiens le mot résoudre. Résoudre une équation, c’est chercher les valeurs qui rendent l’égalité vraie. Et le deuxième mot, c’est équation. Une équation est une égalité contenant une inconnue. Ce sont les deux mots essentiels de cette séance.",
+      "art": [
+        {
+          "kind": "card",
+          "value": "Résoudre",
+          "x": 610,
+          "y": 605,
+          "size": 56,
+          "at": 0
+        },
+        {
+          "kind": "card",
+          "value": "Équation",
+          "x": 1310,
+          "y": 605,
+          "size": 56,
+          "at": 1
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        11,
+        12
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Pour terminer, je retiens le mot résoudre. Résoudre une équation, c’est chercher les valeurs qui rendent l’égalité vraie.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Et le deuxième mot, c’est équation. Une équation est une égalité contenant une inconnue. Ce sont les deux mots essentiels de cette séance.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "n2-sem1-vdp3-prononciation-13",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp3-prononciation-13.wav",
+      "narration": "Écoutez le mot résoudre. Écoutez les syllabes. Ré. Zoudre. Résoudre. Maintenant, répétez : Résoudre.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        13
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez le mot résoudre. Écoutez les syllabes.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ré.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Zoudre.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Résoudre. Maintenant, répétez : Résoudre.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Résoudre",
+        "syllables": [
+          "ré",
+          "soudre"
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "n2-sem1-vdp4-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-objectif.wav",
+      "narration": "Bonjour. Aujourd’hui, je vais vous expliquer comment identifier les éléments d’un monôme. Identifier, c’est reconnaître ou repérer quelque chose. En arabe, يَتَعَرَّف, c’est l’idée de reconnaître. Et le mot monôme désigne ici une expression comme quatre fois x au carré fois y. Je vais apprendre à en distinguer les éléments.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour. Aujourd’hui, je vais vous expliquer comment identifier les éléments d’un monôme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Identifier, c’est reconnaître ou repérer quelque chose.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "En arabe, يَتَعَرَّف, c’est l’idée de reconnaître.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Et le mot monôme désigne ici une expression comme",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "quatre fois x au carré fois y. Je vais apprendre à en distinguer les éléments.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Identifier les éléments d’un monôme",
+        "measure": 1114,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 271,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "يتعرف",
+                "x": 960,
+                "y": 716,
+                "size": 85,
+                "at": 2,
+                "rtl": true
+              }
+            ]
+          },
+          {
+            "offset": 289,
+            "width": 825,
+            "at": 3,
+            "art": [
+              {
+                "kind": "algebra",
+                "value": "4x²y",
+                "x": 960,
+                "y": 724,
+                "size": 100,
+                "at": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "n2-sem1-vdp4-prononciation-4",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-prononciation-4.wav",
+      "narration": "Écoutez les syllabes du mot monôme. Mo. Nôme. Monôme. Maintenant, répétez : monôme.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        4
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez les syllabes du mot monôme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Mo.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Nôme.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Monôme. Maintenant, répétez : monôme.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Monôme",
+        "syllables": [
+          "mo",
+          "nôme"
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "n2-sem1-vdp4-definition-monome",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 1",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-definition-monome.wav",
+      "narration": "Première définition : un monôme est une expression algébrique à un seul terme. Cela veut dire qu’il s’agit d’un seul terme, et non d’une somme de plusieurs termes. Prenons quatre fois x au carré fois y au cube. Il n’y a qu’un seul terme. C’est donc bien un monôme. En revanche, deux fois x plus y contient deux termes, séparés par une addition. Ce n’est pas un monôme. Dans le monôme quatre fois x au carré fois y au cube, quatre est le coefficient. C’est le nombre qui multiplie les lettres. Et x et y sont les variables : ce sont les lettres auxquelles je peux donner différentes valeurs.",
+      "art": [
+        {
+          "kind": "text",
+          "value": "Un monôme est une expression algébrique",
+          "x": 960,
+          "y": 371,
+          "size": 56,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "à un seul terme.",
+          "x": 960,
+          "y": 451,
+          "size": 60,
+          "at": 1,
+          "weight": 700,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 525,
+          "size": 60,
+          "at": 2,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "algebra",
+          "value": "4x²y³",
+          "x": 575,
+          "y": 622,
+          "size": 84,
+          "at": 2,
+          "background": "#D9F3FB"
+        },
+        {
+          "kind": "math",
+          "value": "\\checkmark",
+          "x": 792,
+          "y": 625,
+          "size": 65,
+          "at": 3,
+          "color": "#087746"
+        },
+        {
+          "kind": "algebra",
+          "value": "2x + y",
+          "x": 1240,
+          "y": 622,
+          "size": 84,
+          "at": 4,
+          "background": "#EDE3F7"
+        },
+        {
+          "kind": "status",
+          "value": "Faux",
+          "x": 1525,
+          "y": 622,
+          "size": 38,
+          "at": 5,
+          "color": "#D60019"
+        },
+        {
+          "kind": "text",
+          "value": "Dans le monôme",
+          "x": 748,
+          "y": 740,
+          "size": 49,
+          "at": 6
+        },
+        {
+          "kind": "algebra",
+          "value": "4x²y³",
+          "x": 1118,
+          "y": 740,
+          "size": 67,
+          "at": 6,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 7,
+              "color": "#007DBA"
+            },
+            {
+              "index": 1,
+              "at": 7,
+              "color": "#D60019"
+            },
+            {
+              "index": 3,
+              "at": 7,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{4}\\text{ est le coefficient.}",
+          "x": 960,
+          "y": 848,
+          "size": 56,
+          "at": 7
+        },
+        {
+          "kind": "algebra",
+          "value": "x",
+          "x": 682,
+          "y": 940,
+          "size": 63,
+          "at": 8,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 8,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 751,
+          "y": 940,
+          "size": 49,
+          "at": 8
+        },
+        {
+          "kind": "algebra",
+          "value": "y",
+          "x": 811,
+          "y": 940,
+          "size": 63,
+          "at": 8,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 8,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "sont les variables.",
+          "x": 1094,
+          "y": 940,
+          "size": 54,
+          "at": 8
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Première définition :",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "un monôme est une expression algébrique à un seul terme. Cela veut dire qu’il s’agit d’un seul terme, et non d’une somme de plusieurs termes.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Prenons quatre fois x au carré fois y au cube. Il n’y a qu’un seul terme.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "C’est donc bien un monôme.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "En revanche, deux fois x plus y contient deux termes, séparés par une addition.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Ce n’est pas un monôme.",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "Dans le monôme quatre fois x au carré fois y au cube,",
+          "from": 0
+        },
+        {
+          "stage": 7,
+          "text": "quatre est le coefficient. C’est le nombre qui multiplie les lettres.",
+          "from": 0
+        },
+        {
+          "stage": 8,
+          "text": "Et x et y sont les variables : ce sont les lettres auxquelles je peux donner différentes valeurs.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "n2-sem1-vdp4-degre",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 2",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-degre.wav",
+      "narration": "Deuxième définition : le degré du monôme est la somme des exposants de ses variables. Je dois donc m’intéresser aux exposants des lettres. Le degré du monôme quatre fois x au carré fois y au cube est… Je repère l’exposant deux de x et l’exposant trois de y. J’additionne ces exposants : deux plus trois est égal à cinq. Le degré de ce monôme est donc cinq.",
+      "art": [
+        {
+          "kind": "text",
+          "value": "Le degré du monôme est",
+          "x": 960,
+          "y": 375,
+          "size": 59,
+          "at": 0,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "la somme des exposants de ses variables.",
+          "x": 960,
+          "y": 466,
+          "size": 58,
+          "at": 1,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 563,
+          "size": 72,
+          "at": 2,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "text",
+          "value": "Le degré du monôme",
+          "x": 655,
+          "y": 679,
+          "size": 53,
+          "at": 2
+        },
+        {
+          "kind": "algebra",
+          "value": "4x²y³",
+          "x": 1116,
+          "y": 680,
+          "size": 101,
+          "at": 2,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 2,
+              "color": "#007DBA"
+            },
+            {
+              "index": 1,
+              "at": 2,
+              "color": "#D60019"
+            },
+            {
+              "index": 3,
+              "at": 2,
+              "color": "#D60019"
+            },
+            {
+              "index": 2,
+              "at": 3,
+              "color": "#007DBA"
+            },
+            {
+              "index": 4,
+              "at": 4,
+              "color": "#007DBA"
+            }
+          ],
+          "tokenMarks": [
+            {
+              "index": 2,
+              "at": 3
+            },
+            {
+              "index": 4,
+              "at": 4
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "est :",
+          "x": 1380,
+          "y": 679,
+          "size": 53,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{2}+\\textcolor{#007DBA}{3}",
+          "x": 860,
+          "y": 859,
+          "size": 106,
+          "at": 5
+        },
+        {
+          "kind": "math",
+          "value": "=\\textcolor{#087746}{5}",
+          "x": 1143,
+          "y": 859,
+          "size": 106,
+          "at": 6
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        10,
+        11,
+        12
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Deuxième définition : le degré du monôme est",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "la somme des exposants de ses variables. Je dois donc m’intéresser aux exposants des lettres.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Le degré du monôme quatre fois x au carré fois y au cube est…",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Je repère l’exposant deux de x",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "et l’exposant trois de y.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "J’additionne ces exposants : deux plus trois",
+          "from": 0
+        },
+        {
+          "stage": 6,
+          "text": "est égal à cinq. Le degré de ce monôme est donc cinq.",
+          "from": 0
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "n2-sem1-vdp4-prononciation-13",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-prononciation-13.wav",
+      "narration": "Écoutez les syllabes du mot degré. De. Gré. Degré. Maintenant, répétez : degré.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        13
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez les syllabes du mot degré.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "De.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Gré.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Degré. Maintenant, répétez : degré.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "Degré",
+        "syllables": [
+          "de",
+          "gré"
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "id": "n2-sem1-vdp4-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-vocabulaire.wav",
+      "narration": "Pour terminer, je retiens du vocabulaire important. D’abord, monôme : une expression algébrique à un seul terme. Ensuite, variable : une lettre qui peut prendre différentes valeurs. Puis, coefficient : le nombre qui multiplie les variables dans le monôme. Enfin, degré : la somme des exposants des variables. Ces quatre mots m’aident à identifier les éléments d’un monôme.",
+      "art": [
+        {
+          "kind": "card",
+          "value": "Monôme",
+          "x": 595,
+          "y": 474,
+          "size": 55,
+          "at": 0
+        },
+        {
+          "kind": "card",
+          "value": "Variable",
+          "x": 1325,
+          "y": 474,
+          "size": 55,
+          "at": 1
+        },
+        {
+          "kind": "card",
+          "value": "Coefficient",
+          "x": 595,
+          "y": 752,
+          "size": 55,
+          "at": 2
+        },
+        {
+          "kind": "card",
+          "value": "Degré",
+          "x": 1325,
+          "y": 752,
+          "size": 55,
+          "at": 3
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Pour terminer, je retiens du vocabulaire important. D’abord, monôme : une expression algébrique à un seul terme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ensuite, variable : une lettre qui peut prendre différentes valeurs.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Puis, coefficient : le nombre qui multiplie les variables dans le monôme.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Enfin, degré : la somme des exposants des variables. Ces quatre mots m’aident à identifier les éléments d’un monôme.",
+          "from": 0
+        }
+      ]
+    }
+  ]
+}

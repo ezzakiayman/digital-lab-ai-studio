@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "lesson": "Binôme, trinôme et polynôme",
+  "level": "2AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "polynomials",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "audio": "polynomials/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître un binôme, un trinôme et un polynôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un binôme comporte deux termes."
+        },
+        {
+          "stage": 2,
+          "text": "Un trinôme comporte trois termes."
+        },
+        {
+          "stage": 3,
+          "text": "Un polynôme comporte un ou plusieurs termes. Nous allons apprendre à les reconnaître."
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître un binôme, un trinôme et un polynôme. Un binôme comporte deux termes. Un trinôme comporte trois termes. Un polynôme comporte un ou plusieurs termes. Nous allons apprendre à les reconnaître.",
+      "objectiveVariant": "content-matched"
+    },
+    {
+      "id": "definition-binome",
+      "type": "polynomials",
+      "kind": "definition",
+      "title": "Définition 1",
+      "sourceSlides": [
+        4,
+        5
+      ],
+      "audio": "polynomials/definition-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la définition d’un binôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un binôme est une expression algébrique réduite composée de deux termes qui n’ont pas les mêmes variables avec les mêmes exposants."
+        }
+      ],
+      "narration": "Je commence par la définition d’un binôme. Un binôme est une expression algébrique réduite composée de deux termes qui n’ont pas les mêmes variables avec les mêmes exposants.",
+      "concept": "binome"
+    },
+    {
+      "id": "exemple-binome",
+      "type": "polynomials",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "audio": "polynomials/exemple-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends l’expression algébrique : cinq x plus trois y au cube."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "J’observe le premier terme : cinq x."
+        },
+        {
+          "stage": 3,
+          "text": "Puis le second terme : plus trois y au cube."
+        },
+        {
+          "stage": 4,
+          "text": "Elle est composée de deux termes."
+        },
+        {
+          "stage": 5,
+          "text": "Donc, cinq x plus trois y au cube est un binôme."
+        }
+      ],
+      "narration": "Par exemple, je prends l’expression algébrique : cinq x plus trois y au cube. De combien de termes est-elle composée ? J’observe le premier terme : cinq x. Puis le second terme : plus trois y au cube. Elle est composée de deux termes. Donc, cinq x plus trois y au cube est un binôme.",
+      "expressionKey": "binome",
+      "concept": "binome",
+      "valid": true
+    },
+    {
+      "id": "contre-exemple-binome",
+      "type": "polynomials",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "audio": "polynomials/contre-exemple-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant l’expression algébrique : x plus deux y plus un."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est x."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est plus deux y."
+        },
+        {
+          "stage": 4,
+          "text": "Le troisième terme est plus un."
+        },
+        {
+          "stage": 5,
+          "text": "Elle est composée de trois termes."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, x plus deux y plus un n’est pas un binôme."
+        }
+      ],
+      "narration": "Je prends maintenant l’expression algébrique : x plus deux y plus un. De combien de termes est-elle composée ? Le premier terme est x. Le deuxième terme est plus deux y. Le troisième terme est plus un. Elle est composée de trois termes. Donc, x plus deux y plus un n’est pas un binôme.",
+      "expressionKey": "trois-termes",
+      "concept": "binome",
+      "valid": false
+    },
+    {
+      "id": "definition-trinome",
+      "type": "polynomials",
+      "kind": "definition",
+      "title": "Définition 2",
+      "sourceSlides": [
+        14,
+        15
+      ],
+      "audio": "polynomials/definition-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la définition d’un trinôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un trinôme est une expression algébrique réduite composée de trois termes qui n’ont pas les mêmes variables avec les mêmes exposants."
+        }
+      ],
+      "narration": "Je passe maintenant à la définition d’un trinôme. Un trinôme est une expression algébrique réduite composée de trois termes qui n’ont pas les mêmes variables avec les mêmes exposants.",
+      "concept": "trinome"
+    },
+    {
+      "id": "exemple-trinome",
+      "type": "polynomials",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "audio": "polynomials/exemple-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends l’expression algébrique : deux x au carré plus quatre y moins un."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est deux x au carré."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est plus quatre y."
+        },
+        {
+          "stage": 4,
+          "text": "Le troisième terme est moins un."
+        },
+        {
+          "stage": 5,
+          "text": "Elle est composée de trois termes."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, deux x au carré plus quatre y moins un est un trinôme."
+        }
+      ],
+      "narration": "Par exemple, je prends l’expression algébrique : deux x au carré plus quatre y moins un. De combien de termes est-elle composée ? Le premier terme est deux x au carré. Le deuxième terme est plus quatre y. Le troisième terme est moins un. Elle est composée de trois termes. Donc, deux x au carré plus quatre y moins un est un trinôme.",
+      "expressionKey": "trinome",
+      "concept": "trinome",
+      "valid": true
+    },
+    {
+      "id": "contre-exemple-trinome",
+      "type": "polynomials",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "audio": "polynomials/contre-exemple-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant l’expression algébrique : x moins trois y."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est x."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est moins trois y."
+        },
+        {
+          "stage": 4,
+          "text": "Elle est composée de deux termes."
+        },
+        {
+          "stage": 5,
+          "text": "Donc, x moins trois y n’est pas un trinôme."
+        }
+      ],
+      "narration": "Je prends maintenant l’expression algébrique : x moins trois y. De combien de termes est-elle composée ? Le premier terme est x. Le deuxième terme est moins trois y. Elle est composée de deux termes. Donc, x moins trois y n’est pas un trinôme.",
+      "expressionKey": "deux-termes",
+      "concept": "trinome",
+      "valid": false
+    },
+    {
+      "id": "definition-polynome",
+      "type": "polynomials",
+      "kind": "definition",
+      "title": "Définition 3",
+      "sourceSlides": [
+        24,
+        25
+      ],
+      "audio": "polynomials/definition-polynome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la définition d’un polynôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un polynôme est une expression algébrique réduite composée d’un ou plusieurs termes."
+        }
+      ],
+      "narration": "Je passe maintenant à la définition d’un polynôme. Un polynôme est une expression algébrique réduite composée d’un ou plusieurs termes.",
+      "concept": "polynome"
+    },
+    {
+      "id": "exemple-polynome",
+      "type": "polynomials",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        26,
+        27
+      ],
+      "audio": "polynomials/exemple-polynome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple : x au cube fois y au carré, plus x fois y au cube, moins x au cube, plus cinq."
+        },
+        {
+          "stage": 1,
+          "text": "Cette expression est composée de quatre termes."
+        },
+        {
+          "stage": 2,
+          "text": "Donc, c’est un polynôme."
+        }
+      ],
+      "narration": "Par exemple : x au cube fois y au carré, plus x fois y au cube, moins x au cube, plus cinq. Cette expression est composée de quatre termes. Donc, c’est un polynôme.",
+      "expressionKey": "quatre-termes",
+      "concept": "polynome",
+      "valid": true
+    },
+    {
+      "id": "lecture-binome",
+      "type": "polynomials",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        28
+      ],
+      "audio": "polynomials/lecture-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot binôme."
+        },
+        {
+          "stage": 1,
+          "text": "Binôme."
+        },
+        {
+          "stage": 2,
+          "text": "Binôme."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot binôme. Binôme. Binôme.",
+      "concept": "binome"
+    },
+    {
+      "id": "lecture-polynome",
+      "type": "polynomials",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        29
+      ],
+      "audio": "polynomials/lecture-polynome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot polynôme."
+        },
+        {
+          "stage": 1,
+          "text": "Polynôme."
+        },
+        {
+          "stage": 2,
+          "text": "Polynôme."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot polynôme. Polynôme. Polynôme.",
+      "concept": "polynome"
+    },
+    {
+      "id": "synthese",
+      "type": "polynomials",
+      "kind": "synthesis",
+      "title": "Synthèse",
+      "sourceSlides": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "audio": "polynomials/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots."
+        },
+        {
+          "stage": 1,
+          "text": "Binôme : deux termes. Par exemple, cinq x plus trois y au cube est un binôme."
+        },
+        {
+          "stage": 2,
+          "text": "Trinôme : trois termes. Par exemple, deux x plus cinq y moins quatre est un trinôme."
+        },
+        {
+          "stage": 3,
+          "text": "Polynôme : un ou plusieurs termes. Par exemple, x plus y moins deux z plus un est un polynôme."
+        }
+      ],
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Binôme : deux termes. Par exemple, cinq x plus trois y au cube est un binôme. Trinôme : trois termes. Par exemple, deux x plus cinq y moins quatre est un trinôme. Polynôme : un ou plusieurs termes. Par exemple, x plus y moins deux z plus un est un polynôme.",
+      "holdSeconds": 2
+    },
+    {
+      "id": "vocabulaire",
+      "type": "polynomials",
+      "kind": "vocabulary",
+      "title": "À retenir",
+      "sourceSlides": [
+        34
+      ],
+      "audio": "polynomials/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Retenez le vocabulaire : binôme, trinôme et polynôme."
+        }
+      ],
+      "narration": "Retenez le vocabulaire : binôme, trinôme et polynôme.",
+      "holdSeconds": 2
+    }
+  ]
+}

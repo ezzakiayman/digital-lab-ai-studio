@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "lesson": "Réduire un polynôme en regroupant les termes semblables",
+  "level": "2AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "like-terms",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio": "like-terms/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de réduire un polynôme en regroupant les termes semblables."
+        },
+        {
+          "stage": 1,
+          "text": "Réduire un polynôme, c’est simplifier son écriture. Par exemple, deux ix plus huit ix est égal à dix ix."
+        },
+        {
+          "stage": 2,
+          "text": "Les termes deux ix et huit ix sont semblables."
+        },
+        {
+          "stage": 3,
+          "text": "Mais les termes deux ix au cube et huit ix ne sont pas semblables."
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de réduire un polynôme en regroupant les termes semblables. Réduire un polynôme, c’est simplifier son écriture. Par exemple, deux ix plus huit ix est égal à dix ix. Les termes deux ix et huit ix sont semblables. Mais les termes deux ix au cube et huit ix ne sont pas semblables."
+    },
+    {
+      "id": "definition",
+      "type": "like-terms",
+      "kind": "definition",
+      "title": "Définition 1",
+      "sourceSlides": [
+        5,
+        6
+      ],
+      "audio": "like-terms/definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Définition un : des termes semblables."
+        },
+        {
+          "stage": 1,
+          "text": "Les termes semblables d’un polynôme ont les mêmes variables avec les mêmes exposants."
+        }
+      ],
+      "narration": "Définition un : des termes semblables. Les termes semblables d’un polynôme ont les mêmes variables avec les mêmes exposants."
+    },
+    {
+      "id": "termes-semblables",
+      "type": "like-terms",
+      "kind": "comparison",
+      "title": "Exemple",
+      "sourceSlides": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "audio": "like-terms/termes-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends les deux termes : cinq ix i grec et quatre ix i grec."
+        },
+        {
+          "stage": 1,
+          "text": "Ils ont les mêmes variables : ix,"
+        },
+        {
+          "stage": 2,
+          "text": "et i grec."
+        },
+        {
+          "stage": 3,
+          "text": "J’observe que cinq ix i grec s’écrit cinq fois ix à la puissance un fois i grec à la puissance un. De même, quatre ix i grec s’écrit quatre fois ix à la puissance un fois i grec à la puissance un."
+        },
+        {
+          "stage": 4,
+          "text": "Ils ont le même exposant de ix : un."
+        },
+        {
+          "stage": 5,
+          "text": "Et le même exposant de i grec : un."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, les deux termes cinq ix i grec et quatre ix i grec sont semblables."
+        }
+      ],
+      "narration": "Par exemple, je prends les deux termes : cinq ix i grec et quatre ix i grec. Ils ont les mêmes variables : ix, et i grec. J’observe que cinq ix i grec s’écrit cinq fois ix à la puissance un fois i grec à la puissance un. De même, quatre ix i grec s’écrit quatre fois ix à la puissance un fois i grec à la puissance un. Ils ont le même exposant de ix : un. Et le même exposant de i grec : un. Donc, les deux termes cinq ix i grec et quatre ix i grec sont semblables.",
+      "example": "like"
+    },
+    {
+      "id": "termes-non-semblables",
+      "type": "like-terms",
+      "kind": "comparison",
+      "title": "Exemple",
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "audio": "like-terms/termes-non-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant les deux termes : ix au cube fois i grec et ix au carré fois i grec."
+        },
+        {
+          "stage": 1,
+          "text": "Ils ont les mêmes variables : ix,"
+        },
+        {
+          "stage": 2,
+          "text": "et i grec."
+        },
+        {
+          "stage": 3,
+          "text": "L’exposant de ix dans le premier terme est trois."
+        },
+        {
+          "stage": 4,
+          "text": "L’exposant de ix dans le second terme est deux."
+        },
+        {
+          "stage": 5,
+          "text": "Les exposants de ix sont différents : trois n’est pas égal à deux."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, ix au cube fois i grec et ix au carré fois i grec ne sont pas semblables."
+        }
+      ],
+      "narration": "Je prends maintenant les deux termes : ix au cube fois i grec et ix au carré fois i grec. Ils ont les mêmes variables : ix, et i grec. L’exposant de ix dans le premier terme est trois. L’exposant de ix dans le second terme est deux. Les exposants de ix sont différents : trois n’est pas égal à deux. Donc, ix au cube fois i grec et ix au carré fois i grec ne sont pas semblables.",
+      "example": "unlike"
+    },
+    {
+      "id": "lecture-semblables",
+      "type": "like-terms",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        21
+      ],
+      "audio": "like-terms/lecture-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot semblables."
+        },
+        {
+          "stage": 1,
+          "text": "San."
+        },
+        {
+          "stage": 2,
+          "text": "Blable."
+        },
+        {
+          "stage": 3,
+          "text": "Semblables."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot semblables. San. Blable. Semblables.",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "synthese",
+      "type": "like-terms",
+      "kind": "synthesis",
+      "title": "Synthèse",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio": "like-terms/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici ce qu’il faut retenir."
+        },
+        {
+          "stage": 1,
+          "text": "Terme. Dans l’expression deux ix plus cinq, les termes sont deux ix et cinq."
+        },
+        {
+          "stage": 2,
+          "text": "Variables. Dans l’expression trois ix plus deux i grec, les variables sont ix et i grec."
+        },
+        {
+          "stage": 3,
+          "text": "Exposant. Dans l’expression cinq ix au carré, l’exposant de ix est deux."
+        },
+        {
+          "stage": 4,
+          "text": "Semblables. Mêmes variables avec les mêmes exposants. Par exemple, les deux termes trois ix et sept ix sont semblables."
+        }
+      ],
+      "narration": "Voici ce qu’il faut retenir. Terme. Dans l’expression deux ix plus cinq, les termes sont deux ix et cinq. Variables. Dans l’expression trois ix plus deux i grec, les variables sont ix et i grec. Exposant. Dans l’expression cinq ix au carré, l’exposant de ix est deux. Semblables. Mêmes variables avec les mêmes exposants. Par exemple, les deux termes trois ix et sept ix sont semblables.",
+      "holdSeconds": 2
+    },
+    {
+      "id": "vocabulaire",
+      "type": "like-terms",
+      "kind": "vocabulary",
+      "title": "À retenir",
+      "sourceSlides": [
+        27
+      ],
+      "audio": "like-terms/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Retenez le vocabulaire : terme, variables, exposant et semblables."
+        }
+      ],
+      "narration": "Retenez le vocabulaire : terme, variables, exposant et semblables.",
+      "holdSeconds": 2
+    }
+  ]
+}

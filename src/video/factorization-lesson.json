@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "lesson": "Décomposer un nombre en produit de nombres premiers",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "factorization",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio": "factorization-paced/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de décomposer un nombre en produit de nombres premiers.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Décomposer un nombre, c’est l’écrire sous forme d’un produit.",
+          "from": 197
+        },
+        {
+          "stage": 2,
+          "text": "C’est-à-dire que je le transforme en multiplication.",
+          "from": 309
+        },
+        {
+          "stage": 3,
+          "text": "De nombres premiers, comme deux et cinq, mais pas six. Six n’est pas un nombre premier.",
+          "from": 412
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de décomposer un nombre en produit de nombres premiers. Décomposer un nombre, c’est l’écrire sous forme d’un produit. C’est-à-dire que je le transforme en multiplication. De nombres premiers, comme deux et cinq, mais pas six. Six n’est pas un nombre premier.",
+      "durationInFrames": 605,
+      "cues": {
+        "writing": 240,
+        "multiplication": 355,
+        "prime0": 456,
+        "prime1": 473,
+        "prime2": 505
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "theoreme-360",
+      "type": "factorization",
+      "kind": "theorem",
+      "title": "Théorème",
+      "sourceSlides": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "audio": "factorization-paced/theoreme-360.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "On a le théorème suivant.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Tout entier positif supérieur ou égal à deux peut s’écrire comme un produit de nombres premiers, de façon unique, à l’ordre des facteurs près.",
+          "from": 78
+        },
+        {
+          "stage": 2,
+          "text": "Par exemple, trois cent soixante est égal à deux à la puissance trois, fois trois à la puissance deux, fois cinq à la puissance un.",
+          "from": 376
+        },
+        {
+          "stage": 3,
+          "text": "Cette décomposition s’appelle la décomposition en produit de facteurs premiers.",
+          "from": 647
+        },
+        {
+          "stage": 4,
+          "text": "Ou une factorisation première.",
+          "from": 792
+        }
+      ],
+      "narration": "On a le théorème suivant. Tout entier positif supérieur ou égal à deux peut s’écrire comme un produit de nombres premiers, de façon unique, à l’ordre des facteurs près. Par exemple, trois cent soixante est égal à deux à la puissance trois, fois trois à la puissance deux, fois cinq à la puissance un. Cette décomposition s’appelle la décomposition en produit de facteurs premiers. Ou une factorisation première.",
+      "value": 360,
+      "durationInFrames": 879,
+      "cues": {
+        "equals": 439,
+        "factor0": 460,
+        "factor1": 511,
+        "factor2": 564
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "exemple-72",
+      "type": "factorization",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        9,
+        10,
+        11
+      ],
+      "audio": "factorization-paced/exemple-72.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "La même chose pour la décomposition de soixante-douze.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Soixante-douze est égal à deux à la puissance trois, fois trois à la puissance deux.",
+          "from": 126
+        },
+        {
+          "stage": 2,
+          "text": "On dit que c’est une décomposition en produit de facteurs premiers.",
+          "from": 301
+        },
+        {
+          "stage": 3,
+          "text": "Ou une factorisation première.",
+          "from": 426
+        }
+      ],
+      "narration": "La même chose pour la décomposition de soixante-douze. Soixante-douze est égal à deux à la puissance trois, fois trois à la puissance deux. On dit que c’est une décomposition en produit de facteurs premiers. Ou une factorisation première.",
+      "value": 72,
+      "durationInFrames": 504,
+      "cues": {
+        "equals": 155,
+        "factor0": 174,
+        "factor1": 223
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "lecture-decomposition",
+      "type": "factorization",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        12
+      ],
+      "audio": "factorization-paced/lecture-decomposition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot décomposition.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Décomposition.",
+          "from": 126
+        },
+        {
+          "stage": 2,
+          "text": "Décomposition.",
+          "from": 190
+        }
+      ],
+      "narration": "Écoutons la lecture du mot décomposition. Décomposition. Décomposition.",
+      "durationInFrames": 251,
+      "cues": {},
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "synthese",
+      "type": "factorization",
+      "kind": "vocabulary",
+      "title": "Synthèse",
+      "sourceSlides": [
+        13
+      ],
+      "audio": "factorization-paced/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces expressions.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Décomposition signifie écrire un nombre sous forme de produit de facteurs premiers.",
+          "from": 185
+        },
+        {
+          "stage": 2,
+          "text": "Nous retenons aussi l’expression facteurs premiers.",
+          "from": 355
+        },
+        {
+          "stage": 3,
+          "text": "Et deux méthodes de décomposition : les divisions successives,",
+          "from": 457
+        },
+        {
+          "stage": 4,
+          "text": "et l’arbre de factorisation.",
+          "from": 595
+        }
+      ],
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces expressions. Décomposition signifie écrire un nombre sous forme de produit de facteurs premiers. Nous retenons aussi l’expression facteurs premiers. Et deux méthodes de décomposition : les divisions successives, et l’arbre de factorisation.",
+      "holdSeconds": 2,
+      "durationInFrames": 705,
+      "cues": {
+        "word0": 185,
+        "word1": 405,
+        "word2": 532,
+        "word3": 598
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    }
+  ]
+}

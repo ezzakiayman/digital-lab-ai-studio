@@ -1,0 +1,12 @@
+{
+  "scenes": [
+    {
+      "id": "n3-sem4-vdp2-prononciation",
+      "audio": "n3-sem4-v2-take2/n3-sem4-vdp2-prononciation.wav",
+      "narration": "Écoutez la lecture du mot quotient. Quo. Tient. Quotient.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

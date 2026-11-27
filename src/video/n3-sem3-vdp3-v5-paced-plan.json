@@ -1,0 +1,824 @@
+{
+  "version": 1,
+  "lesson": "Distinguer l’écriture décimale illimitée périodique et non périodique",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "vdp3-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de Distinguer l'écriture décimale illimitée périodique et non périodique. Distinguer c’est faire la différence. l'écriture décimale est toute écriture contenant la virgule. illimitée périodique comme ce nombre sa partie décimale n’est pas finie et le vingt-six se répète. Et on va voir aussi l’écriture décimale illimitée non périodique où la suite des chiffres de la partie décimale ne se répète pas.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de Distinguer l'écriture décimale illimitée périodique et non périodique.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Distinguer c’est faire la différence.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "l'écriture décimale est toute écriture contenant la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "illimitée périodique comme ce nombre sa partie décimale n’est pas finie et le vingt-six se répète.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Et on va voir aussi l’écriture décimale illimitée non périodique où la suite des chiffres de la partie décimale ne se répète pas.",
+          "from": 0
+        }
+      ],
+      "objective": {
+        "title": "Distinguer l’écriture décimale illimitée périodique et non périodique",
+        "measure": 2061,
+        "size": 49,
+        "links": [
+          {
+            "offset": 0,
+            "width": 317,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Faire la différence",
+                "x": 960,
+                "y": 730,
+                "size": 44,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 371,
+            "width": 530,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "31{,}56",
+                "x": 960,
+                "y": 731,
+                "size": 86,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 919,
+            "width": 586,
+            "at": 3,
+            "art": [
+              {
+                "kind": "math",
+                "value": "5{,}\\textcolor{#66539F}{26}26\\textcolor{#66539F}{26}\\ldots",
+                "x": 960,
+                "y": 731,
+                "size": 70,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 1598,
+            "width": 463,
+            "at": 4,
+            "art": [
+              {
+                "kind": "math",
+                "value": "1{,}73205080756\\ldots",
+                "x": 960,
+                "y": 731,
+                "size": 50,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 963,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-prononciation-6",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons d’abord la lecture du mot : Illimité. I. Li. Mi. Té. Illimité.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-prononciation-6.wav",
+      "sourceSlides": [
+        6
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons d’abord la lecture du mot : Illimité.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "I.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Li.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Mi.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Té.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Illimité.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "illimité",
+        "syllables": [
+          "il",
+          "li",
+          "mi",
+          "té"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 265,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-prononciation-7",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Et du mot : Périodique. Pé. Rio. Dique. Périodique.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-prononciation-7.wav",
+      "sourceSlides": [
+        7
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Et du mot : Périodique.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pé.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Rio.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Dique.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Périodique.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "périodique",
+        "syllables": [
+          "pé",
+          "rio",
+          "dique"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 236,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-definition",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Maintenant je passe à la définition d’une fraction décimale. Une fraction décimale est une fraction dont le dénominateur est une puissance de dix.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-definition.wav",
+      "sourceSlides": [
+        8,
+        9
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 960,
+          "y": 472,
+          "size": 56,
+          "at": 1,
+          "color": "#1D1D1D",
+          "weight": 400,
+          "frame": 102
+        },
+        {
+          "kind": "text",
+          "value": "est une fraction dont le dénominateur",
+          "x": 960,
+          "y": 621,
+          "size": 56,
+          "at": 1,
+          "frame": 144,
+          "color": "#1D1D1D",
+          "weight": 400
+        },
+        {
+          "kind": "text",
+          "value": "est une puissance de 10.",
+          "x": 960,
+          "y": 720,
+          "size": 56,
+          "at": 1,
+          "color": "#1D1D1D",
+          "weight": 400,
+          "frame": 208
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Maintenant je passe à la définition d’une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Une fraction décimale est une fraction dont le dénominateur est une puissance de dix.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 284,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-fraction-225",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Par exemple la fraction deux cent vingt-cinq sur dix au carré est une fraction décimale. Pourquoi? Car son dénominateur est une puissance de dix. pour donner l’écriture décimale de cette fraction. J’écris le numérateur deux cent vingt-cinq. Et je déplace la virgule vers la gauche. Par combien de chiffres? par deux. Et ça donne deux virgule vingt-cinq.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-fraction-225.wav",
+      "sourceSlides": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{225}{\\htmlClass{vdp-math-denominator}{10^{\\htmlClass{vdp-math-exponent}{2}}}}",
+          "x": 588,
+          "y": 558,
+          "size": 108,
+          "at": 0,
+          "focus": [
+            {
+              "target": "denominator",
+              "start": 155,
+              "end": 241
+            },
+            {
+              "target": "exponent",
+              "start": 430,
+              "end": 586
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 1110,
+          "y": 558,
+          "size": 59,
+          "at": 0,
+          "frame": 66,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "225",
+          "x": 1110,
+          "y": 558,
+          "size": 100,
+          "at": 3,
+          "to": 5,
+          "frame": 386
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 1110,
+          "y": 424,
+          "size": 215,
+          "at": 4,
+          "color": "#D60019",
+          "to": 5,
+          "draw": true,
+          "frame": 487
+        },
+        {
+          "kind": "math",
+          "value": "=\\;2{,}\\textcolor{#D60019}{25}",
+          "x": 918,
+          "y": 558,
+          "size": 106,
+          "at": 5,
+          "frame": 608
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple la fraction deux cent vingt-cinq sur dix au carré est une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pourquoi? Car son dénominateur est une puissance de dix.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "pour donner l’écriture décimale de cette fraction.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "J’écris le numérateur deux cent vingt-cinq.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Et je déplace la virgule vers la gauche. Par combien de chiffres? par deux.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Et ça donne deux virgule vingt-cinq.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 676,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-fraction-1",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "De la même façon: un sur dix à la puissance trois, est une fraction décimale. Et son écriture décimale est zéro virgule zéro zéro un.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-fraction-1.wav",
+      "sourceSlides": [
+        16,
+        17
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{1}{10^3}",
+          "x": 588,
+          "y": 466,
+          "size": 108,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 1110,
+          "y": 466,
+          "size": 59,
+          "at": 0,
+          "frame": 102,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "=",
+          "x": 766,
+          "y": 466,
+          "size": 106,
+          "at": 1,
+          "frame": 209
+        },
+        {
+          "kind": "math",
+          "value": "0{,}\\textcolor{#D60019}{001}",
+          "x": 988,
+          "y": 466,
+          "size": 106,
+          "at": 1,
+          "frame": 209
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{225}{10^2}",
+          "x": 588,
+          "y": 775,
+          "size": 108,
+          "at": 2,
+          "frame": 342
+        },
+        {
+          "kind": "math",
+          "value": "=",
+          "x": 766,
+          "y": 775,
+          "size": 106,
+          "at": 2,
+          "frame": 421
+        },
+        {
+          "kind": "math",
+          "value": "2{,}\\textcolor{#D60019}{25}",
+          "x": 955,
+          "y": 775,
+          "size": 106,
+          "at": 2,
+          "frame": 421
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "De la même façon: un sur dix à la puissance trois, est une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Et son écriture décimale est zéro virgule zéro zéro un.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 491,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-fraction-moins-5",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "De la même façon : moins cinq sur dix à la puissance zéro est une fraction décimale. Et c’est égale à moins cinq.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-fraction-moins-5.wav",
+      "sourceSlides": [
+        18,
+        19
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\frac{-5}{10^0}",
+          "x": 588,
+          "y": 558,
+          "size": 108,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une fraction décimale",
+          "x": 1110,
+          "y": 558,
+          "size": 59,
+          "at": 0,
+          "frame": 87,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "=\\;\\textcolor{#D60019}{-5}",
+          "x": 918,
+          "y": 558,
+          "size": 106,
+          "at": 1,
+          "frame": 267
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "De la même façon : moins cinq sur dix à la puissance zéro est une fraction décimale.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Et c’est égale à moins cinq.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 318,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la propriété. Tout nombre qui possède une écriture décimale finie s’écrit sous la forme d’une fraction décimale.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-propriete.wav",
+      "sourceSlides": [
+        20,
+        21
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Tout nombre qui possède une écriture décimale finie",
+          "x": 960,
+          "y": 504,
+          "size": 58,
+          "at": 1,
+          "color": "#1D1D1D"
+        },
+        {
+          "kind": "text",
+          "value": "s’écrit sous la forme d’une fraction décimale.",
+          "x": 960,
+          "y": 609,
+          "size": 58,
+          "at": 1,
+          "color": "#1D1D1D",
+          "weight": 400,
+          "frame": 150
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Tout nombre qui possède une écriture décimale finie s’écrit sous la forme d’une fraction décimale.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 251,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-decimale-en-fraction",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je prends cet exemple: deux virgule neuf cent quatre-vingt-cinq c’est un nombre à une écriture décimale finie. Pourquoi? Car il a trois chiffres après la virgule. Je l’écris d’abord sous forme d’une fraction. Ça donne deux mille neuf cent quatre-vingt-cinq sur mille. pourquoi mille? car j’ai trois chiffres après la virgule. Puis je convertis cette fraction en une fraction décimale. Et ça donne deux mille neuf cent quatre-vingt-cinq sur dix à la puissance trois.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-decimale-en-fraction.wav",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "2{,}985",
+          "x": 960,
+          "y": 625,
+          "size": 108,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "2{,}\\underbrace{\\textcolor{#D60019}{985}}",
+          "x": 960,
+          "y": 625,
+          "size": 98,
+          "at": 1,
+          "to": 2
+        },
+        {
+          "kind": "math",
+          "value": "2{,}\\underbrace{\\textcolor{#D60019}{985}}",
+          "x": 520,
+          "y": 625,
+          "size": 92,
+          "at": 2,
+          "moveFrom": 960
+        },
+        {
+          "kind": "math",
+          "value": "=\\ \\frac{2985}{1000}",
+          "x": 953,
+          "y": 625,
+          "size": 91,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "=\\ \\frac{2985}{\\textcolor{#D60019}{1000}}",
+          "x": 953,
+          "y": 625,
+          "size": 91,
+          "at": 4
+        },
+        {
+          "kind": "math",
+          "value": "=\\ \\frac{2985}{10^{\\textcolor{#D60019}{3}}}",
+          "x": 1362,
+          "y": 625,
+          "size": 91,
+          "at": 5
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends cet exemple: deux virgule neuf cent quatre-vingt-cinq c’est un nombre à une écriture décimale finie. Pourquoi?",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Car il a trois chiffres après la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Je l’écris d’abord sous forme d’une fraction.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Ça donne deux mille neuf cent quatre-vingt-cinq sur mille.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "pourquoi mille? car j’ai trois chiffres après la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 5,
+          "text": "Puis je convertis cette fraction en une fraction décimale. Et ça donne deux mille neuf cent quatre-vingt-cinq sur dix à la puissance trois.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 824,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "vdp3-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Au cours de cette séance nous avons enrichi notre vocabulaire avec ces mots:. Décimale et on dit qu’une écriture est décimale si elle contient la virgule. Illimitée c’est infinie. Et périodique c’est-à-dire que la suite des chiffres après la virgule se répète.",
+      "audio": "n3-sem3-elevenlabs-v5-vdp3-paced/vdp3-vocabulaire.wav",
+      "sourceSlides": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Décimale",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Illimitée",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 2
+        },
+        {
+          "kind": "card",
+          "value": "Périodique",
+          "x": 960,
+          "y": 664,
+          "size": 52,
+          "at": 0,
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance nous avons enrichi notre vocabulaire avec ces mots:.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Décimale et on dit qu’une écriture est décimale si elle contient la virgule.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Illimitée c’est infinie.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Et périodique c’est-à-dire que la suite des chiffres après la virgule se répète.",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 606,
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {
+      "id": "definition-toute",
+      "audio": "n1-sem3-vdp1-v3/definition-toute.wav",
+      "narration": "Toute",
+      "speechMode": "verbatim"
+    },
+    {
+      "id": "definition-suite",
+      "audio": "n1-sem3-vdp1-v3/definition-suite.wav",
+      "narration": "suite d’additions de nombres s’appelle : expression numérique",
+      "speechMode": "verbatim"
+    }
+  ]
+}

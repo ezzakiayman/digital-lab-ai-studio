@@ -1,0 +1,642 @@
+{
+  "version": 1,
+  "lesson": "Identifier les éléments d’un monôme",
+  "level": "2AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "n2-sem1-vdp4-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-objectif.wav",
+      "narration": "Bonjour. Aujourd’hui, je vais vous expliquer comment identifier les éléments d’un monôme. Identifier, c’est reconnaître ou repérer quelque chose. En arabe, يَتَعَرَّف, c’est l’idée de reconnaître. Et le mot monôme désigne ici une expression comme quatre fois x au carré fois y. Je vais apprendre à en distinguer les éléments.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour. Aujourd’hui, je vais vous expliquer comment identifier les éléments d’un monôme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Identifier, c’est reconnaître ou repérer quelque chose.",
+          "from": 188
+        },
+        {
+          "stage": 2,
+          "text": "En arabe, يَتَعَرَّف, c’est l’idée de reconnaître.",
+          "from": 305
+        },
+        {
+          "stage": 3,
+          "text": "Et le mot monôme désigne ici une expression comme",
+          "from": 446
+        },
+        {
+          "stage": 4,
+          "text": "quatre fois x au carré fois y. Je vais apprendre à en distinguer les éléments.",
+          "from": 576
+        }
+      ],
+      "objective": {
+        "title": "Identifier les éléments d’un monôme",
+        "measure": 1114,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 271,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "يتعرف",
+                "x": 960,
+                "y": 716,
+                "size": 85,
+                "at": 2,
+                "rtl": true
+              }
+            ]
+          },
+          {
+            "offset": 289,
+            "width": 825,
+            "at": 3,
+            "art": [
+              {
+                "kind": "algebra",
+                "value": "4x²y",
+                "x": 960,
+                "y": 724,
+                "size": 100,
+                "at": 4
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 762
+    },
+    {
+      "id": "n2-sem1-vdp4-prononciation-4",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-prononciation-4.wav",
+      "narration": "Écoutez les syllabes du mot monôme. Mo. Nôme. Monôme. Maintenant, répétez : monôme.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        4
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez les syllabes du mot monôme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Mo.",
+          "from": 128
+        },
+        {
+          "stage": 2,
+          "text": "Nôme.",
+          "from": 174
+        },
+        {
+          "stage": 3,
+          "text": "Monôme. Maintenant, répétez : monôme.",
+          "from": 220
+        }
+      ],
+      "pronunciation": {
+        "word": "Monôme",
+        "syllables": [
+          "mo",
+          "nôme"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 401
+    },
+    {
+      "id": "n2-sem1-vdp4-definition-monome",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 1",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-definition-monome.wav",
+      "narration": "Première définition : un monôme est une expression algébrique à un seul terme. Cela veut dire qu’il s’agit d’un seul terme, et non d’une somme de plusieurs termes. Prenons quatre fois x au carré fois y au cube. Il n’y a qu’un seul terme. C’est donc bien un monôme. En revanche, deux fois x plus y contient deux termes, séparés par une addition. Ce n’est pas un monôme. Dans le monôme quatre fois x au carré fois y au cube, quatre est le coefficient. C’est le nombre qui multiplie les lettres. Et x et y sont les variables : ce sont les lettres auxquelles je peux donner différentes valeurs.",
+      "art": [
+        {
+          "kind": "text",
+          "value": "Un monôme est une expression algébrique",
+          "x": 960,
+          "y": 371,
+          "size": 56,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "à un seul terme.",
+          "x": 960,
+          "y": 451,
+          "size": 60,
+          "at": 1,
+          "weight": 700,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 525,
+          "size": 60,
+          "at": 2,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "algebra",
+          "value": "4x²y³",
+          "x": 575,
+          "y": 622,
+          "size": 84,
+          "at": 2,
+          "background": "#D9F3FB"
+        },
+        {
+          "kind": "math",
+          "value": "\\checkmark",
+          "x": 792,
+          "y": 625,
+          "size": 65,
+          "at": 3,
+          "color": "#087746"
+        },
+        {
+          "kind": "algebra",
+          "value": "2x + y",
+          "x": 1240,
+          "y": 622,
+          "size": 84,
+          "at": 4,
+          "background": "#EDE3F7"
+        },
+        {
+          "kind": "status",
+          "value": "Faux",
+          "x": 1525,
+          "y": 622,
+          "size": 38,
+          "at": 5,
+          "color": "#D60019"
+        },
+        {
+          "kind": "text",
+          "value": "Dans le monôme",
+          "x": 748,
+          "y": 740,
+          "size": 49,
+          "at": 6
+        },
+        {
+          "kind": "algebra",
+          "value": "4x²y³",
+          "x": 1118,
+          "y": 740,
+          "size": 67,
+          "at": 6,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 7,
+              "color": "#007DBA"
+            },
+            {
+              "index": 1,
+              "at": 7,
+              "color": "#D60019"
+            },
+            {
+              "index": 3,
+              "at": 7,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{4}\\text{ est le coefficient.}",
+          "x": 960,
+          "y": 848,
+          "size": 56,
+          "at": 7
+        },
+        {
+          "kind": "algebra",
+          "value": "x",
+          "x": 682,
+          "y": 940,
+          "size": 63,
+          "at": 8,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 8,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 751,
+          "y": 940,
+          "size": 49,
+          "at": 8
+        },
+        {
+          "kind": "algebra",
+          "value": "y",
+          "x": 811,
+          "y": 940,
+          "size": 63,
+          "at": 8,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 8,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "sont les variables.",
+          "x": 1094,
+          "y": 940,
+          "size": 54,
+          "at": 8
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Première définition :",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "un monôme est une expression algébrique à un seul terme. Cela veut dire qu’il s’agit d’un seul terme, et non d’une somme de plusieurs termes.",
+          "from": 66
+        },
+        {
+          "stage": 2,
+          "text": "Prenons quatre fois x au carré fois y au cube. Il n’y a qu’un seul terme.",
+          "from": 351
+        },
+        {
+          "stage": 3,
+          "text": "C’est donc bien un monôme.",
+          "from": 534
+        },
+        {
+          "stage": 4,
+          "text": "En revanche, deux fois x plus y contient deux termes, séparés par une addition.",
+          "from": 594
+        },
+        {
+          "stage": 5,
+          "text": "Ce n’est pas un monôme.",
+          "from": 785
+        },
+        {
+          "stage": 6,
+          "text": "Dans le monôme quatre fois x au carré fois y au cube,",
+          "from": 854
+        },
+        {
+          "stage": 7,
+          "text": "quatre est le coefficient. C’est le nombre qui multiplie les lettres.",
+          "from": 974
+        },
+        {
+          "stage": 8,
+          "text": "Et x et y sont les variables : ce sont les lettres auxquelles je peux donner différentes valeurs.",
+          "from": 1105
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 1292
+    },
+    {
+      "id": "n2-sem1-vdp4-degre",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 2",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-degre.wav",
+      "narration": "Deuxième définition : le degré du monôme est la somme des exposants de ses variables. Je dois donc m’intéresser aux exposants des lettres. Le degré du monôme quatre fois x au carré fois y au cube est… Je repère l’exposant deux de x et l’exposant trois de y. J’additionne ces exposants : deux plus trois est égal à cinq. Le degré de ce monôme est donc cinq.",
+      "art": [
+        {
+          "kind": "text",
+          "value": "Le degré du monôme est",
+          "x": 960,
+          "y": 375,
+          "size": 59,
+          "at": 0,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "la somme des exposants de ses variables.",
+          "x": 960,
+          "y": 466,
+          "size": 58,
+          "at": 1,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 563,
+          "size": 72,
+          "at": 2,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "text",
+          "value": "Le degré du monôme",
+          "x": 655,
+          "y": 679,
+          "size": 53,
+          "at": 2
+        },
+        {
+          "kind": "algebra",
+          "value": "4x²y³",
+          "x": 1116,
+          "y": 680,
+          "size": 101,
+          "at": 2,
+          "tokenColors": [
+            {
+              "index": 0,
+              "at": 2,
+              "color": "#007DBA"
+            },
+            {
+              "index": 1,
+              "at": 2,
+              "color": "#D60019"
+            },
+            {
+              "index": 3,
+              "at": 2,
+              "color": "#D60019"
+            },
+            {
+              "index": 2,
+              "at": 3,
+              "color": "#007DBA"
+            },
+            {
+              "index": 4,
+              "at": 4,
+              "color": "#007DBA"
+            }
+          ],
+          "tokenMarks": [
+            {
+              "index": 2,
+              "at": 3
+            },
+            {
+              "index": 4,
+              "at": 4
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "est :",
+          "x": 1380,
+          "y": 679,
+          "size": 53,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{2}+\\textcolor{#007DBA}{3}",
+          "x": 860,
+          "y": 859,
+          "size": 106,
+          "at": 5
+        },
+        {
+          "kind": "math",
+          "value": "=\\textcolor{#087746}{5}",
+          "x": 1143,
+          "y": 859,
+          "size": 106,
+          "at": 6
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        10,
+        11,
+        12
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Deuxième définition : le degré du monôme est",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "la somme des exposants de ses variables. Je dois donc m’intéresser aux exposants des lettres.",
+          "from": 141
+        },
+        {
+          "stage": 2,
+          "text": "Le degré du monôme quatre fois x au carré fois y au cube est…",
+          "from": 343
+        },
+        {
+          "stage": 3,
+          "text": "Je repère l’exposant deux de x",
+          "from": 515
+        },
+        {
+          "stage": 4,
+          "text": "et l’exposant trois de y.",
+          "from": 596
+        },
+        {
+          "stage": 5,
+          "text": "J’additionne ces exposants : deux plus trois",
+          "from": 672
+        },
+        {
+          "stage": 6,
+          "text": "est égal à cinq. Le degré de ce monôme est donc cinq.",
+          "from": 772
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 929
+    },
+    {
+      "id": "n2-sem1-vdp4-prononciation-13",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-prononciation-13.wav",
+      "narration": "Écoutez les syllabes du mot degré. De. Gré. Degré. Maintenant, répétez : degré.",
+      "art": [],
+      "cues": {},
+      "sourceSlides": [
+        13
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez les syllabes du mot degré.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "De.",
+          "from": 100
+        },
+        {
+          "stage": 2,
+          "text": "Gré.",
+          "from": 133
+        },
+        {
+          "stage": 3,
+          "text": "Degré. Maintenant, répétez : degré.",
+          "from": 166
+        }
+      ],
+      "pronunciation": {
+        "word": "Degré",
+        "syllables": [
+          "de",
+          "gré"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 308
+    },
+    {
+      "id": "n2-sem1-vdp4-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n2-sem1-paced/n2-sem1-vdp4-vocabulaire.wav",
+      "narration": "Pour terminer, je retiens du vocabulaire important. D’abord, monôme : une expression algébrique à un seul terme. Ensuite, variable : une lettre qui peut prendre différentes valeurs. Puis, coefficient : le nombre qui multiplie les variables dans le monôme. Enfin, degré : la somme des exposants des variables. Ces quatre mots m’aident à identifier les éléments d’un monôme.",
+      "art": [
+        {
+          "kind": "card",
+          "value": "Monôme",
+          "x": 595,
+          "y": 474,
+          "size": 55,
+          "at": 0
+        },
+        {
+          "kind": "card",
+          "value": "Variable",
+          "x": 1325,
+          "y": 474,
+          "size": 55,
+          "at": 1
+        },
+        {
+          "kind": "card",
+          "value": "Coefficient",
+          "x": 595,
+          "y": 752,
+          "size": 55,
+          "at": 2
+        },
+        {
+          "kind": "card",
+          "value": "Degré",
+          "x": 1325,
+          "y": 752,
+          "size": 55,
+          "at": 3
+        }
+      ],
+      "cues": {},
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Pour terminer, je retiens du vocabulaire important. D’abord, monôme : une expression algébrique à un seul terme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ensuite, variable : une lettre qui peut prendre différentes valeurs.",
+          "from": 267
+        },
+        {
+          "stage": 2,
+          "text": "Puis, coefficient : le nombre qui multiplie les variables dans le monôme.",
+          "from": 430
+        },
+        {
+          "stage": 3,
+          "text": "Enfin, degré : la somme des exposants des variables. Ces quatre mots m’aident à identifier les éléments d’un monôme.",
+          "from": 603
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 885
+    }
+  ]
+}

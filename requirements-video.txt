@@ -1,0 +1,10 @@
+# Snapshot of the working Python 3.12 video tools. GPU wheels are an optional environment choice.
+torch==2.8.0
+torchaudio==2.8.0
+uroman==1.3.1.1
+regex==2026.9.29
+numpy==2.1.2
+Pillow==11.2.1
+faster-whisper==1.2.1
+ctranslate2==4.8.5
+tzdata==2025.2

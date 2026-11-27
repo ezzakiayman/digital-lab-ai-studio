@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {
+      "id": "n3-sem4-vdp2-prononciation",
+      "audio": "n3-sem4-v2-kore/n3-sem4-vdp2-prononciation.wav",
+      "narration": "Écoutez la lecture du mot quotient. Co. Cyan. Quotient.",
+      "speechMode": "verbatim"
+    }
+  ]
+}

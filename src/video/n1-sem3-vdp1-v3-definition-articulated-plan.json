@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {
+      "id": "definition-articulated",
+      "audio": "n1-sem3-vdp1-v3/definition-articulated.wav",
+      "narration": "Toute,\nsuite d’additions de nombres s’appelle : expression numérique.",
+      "speechMode": "verbatim"
+    }
+  ]
+}

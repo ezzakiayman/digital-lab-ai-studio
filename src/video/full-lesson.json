@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "lesson": "Comparer et ranger des nombres",
+  "level": "1AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "audio": "reference/full-narration.wav",
+  "scenes": [
+    {
+      "id": "introduction",
+      "type": "lesson-section",
+      "section": "intro",
+      "title": "introduction",
+      "durationInFrames": 840,
+      "audio": null,
+      "narration": "Narration française originale, intervalle 0–28 s.",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "events": [
+        {
+          "target": "compare",
+          "from": 180,
+          "to": 420
+        },
+        {
+          "target": "symbols",
+          "from": 345,
+          "to": 420
+        },
+        {
+          "target": "sort",
+          "from": 450,
+          "to": 630
+        },
+        {
+          "target": "numbers",
+          "from": 660,
+          "to": 840
+        }
+      ]
+    },
+    {
+      "id": "lecture-du-mot",
+      "type": "lesson-section",
+      "section": "phonetics",
+      "title": "lecture-du-mot",
+      "durationInFrames": 420,
+      "audio": null,
+      "narration": "Narration française originale, intervalle 28–42 s.",
+      "sourceSlides": [
+        5
+      ],
+      "events": [
+        {
+          "target": "syllables",
+          "from": 180,
+          "to": 360
+        },
+        {
+          "target": "ending",
+          "from": 270,
+          "to": 360
+        },
+        {
+          "target": "whole",
+          "from": 360,
+          "to": 420
+        }
+      ]
+    },
+    {
+      "id": "propriete-1-titre",
+      "type": "lesson-section",
+      "section": "property-lead",
+      "title": "propriete-1-titre",
+      "durationInFrames": 180,
+      "audio": null,
+      "narration": "Narration française originale, intervalle 42–48 s.",
+      "sourceSlides": [
+        6,
+        7
+      ],
+      "events": [
+        {
+          "target": "expanded",
+          "from": 75,
+          "to": 180
+        }
+      ]
+    },
+    {
+      "id": "propriete-1",
+      "type": "property",
+      "title": "Propriété 1 (comparer deux nombres négatifs):",
+      "durationInFrames": 300,
+      "narration": "Si deux nombres sont négatifs, alors le plus petit est celui qui a la plus grande valeur absolue.",
+      "audio": null,
+      "cues": [
+        {
+          "target": "condition",
+          "from": 30,
+          "to": 135
+        },
+        {
+          "target": "conclusion",
+          "from": 165,
+          "to": 285
+        }
+      ]
+    },
+    {
+      "id": "negative-example-1",
+      "type": "negative-comparison",
+      "title": "Propriété 1",
+      "durationInFrames": 1110,
+      "narration": "Comparer moins trois et moins deux. Leurs valeurs absolues sont trois et deux. Trois est supérieur à deux. Donc moins trois est inférieur à moins deux.",
+      "audio": null,
+      "sourceSlides": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "operands": [
+        -3,
+        -2
+      ],
+      "events": [
+        {
+          "target": "prompt",
+          "to": 1110,
+          "from": 75
+        },
+        {
+          "target": "signs",
+          "to": 180,
+          "from": 135
+        },
+        {
+          "target": "arrowA",
+          "to": 396,
+          "from": 315
+        },
+        {
+          "target": "absoluteA",
+          "to": 1110,
+          "from": 351
+        },
+        {
+          "target": "arrowB",
+          "to": 480,
+          "from": 396
+        },
+        {
+          "target": "absoluteB",
+          "to": 1110,
+          "from": 414
+        },
+        {
+          "target": "redB",
+          "to": 570,
+          "from": 510
+        },
+        {
+          "target": "redA",
+          "to": 615,
+          "from": 570
+        },
+        {
+          "target": "greater",
+          "to": 1110,
+          "from": 600
+        },
+        {
+          "target": "focusA",
+          "to": 780,
+          "from": 651
+        },
+        {
+          "target": "given",
+          "to": 1110,
+          "from": 774
+        },
+        {
+          "target": "therefore",
+          "to": 1110,
+          "from": 930
+        },
+        {
+          "target": "resultA",
+          "to": 1110,
+          "from": 960
+        },
+        {
+          "target": "less",
+          "to": 1110,
+          "from": 1005
+        },
+        {
+          "target": "resultB",
+          "to": 1110,
+          "from": 1035
+        }
+      ]
+    },
+    {
+      "id": "propriete-2-et-exemple",
+      "type": "lesson-section",
+      "section": "opposite-signs",
+      "title": "propriete-2-et-exemple",
+      "durationInFrames": 1170,
+      "audio": null,
+      "narration": "Narration française originale, intervalle 95–134 s.",
+      "sourceSlides": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "events": [
+        {
+          "target": "example",
+          "from": 390,
+          "to": 1170
+        },
+        {
+          "target": "prompt",
+          "from": 450,
+          "to": 1080
+        },
+        {
+          "target": "negative",
+          "from": 630,
+          "to": 1080
+        },
+        {
+          "target": "positive",
+          "from": 810,
+          "to": 1080
+        },
+        {
+          "target": "result",
+          "from": 1080,
+          "to": 1170
+        }
+      ]
+    },
+    {
+      "id": "remarque-droite",
+      "type": "lesson-section",
+      "section": "number-line",
+      "title": "remarque-droite",
+      "durationInFrames": 1080,
+      "audio": null,
+      "narration": "Narration française originale, intervalle 134–170 s.",
+      "sourceSlides": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "events": [
+        {
+          "target": "line",
+          "from": 180,
+          "to": 1080
+        },
+        {
+          "target": "left",
+          "from": 270,
+          "to": 450
+        },
+        {
+          "target": "right",
+          "from": 420,
+          "to": 480
+        },
+        {
+          "target": "comparison",
+          "from": 480,
+          "to": 1080
+        },
+        {
+          "target": "place",
+          "from": 780,
+          "to": 1080
+        },
+        {
+          "target": "left",
+          "from": 720,
+          "to": 1080
+        },
+        {
+          "target": "answer",
+          "from": 960,
+          "to": 1080
+        }
+      ]
+    },
+    {
+      "id": "je-retiens",
+      "type": "lesson-section",
+      "section": "summary",
+      "title": "je-retiens",
+      "durationInFrames": 300,
+      "audio": null,
+      "narration": "Narration française originale, intervalle 170–180 s.",
+      "sourceSlides": [
+        27
+      ],
+      "events": [
+        {
+          "target": "line",
+          "from": 0,
+          "to": 300
+        },
+        {
+          "target": "left",
+          "from": 0,
+          "to": 300
+        },
+        {
+          "target": "right",
+          "from": 0,
+          "to": 300
+        }
+      ]
+    }
+  ]
+}

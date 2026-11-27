@@ -1,0 +1,116 @@
+{
+  "scenes": [
+    {
+      "id": "n3-sem4-vdp1-objectif",
+      "audio": "n3-sem4/n3-sem4-vdp1-objectif.wav",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et appliquer la relation : racine carrée de a multipliée par racine carrée de b est égale à la racine carrée du produit de a et b. Reconnaître, c’est savoir. Et appliquer la relation, c’est utiliser la règle pour effectuer un calcul.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp1-propriete",
+      "audio": "n3-sem4/n3-sem4-vdp1-propriete.wav",
+      "narration": "Je commence par la propriété du produit de deux racines carrées. A et b sont deux nombres positifs ou nuls. Le produit de la racine carrée de a et de la racine carrée de b est égal à la racine carrée du produit de a et b.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp1-exemple-1",
+      "audio": "n3-sem4/n3-sem4-vdp1-exemple-1.wav",
+      "narration": "Par exemple, la racine carrée de deux multipliée par la racine carrée de huit est égale à la racine carrée de deux fois huit.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp1-exemple-2",
+      "audio": "n3-sem4/n3-sem4-vdp1-exemple-2.wav",
+      "narration": "Je peux aussi utiliser la propriété dans l’autre sens : la racine carrée de seize fois vingt-cinq est égale au produit de la racine carrée de seize et la racine carrée de vingt-cinq.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp1-remarque",
+      "audio": "n3-sem4/n3-sem4-vdp1-remarque.wav",
+      "narration": "Voici une remarque pour mieux comprendre cette propriété. L’égalité : racine carrée de a multipliée par racine carrée de b est égale à la racine carrée de a fois b, signifie que : Le produit de deux racines carrées est égal à la racine carrée du produit.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp1-prononciation",
+      "audio": "n3-sem4/n3-sem4-vdp1-prononciation.wav",
+      "narration": "Écoutez la lecture du mot radical. Ra. Di. Cal. Radical.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp1-vocabulaire",
+      "audio": "n3-sem4/n3-sem4-vdp1-vocabulaire.wav",
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Produit, comme trois fois cinq, qui donne quinze. Puis racine carrée : par exemple, la racine carrée de neuf vaut trois. Enfin, le radical : c’est le symbole de la racine carrée, comme dans racine carrée de seize.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-objectif",
+      "audio": "n3-sem4/n3-sem4-vdp2-objectif.wav",
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître et appliquer la relation : racine carrée de a sur racine carrée de b est égale à la racine carrée du quotient a sur b. Reconnaître cette relation, c’est savoir la repérer. L’appliquer, c’est utiliser la règle dans un calcul.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-propriete",
+      "audio": "n3-sem4/n3-sem4-vdp2-propriete.wav",
+      "narration": "Voici la propriété du quotient de deux racines carrées. Je prends a positif ou nul et b strictement positif. C’est important : le dénominateur ne peut pas être zéro. Alors, racine carrée de a sur racine carrée de b est égale à la racine carrée du quotient a sur b.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-exemple-1",
+      "audio": "n3-sem4/n3-sem4-vdp2-exemple-1.wav",
+      "narration": "Par exemple, racine carrée de huit sur racine carrée de deux est égale à la racine carrée du quotient huit sur deux.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-exemple-2",
+      "audio": "n3-sem4/n3-sem4-vdp2-exemple-2.wav",
+      "narration": "Je peux aussi utiliser la propriété dans l’autre sens : la racine carrée du quotient vingt-cinq sur seize est égale à racine carrée de vingt-cinq sur racine carrée de seize.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-remarque",
+      "audio": "n3-sem4/n3-sem4-vdp2-remarque.wav",
+      "narration": "Je peux retenir la même propriété sous la forme d’une remarque. Cette égalité signifie que : Le quotient de deux racines carrées est égal à la racine carrée du quotient.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-prononciation",
+      "audio": "n3-sem4/n3-sem4-vdp2-prononciation.wav",
+      "narration": "Écoutez la lecture du mot quotient. Quotient.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    },
+    {
+      "id": "n3-sem4-vdp2-vocabulaire",
+      "audio": "n3-sem4/n3-sem4-vdp2-vocabulaire.wav",
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Je retiens le mot quotient : par exemple, douze sur trois égale quatre. Puis racine carrée : par exemple, la racine carrée de neuf vaut trois. Enfin, le radical : c’est le symbole de la racine carrée, comme dans racine carrée de seize.",
+      "languageCode": "fr",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

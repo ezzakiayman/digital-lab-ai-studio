@@ -1,0 +1,587 @@
+{
+  "version": 1,
+  "lesson": "Reconnaître un binôme, un trinôme et un polynôme",
+  "level": "2AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "audio": "polynomials-v2-paced/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour. Aujourd’hui, vous serez capables de déterminer le degré d’un polynôme."
+        },
+        {
+          "stage": 1,
+          "text": "Déterminer le degré, c’est trouver sa valeur par un calcul."
+        },
+        {
+          "stage": 2,
+          "text": "Pour y arriver, je vais procéder en deux parties."
+        },
+        {
+          "stage": 3,
+          "text": "La première partie : reconnaître un binôme, un trinôme et un polynôme."
+        },
+        {
+          "stage": 4,
+          "text": "La deuxième partie : déterminer le degré."
+        },
+        {
+          "stage": 5,
+          "text": "Dans cette vidéo, je traite la première partie : reconnaître un binôme, un trinôme et un polynôme."
+        }
+      ],
+      "narration": "Bonjour. Aujourd’hui, vous serez capables de déterminer le degré d’un polynôme. Déterminer le degré, c’est trouver sa valeur par un calcul. Pour y arriver, je vais procéder en deux parties. La première partie : reconnaître un binôme, un trinôme et un polynôme. La deuxième partie : déterminer le degré. Dans cette vidéo, je traite la première partie : reconnaître un binôme, un trinôme et un polynôme."
+    },
+    {
+      "id": "definition-binome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "definition",
+      "title": "Définition 1",
+      "sourceSlides": [
+        7,
+        8
+      ],
+      "audio": "polynomials-v2-paced/definition-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la définition d’un binôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un binôme est une expression algébrique réduite composée de deux termes qui n’ont pas les mêmes variables avec les mêmes exposants."
+        }
+      ],
+      "narration": "Je commence par la définition d’un binôme. Un binôme est une expression algébrique réduite composée de deux termes qui n’ont pas les mêmes variables avec les mêmes exposants.",
+      "concept": "binome"
+    },
+    {
+      "id": "exemple-binome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "audio": "polynomials-v2-paced/exemple-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends l’expression algébrique : cinq ix plus trois i grec au cube."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est cinq ix."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est plus trois i grec au cube."
+        },
+        {
+          "stage": 4,
+          "text": "Elle est composée de deux termes : cinq ix et trois i grec au cube."
+        },
+        {
+          "stage": 5,
+          "text": "Les variables ix et i grec sont différentes."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, cette expression est un binôme."
+        }
+      ],
+      "narration": "Par exemple, je prends l’expression algébrique : cinq ix plus trois i grec au cube. De combien de termes est-elle composée ? Le premier terme est cinq ix. Le deuxième terme est plus trois i grec au cube. Elle est composée de deux termes : cinq ix et trois i grec au cube. Les variables ix et i grec sont différentes. Donc, cette expression est un binôme.",
+      "concept": "binome",
+      "expressionKey": "binome",
+      "valid": true
+    },
+    {
+      "id": "contre-exemple-binome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "audio": "polynomials-v2-paced/contre-exemple-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant l’expression algébrique : ix plus deux i grec plus un."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est ix."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est plus deux i grec."
+        },
+        {
+          "stage": 4,
+          "text": "Le troisième terme est plus un."
+        },
+        {
+          "stage": 5,
+          "text": "Elle est composée de trois termes : ix, deux i grec et un."
+        },
+        {
+          "stage": 6,
+          "text": "Les variables ix et i grec sont différentes."
+        },
+        {
+          "stage": 7,
+          "text": "Donc, cette expression n’est pas un binôme, car elle a trois termes."
+        }
+      ],
+      "narration": "Je prends maintenant l’expression algébrique : ix plus deux i grec plus un. De combien de termes est-elle composée ? Le premier terme est ix. Le deuxième terme est plus deux i grec. Le troisième terme est plus un. Elle est composée de trois termes : ix, deux i grec et un. Les variables ix et i grec sont différentes. Donc, cette expression n’est pas un binôme, car elle a trois termes.",
+      "concept": "binome",
+      "expressionKey": "trois-termes",
+      "valid": false
+    },
+    {
+      "id": "definition-trinome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "definition",
+      "title": "Définition 2",
+      "sourceSlides": [
+        21,
+        22
+      ],
+      "audio": "polynomials-v2-paced/definition-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la définition d’un trinôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un trinôme est une expression algébrique réduite composée de trois termes qui n’ont pas les mêmes variables avec les mêmes exposants."
+        }
+      ],
+      "narration": "Je passe maintenant à la définition d’un trinôme. Un trinôme est une expression algébrique réduite composée de trois termes qui n’ont pas les mêmes variables avec les mêmes exposants.",
+      "concept": "trinome"
+    },
+    {
+      "id": "exemple-trinome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "audio": "polynomials-v2-paced/exemple-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends l’expression algébrique : deux ix au carré plus quatre i grec moins un."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est deux ix au carré."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est plus quatre i grec."
+        },
+        {
+          "stage": 4,
+          "text": "Le troisième terme est moins un."
+        },
+        {
+          "stage": 5,
+          "text": "Elle est composée de trois termes : deux ix au carré, quatre i grec et moins un."
+        },
+        {
+          "stage": 6,
+          "text": "Les variables ix et i grec sont différentes."
+        },
+        {
+          "stage": 7,
+          "text": "Donc, cette expression est un trinôme."
+        }
+      ],
+      "narration": "Par exemple, je prends l’expression algébrique : deux ix au carré plus quatre i grec moins un. De combien de termes est-elle composée ? Le premier terme est deux ix au carré. Le deuxième terme est plus quatre i grec. Le troisième terme est moins un. Elle est composée de trois termes : deux ix au carré, quatre i grec et moins un. Les variables ix et i grec sont différentes. Donc, cette expression est un trinôme.",
+      "concept": "trinome",
+      "expressionKey": "trinome",
+      "valid": true
+    },
+    {
+      "id": "contre-exemple-trinome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "audio": "polynomials-v2-paced/contre-exemple-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant l’expression algébrique : x moins trois y."
+        },
+        {
+          "stage": 1,
+          "text": "De combien de termes est-elle composée ?"
+        },
+        {
+          "stage": 2,
+          "text": "Le premier terme est x."
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième terme est moins trois y."
+        },
+        {
+          "stage": 4,
+          "text": "Elle est composée de deux termes."
+        },
+        {
+          "stage": 5,
+          "text": "Donc, x moins trois y n’est pas un trinôme."
+        }
+      ],
+      "narration": "Je prends maintenant l’expression algébrique : x moins trois y. De combien de termes est-elle composée ? Le premier terme est x. Le deuxième terme est moins trois y. Elle est composée de deux termes. Donc, x moins trois y n’est pas un trinôme.",
+      "concept": "trinome",
+      "expressionKey": "deux-termes",
+      "valid": false
+    },
+    {
+      "id": "definition-polynome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "definition",
+      "title": "Définition 3",
+      "sourceSlides": [
+        33,
+        34
+      ],
+      "audio": "polynomials-v2-paced/definition-polynome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe maintenant à la définition d’un polynôme."
+        },
+        {
+          "stage": 1,
+          "text": "Un polynôme est une expression algébrique réduite composée d’un ou plusieurs termes."
+        }
+      ],
+      "narration": "Je passe maintenant à la définition d’un polynôme. Un polynôme est une expression algébrique réduite composée d’un ou plusieurs termes.",
+      "concept": "polynome"
+    },
+    {
+      "id": "exemple-polynome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "audio": "polynomials-v2-paced/exemple-polynome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, l’expression ix au cube fois i grec au carré, plus ix fois i grec au cube, moins ix au cube, plus cinq."
+        },
+        {
+          "stage": 1,
+          "text": "Elle est composée de quatre termes."
+        },
+        {
+          "stage": 2,
+          "text": "Ix au cube fois i grec au carré."
+        },
+        {
+          "stage": 3,
+          "text": "Plus ix fois i grec au cube."
+        },
+        {
+          "stage": 4,
+          "text": "Moins ix au cube."
+        },
+        {
+          "stage": 5,
+          "text": "Et plus cinq."
+        },
+        {
+          "stage": 6,
+          "text": "Observons les variables ix et i grec."
+        },
+        {
+          "stage": 7,
+          "text": "Elles ont des exposants différents dans les deux premiers termes."
+        },
+        {
+          "stage": 8,
+          "text": "Donc, cette expression est un polynôme."
+        }
+      ],
+      "narration": "Par exemple, l’expression ix au cube fois i grec au carré, plus ix fois i grec au cube, moins ix au cube, plus cinq. Elle est composée de quatre termes. Ix au cube fois i grec au carré. Plus ix fois i grec au cube. Moins ix au cube. Et plus cinq. Observons les variables ix et i grec. Elles ont des exposants différents dans les deux premiers termes. Donc, cette expression est un polynôme.",
+      "concept": "polynome",
+      "expressionKey": "quatre-termes",
+      "valid": true
+    },
+    {
+      "id": "polynomes-particuliers",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "inclusion",
+      "title": "Propriété",
+      "sourceSlides": [
+        44,
+        45,
+        46
+      ],
+      "audio": "polynomials-v2-paced/polynomes-particuliers.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Le binôme et le trinôme sont des polynômes particuliers."
+        },
+        {
+          "stage": 1,
+          "text": "Cinq ix plus trois i grec au cube est un binôme, mais c’est aussi un polynôme."
+        },
+        {
+          "stage": 2,
+          "text": "Deux ix au carré plus quatre i grec moins un est un trinôme, mais c’est aussi un polynôme."
+        }
+      ],
+      "narration": "Le binôme et le trinôme sont des polynômes particuliers. Cinq ix plus trois i grec au cube est un binôme, mais c’est aussi un polynôme. Deux ix au carré plus quatre i grec moins un est un trinôme, mais c’est aussi un polynôme."
+    },
+    {
+      "id": "lecture-binome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        47
+      ],
+      "audio": "polynomials-v2-paced/lecture-binome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot binôme."
+        },
+        {
+          "stage": 1,
+          "text": "Bi."
+        },
+        {
+          "stage": 2,
+          "text": "Nôme."
+        },
+        {
+          "stage": 3,
+          "text": "Binôme."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot binôme. Bi. Nôme. Binôme.",
+      "concept": "binome",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "lecture-trinome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        48
+      ],
+      "audio": "polynomials-v2-paced/lecture-trinome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot trinôme."
+        },
+        {
+          "stage": 1,
+          "text": "Tri."
+        },
+        {
+          "stage": 2,
+          "text": "Nôme."
+        },
+        {
+          "stage": 3,
+          "text": "Trinôme."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot trinôme. Tri. Nôme. Trinôme.",
+      "concept": "trinome",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "lecture-polynome",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        49
+      ],
+      "audio": "polynomials-v2-paced/lecture-polynome.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot polynôme."
+        },
+        {
+          "stage": 1,
+          "text": "Po."
+        },
+        {
+          "stage": 2,
+          "text": "Ly."
+        },
+        {
+          "stage": 3,
+          "text": "Nôme."
+        },
+        {
+          "stage": 4,
+          "text": "Polynôme."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot polynôme. Po. Ly. Nôme. Polynôme.",
+      "concept": "polynome",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "synthese",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "synthesis",
+      "title": "Synthèse",
+      "sourceSlides": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "audio": "polynomials-v2-paced/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots."
+        },
+        {
+          "stage": 1,
+          "text": "Binôme : deux termes. Par exemple, cinq x plus trois y au cube est un binôme."
+        },
+        {
+          "stage": 2,
+          "text": "Trinôme : trois termes. Par exemple, deux x plus cinq y moins quatre est un trinôme."
+        },
+        {
+          "stage": 3,
+          "text": "Polynôme : un ou plusieurs termes. Par exemple, x plus y moins deux z plus un est un polynôme."
+        }
+      ],
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces mots. Binôme : deux termes. Par exemple, cinq x plus trois y au cube est un binôme. Trinôme : trois termes. Par exemple, deux x plus cinq y moins quatre est un trinôme. Polynôme : un ou plusieurs termes. Par exemple, x plus y moins deux z plus un est un polynôme.",
+      "holdSeconds": 2
+    },
+    {
+      "id": "vocabulaire",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "vocabulary",
+      "title": "À retenir",
+      "sourceSlides": [
+        54
+      ],
+      "audio": "polynomials-v2-paced/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Retenez le vocabulaire : binôme, trinôme et polynôme."
+        }
+      ],
+      "narration": "Retenez le vocabulaire : binôme, trinôme et polynôme.",
+      "holdSeconds": 2
+    },
+    {
+      "id": "prochaine-video",
+      "type": "polynomials",
+      "revision": "2026-11-10",
+      "kind": "next",
+      "title": "Dans la prochaine vidéo",
+      "sourceSlides": [
+        55
+      ],
+      "audio": "polynomials-v2-paced/prochaine-video.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Dans la prochaine vidéo, je traiterai la deuxième partie : déterminer le degré d’un polynôme."
+        }
+      ],
+      "narration": "Dans la prochaine vidéo, je traiterai la deuxième partie : déterminer le degré d’un polynôme.",
+      "holdSeconds": 1.8
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "version": 1,
+  "lesson": "Additionner et soustraire dans des expressions numériques",
+  "level": "1AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "n1-sem3-vdp1-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-v2/objectif.wav",
+      "narration": "Bonjour. Aujourd’hui, vous serez capables d’additionner et soustraire dans des expressions numériques. Additionner, c’est calculer une somme. Pour indiquer une addition, j’utilise le signe plus. Soustraire, c’est calculer une différence. Pour indiquer une soustraction, j’utilise le signe moins. Expression numérique, c’est une nouvelle notion. سَنَتَعَرَّفُ عَلَيْهَا خِلَالَ هَذِهِ الحِصَّةِ.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour. Aujourd’hui, vous serez capables d’additionner et soustraire dans des expressions numériques.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Additionner, c’est calculer une somme. Pour indiquer une addition, j’utilise le signe plus.",
+          "from": 214
+        },
+        {
+          "stage": 2,
+          "text": "Soustraire, c’est calculer une différence. Pour indiquer une soustraction, j’utilise le signe moins.",
+          "from": 426
+        },
+        {
+          "stage": 3,
+          "text": "Expression numérique, c’est une nouvelle notion. سَنَتَعَرَّفُ عَلَيْهَا خِلَالَ هَذِهِ الحِصَّةِ.",
+          "from": 657
+        }
+      ],
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "art": [],
+      "cues": {},
+      "objective": {
+        "title": "Additionner et soustraire dans des expressions numériques",
+        "measure": 1836,
+        "size": 55,
+        "links": [
+          {
+            "offset": 0,
+            "width": 359,
+            "at": 1,
+            "art": [
+              {
+                "kind": "math",
+                "value": "+",
+                "x": 960,
+                "y": 721,
+                "size": 98,
+                "at": 0,
+                "color": "#E60012"
+              }
+            ]
+          },
+          {
+            "offset": 452,
+            "width": 311,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "-",
+                "x": 960,
+                "y": 721,
+                "size": 98,
+                "at": 0,
+                "color": "#0DBBA1"
+              }
+            ]
+          },
+          {
+            "offset": 1078,
+            "width": 758,
+            "at": 3,
+            "art": []
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 871
+    },
+    {
+      "id": "n1-sem3-vdp1-definition-expression",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 1",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-paced/n1-sem3-vdp1-definition-expression.wav",
+      "narration": "Voici la première définition, celle de l’expression numérique. Une suite d’additions de nombres est une expression numérique.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la première définition, celle de l’expression numérique.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Une suite d’additions de nombres est une expression numérique.",
+          "from": 143
+        }
+      ],
+      "sourceSlides": [
+        5,
+        6
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Une suite d’additions de nombres",
+          "x": 960,
+          "y": 479,
+          "size": 68,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "est une expression numérique.",
+          "x": 960,
+          "y": 655,
+          "size": 68,
+          "at": 1
+        }
+      ],
+      "cues": {},
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 278
+    },
+    {
+      "id": "n1-sem3-vdp1-signes-operation",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-paced/n1-sem3-vdp1-signes-operation.wav",
+      "narration": "Je prends l’exemple suivant : plus sept, auquel j’ajoute moins quinze, puis plus cinq. J’observe les signes d’opération placés entre les nombres. Ce sont des signes d’addition. Cette suite d’additions est donc une expression numérique.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends l’exemple suivant : plus sept, auquel j’ajoute moins quinze, puis plus cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "J’observe les signes d’opération placés entre les nombres.",
+          "from": 211
+        },
+        {
+          "stage": 2,
+          "text": "Ce sont des signes d’addition.",
+          "from": 320
+        },
+        {
+          "stage": 3,
+          "text": "Cette suite d’additions est donc une expression numérique.",
+          "from": 377
+        }
+      ],
+      "sourceSlides": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "algebra",
+          "value": "(+7)  +  (−15)  +  (+5)",
+          "x": 960,
+          "y": 482,
+          "size": 112,
+          "at": 0,
+          "tokenMarks": [
+            {
+              "index": 6,
+              "at": 1,
+              "to": 3,
+              "color": "#087746"
+            },
+            {
+              "index": 16,
+              "at": 1,
+              "to": 3,
+              "color": "#087746"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "value": "L’addition",
+          "x": 960,
+          "y": 699,
+          "size": 58,
+          "at": 2,
+          "to": 3
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 657,
+          "size": 90,
+          "at": 3,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "text",
+          "value": "Expression numérique",
+          "x": 960,
+          "y": 826,
+          "size": 68,
+          "at": 3,
+          "weight": 700,
+          "color": "#D60019"
+        }
+      ],
+      "cues": {},
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 504
+    },
+    {
+      "id": "n1-sem3-vdp1-definition-termes",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 2",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-paced/n1-sem3-vdp1-definition-termes.wav",
+      "narration": "Voici la deuxième définition, celle d’un terme. Les nombres additionnés dans une expression numérique s’appellent des termes.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la deuxième définition, celle d’un terme.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres additionnés dans une expression numérique s’appellent des termes.",
+          "from": 115
+        }
+      ],
+      "sourceSlides": [
+        11,
+        12
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Les nombres additionnés dans une expression numérique",
+          "x": 960,
+          "y": 468,
+          "size": 51,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "text",
+          "value": "s’appellent des termes.",
+          "x": 960,
+          "y": 646,
+          "size": 70,
+          "at": 1
+        }
+      ],
+      "cues": {},
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 283
+    },
+    {
+      "id": "n1-sem3-vdp1-trois-termes",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-paced/n1-sem3-vdp1-trois-termes.wav",
+      "narration": "Je reprends la même expression : plus sept, auquel j’ajoute moins quinze, puis plus cinq. Dans cette expression, je repère les nombres additionnés. Le premier est plus sept. Le deuxième est moins quinze. Et le troisième est plus cinq. Je conclus que cette expression contient trois termes : plus sept, moins quinze et plus cinq.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je reprends la même expression : plus sept, auquel j’ajoute moins quinze, puis plus cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Dans cette expression, je repère les nombres additionnés.",
+          "from": 211
+        },
+        {
+          "stage": 2,
+          "text": "Le premier est plus sept.",
+          "from": 312
+        },
+        {
+          "stage": 3,
+          "text": "Le deuxième est moins quinze.",
+          "from": 376
+        },
+        {
+          "stage": 4,
+          "text": "Et le troisième est plus cinq.",
+          "from": 444
+        },
+        {
+          "stage": 5,
+          "text": "Je conclus que cette expression contient trois termes :",
+          "from": 512,
+          "pauseAfter": 0.28
+        },
+        {
+          "stage": 6,
+          "text": "plus sept,",
+          "from": 604,
+          "pauseAfter": 0.28
+        },
+        {
+          "stage": 7,
+          "text": "moins quinze",
+          "from": 638,
+          "pauseAfter": 0.28
+        },
+        {
+          "stage": 8,
+          "text": "et plus cinq.",
+          "from": 669
+        }
+      ],
+      "sourceSlides": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "algebra",
+          "value": "(+7)  +  (−15)  +  (+5)",
+          "x": 960,
+          "y": 451,
+          "size": 112,
+          "at": 0,
+          "tokenColors": [
+            {
+              "index": 6,
+              "at": 1,
+              "color": "#087746"
+            },
+            {
+              "index": 16,
+              "at": 1,
+              "color": "#087746"
+            },
+            {
+              "index": 6,
+              "at": 5,
+              "color": "#1D1D1D"
+            },
+            {
+              "index": 16,
+              "at": 5,
+              "color": "#1D1D1D"
+            }
+          ],
+          "tokenMarks": [
+            {
+              "index": 0,
+              "endIndex": 3,
+              "at": 2,
+              "to": 5,
+              "color": "#D60019"
+            },
+            {
+              "index": 9,
+              "endIndex": 13,
+              "at": 3,
+              "to": 5,
+              "color": "#D60019"
+            },
+            {
+              "index": 19,
+              "endIndex": 22,
+              "at": 4,
+              "to": 5,
+              "color": "#D60019"
+            }
+          ]
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 586,
+          "size": 61,
+          "at": 5,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "text",
+          "value": "Trois termes",
+          "x": 960,
+          "y": 695,
+          "size": 65,
+          "at": 5,
+          "weight": 700
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 773,
+          "size": 55,
+          "at": 6,
+          "color": "#E78318",
+          "draw": true
+        },
+        {
+          "kind": "algebra",
+          "value": "(+7)",
+          "x": 674,
+          "y": 885,
+          "size": 70,
+          "at": 6
+        },
+        {
+          "kind": "text",
+          "value": ",",
+          "x": 814,
+          "y": 890,
+          "size": 66,
+          "at": 7
+        },
+        {
+          "kind": "algebra",
+          "value": "(−15)",
+          "x": 952,
+          "y": 885,
+          "size": 70,
+          "at": 7
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 1128,
+          "y": 885,
+          "size": 58,
+          "at": 8
+        },
+        {
+          "kind": "algebra",
+          "value": "(+5)",
+          "x": 1285,
+          "y": 885,
+          "size": 70,
+          "at": 8
+        }
+      ],
+      "cues": {},
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 725
+    },
+    {
+      "id": "n1-sem3-vdp1-prononciation",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-paced/n1-sem3-vdp1-prononciation-source.wav",
+      "narration": "Écoutez la prononciation du mot expression.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la prononciation du mot expression.",
+          "from": 0
+        }
+      ],
+      "sourceSlides": [
+        19
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Expression",
+          "x": 960,
+          "y": 421,
+          "size": 96,
+          "at": 0,
+          "color": "#007DBA",
+          "weight": 700
+        },
+        {
+          "kind": "clip",
+          "value": "n1-sem3-vdp1/prononciation-expression.mp4",
+          "x": 960,
+          "y": 703,
+          "size": 434,
+          "at": 0,
+          "frame": 117,
+          "clipFrames": 282
+        }
+      ],
+      "cues": {},
+      "timingMethod": "Source pronunciation clip synchronized to its own audio",
+      "holdSeconds": 0.9,
+      "durationInFrames": 421
+    },
+    {
+      "id": "n1-sem3-vdp1-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n1-sem3-vdp1-paced/n1-sem3-vdp1-vocabulaire.wav",
+      "narration": "Je retiens deux mots de vocabulaire. Expression numérique. Par exemple : moins six, auquel j’ajoute plus quatre, puis moins trois. Terme. Dans cette expression, moins six, plus quatre et moins trois sont les trois termes de la somme.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je retiens deux mots de vocabulaire.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Expression numérique.",
+          "from": 82
+        },
+        {
+          "stage": 2,
+          "text": "Par exemple : moins six, auquel j’ajoute plus quatre, puis moins trois.",
+          "from": 140
+        },
+        {
+          "stage": 3,
+          "text": "Terme.",
+          "from": 290
+        },
+        {
+          "stage": 4,
+          "text": "Dans cette expression,",
+          "from": 323,
+          "pauseAfter": 0.28
+        },
+        {
+          "stage": 5,
+          "text": "moins six,",
+          "from": 363,
+          "pauseAfter": 0.28
+        },
+        {
+          "stage": 6,
+          "text": "plus quatre",
+          "from": 390,
+          "pauseAfter": 0.28
+        },
+        {
+          "stage": 7,
+          "text": "et moins trois sont les trois termes de la somme.",
+          "from": 416
+        }
+      ],
+      "sourceSlides": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Expression numérique",
+          "x": 535,
+          "y": 495,
+          "size": 41,
+          "at": 1,
+          "to": 3,
+          "pulse": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 875,
+          "y": 495,
+          "size": 155,
+          "at": 2,
+          "color": "#007DBA",
+          "draw": true,
+          "to": 3
+        },
+        {
+          "kind": "algebra",
+          "value": "(−6) + (+4) + (−3)",
+          "x": 1280,
+          "y": 495,
+          "size": 71,
+          "at": 2,
+          "tokenColors": [
+            {
+              "index": 12,
+              "at": 2,
+              "color": "#1D1D1D"
+            },
+            {
+              "index": 12,
+              "at": 5,
+              "color": "#1D1D1D"
+            }
+          ]
+        },
+        {
+          "kind": "card",
+          "value": "Terme",
+          "x": 535,
+          "y": 744,
+          "size": 48,
+          "at": 3,
+          "pulse": 3
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 875,
+          "y": 744,
+          "size": 155,
+          "at": 5,
+          "color": "#007DBA",
+          "draw": true
+        },
+        {
+          "kind": "algebra",
+          "value": "(−6)",
+          "x": 1104,
+          "y": 744,
+          "size": 58,
+          "at": 5
+        },
+        {
+          "kind": "text",
+          "value": ",",
+          "x": 1185,
+          "y": 747,
+          "size": 50,
+          "at": 6
+        },
+        {
+          "kind": "algebra",
+          "value": "(+4)",
+          "x": 1273,
+          "y": 744,
+          "size": 58,
+          "at": 6
+        },
+        {
+          "kind": "text",
+          "value": "et",
+          "x": 1374,
+          "y": 744,
+          "size": 38,
+          "at": 7
+        },
+        {
+          "kind": "algebra",
+          "value": "(−3)",
+          "x": 1480,
+          "y": 744,
+          "size": 58,
+          "at": 7
+        },
+        {
+          "kind": "text",
+          "value": "Trois termes",
+          "x": 1290,
+          "y": 872,
+          "size": 49,
+          "at": 7,
+          "weight": 700
+        }
+      ],
+      "cues": {},
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 529
+    }
+  ]
+}

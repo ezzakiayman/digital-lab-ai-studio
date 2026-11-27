@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "lesson": "Effectuer la soustraction de deux polynômes",
+  "level": "2AC",
+  "videoType": "VM",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "polynomial-subtraction",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2
+      ],
+      "audio": "polynomial-subtraction-paced/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour. Aujourd’hui, je vais vous expliquer comment effectuer la soustraction de deux polynômes."
+        },
+        {
+          "stage": 1,
+          "text": "Effectuer la soustraction de deux polynômes, c’est calculer leur différence."
+        }
+      ],
+      "narration": "Bonjour. Aujourd’hui, je vais vous expliquer comment effectuer la soustraction de deux polynômes. Effectuer la soustraction de deux polynômes, c’est calculer leur différence."
+    },
+    {
+      "id": "methode-horizontale",
+      "type": "polynomial-subtraction",
+      "kind": "task",
+      "title": "Soustraction horizontale",
+      "sourceSlides": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "audio": "polynomial-subtraction-paced/methode-horizontale.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici notre première tâche : effectuer la soustraction horizontale des deux polynômes huit ix plus sept i grec, et six ix plus quatre i grec."
+        },
+        {
+          "stage": 1,
+          "text": "Les deux polynômes sont huit ix plus sept i grec, et six ix plus quatre i grec."
+        },
+        {
+          "stage": 2,
+          "text": "Le calcul se fait sur la même ligne, avec un signe moins entre les deux polynômes."
+        },
+        {
+          "stage": 3,
+          "text": "Pour cela, je vais suivre quatre étapes."
+        },
+        {
+          "stage": 4,
+          "text": "La première : je transforme la soustraction en addition."
+        },
+        {
+          "stage": 5,
+          "text": "La deuxième : j’enlève les parenthèses."
+        },
+        {
+          "stage": 6,
+          "text": "La troisième : je regroupe les termes semblables."
+        },
+        {
+          "stage": 7,
+          "text": "La quatrième : je calcule."
+        }
+      ],
+      "narration": "Voici notre première tâche : effectuer la soustraction horizontale des deux polynômes huit ix plus sept i grec, et six ix plus quatre i grec. Les deux polynômes sont huit ix plus sept i grec, et six ix plus quatre i grec. Le calcul se fait sur la même ligne, avec un signe moins entre les deux polynômes. Pour cela, je vais suivre quatre étapes. La première : je transforme la soustraction en addition. La deuxième : j’enlève les parenthèses. La troisième : je regroupe les termes semblables. La quatrième : je calcule.",
+      "method": "horizontal"
+    },
+    {
+      "id": "opposer-horizontal",
+      "type": "polynomial-subtraction",
+      "kind": "opposite",
+      "title": "1. Transformer en addition",
+      "sourceSlides": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "audio": "polynomial-subtraction-paced/opposer-horizontal.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Première étape : je transforme la soustraction en addition."
+        },
+        {
+          "stage": 1,
+          "text": "Je remplace le signe moins de la soustraction par un signe plus."
+        },
+        {
+          "stage": 2,
+          "text": "Puis j’ajoute l’opposé du second polynôme, six ix plus quatre i grec."
+        },
+        {
+          "stage": 3,
+          "text": "L’opposé de six ix est moins six ix."
+        },
+        {
+          "stage": 4,
+          "text": "L’opposé de quatre i grec est moins quatre i grec."
+        }
+      ],
+      "narration": "Première étape : je transforme la soustraction en addition. Je remplace le signe moins de la soustraction par un signe plus. Puis j’ajoute l’opposé du second polynôme, six ix plus quatre i grec. L’opposé de six ix est moins six ix. L’opposé de quatre i grec est moins quatre i grec.",
+      "method": "horizontal"
+    },
+    {
+      "id": "calcul-horizontal",
+      "type": "polynomial-subtraction",
+      "kind": "horizontal",
+      "title": "Calcul horizontal",
+      "sourceSlides": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio": "polynomial-subtraction-paced/calcul-horizontal.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Deuxième étape : j’enlève les parenthèses."
+        },
+        {
+          "stage": 1,
+          "text": "J’enlève les parenthèses autour de l’opposé."
+        },
+        {
+          "stage": 2,
+          "text": "J’obtiens huit ix plus sept i grec moins six ix moins quatre i grec."
+        },
+        {
+          "stage": 3,
+          "text": "Troisième étape : je regroupe les termes semblables."
+        },
+        {
+          "stage": 4,
+          "text": "Je regroupe d’abord les termes en ix : huit ix et moins six ix."
+        },
+        {
+          "stage": 5,
+          "text": "Puis les termes en i grec : sept i grec et moins quatre i grec."
+        },
+        {
+          "stage": 6,
+          "text": "Quatrième étape : je calcule."
+        },
+        {
+          "stage": 7,
+          "text": "J’additionne les termes semblables."
+        },
+        {
+          "stage": 8,
+          "text": "Huit ix moins six ix est égal à deux ix."
+        },
+        {
+          "stage": 9,
+          "text": "Sept i grec moins quatre i grec est égal à trois i grec."
+        },
+        {
+          "stage": 10,
+          "text": "Le résultat de la soustraction est donc deux ix plus trois i grec."
+        }
+      ],
+      "narration": "Deuxième étape : j’enlève les parenthèses. J’enlève les parenthèses autour de l’opposé. J’obtiens huit ix plus sept i grec moins six ix moins quatre i grec. Troisième étape : je regroupe les termes semblables. Je regroupe d’abord les termes en ix : huit ix et moins six ix. Puis les termes en i grec : sept i grec et moins quatre i grec. Quatrième étape : je calcule. J’additionne les termes semblables. Huit ix moins six ix est égal à deux ix. Sept i grec moins quatre i grec est égal à trois i grec. Le résultat de la soustraction est donc deux ix plus trois i grec."
+    },
+    {
+      "id": "methode-verticale",
+      "type": "polynomial-subtraction",
+      "kind": "task",
+      "title": "Soustraction verticale",
+      "sourceSlides": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "audio": "polynomial-subtraction-paced/methode-verticale.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Deuxième tâche : effectuer la soustraction verticale des mêmes polynômes."
+        },
+        {
+          "stage": 1,
+          "text": "Je place l’opposé du second sous le premier, en alignant les termes semblables."
+        },
+        {
+          "stage": 2,
+          "text": "Pour cela, je vais suivre trois étapes."
+        },
+        {
+          "stage": 3,
+          "text": "La première : je change les signes de tous les termes du polynôme à soustraire."
+        },
+        {
+          "stage": 4,
+          "text": "La deuxième : j’effectue l’addition verticale."
+        },
+        {
+          "stage": 5,
+          "text": "La troisième : j’écris le résultat."
+        }
+      ],
+      "narration": "Deuxième tâche : effectuer la soustraction verticale des mêmes polynômes. Je place l’opposé du second sous le premier, en alignant les termes semblables. Pour cela, je vais suivre trois étapes. La première : je change les signes de tous les termes du polynôme à soustraire. La deuxième : j’effectue l’addition verticale. La troisième : j’écris le résultat.",
+      "method": "vertical"
+    },
+    {
+      "id": "opposer-vertical",
+      "type": "polynomial-subtraction",
+      "kind": "opposite",
+      "title": "1. Changer les signes",
+      "sourceSlides": [
+        33,
+        34
+      ],
+      "audio": "polynomial-subtraction-paced/opposer-vertical.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Première étape : je change les signes de tous les termes du polynôme à soustraire, six fois ix plus quatre fois la lettre i grec."
+        },
+        {
+          "stage": 1,
+          "text": "J’obtiens moins six fois ix, moins quatre fois la lettre i grec."
+        }
+      ],
+      "narration": "Première étape : je change les signes de tous les termes du polynôme à soustraire, six fois ix plus quatre fois la lettre i grec. J’obtiens moins six fois ix, moins quatre fois la lettre i grec.",
+      "method": "vertical",
+      "speechMode": "verbatim"
+    },
+    {
+      "id": "calcul-vertical",
+      "type": "polynomial-subtraction",
+      "kind": "vertical",
+      "title": "2. Additionner verticalement",
+      "sourceSlides": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "audio": "polynomial-subtraction-paced/calcul-vertical.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Deuxième étape : j’effectue l’addition verticale."
+        },
+        {
+          "stage": 1,
+          "text": "J’aligne d’abord les termes semblables dans la même colonne."
+        },
+        {
+          "stage": 2,
+          "text": "Puis j’additionne les termes de la colonne de ix."
+        },
+        {
+          "stage": 3,
+          "text": "Huit ix moins six ix est égal à deux ix."
+        },
+        {
+          "stage": 4,
+          "text": "J’additionne les termes de la colonne de i grec."
+        },
+        {
+          "stage": 5,
+          "text": "Sept i grec moins quatre i grec est égal à trois i grec."
+        },
+        {
+          "stage": 6,
+          "text": "Troisième étape : j’écris le résultat."
+        },
+        {
+          "stage": 7,
+          "text": "La soustraction donne deux ix plus trois i grec."
+        }
+      ],
+      "narration": "Deuxième étape : j’effectue l’addition verticale. J’aligne d’abord les termes semblables dans la même colonne. Puis j’additionne les termes de la colonne de ix. Huit ix moins six ix est égal à deux ix. J’additionne les termes de la colonne de i grec. Sept i grec moins quatre i grec est égal à trois i grec. Troisième étape : j’écris le résultat. La soustraction donne deux ix plus trois i grec."
+    },
+    {
+      "id": "synthese",
+      "type": "polynomial-subtraction",
+      "kind": "synthesis",
+      "title": "Synthèse",
+      "sourceSlides": [
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "audio": "polynomial-subtraction-paced/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la synthèse."
+        },
+        {
+          "stage": 1,
+          "text": "Pour effectuer la soustraction de deux polynômes, je peux choisir entre deux méthodes."
+        },
+        {
+          "stage": 2,
+          "text": "Première méthode : la soustraction horizontale."
+        },
+        {
+          "stage": 3,
+          "text": "Deuxième méthode : la soustraction verticale."
+        },
+        {
+          "stage": 4,
+          "text": "Les deux méthodes donnent le même résultat : deux ix plus trois i grec."
+        }
+      ],
+      "narration": "Voici la synthèse. Pour effectuer la soustraction de deux polynômes, je peux choisir entre deux méthodes. Première méthode : la soustraction horizontale. Deuxième méthode : la soustraction verticale. Les deux méthodes donnent le même résultat : deux ix plus trois i grec.",
+      "holdSeconds": 2.5
+    }
+  ]
+}

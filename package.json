@@ -1,0 +1,44 @@
+{
+  "name": "digital-lab-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/video/index.ts",
+    "render": "tsx scripts/render.ts",
+    "test": "tsx --test src/lib/*.test.ts",
+    "render:comparison": "tsx scripts/render-comparison.ts",
+    "test:ui": "node scripts/ui-check.mjs",
+    "render:full": "tsx scripts/render-full.ts",
+    "tts:gemini": "node scripts/gemini-tts.mjs src/video/n3-plan.json",
+    "render:n3": "tsx scripts/render-n3.ts",
+    "render:primes": "tsx scripts/render-primes.ts",
+    "render:fractions": "tsx scripts/render-fractions.ts",
+    "render:polynomials": "tsx scripts/render-polynomials.ts",
+    "render:factorization": "tsx scripts/render-factorization.ts",
+    "render:storyboards": "tsx scripts/render-storyboard-batch.ts",
+    "render:demo": "tsx scripts/render.ts src/video/demo-lesson.json --out=outputs/demo"
+  },
+  "dependencies": {
+    "@remotion/bundler": "latest",
+    "@remotion/cli": "latest",
+    "@remotion/player": "latest",
+    "@remotion/renderer": "latest",
+    "katex": "0.19.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/katex": "0.16.8",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

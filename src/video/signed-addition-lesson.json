@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "lesson": "Additionner avec la valeur absolue",
+  "level": "1AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "signed-addition",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables d’additionner avec la valeur absolue. Additionner, c’est calculer la somme. Le signe de l’addition est le signe plus. La valeur absolue d’un nombre est sa distance à zéro. Par exemple, la valeur absolue de moins cinq est cinq.",
+      "audio": "signed-addition-paced/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables d’additionner avec la valeur absolue.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Additionner, c’est calculer la somme. Le signe de l’addition est le signe plus.",
+          "from": 216
+        },
+        {
+          "stage": 2,
+          "text": "La valeur absolue d’un nombre est sa distance à zéro. Par exemple, la valeur absolue de moins cinq est cinq.",
+          "from": 417
+        }
+      ],
+      "durationInFrames": 683,
+      "cues": {
+        "plus": 371,
+        "negative": 601,
+        "absolute": 635
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "regle-meme-signe",
+      "type": "signed-addition",
+      "kind": "same",
+      "title": "Règle 1",
+      "sourceSlides": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "narration": "Je commence par la première règle. Pour additionner deux nombres entiers de même signe, c’est-à-dire lorsque les deux nombres sont positifs, ou bien lorsque les deux nombres sont négatifs. Je garde le signe commun des deux nombres. C’est-à-dire le signe plus si les deux nombres sont positifs, et le signe moins s’ils sont négatifs. Ensuite, j’additionne leurs valeurs absolues. J’additionne les valeurs absolues : le carré et le triangle.",
+      "audio": "signed-addition-paced/regle-meme-signe.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la première règle.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour additionner deux nombres entiers de même signe,",
+          "from": 101
+        },
+        {
+          "stage": 2,
+          "text": "c’est-à-dire lorsque les deux nombres sont positifs,",
+          "from": 230
+        },
+        {
+          "stage": 3,
+          "text": "ou bien lorsque les deux nombres sont négatifs.",
+          "from": 338
+        },
+        {
+          "stage": 4,
+          "text": "Je garde le signe commun des deux nombres.",
+          "from": 430
+        },
+        {
+          "stage": 5,
+          "text": "C’est-à-dire le signe plus si les deux nombres sont positifs,",
+          "from": 537
+        },
+        {
+          "stage": 6,
+          "text": "et le signe moins s’ils sont négatifs.",
+          "from": 665
+        },
+        {
+          "stage": 7,
+          "text": "Ensuite, j’additionne leurs valeurs absolues.",
+          "from": 771
+        },
+        {
+          "stage": 8,
+          "text": "J’additionne les valeurs absolues : le carré et le triangle.",
+          "from": 881
+        }
+      ],
+      "durationInFrames": 1017,
+      "cues": {
+        "positive": 294,
+        "negative": 382,
+        "commonPlus": 574,
+        "commonMinus": 683,
+        "square": 940,
+        "triangle": 967
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "regle-signes-contraires",
+      "type": "signed-addition",
+      "kind": "different",
+      "title": "Règle 2",
+      "sourceSlides": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "narration": "Je passe à la deuxième règle. Pour additionner deux nombres entiers de signes contraires, c’est-à-dire lorsque l’un est positif et l’autre négatif. Si leurs valeurs absolues sont différentes, je garde le signe du nombre ayant la plus grande valeur absolue. Le grand carré représente la plus grande valeur absolue. Je garde donc son signe : le signe plus. Ici aussi, le grand carré représente la plus grande valeur absolue. Je garde donc son signe : le signe moins. Je soustrais la plus petite valeur absolue de la plus grande. Je soustrais la petite valeur absolue de la plus grande : le grand carré moins le petit carré.",
+      "audio": "signed-addition-paced/regle-signes-contraires.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la deuxième règle.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour additionner deux nombres entiers de signes contraires,",
+          "from": 86
+        },
+        {
+          "stage": 2,
+          "text": "c’est-à-dire lorsque l’un est positif et l’autre négatif.",
+          "from": 218
+        },
+        {
+          "stage": 3,
+          "text": "Si leurs valeurs absolues sont différentes, je garde le signe du nombre ayant la plus grande valeur absolue.",
+          "from": 384
+        },
+        {
+          "stage": 4,
+          "text": "Le grand carré représente la plus grande valeur absolue.",
+          "from": 609
+        },
+        {
+          "stage": 5,
+          "text": "Je garde donc son signe : le signe plus.",
+          "from": 727
+        },
+        {
+          "stage": 6,
+          "text": "Ici aussi, le grand carré représente la plus grande valeur absolue.",
+          "from": 836
+        },
+        {
+          "stage": 7,
+          "text": "Je garde donc son signe : le signe moins.",
+          "from": 980
+        },
+        {
+          "stage": 8,
+          "text": "Je soustrais la plus petite valeur absolue de la plus grande.",
+          "from": 1087
+        },
+        {
+          "stage": 9,
+          "text": "Je soustrais la petite valeur absolue de la plus grande : le grand carré moins le petit carré.",
+          "from": 1217
+        }
+      ],
+      "durationInFrames": 1430,
+      "cues": {
+        "casePositive": 277,
+        "caseNegative": 331,
+        "keepLarger": 464,
+        "largePlus": 613,
+        "keepPlus": 791,
+        "largeMinus": 872,
+        "keepMinus": 1041,
+        "difference": 1360
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    },
+    {
+      "id": "regle-nombres-opposes",
+      "type": "signed-addition",
+      "kind": "opposites",
+      "title": "Règle 3",
+      "sourceSlides": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "narration": "Je termine par la troisième règle. La somme de deux entiers opposés est toujours égale à zéro. J’observe plus un carré bleu, puis moins un carré bleu. Ces deux entiers sont opposés. La somme est donc égale à zéro.",
+      "audio": "signed-addition-paced/regle-nombres-opposes.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je termine par la troisième règle.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "La somme de deux entiers opposés est toujours égale à zéro.",
+          "from": 102
+        },
+        {
+          "stage": 2,
+          "text": "J’observe plus un carré bleu, puis moins un carré bleu. Ces deux entiers sont opposés.",
+          "from": 267
+        },
+        {
+          "stage": 3,
+          "text": "La somme est donc égale à zéro.",
+          "from": 507
+        }
+      ],
+      "durationInFrames": 604,
+      "cues": {
+        "positive": 296,
+        "negative": 366,
+        "zero": 558
+      },
+      "timingMethod": "MMS_FA known-transcript alignment"
+    }
+  ]
+}

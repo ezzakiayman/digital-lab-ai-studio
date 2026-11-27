@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "lesson": "Comparer −3 et −2",
+  "level": "1AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "negative-example-1",
+      "type": "negative-comparison",
+      "title": "Propriété 1",
+      "durationInFrames": 1110,
+      "narration": "Comparer moins trois et moins deux. Leurs valeurs absolues sont trois et deux. Trois est supérieur à deux. Donc moins trois est inférieur à moins deux.",
+      "audio": "reference/negative-comparison.wav",
+      "sourceSlides": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "operands": [
+        -3,
+        -2
+      ],
+      "events": [
+        {
+          "target": "prompt",
+          "to": 1110,
+          "from": 75
+        },
+        {
+          "target": "signs",
+          "to": 180,
+          "from": 135
+        },
+        {
+          "target": "arrowA",
+          "to": 396,
+          "from": 315
+        },
+        {
+          "target": "absoluteA",
+          "to": 1110,
+          "from": 351
+        },
+        {
+          "target": "arrowB",
+          "to": 480,
+          "from": 396
+        },
+        {
+          "target": "absoluteB",
+          "to": 1110,
+          "from": 414
+        },
+        {
+          "target": "redB",
+          "to": 570,
+          "from": 510
+        },
+        {
+          "target": "redA",
+          "to": 615,
+          "from": 570
+        },
+        {
+          "target": "greater",
+          "to": 1110,
+          "from": 600
+        },
+        {
+          "target": "focusA",
+          "to": 780,
+          "from": 651
+        },
+        {
+          "target": "given",
+          "to": 1110,
+          "from": 774
+        },
+        {
+          "target": "therefore",
+          "to": 1110,
+          "from": 930
+        },
+        {
+          "target": "resultA",
+          "to": 1110,
+          "from": 960
+        },
+        {
+          "target": "less",
+          "to": 1110,
+          "from": 1005
+        },
+        {
+          "target": "resultB",
+          "to": 1110,
+          "from": 1035
+        }
+      ]
+    }
+  ]
+}

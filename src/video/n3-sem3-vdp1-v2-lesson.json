@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "lesson": "Reconnaître la racine carrée d’un nombre positif",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "vdp1-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître la racine carrée d’un nombre positif. Reconnaître. أَتَعَرَّفْ. La racine carrée est le sujet de notre séance. D’un nombre positif, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de reconnaître la racine carrée d’un nombre positif.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Reconnaître. أَتَعَرَّفْ.",
+          "from": 204
+        },
+        {
+          "stage": 2,
+          "text": "La racine carrée est le sujet de notre séance.",
+          "from": 285
+        },
+        {
+          "stage": 3,
+          "text": "D’un nombre positif, comme douze, cinq sur sept, et non pas moins zéro virgule vingt-cinq.",
+          "from": 387
+        }
+      ],
+      "objective": {
+        "title": "Reconnaître la racine carrée d’un nombre positif",
+        "measure": 1479,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 371,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "أتعرف",
+                "x": 960,
+                "y": 716,
+                "size": 84,
+                "at": 0,
+                "rtl": true
+              }
+            ]
+          },
+          {
+            "offset": 461,
+            "width": 402,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\left(\\textcolor{#D60019}{?}\\right)^2=7",
+                "x": 960,
+                "y": 735,
+                "size": 83,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 1034,
+            "width": 445,
+            "at": 3,
+            "art": [
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad 12",
+                "x": 960,
+                "y": 680,
+                "size": 60,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#087746}{\\checkmark}\\quad \\frac{5}{7}",
+                "x": 960,
+                "y": 810,
+                "size": 58,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\textcolor{#D60019}{\\times}\\quad -0{,}25",
+                "x": 960,
+                "y": 929,
+                "size": 60,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 598
+    },
+    {
+      "id": "vdp1-question",
+      "type": "vdp-sequence",
+      "kind": "open",
+      "title": "Question",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Alors, qu’est-ce qu’une racine carrée d’un nombre positif ?",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-question.wav",
+      "sourceSlides": [
+        5
+      ],
+      "art": [
+        {
+          "kind": "question",
+          "value": "",
+          "x": 960,
+          "y": 544,
+          "size": 295,
+          "at": 0
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Alors, qu’est-ce qu’une racine carrée d’un nombre positif ?",
+          "from": 0
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 122
+    },
+    {
+      "id": "vdp1-definition",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "La racine carrée d’un nombre positif a est le nombre positif ou nul dont le carré est égal à a. Elle se note racine carrée de a et se lit « racine carrée de a ». Si je mets la racine carrée de a au carré, j’obtiens a. Dans l’autre sens, si je prends la racine carrée de a, j’obtiens racine carrée de a. Voici quelques exemples.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-definition.wav",
+      "sourceSlides": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "La racine carrée d’un nombre positif a est le nombre",
+          "x": 960,
+          "y": 388,
+          "size": 52,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "positif ou nul dont le carré est égal à a.",
+          "x": 960,
+          "y": 465,
+          "size": 52,
+          "at": 0
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}\\quad\\text{se lit racine carrée de }a",
+          "x": 960,
+          "y": 579,
+          "size": 59,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}",
+          "x": 565,
+          "y": 775,
+          "size": 89,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "a",
+          "x": 1355,
+          "y": 775,
+          "size": 89,
+          "at": 2
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 752,
+          "size": 488,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "text",
+          "value": "Mise au carré",
+          "x": 960,
+          "y": 688,
+          "size": 39,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 960,
+          "y": 824,
+          "size": 488,
+          "at": 3,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "Racine carrée",
+          "x": 960,
+          "y": 883,
+          "size": 39,
+          "at": 3,
+          "color": "#007DBA"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "La racine carrée d’un nombre positif a est le nombre positif ou nul dont le carré est égal à a.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Elle se note racine carrée de a et se lit « racine carrée de a ».",
+          "from": 227
+        },
+        {
+          "stage": 2,
+          "text": "Si je mets la racine carrée de a au carré, j’obtiens a.",
+          "from": 389
+        },
+        {
+          "stage": 3,
+          "text": "Dans l’autre sens, si je prends la racine carrée de a, j’obtiens racine carrée de a.",
+          "from": 532
+        },
+        {
+          "stage": 4,
+          "text": "Voici quelques exemples.",
+          "from": 710
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 784
+    },
+    {
+      "id": "vdp1-carres-parfaits",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Le carré de quatre est égal à seize. Alors la racine carrée de seize est égale à quatre. Le carré de trois est égal à neuf. Alors la racine carrée de neuf est égale à trois. Pour trouver la racine carrée de a, je cherche le nombre positif ou nul qui, mis au carré, donne a.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-carres-parfaits.wav",
+      "sourceSlides": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "4^{\\textcolor{#D60019}{2}}=\\textcolor{#D60019}{16}",
+          "x": 590,
+          "y": 475,
+          "size": 92,
+          "at": 0,
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 475,
+          "size": 178,
+          "at": 1,
+          "color": "#087746",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{\\sqrt{16}}=\\textcolor{#007DBA}{4}",
+          "x": 1330,
+          "y": 475,
+          "size": 92,
+          "at": 1,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "3^{\\textcolor{#D60019}{2}}=\\textcolor{#D60019}{9}",
+          "x": 590,
+          "y": 742,
+          "size": 92,
+          "at": 2,
+          "to": 4
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 742,
+          "size": 178,
+          "at": 3,
+          "color": "#087746",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{\\sqrt{9}}=\\textcolor{#007DBA}{3}",
+          "x": 1330,
+          "y": 742,
+          "size": 92,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}=\\textcolor{#D60019}{?}\\qquad\\Longrightarrow\\qquad \\bigl(\\textcolor{#D60019}{?}\\bigr)^2=a",
+          "x": 960,
+          "y": 615,
+          "size": 96,
+          "at": 4
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Le carré de quatre est égal à seize.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Alors la racine carrée de seize est égale à quatre.",
+          "from": 92
+        },
+        {
+          "stage": 2,
+          "text": "Le carré de trois est égal à neuf.",
+          "from": 214
+        },
+        {
+          "stage": 3,
+          "text": "Alors la racine carrée de neuf est égale à trois.",
+          "from": 296
+        },
+        {
+          "stage": 4,
+          "text": "Pour trouver la racine carrée de a, je cherche le nombre positif ou nul qui, mis au carré, donne a.",
+          "from": 411
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 642
+    },
+    {
+      "id": "vdp1-propriete-1",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 1",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la première propriété. Pour tout nombre positif ou nul a, la racine carrée de a, le tout au carré, et son opposé au carré sont tous deux égaux à a. Par exemple, la racine carrée de onze au carré et son opposé au carré valent tous deux onze.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-propriete-1.wav",
+      "sourceSlides": [
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\text{Pour }a\\geq 0\\text{ :}\\quad(\\sqrt{a})^2=(-\\sqrt{a})^2=a",
+          "x": 960,
+          "y": 445,
+          "size": 69,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 611,
+          "size": 65,
+          "at": 2,
+          "color": "#E78318"
+        },
+        {
+          "kind": "math",
+          "value": "(\\sqrt{11})^2=(-\\sqrt{11})^2=11",
+          "x": 960,
+          "y": 798,
+          "size": 92,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la première propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour tout nombre positif ou nul a, la racine carrée de a, le tout au carré, et son opposé au carré sont tous deux égaux à a.",
+          "from": 76
+        },
+        {
+          "stage": 2,
+          "text": "Par exemple, la racine carrée de onze au carré et son opposé au carré valent tous deux onze.",
+          "from": 331
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 539
+    },
+    {
+      "id": "vdp1-propriete-2",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 2",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Voici la deuxième propriété. Pour tout nombre positif ou nul a, la racine carrée de a au carré est égale à la racine carrée du carré de son opposé. Elles valent a. Pour calculer la racine carrée de vingt-cinq, je remarque que vingt-cinq est un carré parfait. C’est le carré de cinq. C’est également le carré de moins cinq. On obtient donc cinq.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-propriete-2.wav",
+      "sourceSlides": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\text{Pour }a\\geq 0\\text{ :}\\quad\\sqrt{a^2}=\\sqrt{(-a)^2}=a",
+          "x": 960,
+          "y": 445,
+          "size": 69,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 600,
+          "size": 65,
+          "at": 2,
+          "color": "#E78318"
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{\\textcolor{#D60019}{25}}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 2,
+          "to": 3
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{25}=\\sqrt{5^2}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 3,
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{25}=\\sqrt{5^2}=\\sqrt{(-5)^2}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 4,
+          "to": 5
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{25}=\\sqrt{5^2}=\\sqrt{(-5)^2}=\\textcolor{#007DBA}{5}",
+          "x": 960,
+          "y": 793,
+          "size": 88,
+          "at": 5
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la deuxième propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Pour tout nombre positif ou nul a, la racine carrée de a au carré est égale à la racine carrée du carré de son opposé. Elles valent a.",
+          "from": 68
+        },
+        {
+          "stage": 2,
+          "text": "Pour calculer la racine carrée de vingt-cinq, je remarque que vingt-cinq est un carré parfait.",
+          "from": 325
+        },
+        {
+          "stage": 3,
+          "text": "C’est le carré de cinq.",
+          "from": 494
+        },
+        {
+          "stage": 4,
+          "text": "C’est également le carré de moins cinq.",
+          "from": 548
+        },
+        {
+          "stage": 5,
+          "text": "On obtient donc cinq.",
+          "from": 621
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 697
+    },
+    {
+      "id": "vdp1-verification",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vérification",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Attention à cette erreur : dire que la racine carrée du carré de moins cinq vaut moins cinq. C’est faux. Une racine carrée est toujours positive ou nulle. La racine carrée du carré de moins cinq est égale à cinq.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-verification.wav",
+      "sourceSlides": [
+        25,
+        26,
+        27
+      ],
+      "art": [
+        {
+          "kind": "alert",
+          "value": "",
+          "x": 960,
+          "y": 444,
+          "size": 103,
+          "at": 0
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{(-5)^2}=\\textcolor{#D60019}{-5}\\quad\\textcolor{#D60019}{\\times}",
+          "x": 960,
+          "y": 679,
+          "size": 102,
+          "at": 0,
+          "to": 2,
+          "pulse": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{(-5)^2}=\\textcolor{#087746}{5}\\quad\\textcolor{#087746}{\\checkmark}",
+          "x": 960,
+          "y": 679,
+          "size": 102,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Attention à cette erreur : dire que la racine carrée du carré de moins cinq vaut moins cinq.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est faux. Une racine carrée est toujours positive ou nulle.",
+          "from": 182
+        },
+        {
+          "stage": 2,
+          "text": "La racine carrée du carré de moins cinq est égale à cinq.",
+          "from": 320
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 457
+    },
+    {
+      "id": "vdp1-prononciation-28",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « racine ». ra. cine. Racine.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-prononciation-28.wav",
+      "sourceSlides": [
+        28
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « racine ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "ra.",
+          "from": 83
+        },
+        {
+          "stage": 2,
+          "text": "cine.",
+          "from": 111
+        },
+        {
+          "stage": 3,
+          "text": "Racine.",
+          "from": 145
+        }
+      ],
+      "pronunciation": {
+        "word": "racine",
+        "syllables": [
+          "ra",
+          "cine"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 204
+    },
+    {
+      "id": "vdp1-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Les expressions de cette séance sont « racine carrée » et « nombre positif ». Le carré de la racine carrée de a est égal à a. Dans l’autre sens, on prend la racine carrée de a.",
+      "audio": "n3-sem3-elevenlabs-paced/vdp1-vocabulaire.wav",
+      "sourceSlides": [
+        29,
+        30
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Nombre positif",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Racine carrée",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{a}",
+          "x": 565,
+          "y": 728,
+          "size": 89,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "a",
+          "x": 1355,
+          "y": 728,
+          "size": 89,
+          "at": 1
+        },
+        {
+          "kind": "arrow",
+          "value": "right",
+          "x": 960,
+          "y": 705,
+          "size": 488,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "text",
+          "value": "Mise au carré",
+          "x": 960,
+          "y": 641,
+          "size": 39,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "left",
+          "x": 960,
+          "y": 777,
+          "size": 488,
+          "at": 1,
+          "color": "#007DBA"
+        },
+        {
+          "kind": "text",
+          "value": "Racine carrée",
+          "x": 960,
+          "y": 836,
+          "size": 39,
+          "at": 1,
+          "color": "#007DBA"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Les expressions de cette séance sont « racine carrée » et « nombre positif ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Le carré de la racine carrée de a est égal à a. Dans l’autre sens, on prend la racine carrée de a.",
+          "from": 165
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 387
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scenes": [
+    {
+      "episode": 2,
+      "id": "n3-sem4-vdp2-prononciation",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "audio": "n3-sem4-v2-kore-paced/n3-sem4-vdp2-prononciation.wav",
+      "narration": "Écoutez la lecture du mot quotient. Co. Cyan. Quotient.",
+      "sourceSlides": [
+        12
+      ],
+      "art": [],
+      "cues": {},
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la lecture du mot quotient.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Co.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Cyan.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Quotient.",
+          "from": 0
+        }
+      ],
+      "pronunciation": {
+        "word": "quotient",
+        "syllables": [
+          "quo",
+          "tient"
+        ],
+        "style": "simplifier",
+        "advances": [
+          117,
+          135
+        ]
+      }
+    }
+  ]
+}

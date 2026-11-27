@@ -1,0 +1,13 @@
+{
+  "scenes": [
+    {
+      "id": "n1-sem3-vdp1-objectif-ar",
+      "audio": "n1-sem3-vdp1/n1-sem3-vdp1-objectif-ar.wav",
+      "narration": "سَنَتَعَرَّفُ عَلَيْهَا خِلَالَ هَذِهِ الحِصَّةِ.",
+      "speechMode": "verbatim",
+      "languageCode": "ar",
+      "speed": 0.94,
+      "stability": 0.45
+    }
+  ]
+}

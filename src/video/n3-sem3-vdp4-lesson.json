@@ -1,0 +1,1033 @@
+{
+  "version": 1,
+  "lesson": "Distinguer nombres rationnels, nombres irrationnels et nombres réels",
+  "level": "3AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "vdp4-objectif",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de distinguer nombres rationnels, nombres irrationnels et nombres réels. Distinguer, c’est faire la différence. Voici quelques nombres : sept, zéro virgule vingt-cinq, moins trois quarts, la racine carrée de deux et pi. Voyons ce que signifient ces expressions.",
+      "audio": "n3-sem3-paced/vdp4-objectif.wav",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de distinguer nombres rationnels, nombres irrationnels et nombres réels.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Distinguer, c’est faire la différence.",
+          "from": 249
+        },
+        {
+          "stage": 2,
+          "text": "Voici quelques nombres : sept, zéro virgule vingt-cinq, moins trois quarts, la racine carrée de deux et pi.",
+          "from": 323
+        },
+        {
+          "stage": 3,
+          "text": "Voyons ce que signifient ces expressions.",
+          "from": 617
+        }
+      ],
+      "objective": {
+        "title": "Distinguer nombres rationnels, nombres irrationnels et nombres réels",
+        "measure": 2139,
+        "size": 47,
+        "links": [
+          {
+            "offset": 0,
+            "width": 317,
+            "at": 1,
+            "art": [
+              {
+                "kind": "text",
+                "value": "Faire la différence",
+                "x": 960,
+                "y": 728,
+                "size": 45,
+                "at": 0
+              }
+            ]
+          },
+          {
+            "offset": 335,
+            "width": 1804,
+            "at": 2,
+            "art": [
+              {
+                "kind": "math",
+                "value": "7\\ ;\\ 0{,}25\\ ;\\ -\\frac{3}{4}",
+                "x": 960,
+                "y": 714,
+                "size": 70,
+                "at": 0
+              },
+              {
+                "kind": "math",
+                "value": "\\sqrt{2}\\ ;\\ \\pi",
+                "x": 960,
+                "y": 850,
+                "size": 72,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 707
+    },
+    {
+      "id": "vdp4-prononciation-5",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons la lecture du mot « irrationnel ». ir. ra. sion. nèle. Irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-prononciation-5.wav",
+      "sourceSlides": [
+        5
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot « irrationnel ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "ir.",
+          "from": 116
+        },
+        {
+          "stage": 2,
+          "text": "ra.",
+          "from": 145
+        },
+        {
+          "stage": 3,
+          "text": "sion.",
+          "from": 177
+        },
+        {
+          "stage": 4,
+          "text": "nèle.",
+          "from": 210
+        },
+        {
+          "stage": 5,
+          "text": "Irrationnel.",
+          "from": 252
+        }
+      ],
+      "pronunciation": {
+        "word": "irrationnel",
+        "syllables": [
+          "ir",
+          "ra",
+          "tion",
+          "nel"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 327
+    },
+    {
+      "id": "vdp4-prononciation-6",
+      "type": "vdp-sequence",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Écoutons maintenant le mot « réel ». ré. elle. Réel.",
+      "audio": "n3-sem3-paced/vdp4-prononciation-6.wav",
+      "sourceSlides": [
+        6
+      ],
+      "art": [],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons maintenant le mot « réel ».",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "ré.",
+          "from": 96
+        },
+        {
+          "stage": 2,
+          "text": "elle.",
+          "from": 130
+        },
+        {
+          "stage": 3,
+          "text": "Réel.",
+          "from": 168
+        }
+      ],
+      "pronunciation": {
+        "word": "réel",
+        "syllables": [
+          "ré",
+          "el"
+        ]
+      },
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 1.2,
+      "durationInFrames": 234
+    },
+    {
+      "id": "vdp4-rationnels",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 1",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je commence par la première définition. Les nombres qui ont une écriture décimale finie ou illimitée et périodique peuvent s’écrire sous forme d’une fraction a sur b. A et b sont des entiers, et b est différent de zéro. On les appelle des nombres rationnels.",
+      "audio": "n3-sem3-paced/vdp4-rationnels.wav",
+      "sourceSlides": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Écriture décimale finie ou illimitée et périodique",
+          "x": 960,
+          "y": 403,
+          "size": 54,
+          "at": 1,
+          "weight": 700
+        },
+        {
+          "kind": "math",
+          "value": "\\frac{a}{b}",
+          "x": 960,
+          "y": 570,
+          "size": 104,
+          "at": 1
+        },
+        {
+          "kind": "math",
+          "value": "a,b\\in\\mathbb{Z}\\qquad b\\ne 0",
+          "x": 960,
+          "y": 743,
+          "size": 73,
+          "at": 2
+        },
+        {
+          "kind": "text",
+          "value": "Nombres rationnels",
+          "x": 960,
+          "y": 887,
+          "size": 59,
+          "at": 3,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je commence par la première définition.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres qui ont une écriture décimale finie ou illimitée et périodique peuvent s’écrire sous forme d’une fraction a sur b.",
+          "from": 100
+        },
+        {
+          "stage": 2,
+          "text": "A et b sont des entiers, et b est différent de zéro.",
+          "from": 358
+        },
+        {
+          "stage": 3,
+          "text": "On les appelle des nombres rationnels.",
+          "from": 472
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 563
+    },
+    {
+      "id": "vdp4-rationnel-decimal",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Le nombre deux virgule vingt-cinq a une écriture décimale finie. Il peut donc s’écrire sous forme de fraction. Deux virgule vingt-cinq est égal à deux cent vingt-cinq sur cent. C’est un nombre rationnel.",
+      "audio": "n3-sem3-paced/vdp4-rationnel-decimal.wav",
+      "sourceSlides": [
+        11,
+        12,
+        13
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "2{,}25",
+          "x": 700,
+          "y": 495,
+          "size": 112,
+          "at": 0
+        },
+        {
+          "kind": "text",
+          "value": "Une écriture décimale finie",
+          "x": 960,
+          "y": 666,
+          "size": 53,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "=\\quad\\frac{225}{100}",
+          "x": 1090,
+          "y": 495,
+          "size": 105,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "2,25 est un nombre rationnel.",
+          "x": 960,
+          "y": 783,
+          "size": 61,
+          "at": 2,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Le nombre deux virgule vingt-cinq a une écriture décimale finie. Il peut donc s’écrire sous forme de fraction.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Deux virgule vingt-cinq est égal à deux cent vingt-cinq sur cent.",
+          "from": 244
+        },
+        {
+          "stage": 2,
+          "text": "C’est un nombre rationnel.",
+          "from": 364
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 437
+    },
+    {
+      "id": "vdp4-rationnel-periodique",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Observons ce nombre. Les six chiffres sept, un, quatre, deux, huit, cinq se répètent. C’est une écriture décimale illimitée périodique. Je peux donc écrire ce nombre sous forme d’une fraction. Ce nombre est égal à quarante-cinq sur soixante-trois. C’est un nombre rationnel.",
+      "audio": "n3-sem3-paced/vdp4-rationnel-periodique.wav",
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "0{,}\\overbrace{\\textcolor{#66539F}{714285}}\\overbrace{\\textcolor{#66539F}{714285}}7\\ldots",
+          "x": 960,
+          "y": 501,
+          "size": 71,
+          "at": 0,
+          "to": 3
+        },
+        {
+          "kind": "text",
+          "value": "Écriture décimale illimitée périodique",
+          "x": 960,
+          "y": 701,
+          "size": 53,
+          "at": 1,
+          "color": "#66539F",
+          "to": 4
+        },
+        {
+          "kind": "math",
+          "value": "0{,}7142857142857\\ldots=\\frac{45}{63}",
+          "x": 960,
+          "y": 501,
+          "size": 83,
+          "at": 3
+        },
+        {
+          "kind": "text",
+          "value": "C’est un nombre rationnel.",
+          "x": 960,
+          "y": 789,
+          "size": 59,
+          "at": 4,
+          "color": "#D60019",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Observons ce nombre. Les six chiffres sept, un, quatre, deux, huit, cinq se répètent.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "C’est une écriture décimale illimitée périodique.",
+          "from": 208
+        },
+        {
+          "stage": 2,
+          "text": "Je peux donc écrire ce nombre sous forme d’une fraction.",
+          "from": 318
+        },
+        {
+          "stage": 3,
+          "text": "Ce nombre est égal à quarante-cinq sur soixante-trois.",
+          "from": 411
+        },
+        {
+          "stage": 4,
+          "text": "C’est un nombre rationnel.",
+          "from": 525
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 602
+    },
+    {
+      "id": "vdp4-irrationnels",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Définition 2",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la deuxième définition. Les nombres dont l’écriture décimale est illimitée et non périodique ne s’écrivent pas sous la forme d’une fraction d’entiers. Ils s’appellent des nombres irrationnels.",
+      "audio": "n3-sem3-paced/vdp4-irrationnels.wav",
+      "sourceSlides": [
+        19,
+        20,
+        21
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Les nombres dont l’écriture décimale est illimitée",
+          "x": 960,
+          "y": 459,
+          "size": 55,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "et non périodique ne s’écrivent pas en fraction d’entiers.",
+          "x": 960,
+          "y": 553,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Nombres irrationnels",
+          "x": 960,
+          "y": 790,
+          "size": 62,
+          "at": 2,
+          "weight": 700,
+          "color": "#D60019"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la deuxième définition.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres dont l’écriture décimale est illimitée et non périodique ne s’écrivent pas sous la forme d’une fraction d’entiers.",
+          "from": 89
+        },
+        {
+          "stage": 2,
+          "text": "Ils s’appellent des nombres irrationnels.",
+          "from": 309
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 409
+    },
+    {
+      "id": "vdp4-irrationnel-racine",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je prends la racine carrée de sept. Voici le début de son écriture décimale. Qu’est-ce que je remarque ? Son écriture décimale est illimitée et non périodique. Je ne peux donc pas l’écrire sous forme d’une fraction d’entiers. La racine carrée de sept est un nombre irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-irrationnel-racine.wav",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\sqrt{7}=2{,}\\underbrace{645751311064\\ldots}_{\\text{Partie décimale}}",
+          "x": 960,
+          "y": 470,
+          "size": 78,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{7}=2{,}645751311064\\ldots",
+          "x": 960,
+          "y": 470,
+          "size": 87,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Écriture décimale illimitée et non périodique",
+          "x": 960,
+          "y": 642,
+          "size": 54,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 740,
+          "size": 65,
+          "at": 3,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{7}\\quad\\text{est un nombre }\\textcolor{#D60019}{\\text{irrationnel}}",
+          "x": 960,
+          "y": 875,
+          "size": 60,
+          "at": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends la racine carrée de sept. Voici le début de son écriture décimale. Qu’est-ce que je remarque ?",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Son écriture décimale est illimitée et non périodique.",
+          "from": 201
+        },
+        {
+          "stage": 2,
+          "text": "Je ne peux donc pas l’écrire sous forme d’une fraction d’entiers.",
+          "from": 327
+        },
+        {
+          "stage": 3,
+          "text": "La racine carrée de sept est un nombre irrationnel.",
+          "from": 434
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 556
+    },
+    {
+      "id": "vdp4-irrationnel-pi",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "De la même façon, voici le début de l’écriture décimale de pi. Sa partie décimale ne s’arrête jamais. L’écriture décimale de pi est illimitée et non périodique. Pi est un nombre irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-irrationnel-pi.wav",
+      "sourceSlides": [
+        26,
+        27,
+        28
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\pi=3{,}\\underbrace{141592653589\\ldots}_{\\text{Partie décimale}}",
+          "x": 960,
+          "y": 470,
+          "size": 78,
+          "at": 0,
+          "to": 1
+        },
+        {
+          "kind": "math",
+          "value": "\\pi=3{,}141592653589\\ldots",
+          "x": 960,
+          "y": 470,
+          "size": 86,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Écriture décimale illimitée et non périodique",
+          "x": 960,
+          "y": 642,
+          "size": 54,
+          "at": 1,
+          "color": "#D60019"
+        },
+        {
+          "kind": "arrow",
+          "value": "down",
+          "x": 960,
+          "y": 740,
+          "size": 65,
+          "at": 2,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "\\pi\\quad\\text{est un nombre }\\textcolor{#D60019}{\\text{irrationnel}}",
+          "x": 960,
+          "y": 875,
+          "size": 60,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "De la même façon, voici le début de l’écriture décimale de pi. Sa partie décimale ne s’arrête jamais.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "L’écriture décimale de pi est illimitée et non périodique.",
+          "from": 206
+        },
+        {
+          "stage": 2,
+          "text": "Pi est un nombre irrationnel.",
+          "from": 335
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 421
+    },
+    {
+      "id": "vdp4-entiers",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 1",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la première propriété. Tout entier est un nombre rationnel. Deux cent trente-quatre s’écrit sous forme de fraction : deux cent trente-quatre sur un. Deux cent trente-quatre est donc rationnel. De même, moins quatre-vingt-sept s’écrit moins quatre-vingt-sept sur un. Moins quatre-vingt-sept est donc rationnel.",
+      "audio": "n3-sem3-paced/vdp4-entiers.wav",
+      "sourceSlides": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Tout entier est un nombre rationnel.",
+          "x": 960,
+          "y": 417,
+          "size": 60,
+          "at": 1,
+          "color": "#007DBA",
+          "weight": 700
+        },
+        {
+          "kind": "math",
+          "value": "234=\\frac{234}{1}",
+          "x": 570,
+          "y": 680,
+          "size": 91,
+          "at": 2
+        },
+        {
+          "kind": "text",
+          "value": "234 est rationnel",
+          "x": 570,
+          "y": 847,
+          "size": 49,
+          "at": 3,
+          "color": "#D60019"
+        },
+        {
+          "kind": "math",
+          "value": "-87=\\frac{-87}{1}",
+          "x": 1350,
+          "y": 680,
+          "size": 91,
+          "at": 4
+        },
+        {
+          "kind": "text",
+          "value": "−87 est rationnel",
+          "x": 1350,
+          "y": 847,
+          "size": 49,
+          "at": 5,
+          "color": "#D60019"
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la première propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Tout entier est un nombre rationnel.",
+          "from": 92
+        },
+        {
+          "stage": 2,
+          "text": "Deux cent trente-quatre s’écrit sous forme de fraction : deux cent trente-quatre sur un.",
+          "from": 193
+        },
+        {
+          "stage": 3,
+          "text": "Deux cent trente-quatre est donc rationnel.",
+          "from": 368
+        },
+        {
+          "stage": 4,
+          "text": "De même, moins quatre-vingt-sept s’écrit moins quatre-vingt-sept sur un.",
+          "from": 462
+        },
+        {
+          "stage": 5,
+          "text": "Moins quatre-vingt-sept est donc rationnel.",
+          "from": 613
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 709
+    },
+    {
+      "id": "vdp4-reels",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 2",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Voici la deuxième propriété. Les nombres rationnels et les nombres irrationnels forment l’ensemble des nombres réels. Un nombre réel est soit rationnel, soit irrationnel.",
+      "audio": "n3-sem3-paced/vdp4-reels.wav",
+      "sourceSlides": [
+        35,
+        36,
+        37
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "Les rationnels et les irrationnels forment les nombres réels.",
+          "x": 960,
+          "y": 431,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "sets",
+          "value": "",
+          "x": 960,
+          "y": 700,
+          "size": 92,
+          "at": 2,
+          "pulse": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici la deuxième propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les nombres rationnels et les nombres irrationnels forment l’ensemble des nombres réels.",
+          "from": 94
+        },
+        {
+          "stage": 2,
+          "text": "Un nombre réel est soit rationnel, soit irrationnel.",
+          "from": 282
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 410
+    },
+    {
+      "id": "vdp4-droite-propriete",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Propriété 3",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je passe à la troisième propriété. À chaque nombre réel correspond un unique point de la droite graduée. Ce nombre est l’abscisse du point. Réciproquement, à chaque point de la droite graduée correspond une unique abscisse réelle.",
+      "audio": "n3-sem3-paced/vdp4-droite-propriete.wav",
+      "sourceSlides": [
+        38,
+        39,
+        40
+      ],
+      "art": [
+        {
+          "kind": "text",
+          "value": "À chaque nombre réel correspond un unique point",
+          "x": 960,
+          "y": 439,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "de la droite graduée. Ce nombre est l’abscisse du point.",
+          "x": 960,
+          "y": 536,
+          "size": 53,
+          "at": 1
+        },
+        {
+          "kind": "text",
+          "value": "Réciproquement, chaque point de la droite graduée",
+          "x": 960,
+          "y": 737,
+          "size": 53,
+          "at": 2
+        },
+        {
+          "kind": "text",
+          "value": "a une unique abscisse réelle.",
+          "x": 960,
+          "y": 834,
+          "size": 56,
+          "at": 2,
+          "color": "#007DBA",
+          "weight": 700
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je passe à la troisième propriété.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "À chaque nombre réel correspond un unique point de la droite graduée. Ce nombre est l’abscisse du point.",
+          "from": 84
+        },
+        {
+          "stage": 2,
+          "text": "Réciproquement, à chaque point de la droite graduée correspond une unique abscisse réelle.",
+          "from": 292
+        }
+      ],
+      "transition": true,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 464
+    },
+    {
+      "id": "vdp4-droite-exemple",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Je prends une droite graduée. Je veux y placer la racine carrée de deux. Ce nombre est l’abscisse d’un point M situé entre A d’abscisse un et B d’abscisse deux.",
+      "audio": "n3-sem3-paced/vdp4-droite-exemple.wav",
+      "sourceSlides": [
+        41,
+        42,
+        43
+      ],
+      "art": [
+        {
+          "kind": "axis",
+          "value": "",
+          "x": 960,
+          "y": 674,
+          "size": 92,
+          "at": 0
+        },
+        {
+          "kind": "math",
+          "value": "\\sqrt{2}=1{,}4142135623\\ldots",
+          "x": 960,
+          "y": 442,
+          "size": 85,
+          "at": 1
+        },
+        {
+          "kind": "axis-root",
+          "value": "",
+          "x": 960,
+          "y": 674,
+          "size": 92,
+          "at": 2
+        },
+        {
+          "kind": "math",
+          "value": "1<\\sqrt{2}<2",
+          "x": 960,
+          "y": 887,
+          "size": 71,
+          "at": 2
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends une droite graduée.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Je veux y placer la racine carrée de deux.",
+          "from": 74
+        },
+        {
+          "stage": 2,
+          "text": "Ce nombre est l’abscisse d’un point M situé entre A d’abscisse un et B d’abscisse deux.",
+          "from": 168
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 371
+    },
+    {
+      "id": "vdp4-vocabulaire",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Vocabulaire",
+      "speechMode": "verbatim",
+      "cues": {},
+      "narration": "Reprenons le vocabulaire. Un nombre rationnel peut s’écrire sous forme d’une fraction d’entiers. Un nombre irrationnel a une écriture décimale illimitée et non périodique. Les nombres réels comprennent deux familles : les rationnels et les irrationnels.",
+      "audio": "n3-sem3-paced/vdp4-vocabulaire.wav",
+      "sourceSlides": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "art": [
+        {
+          "kind": "card",
+          "value": "Rationnel",
+          "x": 590,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 1
+        },
+        {
+          "kind": "card",
+          "value": "Irrationnel",
+          "x": 1330,
+          "y": 437,
+          "size": 52,
+          "at": 0,
+          "pulse": 2
+        },
+        {
+          "kind": "card",
+          "value": "Réel",
+          "x": 960,
+          "y": 664,
+          "size": 52,
+          "at": 0,
+          "pulse": 3
+        }
+      ],
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Reprenons le vocabulaire.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Un nombre rationnel peut s’écrire sous forme d’une fraction d’entiers.",
+          "from": 81
+        },
+        {
+          "stage": 2,
+          "text": "Un nombre irrationnel a une écriture décimale illimitée et non périodique.",
+          "from": 228
+        },
+        {
+          "stage": 3,
+          "text": "Les nombres réels comprennent deux familles : les rationnels et les irrationnels.",
+          "from": 405
+        }
+      ],
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "holdSeconds": 0.9,
+      "durationInFrames": 588
+    }
+  ]
+}

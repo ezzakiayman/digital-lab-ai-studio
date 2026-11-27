@@ -1,0 +1,40 @@
+.vdp-formula :is(.vdp-math-denominator, .vdp-math-exponent, .vdp-math-decimal) {
+  position: relative;
+}
+
+.vdp-formula :is(.vdp-math-denominator, .vdp-math-exponent)::after {
+  content: "";
+  position: absolute;
+  inset: -.11em -.14em;
+  border: 4px solid #d60019;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.vdp-formula .vdp-math-denominator::after {
+  top: .045em;
+  bottom: .12em;
+  left: -.37em;
+  right: -.37em;
+  opacity: var(--vdp-denominator, 0);
+}
+
+.vdp-formula .vdp-math-exponent::after {
+  top: .11em;
+  left: 0;
+  opacity: var(--vdp-exponent, 0);
+}
+
+.vdp-formula .vdp-math-decimal::after {
+  content: "Partie décimale";
+  position: absolute;
+  top: calc(100% + .22em);
+  left: 0;
+  width: 100%;
+  border-top: 3px solid #66539f;
+  padding-top: .35em;
+  color: #66539f;
+  font: 0.42em Arial, sans-serif;
+  text-align: center;
+  opacity: var(--vdp-decimal, 0);
+}

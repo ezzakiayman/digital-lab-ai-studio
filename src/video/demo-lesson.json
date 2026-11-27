@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "lesson": "Démonstration technique · installation",
+  "level": "1AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "demo-objective",
+      "type": "vdp-sequence",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "narration": "Démonstration technique silencieuse, indépendante des storyboards de production.",
+      "audio": "demo/silence.wav",
+      "sourceSlides": [
+        1
+      ],
+      "art": [],
+      "cues": {},
+      "durationInFrames": 180,
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Objectif",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Explication",
+          "from": 90
+        }
+      ],
+      "objective": {
+        "title": "Additionner deux nombres",
+        "measure": 880,
+        "size": 68,
+        "links": [
+          {
+            "offset": 0,
+            "width": 350,
+            "at": 1,
+            "art": [
+              {
+                "kind": "math",
+                "value": "2+3",
+                "x": 960,
+                "y": 680,
+                "size": 85,
+                "at": 0
+              }
+            ]
+          }
+        ]
+      },
+      "timingMethod": "Authored silent technical demo; no TTS or source storyboard"
+    },
+    {
+      "id": "demo-example",
+      "type": "vdp-sequence",
+      "kind": "teaching",
+      "title": "Exemple",
+      "narration": "Démonstration technique silencieuse : deux plus trois égale cinq.",
+      "audio": "demo/silence.wav",
+      "sourceSlides": [
+        2
+      ],
+      "art": [
+        {
+          "kind": "math",
+          "value": "\\textcolor{#007DBA}{2}+\\textcolor{#087746}{3}=5",
+          "x": 960,
+          "y": 575,
+          "size": 100,
+          "at": 0
+        }
+      ],
+      "cues": {},
+      "durationInFrames": 180,
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Exemple",
+          "from": 0
+        }
+      ],
+      "timingMethod": "Authored silent technical demo; no TTS or source storyboard"
+    }
+  ]
+}

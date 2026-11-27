@@ -1,0 +1,41 @@
+{
+  "scenes": [
+    {
+      "id": "n1-sem3-vdp1-prononciation",
+      "episode": 1,
+      "kind": "pronunciation",
+      "audio": "n1-sem3-vdp1-v5/expression-fr.wav",
+      "speechMode": "verbatim",
+      "languageCode": "fr-FR",
+      "speechStyle": "Français de France uniquement, accent français natif, diction pédagogique naturelle. Prononcer les r français et les voyelles nasales françaises. Les sons sont ɛks, pʁɛ, sjɔ̃, puis ɛkspʁɛsjɔ̃. Ne pas adopter une prononciation anglaise.",
+      "narration": "Écoutez la prononciation du mot “Expression” Èks. Prè. Sion. Expression.",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutez la prononciation du mot “Expression”",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Èks.",
+          "from": 0
+        },
+        {
+          "stage": 2,
+          "text": "Prè.",
+          "from": 0
+        },
+        {
+          "stage": 3,
+          "text": "Sion.",
+          "from": 0
+        },
+        {
+          "stage": 4,
+          "text": "Expression.",
+          "from": 0
+        }
+      ]
+    }
+  ]
+}

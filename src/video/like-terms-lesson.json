@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "lesson": "Réduire un polynôme en regroupant les termes semblables",
+  "level": "2AC",
+  "videoType": "VDP",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "like-terms",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio": "like-terms-paced/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de réduire un polynôme en regroupant les termes semblables.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Réduire un polynôme, c’est simplifier son écriture. Par exemple, deux ix plus huit ix est égal à dix ix.",
+          "from": 251
+        },
+        {
+          "stage": 2,
+          "text": "Les termes deux ix et huit ix sont semblables.",
+          "from": 554
+        },
+        {
+          "stage": 3,
+          "text": "Mais les termes deux ix au cube et huit ix ne sont pas semblables.",
+          "from": 700
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de réduire un polynôme en regroupant les termes semblables. Réduire un polynôme, c’est simplifier son écriture. Par exemple, deux ix plus huit ix est égal à dix ix. Les termes deux ix et huit ix sont semblables. Mais les termes deux ix au cube et huit ix ne sont pas semblables.",
+      "durationInFrames": 867,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "sum": 408,
+        "likePair": 577,
+        "unlikePair": 730
+      }
+    },
+    {
+      "id": "definition",
+      "type": "like-terms",
+      "kind": "definition",
+      "title": "Définition 1",
+      "sourceSlides": [
+        5,
+        6
+      ],
+      "audio": "like-terms-paced/definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Définition un : des termes semblables.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Les termes semblables d’un polynôme ont les mêmes variables avec les mêmes exposants.",
+          "from": 142
+        }
+      ],
+      "narration": "Définition un : des termes semblables. Les termes semblables d’un polynôme ont les mêmes variables avec les mêmes exposants.",
+      "durationInFrames": 342,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "sameVariables": 214,
+        "samePowers": 264
+      }
+    },
+    {
+      "id": "termes-semblables",
+      "type": "like-terms",
+      "kind": "comparison",
+      "title": "Exemple",
+      "sourceSlides": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "audio": "like-terms-paced/termes-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends les deux termes : cinq ix i grec et quatre ix i grec.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ils ont les mêmes variables : ix,",
+          "from": 224
+        },
+        {
+          "stage": 2,
+          "text": "et i grec.",
+          "from": 319
+        },
+        {
+          "stage": 3,
+          "text": "J’observe que cinq ix i grec s’écrit cinq fois ix à la puissance un fois i grec à la puissance un. De même, quatre ix i grec s’écrit quatre fois ix à la puissance un fois i grec à la puissance un.",
+          "from": 375
+        },
+        {
+          "stage": 4,
+          "text": "Ils ont le même exposant de ix : un.",
+          "from": 949
+        },
+        {
+          "stage": 5,
+          "text": "Et le même exposant de i grec : un.",
+          "from": 1059
+        },
+        {
+          "stage": 6,
+          "text": "Donc, les deux termes cinq ix i grec et quatre ix i grec sont semblables.",
+          "from": 1163
+        }
+      ],
+      "narration": "Par exemple, je prends les deux termes : cinq ix i grec et quatre ix i grec. Ils ont les mêmes variables : ix, et i grec. J’observe que cinq ix i grec s’écrit cinq fois ix à la puissance un fois i grec à la puissance un. De même, quatre ix i grec s’écrit quatre fois ix à la puissance un fois i grec à la puissance un. Ils ont le même exposant de ix : un. Et le même exposant de i grec : un. Donc, les deux termes cinq ix i grec et quatre ix i grec sont semblables.",
+      "example": "like",
+      "durationInFrames": 1363,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "expand0": 445,
+        "expand1": 733,
+        "xPower": 978,
+        "yPower": 1077
+      }
+    },
+    {
+      "id": "termes-non-semblables",
+      "type": "like-terms",
+      "kind": "comparison",
+      "title": "Exemple",
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "audio": "like-terms-paced/termes-non-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant les deux termes : ix au cube fois i grec et ix au carré fois i grec.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Ils ont les mêmes variables : ix,",
+          "from": 275
+        },
+        {
+          "stage": 2,
+          "text": "et i grec.",
+          "from": 369
+        },
+        {
+          "stage": 3,
+          "text": "L’exposant de ix dans le premier terme est trois.",
+          "from": 421
+        },
+        {
+          "stage": 4,
+          "text": "L’exposant de ix dans le second terme est deux.",
+          "from": 549
+        },
+        {
+          "stage": 5,
+          "text": "Les exposants de ix sont différents : trois n’est pas égal à deux.",
+          "from": 676
+        },
+        {
+          "stage": 6,
+          "text": "Donc, ix au cube fois i grec et ix au carré fois i grec ne sont pas semblables.",
+          "from": 840
+        }
+      ],
+      "narration": "Je prends maintenant les deux termes : ix au cube fois i grec et ix au carré fois i grec. Ils ont les mêmes variables : ix, et i grec. L’exposant de ix dans le premier terme est trois. L’exposant de ix dans le second terme est deux. Les exposants de ix sont différents : trois n’est pas égal à deux. Donc, ix au cube fois i grec et ix au carré fois i grec ne sont pas semblables.",
+      "example": "unlike",
+      "durationInFrames": 1094,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {}
+    },
+    {
+      "id": "lecture-semblables",
+      "type": "like-terms",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        21
+      ],
+      "audio": "like-terms-paced/lecture-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot semblables.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "San.",
+          "from": 133
+        },
+        {
+          "stage": 2,
+          "text": "Blable.",
+          "from": 175
+        },
+        {
+          "stage": 3,
+          "text": "Semblables.",
+          "from": 228
+        }
+      ],
+      "narration": "Écoutons la lecture du mot semblables. San. Blable. Semblables.",
+      "holdSeconds": 1.8,
+      "durationInFrames": 310,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {}
+    },
+    {
+      "id": "synthese",
+      "type": "like-terms",
+      "kind": "synthesis",
+      "title": "Synthèse",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio": "like-terms-paced/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici ce qu’il faut retenir.",
+          "from": 0
+        },
+        {
+          "stage": 1,
+          "text": "Terme. Dans l’expression deux ix plus cinq, les termes sont deux ix et cinq.",
+          "from": 98
+        },
+        {
+          "stage": 2,
+          "text": "Variables. Dans l’expression trois ix plus deux i grec, les variables sont ix et i grec.",
+          "from": 346
+        },
+        {
+          "stage": 3,
+          "text": "Exposant. Dans l’expression cinq ix au carré, l’exposant de ix est deux.",
+          "from": 604
+        },
+        {
+          "stage": 4,
+          "text": "Semblables. Mêmes variables avec les mêmes exposants. Par exemple, les deux termes trois ix et sept ix sont semblables.",
+          "from": 822
+        }
+      ],
+      "narration": "Voici ce qu’il faut retenir. Terme. Dans l’expression deux ix plus cinq, les termes sont deux ix et cinq. Variables. Dans l’expression trois ix plus deux i grec, les variables sont ix et i grec. Exposant. Dans l’expression cinq ix au carré, l’exposant de ix est deux. Semblables. Mêmes variables avec les mêmes exposants. Par exemple, les deux termes trois ix et sept ix sont semblables.",
+      "holdSeconds": 2,
+      "durationInFrames": 1156,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "summaryExample0": 173,
+        "summaryResult0": 230,
+        "summaryExample1": 421,
+        "summaryResult1": 491,
+        "summaryExample2": 685,
+        "summaryResult2": 730,
+        "summaryExample3": 1011,
+        "summaryResult3": 1066
+      }
+    },
+    {
+      "id": "vocabulaire",
+      "type": "like-terms",
+      "kind": "vocabulary",
+      "title": "À retenir",
+      "sourceSlides": [
+        27
+      ],
+      "audio": "like-terms-paced/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Retenez le vocabulaire : terme, variables, exposant et semblables.",
+          "from": 0
+        }
+      ],
+      "narration": "Retenez le vocabulaire : terme, variables, exposant et semblables.",
+      "holdSeconds": 2,
+      "durationInFrames": 309,
+      "timingMethod": "MMS_FA known-transcript alignment",
+      "cues": {
+        "word0": 75,
+        "word1": 114,
+        "word2": 161,
+        "word3": 221
+      }
+    }
+  ]
+}

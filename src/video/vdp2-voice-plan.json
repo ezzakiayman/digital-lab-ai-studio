@@ -1,0 +1,422 @@
+{
+  "scenes": [
+    {
+      "id": "objectif",
+      "type": "like-terms",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio": "like-terms/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de réduire un polynôme en regroupant les termes semblables."
+        },
+        {
+          "stage": 1,
+          "text": "Réduire un polynôme, c’est simplifier son écriture. Par exemple, deux ix plus huit ix est égal à dix ix."
+        },
+        {
+          "stage": 2,
+          "text": "Les termes deux ix et huit ix sont semblables."
+        },
+        {
+          "stage": 3,
+          "text": "Mais les termes deux ix au cube et huit ix ne sont pas semblables."
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de réduire un polynôme en regroupant les termes semblables. Réduire un polynôme, c’est simplifier son écriture. Par exemple, deux ix plus huit ix est égal à dix ix. Les termes deux ix et huit ix sont semblables. Mais les termes deux ix au cube et huit ix ne sont pas semblables."
+    },
+    {
+      "id": "definition",
+      "type": "like-terms",
+      "kind": "definition",
+      "title": "Définition 1",
+      "sourceSlides": [
+        5,
+        6
+      ],
+      "audio": "like-terms/definition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Définition un : des termes semblables."
+        },
+        {
+          "stage": 1,
+          "text": "Les termes semblables d’un polynôme ont les mêmes variables avec les mêmes exposants."
+        }
+      ],
+      "narration": "Définition un : des termes semblables. Les termes semblables d’un polynôme ont les mêmes variables avec les mêmes exposants."
+    },
+    {
+      "id": "termes-semblables",
+      "type": "like-terms",
+      "kind": "comparison",
+      "title": "Exemple",
+      "sourceSlides": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "audio": "like-terms/termes-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Par exemple, je prends les deux termes : cinq ix i grec et quatre ix i grec."
+        },
+        {
+          "stage": 1,
+          "text": "Ils ont les mêmes variables : ix,"
+        },
+        {
+          "stage": 2,
+          "text": "et i grec."
+        },
+        {
+          "stage": 3,
+          "text": "J’observe que cinq ix i grec s’écrit cinq fois ix à la puissance un fois i grec à la puissance un. De même, quatre ix i grec s’écrit quatre fois ix à la puissance un fois i grec à la puissance un."
+        },
+        {
+          "stage": 4,
+          "text": "Ils ont le même exposant de ix : un."
+        },
+        {
+          "stage": 5,
+          "text": "Et le même exposant de i grec : un."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, les deux termes cinq ix i grec et quatre ix i grec sont semblables."
+        }
+      ],
+      "narration": "Par exemple, je prends les deux termes : cinq ix i grec et quatre ix i grec. Ils ont les mêmes variables : ix, et i grec. J’observe que cinq ix i grec s’écrit cinq fois ix à la puissance un fois i grec à la puissance un. De même, quatre ix i grec s’écrit quatre fois ix à la puissance un fois i grec à la puissance un. Ils ont le même exposant de ix : un. Et le même exposant de i grec : un. Donc, les deux termes cinq ix i grec et quatre ix i grec sont semblables.",
+      "example": "like"
+    },
+    {
+      "id": "termes-non-semblables",
+      "type": "like-terms",
+      "kind": "comparison",
+      "title": "Exemple",
+      "sourceSlides": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "audio": "like-terms/termes-non-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Je prends maintenant les deux termes : ix au cube fois i grec et ix au carré fois i grec."
+        },
+        {
+          "stage": 1,
+          "text": "Ils ont les mêmes variables : ix,"
+        },
+        {
+          "stage": 2,
+          "text": "et i grec."
+        },
+        {
+          "stage": 3,
+          "text": "L’exposant de ix dans le premier terme est trois."
+        },
+        {
+          "stage": 4,
+          "text": "L’exposant de ix dans le second terme est deux."
+        },
+        {
+          "stage": 5,
+          "text": "Les exposants de ix sont différents : trois n’est pas égal à deux."
+        },
+        {
+          "stage": 6,
+          "text": "Donc, ix au cube fois i grec et ix au carré fois i grec ne sont pas semblables."
+        }
+      ],
+      "narration": "Je prends maintenant les deux termes : ix au cube fois i grec et ix au carré fois i grec. Ils ont les mêmes variables : ix, et i grec. L’exposant de ix dans le premier terme est trois. L’exposant de ix dans le second terme est deux. Les exposants de ix sont différents : trois n’est pas égal à deux. Donc, ix au cube fois i grec et ix au carré fois i grec ne sont pas semblables.",
+      "example": "unlike"
+    },
+    {
+      "id": "lecture-semblables",
+      "type": "like-terms",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        21
+      ],
+      "audio": "like-terms/lecture-semblables.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot semblables."
+        },
+        {
+          "stage": 1,
+          "text": "San."
+        },
+        {
+          "stage": 2,
+          "text": "Blable."
+        },
+        {
+          "stage": 3,
+          "text": "Semblables."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot semblables. San. Blable. Semblables.",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "synthese",
+      "type": "like-terms",
+      "kind": "synthesis",
+      "title": "Synthèse",
+      "sourceSlides": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "audio": "like-terms/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Voici ce qu’il faut retenir."
+        },
+        {
+          "stage": 1,
+          "text": "Terme. Dans l’expression deux ix plus cinq, les termes sont deux ix et cinq."
+        },
+        {
+          "stage": 2,
+          "text": "Variables. Dans l’expression trois ix plus deux i grec, les variables sont ix et i grec."
+        },
+        {
+          "stage": 3,
+          "text": "Exposant. Dans l’expression cinq ix au carré, l’exposant de ix est deux."
+        },
+        {
+          "stage": 4,
+          "text": "Semblables. Mêmes variables avec les mêmes exposants. Par exemple, les deux termes trois ix et sept ix sont semblables."
+        }
+      ],
+      "narration": "Voici ce qu’il faut retenir. Terme. Dans l’expression deux ix plus cinq, les termes sont deux ix et cinq. Variables. Dans l’expression trois ix plus deux i grec, les variables sont ix et i grec. Exposant. Dans l’expression cinq ix au carré, l’exposant de ix est deux. Semblables. Mêmes variables avec les mêmes exposants. Par exemple, les deux termes trois ix et sept ix sont semblables.",
+      "holdSeconds": 2
+    },
+    {
+      "id": "vocabulaire",
+      "type": "like-terms",
+      "kind": "vocabulary",
+      "title": "À retenir",
+      "sourceSlides": [
+        27
+      ],
+      "audio": "like-terms/vocabulaire.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Retenez le vocabulaire : terme, variables, exposant et semblables."
+        }
+      ],
+      "narration": "Retenez le vocabulaire : terme, variables, exposant et semblables.",
+      "holdSeconds": 2
+    },
+    {
+      "id": "objectif",
+      "type": "factorization",
+      "kind": "intro",
+      "title": "Déclaration de l’objectif",
+      "sourceSlides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audio": "factorization/objectif.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Bonjour ! Aujourd’hui, vous serez capables de décomposer un nombre en produit de nombres premiers."
+        },
+        {
+          "stage": 1,
+          "text": "Décomposer un nombre, c’est l’écrire sous forme d’un produit."
+        },
+        {
+          "stage": 2,
+          "text": "C’est-à-dire que je le transforme en multiplication."
+        },
+        {
+          "stage": 3,
+          "text": "De nombres premiers, comme deux et cinq, mais pas six. Six n’est pas un nombre premier."
+        }
+      ],
+      "narration": "Bonjour ! Aujourd’hui, vous serez capables de décomposer un nombre en produit de nombres premiers. Décomposer un nombre, c’est l’écrire sous forme d’un produit. C’est-à-dire que je le transforme en multiplication. De nombres premiers, comme deux et cinq, mais pas six. Six n’est pas un nombre premier.",
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "theoreme-360",
+      "type": "factorization",
+      "kind": "theorem",
+      "title": "Théorème",
+      "sourceSlides": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "audio": "factorization/theoreme-360.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "On a le théorème suivant."
+        },
+        {
+          "stage": 1,
+          "text": "Tout entier positif supérieur ou égal à deux peut s’écrire comme un produit de nombres premiers, de façon unique, à l’ordre des facteurs près."
+        },
+        {
+          "stage": 2,
+          "text": "Par exemple, trois cent soixante est égal à deux à la puissance trois, fois trois à la puissance deux, fois cinq à la puissance un."
+        },
+        {
+          "stage": 3,
+          "text": "Cette décomposition s’appelle la décomposition en produit de facteurs premiers."
+        },
+        {
+          "stage": 4,
+          "text": "Ou une factorisation première."
+        }
+      ],
+      "narration": "On a le théorème suivant. Tout entier positif supérieur ou égal à deux peut s’écrire comme un produit de nombres premiers, de façon unique, à l’ordre des facteurs près. Par exemple, trois cent soixante est égal à deux à la puissance trois, fois trois à la puissance deux, fois cinq à la puissance un. Cette décomposition s’appelle la décomposition en produit de facteurs premiers. Ou une factorisation première.",
+      "value": 360,
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "exemple-72",
+      "type": "factorization",
+      "kind": "example",
+      "title": "Exemple",
+      "sourceSlides": [
+        9,
+        10,
+        11
+      ],
+      "audio": "factorization/exemple-72.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "La même chose pour la décomposition de soixante-douze."
+        },
+        {
+          "stage": 1,
+          "text": "Soixante-douze est égal à deux à la puissance trois, fois trois à la puissance deux."
+        },
+        {
+          "stage": 2,
+          "text": "On dit que c’est une décomposition en produit de facteurs premiers."
+        },
+        {
+          "stage": 3,
+          "text": "Ou une factorisation première."
+        }
+      ],
+      "narration": "La même chose pour la décomposition de soixante-douze. Soixante-douze est égal à deux à la puissance trois, fois trois à la puissance deux. On dit que c’est une décomposition en produit de facteurs premiers. Ou une factorisation première.",
+      "value": 72,
+      "revision": "2026-11-10"
+    },
+    {
+      "id": "lecture-decomposition",
+      "type": "factorization",
+      "kind": "pronunciation",
+      "title": "Vocabulaire",
+      "sourceSlides": [
+        12
+      ],
+      "audio": "factorization-v2/lecture-decomposition.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Écoutons la lecture du mot décomposition."
+        },
+        {
+          "stage": 1,
+          "text": "Dé."
+        },
+        {
+          "stage": 2,
+          "text": "Con."
+        },
+        {
+          "stage": 3,
+          "text": "Po."
+        },
+        {
+          "stage": 4,
+          "text": "Zi."
+        },
+        {
+          "stage": 5,
+          "text": "Sion."
+        },
+        {
+          "stage": 6,
+          "text": "Décomposition."
+        }
+      ],
+      "narration": "Écoutons la lecture du mot décomposition. Dé. Con. Po. Zi. Sion. Décomposition.",
+      "revision": "2026-11-10",
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "synthese",
+      "type": "factorization",
+      "kind": "vocabulary",
+      "title": "Synthèse",
+      "sourceSlides": [
+        13
+      ],
+      "audio": "factorization/synthese.wav",
+      "beats": [
+        {
+          "stage": 0,
+          "text": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces expressions."
+        },
+        {
+          "stage": 1,
+          "text": "Décomposition signifie écrire un nombre sous forme de produit de facteurs premiers."
+        },
+        {
+          "stage": 2,
+          "text": "Nous retenons aussi l’expression facteurs premiers."
+        },
+        {
+          "stage": 3,
+          "text": "Et deux méthodes de décomposition : les divisions successives,"
+        },
+        {
+          "stage": 4,
+          "text": "et l’arbre de factorisation."
+        }
+      ],
+      "narration": "Au cours de cette séance, nous avons enrichi notre vocabulaire avec ces expressions. Décomposition signifie écrire un nombre sous forme de produit de facteurs premiers. Nous retenons aussi l’expression facteurs premiers. Et deux méthodes de décomposition : les divisions successives, et l’arbre de factorisation.",
+      "holdSeconds": 2,
+      "revision": "2026-11-10"
+    }
+  ]
+}

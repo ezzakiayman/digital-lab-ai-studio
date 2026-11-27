@@ -1,0 +1,9 @@
+# N3 PPCM + Gemini — 2026-11-02
+
+User selected Gemini instead of ElevenLabs and supplied Downloads/P1_MATHS_N3_SEM1_VDP4.pptx. Keep Gemini as the narration preference. Key stored locally as Windows DPAPI under installed skill private/gemini-key.dpapi, ignored; never copy it to other skill copies or GitHub. Environment GEMINI_API_KEY overrides local bundle. No plaintext key belongs in documentation.
+
+Delivered outputs/n3/Digital-Lab-3AC-PPCM.mp4: 15 scenes covering all 39 slides, 6140 frames, 1080p30 H.264/AAC, duration 204.672 s. Twelve Kore segments from gemini-2.5-flash-preview-tts, final three from gemini-3.1-flash-tts-preview after model daily quota exhaustion. Audio provider receipts contain model/voice/text hashes, no credentials. Provider caches across models, retries short rate limits/temporary errors, stops on daily quota.
+
+Reviewed plan src/video/n3-plan.json; audio-timed JSON src/video/n3-lesson.json. Generate with npm run tts:gemini, build timing via scripts/build-n3-timeline.py, render via npm run render:n3. See workspace docs/n3-gemini.md for exact operations/limitations. Generated audio and source material stay local/ignored under public/n3 and reference/n3; outputs ignored too.
+
+Seven tests, TypeScript, build and UI PPCM selector/preview/mobile-overflow checks passed. Fifteen scene stills and exported video frame visually inspected. Full decode passed; no black intervals; audio sample peak −2.9 dB. Mathematical invariants tested (LCM/GCD and product identity). Optional speech transcript checking timed out after service errors, so pronunciation is not certified. Scene timing uses actual audio duration; beat timing is text-weighted, not forced alignment. Visual charter is calibrated to prior Digital Lab video, not exact After Effects parity. No generic AI storyboard interpreter, Manim integration or persistent export queue yet. No deployment/GitHub publication.
