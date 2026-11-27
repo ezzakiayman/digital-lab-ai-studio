@@ -1,6 +1,6 @@
 {
   "format": "digital-lab-github-source-v1",
-  "createdUtc": "2026-11-27T15:52:19.990774+00:00",
+  "createdUtc": "2026-11-27T16:11:01.582714+00:00",
   "includesProductionMedia": false,
   "includesCredentials": false,
   "includesPrivateDictionaries": false,
@@ -41,8 +41,8 @@
     },
     {
       "path": "PROJECT_HANDOFF.md",
-      "bytes": 154661,
-      "sha256": "90d942e70be8d0f2557d8e6b77596ad1a7102fd53f29e4e9e32ef05f3f0c113b"
+      "bytes": 156460,
+      "sha256": "379e6d61a86201648e419bba42e1384853f641917a29d32e4dd1950d92752904"
     },
     {
       "path": "README.md",
@@ -53,6 +53,11 @@
       "path": "START_HERE.md",
       "bytes": 4796,
       "sha256": "b87091d5e82bae5a81e72ae8add9b87517887e24962db28e943f1cac5999375d"
+    },
+    {
+      "path": "docs/after-effects.md",
+      "bytes": 3262,
+      "sha256": "f7b932c810fe1941c346ec6e25da5a57a5b53b82d650f9d4d44f551de52f5da9"
     },
     {
       "path": "docs/agent-transfer.md",
@@ -240,6 +245,51 @@
       "sha256": "c77e5f20dacc71626eeedd5227bdb38107fd5558d3aa22e138955a61051ec341"
     },
     {
+      "path": "scripts/after-effects/build-project.jsx",
+      "bytes": 16909,
+      "sha256": "bf380343204e4b18c8082683ed8159ba9a0c80f431b0baace1055759cd0a0f61"
+    },
+    {
+      "path": "scripts/after-effects/capture-browser.jsx",
+      "bytes": 2525,
+      "sha256": "e9b01cd1f87225d0d7fe240059a406b28b1ac69947e6d69d29d0d3a4cdd94859"
+    },
+    {
+      "path": "scripts/after-effects/capture-svg.js",
+      "bytes": 9977,
+      "sha256": "fb75e0f8b1826b2875f49f610cc7392b23576017bbe2038d5be84cd26345dab7"
+    },
+    {
+      "path": "scripts/after-effects/capture.mjs",
+      "bytes": 3735,
+      "sha256": "d1d4c40363257d85883edc7427622049dd2d0d1a6091e36c47d27136e5569a51"
+    },
+    {
+      "path": "scripts/after-effects/check-package.py",
+      "bytes": 16581,
+      "sha256": "b22b24f9f5f0b12a706124833df8189273934976305685427aefafb35b5ee448"
+    },
+    {
+      "path": "scripts/after-effects/check-pixels.py",
+      "bytes": 2841,
+      "sha256": "8d22b88cf809f52ea54bd2b1a9f2276f7c96ca44429648de98b3fd1fb13b565e"
+    },
+    {
+      "path": "scripts/after-effects/check-render.mjs",
+      "bytes": 6340,
+      "sha256": "0eb92773573a7af7b604863286aa6998e54c213d436c8642a9745246cc7be34c"
+    },
+    {
+      "path": "scripts/after-effects/collect.py",
+      "bytes": 6362,
+      "sha256": "6f724b19816dd068a5200c326cd870c1e2654a78c8aac6f7e3c93e8f5fecc651"
+    },
+    {
+      "path": "scripts/after-effects/write-aep.py",
+      "bytes": 6544,
+      "sha256": "22597e6673e16284d40f84f7b8ebe0e042db4bc3268e8593376aa8cb788f38ea"
+    },
+    {
       "path": "scripts/align-n3.py",
       "bytes": 2760,
       "sha256": "7e3a3f7058ffcf061f565d8744e142a6b288e3ffe1afb4435981cb189c52fa98"
@@ -266,8 +316,8 @@
     },
     {
       "path": "scripts/build-github-snapshot.py",
-      "bytes": 3821,
-      "sha256": "4c92657359eebc9259831a6e8350ed39734a8c89d6152e3fcd972d7e586592da"
+      "bytes": 4027,
+      "sha256": "b11430e113d71f74de0cc2ed8906d8dfd582a04ee5f11d25f48603ef98511de7"
     },
     {
       "path": "scripts/build-inspector-illustrated-report.py",
@@ -871,8 +921,8 @@
     },
     {
       "path": "skill/digital-lab-project/SKILL.md",
-      "bytes": 25554,
-      "sha256": "756fd171007db3fc66a6bf67b2f587f0d8f8ec9e36c49225d5c9ae366c565429"
+      "bytes": 25884,
+      "sha256": "74865b899dc019f2353de410c6fb718170e1949da6857d840c5f9d4c019a8d92"
     },
     {
       "path": "skill/digital-lab-project/references/agent-transfer.md",
@@ -921,8 +971,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/n2-sem1-vdp3-vdp4.md",
-      "bytes": 6844,
-      "sha256": "fde98d988d49cda4ec02c8472dbf02f71e6979ba64bf3293ddaed82948fdf53a"
+      "bytes": 8643,
+      "sha256": "356b1fe07ed0b607dc5a2cf21d01cb47af0a8e7f17ea4f814add902ca741614d"
     },
     {
       "path": "skill/digital-lab-project/references/n2-sem2-vdp1-2026-11-10.md",
@@ -996,8 +1046,8 @@
     },
     {
       "path": "skill/digital-lab-project/references/project-state.md",
-      "bytes": 125102,
-      "sha256": "fc80bbab530e931dcd775166cd9bc866c36c8ac14b9060d26b78d6a4b7930ff6"
+      "bytes": 125478,
+      "sha256": "878b194ed4b3f7e44a97957e9277318ffda4c38334f4cb7560918d12dc696a2c"
     },
     {
       "path": "skill/digital-lab-project/references/pronunciation-reference.md",
@@ -1930,5 +1980,5 @@
       "sha256": "68acb09f4f6bcb828ebf61555d9ab9d3d31e61f9dad7a59b8a1f67f06ebd78f6"
     }
   ],
-  "totalBytes": 5234905
+  "totalBytes": 5314491
 }

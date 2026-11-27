@@ -64,3 +64,12 @@ python scripts/verify-storyboard-batch.py n2-sem1-vdp4-v2
 ```
 
 La timeline du studio est src/video/n2-sem1-vdp4-v2-lesson.json. Une régénération vocale sur un autre compte exige un nouvel alignement et une nouvelle écoute. L’ancien script de la leçon à 17 diapositives sert à reproduire la première livraison. L’accord sur le mot « Degré » concerne seulement la diapositive 33 de cette source.
+
+
+## Source After Effects éditable · VDP4 de 2AC, semaine 1 · 27 novembre 2026
+
+La remise complémentaire de la V2 est un ZIP autonome contenant le projet binaire After Effects 22.6, les dix WAV de production, les trois illustrations, le MP4 de comparaison, un guide français et le constructeur JSX avec ses données. Le monteur ouvre le .aep après extraction, puis choisit un repère dans la composition principale et ouvre la séquence à modifier. Les 177 calques de texte, les 68 calques de forme et les 4 instances d’illustration reprennent le minutage de la vidéo sur 4 250 images. Les deux occurrences de « Degré » à la diapositive 33 sont présentes. Le MP4 de comparaison est un guide désactivé et muet.
+
+La capture de la géométrie a permis de corriger un écart de ligne de base dans l’explication de l’objectif. Le binaire final a été rouvert avec un lecteur de projet après extraction dans un autre dossier. Les 33 repères, les 10 WAV, les polices et tailles des textes, les tracés, les animations et les masques ont été contrôlés. Les 14 références de médias se résolvent après déplacement. La reconstitution des calques a été comparée à 159 images du MP4 validé. After Effects n’est pas installé sur le poste de production. La lecture et le rendu dans l’application Adobe restent à vérifier sur le poste de montage.
+
+Archive locale outputs/n2-sem1-vdp4-v2/after-effects/P1_MATHS_N2_SEM1_VDP4_V2_After_Effects.zip, 18 fichiers, 10 218 394 octets. SHA-256 du ZIP bbfd803e9a8a3785d60ca965d9cf76e63067fe857391ca5fb79043548dc180fa. Le guide docs/after-effects.md décrit la reconstruction et les limites du convertisseur. Cette demande porte sur la remise locale du projet source de cette V2. La puce K27 continue de servir la vidéo livrée.

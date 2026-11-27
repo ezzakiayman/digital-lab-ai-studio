@@ -121,3 +121,6 @@ For the every-two-hour storyboard watcher, read [the monitoring reference](refer
 
 
 For GitHub reuse or a different Codex account, read [the publication reference](references/github-reuse.md) and workspace docs/github-reuse.md. The digital-lab-ai-studio source repository is now public at the user’s explicit request, including both skills under skill/. The general codex-skills repository stays private; its matching Digital Lab folders remain synchronized. Publish only the explicit source snapshot; keep credentials, production media, inspector evidence and private dictionary locators out. The silent demo supports first setup without an API key. Preserve unrelated repositories and skill folders.
+
+
+For an editable Adobe After Effects handoff of N2 SEM1 VDP4 V2, see references/n2-sem1-vdp3-vdp4.md and the workspace guide docs/after-effects.md. Supply the collected ZIP with its native AEP, audio and artwork. Check the extracted project and distinguish binary and geometric validation from playback in the Adobe application.

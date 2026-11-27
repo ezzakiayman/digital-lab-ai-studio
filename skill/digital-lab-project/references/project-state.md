@@ -591,3 +591,8 @@ Les deux commits de l’historique alors publié ont été contrôlés : 586 blo
 ## 2AC · Semaine 1 · VDP4 · Storyboard révisé de 33 diapositives · 27 novembre 2026
 
 V2 livrée à 16 h 50, heure de Casablanca, sur le fichier public déjà lié en K27, « P1 / Semaine 1 ». La puce, les dates de première livraison, le dossier « Livrable video / 2AC / Semaine 1 », l’empreinte et la lecture anonyme du MP4 ont été vérifiés par API. Export de 4 250 images, 141,675 s, H.264/AAC 1920 × 1080 à 30 images/s. Décodage complet, crête −4,2 dB, MD5 318312d9645cef3f3d6a992a930b5fa7. Les 21 tests du studio et la vérification TypeScript passent. Voir references/n2-sem1-vdp3-vdp4.md pour la voix et la décision sur la diapositive 33.
+
+
+## Source After Effects éditable · VDP4 de 2AC, semaine 1 · 27 novembre 2026
+
+Le ZIP local contient la composition principale et les dix séquences natives de la V2. Les médias et le MP4 de référence sont inclus dans la remise au monteur. La référence n2-sem1-vdp3-vdp4.md et docs/after-effects.md précisent les vérifications et la lecture Adobe restant à faire.

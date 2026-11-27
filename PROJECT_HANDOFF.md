@@ -749,3 +749,12 @@ Les lectures Mo–nôme et De–gré ont été recréées avec la voix français
 V2 livrée à 16 h 50, heure de Casablanca, sur le fichier public déjà lié en K27, « P1 / Semaine 1 ». La puce, les dates de première livraison, le dossier « Livrable video / 2AC / Semaine 1 », l’empreinte et la lecture anonyme du MP4 ont été vérifiés par API. Export de 4 250 images, 141,675 s, H.264/AAC 1920 × 1080 à 30 images/s. Décodage complet, crête −4,2 dB, MD5 318312d9645cef3f3d6a992a930b5fa7. Les 21 tests du studio et la vérification TypeScript passent.
 
 La section V2 de la référence n2-sem1-vdp3-vdp4.md donne les commandes de reproduction. Le reçu de livraison et les contrôles détaillés se trouvent dans outputs/n2-sem1-vdp4-v2/.
+
+
+## Source After Effects éditable · VDP4 de 2AC, semaine 1 · 27 novembre 2026
+
+La remise complémentaire de la V2 est un ZIP autonome contenant le projet binaire After Effects 22.6, les dix WAV de production, les trois illustrations, le MP4 de comparaison, un guide français et le constructeur JSX avec ses données. Le monteur ouvre le .aep après extraction, puis choisit un repère dans la composition principale et ouvre la séquence à modifier. Les 177 calques de texte, les 68 calques de forme et les 4 instances d’illustration reprennent le minutage de la vidéo sur 4 250 images. Les deux occurrences de « Degré » à la diapositive 33 sont présentes. Le MP4 de comparaison est un guide désactivé et muet.
+
+La capture de la géométrie a permis de corriger un écart de ligne de base dans l’explication de l’objectif. Le binaire final a été rouvert avec un lecteur de projet après extraction dans un autre dossier. Les 33 repères, les 10 WAV, les polices et tailles des textes, les tracés, les animations et les masques ont été contrôlés. Les 14 références de médias se résolvent après déplacement. La reconstitution des calques a été comparée à 159 images du MP4 validé. After Effects n’est pas installé sur le poste de production. La lecture et le rendu dans l’application Adobe restent à vérifier sur le poste de montage.
+
+Archive locale outputs/n2-sem1-vdp4-v2/after-effects/P1_MATHS_N2_SEM1_VDP4_V2_After_Effects.zip, 18 fichiers, 10 218 394 octets. SHA-256 du ZIP bbfd803e9a8a3785d60ca965d9cf76e63067fe857391ca5fb79043548dc180fa. Le guide docs/after-effects.md décrit la reconstruction et les limites du convertisseur. Cette demande porte sur la remise locale du projet source de cette V2. La puce K27 continue de servir la vidéo livrée.

@@ -13,6 +13,10 @@ CODE_EXT={'.ts','.tsx','.css','.json','.py','.mjs','.ps1','.md','.iss','.yml','.
 SECRETS=re.compile(r'AIza[0-9A-Za-z_-]{30,}|AQ\.[0-9A-Za-z_-]{30,}|sk-(?:proj-)?[0-9A-Za-z_-]{30,}|sk_[0-9A-Za-z]{35,}|gh[opusr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----')
 OAUTH=re.compile(r'"(?:refresh_token|client_secret|access_token)"\s*:\s*"[^"\s]{12,}"')
 
+def is_source_code(relative):
+    return (relative.suffix in CODE_EXT or
+            relative.parts[:2] == ('scripts', 'after-effects') and relative.suffix in {'.js', '.jsx'})
+
 def scrub(value):
     if isinstance(value,dict):
         return {k:scrub(v) for k,v in value.items() if k!='pronunciationDictionaryLocators'}
@@ -30,8 +34,9 @@ def build(destination):
         selected[name]=ROOT/name
     for folder in ['src','scripts','docs','skill','.github','prototype']:
         for f in (ROOT/folder).rglob('*'):
-            if f.is_file() and f.suffix in CODE_EXT and not BLOCKED_PARTS.intersection(f.relative_to(ROOT).parts):
-                selected[f.relative_to(ROOT).as_posix()]=f
+            relative=f.relative_to(ROOT)
+            if f.is_file() and is_source_code(relative) and not BLOCKED_PARTS.intersection(relative.parts):
+                selected[relative.as_posix()]=f
     for name in ['public/brand/objective-target.png','public/brand/question-mark.png','public/demo/silence.wav']:
         selected[name]=ROOT/name
     records=[];redacted=[]
@@ -39,7 +44,7 @@ def build(destination):
         assert source.is_file() and not source.is_symlink(),name
         assert not BLOCKED_PARTS.intersection(Path(name).parts),name
         raw=source.read_bytes()
-        if source.suffix in CODE_EXT:
+        if is_source_code(Path(name)):
             text=raw.decode('utf-8-sig')
             assert not SECRETS.search(text) and not OAUTH.search(text),'Potential credential in '+name
             if source.suffix=='.json' and 'pronunciationDictionaryLocators' in text:
