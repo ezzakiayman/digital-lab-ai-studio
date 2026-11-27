@@ -1,6 +1,6 @@
 # Réutiliser Digital Lab avec un autre compte
 
-Les deux dépôts sont privés. Le compte GitHub destinataire doit avoir accès aux dépôts (invitation dans Settings → Collaborators). Changer de compte Codex sur le même ordinateur ne change pas automatiquement le compte GitHub connecté.
+Le dépôt Digital Lab est public : https://github.com/ezzakiayman/digital-lab-ai-studio. Il peut être cloné sans invitation et contient déjà les deux compétences dans skill/. Le dépôt général codex-skills reste privé car il regroupe d’autres projets. Changer de compte Codex ne transfère aucune clé ou autorisation Google.
 
 ## Installation
 
@@ -53,13 +53,13 @@ Le suivi toutes les deux heures doit être recréé dans le nouveau compte Codex
 
 ## Compétences seules
 
-Les versions correspondantes sont également dans https://github.com/ezzakiayman/codex-skills : dossiers `digital-lab-project` et `presentation-video`. Elles conservent la charte, les règles, les corrections vérifiées et les limites connues. Elles ne remplacent pas le projet Node/Remotion.
+Les compétences sont accessibles publiquement dans `skill/digital-lab-project` et `skill/presentation-video` du dépôt Digital Lab. Les versions correspondantes sont également dans le dépôt privé https://github.com/ezzakiayman/codex-skills. Elles conservent la charte, les règles, les corrections vérifiées et les limites connues. Elles ne remplacent pas le projet Node/Remotion.
 
-Le dépôt est privé et ne comporte pas de licence publique de redistribution. Les droits sur les contenus, la marque, les voix et les polices restent à respecter lors d'un partage avec des tiers.
+Le dépôt est public et ne comporte pas de licence publique de redistribution. Rendre son code consultable ne concède pas automatiquement une licence sur les contenus ou la marque. Les droits sur les contenus, la marque, les voix et les polices restent à respecter lors d'un partage avec des tiers.
 
 
 ## État de validation et limite connue
 
-Le 27 novembre 2026, une installation neuve avec le verrou existant, les vingt tests studio, les douze tests Google simulés, les quatre tests de surveillance, TypeScript, le précontrôle portable et le build Next passent sur Windows. L’audit npm signale une vulnérabilité modérée et le build rappelle une alerte Next.js. Aucun `npm audit fix --force` ni changement de version n’a été appliqué dans cette publication ; examiner cette mise à jour avant une exposition publique du studio. Le dépôt privé de sources ne constitue pas un déploiement. Les polices et le comportement Linux/macOS n’ont pas été recertifiés.
+Le 27 novembre 2026, une installation neuve avec le verrou existant, les vingt tests studio, les douze tests Google simulés, les quatre tests de surveillance, TypeScript, le précontrôle portable et le build Next passent sur Windows. L’audit npm signale une vulnérabilité modérée et le build rappelle une alerte Next.js. Aucun `npm audit fix --force` ni changement de version n’a été appliqué dans cette publication ; examiner cette mise à jour avant une exposition publique du studio. Le dépôt public de sources ne constitue pas un déploiement. Les polices et le comportement Linux/macOS n’ont pas été recertifiés.
 
 Le contrôle des anciennes leçons peut signaler des médias absents dans le clone : leurs fichiers ne sont pas distribués. Ces avertissements ne valident pas leurs voix ; le contrôle sans médias concerne le studio et la démonstration technique.

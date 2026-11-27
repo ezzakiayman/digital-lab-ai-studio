@@ -15,3 +15,10 @@ Publication vérifiée : https://github.com/ezzakiayman/digital-lab-ai-studio (p
 Le test initial de démonstration a détecté un champ timingMethod manquant ; corrigé et couvert par un test de la timeline par défaut. Un débordement du sélecteur sur mobile a été corrigé dans le studio, sans changement des rendus de leçons. Le verrou reste inchangé. npm signale une vulnérabilité modérée et le build une alerte Next.js ; le build a passé après la relance prévue par son rappel. La mise à jour de sécurité reste à examiner avant une exposition publique ; aucune mise à jour forcée ni déploiement.
 
 L’état des contrôles GitHub Actions doit être lu séparément : les résultats locaux ne signifient pas qu’une exécution distante est terminée. Le reçu local de publication est outputs/github-publication/publication.json. Les compétences Digital Lab sont synchronisées dans la copie du projet, l’installation, le miroir local et le dépôt GitHub ; les différences préexistantes de la compétence présentation installée sont conservées.
+
+
+## Accès public demandé · 27 novembre 2026
+
+À la demande explicite de l’utilisateur, le dépôt Digital Lab devient public : https://github.com/ezzakiayman/digital-lab-ai-studio. Il contient déjà les deux compétences dans skill/ et peut être partagé sans invitation. Le dépôt général codex-skills reste privé pour préserver les autres projets. Cette décision remplace uniquement les indications antérieures de visibilité privée du dépôt Digital Lab.
+
+Les deux commits de l’historique alors publié ont été contrôlés : 586 blobs distincts, aucun motif de clé détecté, aucun document ou média de production interdit, aucun locateur de dictionnaire privé dans les plans. Après changement de visibilité via GitHub, lecture anonyme de l’API et de la page du dépôt réussie en HTTP 200. Les autorisations, médias locaux, données privées et l’automatisation du compte d’origine restent exclus. Aucun rendu ou lien Drive n’est modifié.

@@ -20,7 +20,7 @@ Sous Windows, `powershell -NoProfile -File scripts/setup-project.ps1 -InstallSki
 - Synthèse Google Gemini et ElevenLabs, alignement et reconnaissance indépendante : scripts fournis, clés personnelles et dépendances facultatives nécessaires pour de nouvelles voix.
 - Drive/Sheets : API avec autorisation OAuth personnelle ; révision du même fichier, lien public et puce vérifiés.
 
-Le dépôt privé est une distribution des sources : les clés, jetons, coffres DPAPI, documents originaux, caches vocaux, captures privées et MP4 ne sont pas transférés. Les timelines historiques sont éditables mais requièrent leurs médias locaux. La démonstration silencieuse fonctionne dès le clonage. Les locateurs de dictionnaires privés sont retirés des plans de la copie GitHub.
+Le dépôt public est une distribution des sources : les clés, jetons, coffres DPAPI, documents originaux, caches vocaux, captures privées et MP4 ne sont pas transférés. Les timelines historiques sont éditables mais requièrent leurs médias locaux. La démonstration silencieuse fonctionne dès le clonage. Les locateurs de dictionnaires privés sont retirés des plans de la copie GitHub.
 
 L’interprétation automatique universelle des PPTX, l’intégration Manim et les files de rendu durables restent à développer ; le flux vérifié repose sur des scènes préparées et relues.
 
